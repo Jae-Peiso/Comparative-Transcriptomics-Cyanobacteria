@@ -1,0 +1,53 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.venv/
+venv/
+
+# R
+.Rhistory
+.RData
+.Rproj.user/
+
+# VScode Settings
+.vscode/
+
+# Local analysis artifacts
+*.log
+
+# Generated figures — every PNG here is rebuilt by the notebooks from data/processed/,
+# so a clone regenerates them rather than carrying them. Same policy as the metagenome
+# repo's results/ directory.
+figures/
+
+# Large/raw download content.
+#
+# WARNING: per DOWNLOADS.md these are MANUAL, CAPTCHA-gated downloads that no script can
+# fetch. Because they are untracked, data/interim/ and data/processed/ are the only
+# reproducible starting point in this repo and are deliberately KEPT under version
+# control — do not "clean them up" by ignoring them, or a fresh clone can regenerate
+# nothing.
+data/raw/
+
+# data/manual/ is TRACKED — it holds inputs no code can regenerate. Currently the HHpred
+# queries and .hhr results, run by hand on the MPI Bioinformatics Toolkit web server
+# (no REST API exists for HHpred). Re-running them against a newer PDB70/Pfam would give
+# different probabilities, so they are evidence, not build artifacts. Put any other
+# hand-downloaded input here rather than in data/interim/.
+
+# Slides and talk material — not part of the analysis
+JournalClub.pdf
+
+# File Types
+*.pptx
+*.html

@@ -1,0 +1,22 @@
+{
+  "version": "1.2",
+  "dbname": "anabaena_db",
+  "dbtype": "Protein",
+  "db-version": 5,
+  "description": "/Users/jaemac/Desktop/Palmer_Lab/Cyanobacteria/GenomicAnalyses/Rhythmic_gene_comparison/data/raw/genomes/anabaena_pcc7120_GCF_000009705.1/protein.faa",
+  "number-of-letters": 1940477,
+  "number-of-sequences": 5921,
+  "last-updated": "2026-07-30T12:08:00",
+  "number-of-volumes": 1,
+  "bytes-total": 3055704,
+  "bytes-to-cache": 1994007,
+  "files": [
+    "anabaena_db.pdb",
+    "anabaena_db.phr",
+    "anabaena_db.pin",
+    "anabaena_db.pot",
+    "anabaena_db.psq",
+    "anabaena_db.ptf",
+    "anabaena_db.pto"
+  ]
+}

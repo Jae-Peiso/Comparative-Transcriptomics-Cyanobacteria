@@ -1,0 +1,22 @@
+{
+  "version": "1.2",
+  "dbname": "synechococcus_db",
+  "dbtype": "Protein",
+  "db-version": 5,
+  "description": "/Users/jaemac/Desktop/Palmer_Lab/Cyanobacteria/GenomicAnalyses/Rhythmic_gene_comparison/data/raw/genomes/synechococcus_7942_GCF_000012525.1/protein.faa",
+  "number-of-letters": 804962,
+  "number-of-sequences": 2707,
+  "last-updated": "2026-07-30T12:08:00",
+  "number-of-volumes": 1,
+  "bytes-total": 1390901,
+  "bytes-to-cache": 829574,
+  "files": [
+    "synechococcus_db.pdb",
+    "synechococcus_db.phr",
+    "synechococcus_db.pin",
+    "synechococcus_db.pot",
+    "synechococcus_db.psq",
+    "synechococcus_db.ptf",
+    "synechococcus_db.pto"
+  ]
+}

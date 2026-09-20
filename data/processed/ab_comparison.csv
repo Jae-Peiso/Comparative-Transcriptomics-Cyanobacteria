@@ -1,0 +1,9 @@
+quantity,ito_published,vijayan_recomputed,difference
+Amplitude rho (95% CI),"+0.056 [+0.010, +0.102]","+0.132 [+0.086, +0.177]",Both real correlations on their own terms; NOT the same amplitude definition (see 'Amplitude measure' row) so the CI's don't test the same null. New rho is larger and the CI excludes zero more comfortably.
+"n, amplitude pairs","1,787","1,811","Comparable set sizes -- both require an amplitude on both sides, no peak-time filter in either."
+"n, pairs with peak time both sides",565,"1,811","THE big change. Ito publishes no peak time for genes it doesn't call cycling (1,715/2,515); Vijayan's cosinor returns one for every gene regardless of significance, so this stops being a rhythmicity filter."
+Phase distribution shape,"unimodal, long tail","unimodal, flatter (near-0 35%, antipodal 29%, uniform=33%)","Same qualitative family (unimodal, not the bimodal dawn/dusk swap hypothesis) but visibly weaker once the implicit 7942-cycling filter is removed -- see H1 in hurdles.md."
+"Rayleigh p, R-bar","p=1.4e-07, R-bar=0.167","p=2.51e-07, R-bar=0.092","Both reject uniformity confidently (n is much larger now, so p stays tiny even as R-bar drops) -- R-bar is the number that moved, not p."
+"Genes with no peak time, 7942 side","1,715 of 2,515","0 of 2,662",This row IS the mechanism behind the n=565->1811 change above.
+Amplitude measure,"CV (SD/mean), published",fitted log2 cosinor amplitude,"NOT COMPARABLE quantities -- different units, different noise model. The rho values above can be compared as correlations; the amplitude VALUES themselves cannot."
+Rhythmicity call,"each paper's own (different thresholds, different platforms)","one identical cosinor caller, both organisms","This is what makes the NEW column commensurable across species at all -- the OLD column was never meant to support that comparison, which is not a flaw in Ito, just a limit of what it measured."

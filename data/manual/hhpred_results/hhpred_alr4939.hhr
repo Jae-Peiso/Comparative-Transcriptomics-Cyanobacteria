@@ -1,0 +1,1266 @@
+Query         alr4939
+Match_columns 146
+No_of_seqs    101 out of 104
+Neff          3.01997
+Searched_HMMs 75560
+Date          Fri Jul 31 18:03:17 2026
+Command       hhsearch -cpu 8 -i ../results/full.a3m -d /cluster/toolkit/production/databases/hh-suite/mmcif70/pdb70 -o ../results/6094724_6.hhr -oa3m ../results/6094724_6.a3m -p 20 -Z 250 -loc -z 1 -b 1 -B 250 -ssm 2 -sc 1 -seq 1 -dbstrlen 10000 -norealign -maxres 32000 -contxt /cluster/toolkit/production/bioprogs/tools/hh-suite-build-new/data/context_data.crf 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 1QWR_B Mannose-6-phosphate iso  91.7     1.4 1.9E-05   36.1   6.9   71   30-105   121-199 (319)
+  2 3LVJ_D Sulfurtransferase tusA;  70.7      18 0.00024   22.5   4.1   41   30-72      2-42  (82)
+  3 4YXB_D FliM::FliN fragment; Ty  65.3      38 0.00051   22.9   5.1   36   58-95     18-54  (80)
+  4 1O9Y_B HRCQ2; SECRETORY PROTEI  64.8      24 0.00032   24.0   4.1   33   58-90     30-62  (84)
+  5 1ZX5_A mannosephosphate isomer  61.0   1E+02  0.0013   25.5   7.6   67   30-105   121-198 (300)
+  6 4YX1_A Surface presentation of  60.4      25 0.00033   23.0   3.4   26   58-83     18-44  (70)
+  7 5XRW_D FliY; motor switch comp  60.2      24 0.00032   23.8   3.4   26   58-83     18-44  (79)
+  8 5XRW_B FliN; motor switch comp  60.0      46 0.00062   22.5   4.7   36   58-93     16-51  (79)
+  9 6Q2Z_A UPF0339 family protein;  55.5      62 0.00082   19.4   5.9   48   24-71     11-58  (60)
+ 10 3BID_E UPF0339 protein NMB1088  54.4      84  0.0011   20.6   5.2   47   24-71      8-54  (64)
+ 11 3UEP_A YscQ-C, type III secret  51.8      65 0.00085   22.6   4.5   35   58-92     34-68  (96)
+ 12 4TT9_B Surface presentation of  51.5      64 0.00085   22.0   4.3   35   58-92     32-66  (86)
+ 13 2JWK_B Protein tolR; PROTEIN,   51.1      79  0.0011   19.3   5.4   42   31-72      7-50  (74)
+ 14 6IYM_B 5-oxopent-3-ene-1,2,5-t  49.5      20 0.00027   29.4   1.9   53   17-70    181-237 (285)
+ 15 1PAV_A Hypothetical protein Ta  46.2      95  0.0013   19.1   4.2   37   34-72      2-38  (78)
+ 16 2KO6_A Uncharacterized protein  46.1      29 0.00038   27.1   2.2   30   36-65     58-87  (89)
+ 17 1JE3_A HYPOTHETICAL 8.6 KDA PR  45.4      90  0.0012   21.4   4.4   37   34-72     23-59  (97)
+ 18 1NKQ_C Hypothetical 28.8 kDa p  43.2      70 0.00092   25.7   4.0   81    1-82    144-224 (259)
+ 19 1O6A_B putative flagellar moto  42.8      87  0.0012   21.9   4.0   33   58-90     34-66  (96)
+ 20 2K7I_B UPF0339 protein Atu0232  41.7 1.6E+02  0.0021   20.8   5.2   40   29-70     36-75  (83)
+ 21 8ODT_F Tol-Pal system protein   41.2 1.9E+02  0.0025   23.1   6.1   49   24-72     59-109 (189)
+ 22 4QGE_B Phosphodiesterase 9A; P  41.0 1.4E+02  0.0018   27.8   6.0   52   25-79      9-60  (533)
+ 23 9N4Z_VG Flagellar motor switch  40.4      69 0.00091   25.0   3.5   26   58-83     75-101 (137)
+ 24 9O40_F Tol-Pal system protein   40.0   2E+02  0.0027   20.9   6.2   49   24-72     59-109 (142)
+ 25 4DBF_A 2-HYDROXYHEPTA-2,4-DIEN  39.2      57 0.00075   27.1   3.1   47   30-77    213-261 (288)
+ 26 3R6O_A 2-hydroxyhepta-2,4-dien  39.1      88  0.0012   26.5   4.2   71    1-77    216-287 (329)
+ 27 1HYO_B FUMARYLACETOACETATE HYD  36.6      76   0.001   28.1   3.6   67   16-82    285-360 (421)
+ 28 6J5X_A Predicted 2-keto-4-pent  36.2      84  0.0011   25.5   3.5   60   17-77    183-245 (287)
+ 29 1EYQ_B CHALCONE-FLAVONONE ISOM  36.2 2.2E+02  0.0029   23.1   5.8   56   52-113   130-188 (222)
+ 30 6NIB_A Porphyromonas-type pept  34.4      93  0.0012   27.1   3.7   71   15-91    290-367 (367)
+ 31 1JDQ_A HYPOTHETICAL PROTEIN TM  32.4 1.9E+02  0.0024   20.1   4.3   37   34-72     22-58  (98)
+ 32 6JVV_B maleylpyruvate hydrolas  30.6 1.3E+02  0.0017   25.3   3.8   49   28-77    201-249 (303)
+ 33 3QO6_A Protease Do-like 1, chl  30.2 1.7E+02  0.0022   24.2   4.4   40   31-73    269-316 (348)
+ 34 6SBJ_A Acylpyruvase FAHD1, mit  29.7 1.4E+02  0.0018   23.9   3.7   51   30-81    190-240 (265)
+ 35 1YWL_A Hypothetical UPF0213 pr  29.6      78   0.001   20.7   2.0   18  104-121    75-92  (96)
+ 36 2HD9_A UPF0310 protein PH1033;  29.6      53  0.0007   23.8   1.3   56   28-86      2-65  (145)
+ 37 4RNZ_A Conserved hypothetical   29.0      44 0.00059   27.8   1.0   34   45-78     19-53  (371)
+ 38 3F42_A protein HP0035; Helicob  26.9   3E+02   0.004   18.8   4.7   63   51-117    12-74  (99)
+ 39 6MS8_G Chalcone-flavonone isom  26.7   5E+02  0.0066   21.3   6.4   56   52-113   131-191 (224)
+ 40 8IWI_A Iron-sulfur cluster ass  26.5 3.5E+02  0.0047   19.5   6.3   50   52-101    12-61  (106)
+ 41 3JSZ_A Putative uncharacterize  26.5 1.9E+02  0.0025   29.0   4.6   53    9-72    118-170 (525)
+ 42 3OEQ_A Frataxin homolog, mitoc  25.9 4.1E+02  0.0054   20.0   5.5   51   51-101    30-80  (123)
+ 43 4OI3_A Nickel responsive prote  25.9 2.4E+02  0.0032   19.8   4.1   44   41-84     13-59  (89)
+ 44 5JD6_A MGS-MChE2; alpha/beta h  25.6 2.4E+02  0.0032   19.6   3.9   42   21-63      3-44  (254)
+ 45 5J3E_A Thymocyte nuclear prote  25.6 2.9E+02  0.0038   23.1   5.0   60   26-86     53-128 (225)
+ 46 2Z9I_B PROBABLE SERINE PROTEAS  25.6 2.4E+02  0.0032   23.0   4.5   34   37-73    263-296 (324)
+ 47 6W3F_A Rd1NTF2_05_I64F_A80G_T9  25.3 2.6E+02  0.0034   17.5   5.7   69   36-104    31-100 (115)
+ 48 1L4T_A Gastrin/cholecystokinin  25.3      73 0.00097   18.3   1.2   14  100-113     4-17  (30)
+ 49 4HDE_A SCO1/SenC family lipopr  24.8   3E+02  0.0039   18.0   4.8   35   29-63    136-170 (170)
+ 50 3TZG_A hypothetical protein BV  24.3      51 0.00067   29.6   0.5    8   11-18    221-228 (252)
+ 51 2Q18_X 2-keto-3-deoxy-D-arabin  24.2 1.4E+02  0.0019   24.5   3.0   65    1-70    184-252 (293)
+ 52 8SUT_A Fumarylacetoacetate hyd  24.0 1.2E+02  0.0016   25.2   2.6   47   30-77    226-272 (312)
+ 53 1JFU_B THIOL:DISULFIDE INTERCH  23.9 3.4E+02  0.0045   18.4   4.7   35   29-63    146-180 (186)
+ 54 3GL3_C Putative Thiol:disulfid  23.9 3.1E+02  0.0042   18.0   4.2   35   29-63    108-142 (152)
+ 55 5JNE_E E3 SUMO-protein ligase   23.8 2.1E+02  0.0028   24.8   4.0   70   50-123   166-237 (367)
+ 56 2WFP_A MANNOSE-6-PHOSPHATE ISO  23.3 2.3E+02  0.0031   24.6   4.2   70   45-134   189-294 (394)
+ 57 9L6B_A UPF0225 protein YchJ -A  23.2      88  0.0012   17.1   1.2   20  104-123    41-60  (60)
+ 58 7BUP_A Proliferating cell nucl  23.1   5E+02  0.0066   20.0   8.4  104   12-117    91-220 (267)
+ 59 3L0W_A Proliferating cell nucl  22.9 2.3E+02  0.0031   20.8   3.6   48   24-73    115-167 (169)
+ 60 8IH6_F 4-oxalocrotonate decarb  22.9 3.9E+02  0.0052   21.4   5.1   66   13-81    163-234 (258)
+ 61 6HBB_A Carbon dioxide concentr  22.7 3.8E+02  0.0051   19.4   4.6   52   24-85     31-82  (92)
+ 62 7T2F_B HEEH mini protein HEEH_  22.7 1.5E+02  0.0019   20.9   2.4   28   36-63     24-51  (53)
+ 63 6U75_B E3 SUMO-protein ligase   22.1 5.1E+02  0.0068   21.8   5.8   70   50-123   156-227 (269)
+ 64 8GNN_A Cell cycle checkpoint c  22.1 3.1E+02  0.0041   21.5   4.3   40   46-87      5-44  (270)
+ 65 2LJK_A Protein C17orf37; MIEN1  22.0 2.5E+02  0.0033   21.3   3.7   48   31-81     69-116 (117)
+ 66 2AR1_A hypothetical protein; S  22.0 3.9E+02  0.0052   19.0   4.5   65   19-85     11-81  (172)
+ 67 1XZO_B Hypothetical protein yp  21.9 3.6E+02  0.0048   18.0   4.7   35   29-63    138-172 (174)
+ 68 2DNF_A Doublecortin domain-con  21.8 3.5E+02  0.0046   17.8   4.6   55   30-85     18-75  (108)
+ 69 9XQS_N PHIKZ049; baseplate, in  21.7 1.5E+02   0.002   24.2   2.6   30   31-60     98-127 (138)
+ 70 4V42_BD 50S RIBOSOMAL PROTEIN   21.6      82  0.0011   24.8   1.1   60   24-87     24-87  (178)
+ 71 2DFU_C probable 2-hydroxyhepta  21.5 2.2E+02   0.003   22.6   3.5   51   30-81    186-236 (264)
+ 72 2P5D_A UPF0310 protein MJECL36  21.2 1.3E+02  0.0017   21.3   1.9   58   25-85      2-65  (147)
+ 73 3RR6_A Putative uncharacterize  20.5 2.1E+02  0.0028   22.9   3.2   49   28-77    188-236 (265)
+ 74 5Y28_C Periplasmic serine endo  20.4 4.9E+02  0.0064   22.2   5.4   44   36-82    305-348 (357)
+ 75 3VHJ_A BfpC; type IV pilus bio  20.3 5.3E+02  0.0071   20.6   5.4   49   11-73     89-139 (172)
+ 76 6L7O_V Tlr0472 protein; photos  20.3      82  0.0011   26.5   1.0   33   19-54     80-117 (146)
+ 77 4DOL_A At1g53520; chalcone-iso  20.3 3.7E+02  0.0049   21.6   4.5   36   52-87    134-172 (217)
+ 78 2Y9K_A PROTEIN INVG; PROTEIN T  20.2 4.2E+02  0.0056   18.1   4.5   52   31-82     66-117 (137)
+ 79 3H43_E Proteasome-activating n  20.2 3.9E+02  0.0052   17.7   5.2   51   25-89     29-79  (85)
+ 80 9D5L_A TnsE, Tn7 transposition  20.0 3.7E+02  0.0049   21.3   4.4   62   45-108     7-77  (166)
+
+No 1
+>1QWR_B Mannose-6-phosphate isomerase; Structural genomics, D-Mannose 6-phosphate, Isomerase, PSI, Protein Structure Initiative, Midwest Center for Structural Genomics, MCSG; HET: SO4, MSE; 1.8A {Bacillus subtilis} SCOP: b.82.1.3
+Probab=91.69  E-value=1.4  Score=36.06  Aligned_cols=71  Identities=21%  Similarity=0.422  Sum_probs=0.0  Template_Neff=9.900
+
+Q ss_pred             EEEecCCCccEEEeCCcccCCHHHHHHHHHHHH--------cCCCCCeeEecccccceEEEEEcCCeEEEeEecCCceee
+Q alr4939          30 WVMVNGDKNLTVALPGLMVSTMSELRQAIREFR--------ALQPGDKMTLVRIASACTLHCVGINCYAIEATINNAPVW  101 (146)
+Q Consensus        30 Wi~VNGd~~~~v~iPGL~v~s~~e~kq~i~~FR--------~Lqpge~m~l~r~~~~~~IhCis~NCYAI~~~v~gapvW  101 (146)
+                      |+.+.+.+...+ +-|+...+.++|++++.+-+        .++|||.+.++    ..++|++..++..+|-..+.--++
+T Consensus       121 ~~vl~~~~~~~~-~~g~~~~~~~~~~~~~~~~~~~~~ln~~~~~~G~~~~ip----~g~~Ha~~~g~~~~Ei~~~sd~~~  195 (319)
+T 1QWR_B          121 WYIIDCKENAEI-IYGHTARSKTELVTMINSGDWEGLLRRIKIKPGDFYYVP----SGTLHALCKGALVLETQQNSDATY  195 (319)
+T ss_dssp             EEEEEECTTCEE-EEEECCSSHHHHHHHHHTTCHHHHEEEEECCTTCEEEEC----TTCCEEECSSEEEEEEEESCCCCE
+T ss_pred             EEEEEcCCCCEE-EEECCCCCHHHHHHHHHcCChHHhcceeeCCCCCEEEeC----CCceEEeCCCeEEEEeecCCCCee
+
+
+Q ss_pred             eecC
+Q alr4939         102 HLFD  105 (146)
+Q Consensus       102 HLFD  105 (146)
+                      .++|
+T Consensus       196 r~~d  199 (319)
+T 1QWR_B          196 RVYD  199 (319)
+T ss_dssp             EEEC
+T ss_pred             Eeee
+
+
+No 2
+>3LVJ_D Sulfurtransferase tusA; protein-protein complex, Structural Genomics, Montreal-Kingston Bacterial Structural Genomics Initiative, BSGI, Transferase, tRNA thiolation, sulfur transfer; HET: PLP; 2.435A {Escherichia coli} SCOP: d.68.3.3
+Probab=70.70  E-value=18  Score=22.47  Aligned_cols=41  Identities=17%  Similarity=0.257  Sum_probs=0.0  Template_Neff=11.100
+
+Q ss_pred             EEEecCCCccEEEeCCcccCCHHHHHHHHHHHHcCCCCCeeEe
+Q alr4939          30 WVMVNGDKNLTVALPGLMVSTMSELRQAIREFRALQPGDKMTL   72 (146)
+Q Consensus        30 Wi~VNGd~~~~v~iPGL~v~s~~e~kq~i~~FR~Lqpge~m~l   72 (146)
+                      +...+......+.+-|+  ....-+.++.+.|.++++|+.+.+
+T Consensus         2 ~~~~~~~~~~~iD~~~~--~~~~~~~~i~~~l~~l~~g~~l~i   42 (82)
+T 3LVJ_D            2 STDLFSSPDHTLDALGL--RCPEPVMMVRKTVRNMQPGETLLI   42 (82)
+T ss_dssp             ---CCSCCSEEEECTTC--CTTHHHHHHHHHHHTSCTTCEEEE
+T ss_pred             CCccCCCCCEEEECCCC--CCCHHHHHHHHHHhcCCCCCEEEE
+
+
+No 3
+>4YXB_D FliM::FliN fragment; Type III Secretion System, PROTEIN TRANSPORT; HET: MSE; 2.56A {Salmonella typhimurium (strain LT2 / SGSC1412 / ATCC 700720)}
+Probab=65.28  E-value=38  Score=22.91  Aligned_cols=36  Identities=17%  Similarity=0.240  Sum_probs=0.0  Template_Neff=8.800
+
+Q ss_pred             HHHHHcCCCCCeeEecccc-cceEEEEEcCCeEEEeEec
+Q alr4939          58 IREFRALQPGDKMTLVRIA-SACTLHCVGINCYAIEATI   95 (146)
+Q Consensus        58 i~~FR~Lqpge~m~l~r~~-~~~~IhCis~NCYAI~~~v   95 (146)
+                      +.++.+|++|+.+.+.... ....|.|  .|+....++.
+T Consensus        18 l~~l~~l~~Gd~l~l~~~~~~~~~l~v--~~~~~~~g~l   54 (80)
+T 4YXB_D           18 IKELLRLTQGSVVALDGLAGEPLDILI--NGYLIAQGEV   54 (80)
+T ss_pred             HHHHhcCCCCCEEEcCCCCCCcEEEEE--CCEEEEEEEE
+
+
+No 4
+>1O9Y_B HRCQ2; SECRETORY PROTEIN, HRP, TYPE III SECRETION SYSTEM, PHYTOPATHOGENICITY, STRUCTURAL PROTEIN; 2.29A {PSEUDOMONAS SYRINGAE} SCOP: b.139.1.1
+Probab=64.76  E-value=24  Score=24.01  Aligned_cols=33  Identities=24%  Similarity=0.431  Sum_probs=0.0  Template_Neff=8.900
+
+Q ss_pred             HHHHHcCCCCCeeEecccccceEEEEEcCCeEE
+Q alr4939          58 IREFRALQPGDKMTLVRIASACTLHCVGINCYA   90 (146)
+Q Consensus        58 i~~FR~Lqpge~m~l~r~~~~~~IhCis~NCYA   90 (146)
+                      +.++.+|+||+.+.+........--++...+.+
+T Consensus        30 l~~l~~l~~G~vl~l~~~~~~~v~l~v~~~~~~   62 (84)
+T 1O9Y_B           30 LAELRRLDAGTILEVTGISPGHATLCHGEQVVA   62 (84)
+T ss_dssp             HHHHHTCCTTCEEEECSSCTTEEEEEETTEEEE
+T ss_pred             HHHHhcCCCCCEEEcCCCCCCcEEEEECCEEEE
+
+
+No 5
+>1ZX5_A mannosephosphate isomerase, putative; mannose 6-phosphate, isomerase, Archaeoglobus fulgidus, Structural Genomics, PSI, Protein Structure Initiative, Midwest Center for Structural Genomics; HET: ACY, LFR, MSE; 2.3A {Archaeoglobus fulgidus} SCOP: b.82.1.3, l.1.1.1
+Probab=61.03  E-value=1e+02  Score=25.46  Aligned_cols=67  Identities=18%  Similarity=0.317  Sum_probs=0.0  Template_Neff=9.800
+
+Q ss_pred             EEEecCCCccEEEeCCccc-CCHHHHHHHHHHHH----------cCCCCCeeEecccccceEEEEEcCCeEEEeEecCCc
+Q alr4939          30 WVMVNGDKNLTVALPGLMV-STMSELRQAIREFR----------ALQPGDKMTLVRIASACTLHCVGINCYAIEATINNA   98 (146)
+Q Consensus        30 Wi~VNGd~~~~v~iPGL~v-~s~~e~kq~i~~FR----------~Lqpge~m~l~r~~~~~~IhCis~NCYAI~~~v~ga   98 (146)
+                      |+.+.   ...+.+ |+.. .+.++|++++++=+          .++|||.+.++    ..++|+ ...+..+|...+.-
+T Consensus       121 ~~vl~---~~~~~~-G~~~~~~~~~~~~~~~~~~~~~~~~l~~~~l~~G~~~~ip----~g~~Ha-~~g~~~~Ei~~~sd  191 (300)
+T 1ZX5_A          121 WLVFN---KGKAYA-GFKEDVKIEELEEKLKEEDFDFKTLLNTFETTPYDTFVIR----PGIPHA-GEGLRVLEVSSNST  191 (300)
+T ss_dssp             EEECS---SCEEEE-EESSCCCHHHHHHHHTSSSCCGGGGEEEEECCTTCEEEEC----TTCCEE-EESEEEEEEEESCC
+T ss_pred             EEEEc---CcEEEE-ecCCCCCHHHHHHHHHhCCCCHHHHcceeeCCCCCEEEEC----CCceee-cCCEEEEEEecCCc
+
+
+Q ss_pred             eeeeecC
+Q alr4939          99 PVWHLFD  105 (146)
+Q Consensus        99 pvWHLFD  105 (146)
+                      .+..++|
+T Consensus       192 ~~~r~~d  198 (300)
+T 1ZX5_A          192 LAYFFNE  198 (300)
+T ss_dssp             CCEESST
+T ss_pred             cEEEeec
+
+
+No 6
+>4YX1_A Surface presentation of antigens protein SpaO; Type III Secretion System, PROTEIN TRANSPORT; HET: MSE; 1.35A {Salmonella typhimurium}
+Probab=60.39  E-value=25  Score=23.05  Aligned_cols=26  Identities=15%  Similarity=0.199  Sum_probs=0.0  Template_Neff=9.000
+
+Q ss_pred             HHHHHcCCCCCeeEecccc-cceEEEE
+Q alr4939          58 IREFRALQPGDKMTLVRIA-SACTLHC   83 (146)
+Q Consensus        58 i~~FR~Lqpge~m~l~r~~-~~~~IhC   83 (146)
+                      +.++.+|+||+.+.+.+.. ....+.+
+T Consensus        18 l~~l~~l~~Gdvi~l~~~~~~~v~l~~   44 (70)
+T 4YX1_A           18 LAELEAMGQQQLLSLPTNAELNVEIMA   44 (70)
+T ss_dssp             HHHHHHHHTCSEEECCTTGGGCEEEEE
+T ss_pred             HHHHHcCCCCCEEECCCCCCCCEEEEE
+
+
+No 7
+>5XRW_D FliY; motor switch complex, C-ring, MOTOR PROTEIN; 2.5A {Helicobacter pylori 26695} SCOP: b.139.1.0
+Probab=60.24  E-value=24  Score=23.81  Aligned_cols=26  Identities=8%  Similarity=0.271  Sum_probs=0.0  Template_Neff=8.800
+
+Q ss_pred             HHHHHcCCCCCeeEecccc-cceEEEE
+Q alr4939          58 IREFRALQPGDKMTLVRIA-SACTLHC   83 (146)
+Q Consensus        58 i~~FR~Lqpge~m~l~r~~-~~~~IhC   83 (146)
+                      +.++.+|+||+.+.+.+.. ....|.+
+T Consensus        18 l~~l~~L~~Gdvl~l~~~~~~~v~l~v   44 (79)
+T 5XRW_D           18 LKDVVSMDIGSVVELDQLVNDPLEILV   44 (79)
+T ss_dssp             HHHHHTCCTTCEEEEEEETTSCEEEEE
+T ss_pred             HHHHhcCCCCCEEEcCCCCCCCEEEEE
+
+
+No 8
+>5XRW_B FliN; motor switch complex, C-ring, MOTOR PROTEIN; 2.5A {Helicobacter pylori 26695}
+Probab=60.03  E-value=46  Score=22.53  Aligned_cols=36  Identities=11%  Similarity=0.080  Sum_probs=0.0  Template_Neff=8.700
+
+Q ss_pred             HHHHHcCCCCCeeEecccccceEEEEEcCCeEEEeE
+Q alr4939          58 IREFRALQPGDKMTLVRIASACTLHCVGINCYAIEA   93 (146)
+Q Consensus        58 i~~FR~Lqpge~m~l~r~~~~~~IhCis~NCYAI~~   93 (146)
+                      +.++.+|+||+.+.+.+..+..-.-++.....+...
+T Consensus        16 l~~l~~L~~Gdvi~l~~~~~~~v~l~v~g~~~~~g~   51 (79)
+T 5XRW_B           16 LLQILRFEKGSVIDLQKPAGESVDTFVNGRVIGKGE   51 (79)
+T ss_dssp             HHHHTTCCTTCEEEEEEETTSCEEEEETTEEEEEEE
+T ss_pred             HHHHhcCCCCCEEECCCCCCCeEEEEECCEEEEEEE
+
+
+No 9
+>6Q2Z_A UPF0339 family protein; conserved hypothetical protein, UNKNOWN FUNCTION; NMR {Haloferax volcanii (strain ATCC 29605 / DSM 3757 / JCM 8879 / NBRC 14742 / NCIMB 2012 / VKM B-1768 / DS2)} SCOP: d.348.1.0
+Probab=55.52  E-value=62  Score=19.37  Aligned_cols=48  Identities=17%  Similarity=0.199  Sum_probs=0.0  Template_Neff=10.400
+
+Q ss_pred             CCCCceEEEecCCCccEEEeCCcccCCHHHHHHHHHHHHcCCCCCeeE
+Q alr4939          24 DPSRHYWVMVNGDKNLTVALPGLMVSTMSELRQAIREFRALQPGDKMT   71 (146)
+Q Consensus        24 DP~R~YWi~VNGd~~~~v~iPGL~v~s~~e~kq~i~~FR~Lqpge~m~   71 (146)
+                      ++...|+..+.+....++.-.|-.-++.++.+..|..+|...++..+.
+T Consensus        11 ~~~g~~~~~~~~~~g~~~~~s~~~~~~~~~~~~~i~~~~~~~~~a~~~   58 (60)
+T 6Q2Z_A           11 DAADKYRWRLVHDNGNILADSGEGYASKQKAKQGIESVKRNAPDADVI   58 (60)
+T ss_dssp             CTTSCEEEEEEETTCCEEEECCCCBSCHHHHHHHHHHHHTTTTTCEEE
+T ss_pred             CCCCcEEEEEECCCCCEEEEcCCCcCCHHHHHHHHHHHHHhCCCCcEe
+
+
+No 10
+>3BID_E UPF0339 protein NMB1088; alpha-beta protein, Structural Genomics, PSI-2, Protein Structure Initiative, Northeast Structural Genomics Consortium, NESG, UNKNOWN FUNCTION; HET: MSE; 2.7A {Neisseria meningitidis MC58} SCOP: d.348.1.1, l.1.1.1
+Probab=54.36  E-value=84  Score=20.57  Aligned_cols=47  Identities=11%  Similarity=0.179  Sum_probs=0.0  Template_Neff=8.500
+
+Q ss_pred             CCCCceEEEecCCCccEEEeCCcccCCHHHHHHHHHHHHcCCCCCeeE
+Q alr4939          24 DPSRHYWVMVNGDKNLTVALPGLMVSTMSELRQAIREFRALQPGDKMT   71 (146)
+Q Consensus        24 DP~R~YWi~VNGd~~~~v~iPGL~v~s~~e~kq~i~~FR~Lqpge~m~   71 (146)
+                      |+...|...+......++. -+-.-.|.++.+++|..+|...+...+.
+T Consensus         8 ~~~g~~~f~l~~~ng~vl~-~S~~y~s~~~~~~~i~~v~~~~~~a~~~   54 (64)
+T 3BID_E            8 DAKGEYRWRLKAANHEIIA-QGEGYTSKQNCQHAVDLLKSTTAATPVK   54 (64)
+T ss_dssp             CTTSCEEEEEECTTSCEEE-EBCCBSSHHHHHHHHHHHHTCCTTCCEE
+T ss_pred             CCCCcEEEEEEeCCCCEEE-EcCCCCCHHHHHHHHHHHHHhcCCCCee
+
+
+No 11
+>3UEP_A YscQ-C, type III secretion protein; type III secretion protein, cytosol, PROTEIN TRANSPORT; 2.25A {Yersinia pseudotuberculosis}
+Probab=51.85  E-value=65  Score=22.59  Aligned_cols=35  Identities=11%  Similarity=0.082  Sum_probs=0.0  Template_Neff=8.800
+
+Q ss_pred             HHHHHcCCCCCeeEecccccceEEEEEcCCeEEEe
+Q alr4939          58 IREFRALQPGDKMTLVRIASACTLHCVGINCYAIE   92 (146)
+Q Consensus        58 i~~FR~Lqpge~m~l~r~~~~~~IhCis~NCYAI~   92 (146)
+                      +.++.+|+||+.+.+.........-.+.....+..
+T Consensus        34 l~~l~~L~~Gdvi~l~~~~~~~v~l~v~g~~~~~g   68 (96)
+T 3UEP_A           34 WHTLTSLEPGSLIDLTTPVDGEVRLLANGRLLGHG   68 (96)
+T ss_dssp             HHHHHHCCTTCEEEEEEESSCEEEEEETTEEEEEE
+T ss_pred             HHHHhhCCCCCEEECCCCCCCeEEEEECCEEEEEE
+
+
+No 12
+>4TT9_B Surface presentation of antigens protein SpaO; T3SS, C-ring, SpoA, FliN, immune system, protein transport; HET: EDO; 2.3A {Shigella flexneri}
+Probab=51.50  E-value=64  Score=21.99  Aligned_cols=35  Identities=9%  Similarity=-0.071  Sum_probs=0.0  Template_Neff=9.000
+
+Q ss_pred             HHHHHcCCCCCeeEecccccceEEEEEcCCeEEEe
+Q alr4939          58 IREFRALQPGDKMTLVRIASACTLHCVGINCYAIE   92 (146)
+Q Consensus        58 i~~FR~Lqpge~m~l~r~~~~~~IhCis~NCYAI~   92 (146)
+                      +.++.+|+||+.+.|.......-.-++.....+..
+T Consensus        32 l~~l~~L~~Gdvl~l~~~~~~~v~l~v~g~~~~~g   66 (86)
+T 4TT9_B           32 INELKMYVENELFKFPDDIVKHVNIKVNGSLVGHG   66 (86)
+T ss_dssp             HHHHHTCCTTCEEECCTTSSSCEEEEETTEEEEEE
+T ss_pred             HHHHhcCCCCCEEECCCCCCCcEEEEECCEEEEEE
+
+
+No 13
+>2JWK_B Protein tolR; PROTEIN, Periplasmic domain, membrane, Inner membrane, Protein transport, Transmembrane, Transport, MEMBRANE PROTEIN; NMR {Haemophilus influenzae}
+Probab=51.09  E-value=79  Score=19.32  Aligned_cols=42  Identities=12%  Similarity=-0.008  Sum_probs=0.0  Template_Neff=10.900
+
+Q ss_pred             EEecCCCccEEEeC--CcccCCHHHHHHHHHHHHcCCCCCeeEe
+Q alr4939          31 VMVNGDKNLTVALP--GLMVSTMSELRQAIREFRALQPGDKMTL   72 (146)
+Q Consensus        31 i~VNGd~~~~v~iP--GL~v~s~~e~kq~i~~FR~Lqpge~m~l   72 (146)
+                      |.|+.+....+..+  |...-+++++++.+++.+.-.+...+.|
+T Consensus         7 i~i~~~~~~~~~~~~~~~~~~~~~~l~~~l~~~~~~~~~~~v~l   50 (74)
+T 2JWK_B            7 LEVAGIGKYAISIGGERQEGLTEEMVTQLSRQEFDKDNNTLFLV   50 (74)
+T ss_dssp             EEECSSSCEEEEETTEEEEEECHHHHHHHHHHHHHHCTTCCEEE
+T ss_pred             EEEeCCCeEEEEECCcccCCCCHHHHHHHHHHHHhhCCCCeEEE
+
+
+No 14
+>6IYM_B 5-oxopent-3-ene-1,2,5-tricarboxylate decarboxylase; fumarylacetoacetate hydrolase, Exiguobacterium antarctica, HYDROLASE; 2.1A {Exiguobacterium antarcticum B7}
+Probab=49.52  E-value=20  Score=29.42  Aligned_cols=53  Identities=17%  Similarity=0.245  Sum_probs=0.0  Template_Neff=9.500
+
+Q ss_pred             Chhhc---CCCCCC-ceEEEecCCCccEEEeCCcccCCHHHHHHHHHHHHcCCCCCee
+Q alr4939          17 SPWLE---GIDPSR-HYWVMVNGDKNLTVALPGLMVSTMSELRQAIREFRALQPGDKM   70 (146)
+Q Consensus        17 spWL~---GIDP~R-~YWi~VNGd~~~~v~iPGL~v~s~~e~kq~i~~FR~Lqpge~m   70 (146)
+                      .||+.   .+||.. .-++.|||+....-....+ .-++.++-..+.++..|+|||-+
+T Consensus       181 Gp~iv~~d~~d~~~l~i~~~vng~~~~~~~~~~~-~~~~~~~i~~ls~~~~L~~Gdvi  237 (285)
+T 6IYM_B          181 GPVIVTEDAFDPADVLVETRVNGELRQSGSTKLM-LRDVVTILTEVSRGMTLEAGDVI  237 (285)
+T ss_dssp             EEEEEEGGGCCGGGCEEEEEETTEEEEEEEGGGB-SSCHHHHHHHHTSSSCBCTTCEE
+T ss_pred             CCEEecchhcCcccCEEEEEECCEEEEeccHHHh-CCCHHHHHHHHhCCCCcCCCCEE
+
+
+No 15
+>1PAV_A Hypothetical protein Ta1170/Ta1414; structural genomics, thermoplasma acidophilum, fast NMR, semiautomated analysis; NMR {Thermoplasma acidophilum} SCOP: d.68.3.3
+Probab=46.19  E-value=95  Score=19.10  Aligned_cols=37  Identities=11%  Similarity=0.286  Sum_probs=0.0  Template_Neff=11.000
+
+Q ss_pred             cCCCccEEEeCCcccCCHHHHHHHHHHHHcCCCCCeeEe
+Q alr4939          34 NGDKNLTVALPGLMVSTMSELRQAIREFRALQPGDKMTL   72 (146)
+Q Consensus        34 NGd~~~~v~iPGL~v~s~~e~kq~i~~FR~Lqpge~m~l   72 (146)
+                      +.....++.+-|+.-..  -+.++.+.++++++|+.+.+
+T Consensus         2 ~~~~~~~lD~~g~~~~~--~~~~~~~~l~~l~~g~~l~v   38 (78)
+T 1PAV_A            2 DVKPDRVIDARGSYCPG--PLMELIKAYKQAKVGEVISV   38 (78)
+T ss_dssp             CSCCCCCCCBSSCSSCT--THHHHHHHHTTSCTTCCEEC
+T ss_pred             CCCCCEEEECCCCCCCH--HHHHHHHHHhcCCCCCEEEE
+
+
+No 16
+>2KO6_A Uncharacterized protein yihD; alpha protein, Structural Genomics, PSI-2, Protein Structure Initiative, Northeast Structural Genomics Consortium, NESG, Ontario Centre for; NMR {Shigella flexneri}
+Probab=46.05  E-value=29  Score=27.15  Aligned_cols=30  Identities=20%  Similarity=0.349  Sum_probs=0.0  Template_Neff=3.300
+
+Q ss_pred             CCccEEEeCCcccCCHHHHHHHHHHHHcCC
+Q alr4939          36 DKNLTVALPGLMVSTMSELRQAIREFRALQ   65 (146)
+Q Consensus        36 d~~~~v~iPGL~v~s~~e~kq~i~~FR~Lq   65 (146)
+                      +....-.|||+...-.++||.|+.+=|+..
+T Consensus        58 ~~~~~~~IPGi~KD~e~DFKtAlL~ARGi~   87 (89)
+T 2KO6_A           58 DSAKDAVIPGLQKDYEEDFKTALLRARGVI   87 (89)
+T ss_dssp             HHTTSSSCSSCCCCCCCCHHHHHHHHCSST
+T ss_pred             ccccCCcCCCcchhcHHHHHHHHHHHhccc
+
+
+No 17
+>1JE3_A HYPOTHETICAL 8.6 KDA PROTEIN IN AMYA-FLIE INTERGENIC REGION; mixed alpha-beta structure, structural genomics; NMR {Escherichia coli} SCOP: d.68.3.3, l.1.1.1
+Probab=45.42  E-value=90  Score=21.36  Aligned_cols=37  Identities=11%  Similarity=0.152  Sum_probs=0.0  Template_Neff=9.500
+
+Q ss_pred             cCCCccEEEeCCcccCCHHHHHHHHHHHHcCCCCCeeEe
+Q alr4939          34 NGDKNLTVALPGLMVSTMSELRQAIREFRALQPGDKMTL   72 (146)
+Q Consensus        34 NGd~~~~v~iPGL~v~s~~e~kq~i~~FR~Lqpge~m~l   72 (146)
+                      +......+.+-|+  ....-+.++.+.++++++|+.+.+
+T Consensus        23 ~~~~~~~iD~rg~--~cp~~~~~~~~~l~~l~~g~~l~i   59 (97)
+T 1JE3_A           23 NIVPDYRLDMVGE--PCPYPAVATLEAMPQLKKGEILEV   59 (97)
+T ss_dssp             CCCEEEEECSBCC--SSSSSTHHHHHHTTTCCSSCEEEE
+T ss_pred             CCCCCEEEECCCC--CCCHHHHHHHHHHhcCCCCCEEEE
+
+
+No 18
+>1NKQ_C Hypothetical 28.8 kDa protein in PSD1-SKO1 intergenic region; dimer, PSI, Protein Structure Initiative, New York SGX Research Center for Structural Genomics, NYSGXRC, Structural Genomics; HET: MSE, SO4, ACY; 2.2A {Saccharomyces cerevisiae} SCOP: d.177.1.1
+Probab=43.21  E-value=70  Score=25.73  Aligned_cols=81  Identities=19%  Similarity=0.199  Sum_probs=0.0  Template_Neff=9.800
+
+Q ss_pred             CCCccccccccccCCCChhhcCCCCCCceEEEecCCCccEEEeCCcccCCHHHHHHHHHHHHcCCCCCeeEecccccceE
+Q alr4939           1 MEALFCLSPRYRLDDESPWLEGIDPSRHYWVMVNGDKNLTVALPGLMVSTMSELRQAIREFRALQPGDKMTLVRIASACT   80 (146)
+Q Consensus         1 M~~~f~LaPRYRLDDespWL~GIDP~R~YWi~VNGd~~~~v~iPGL~v~s~~e~kq~i~~FR~Lqpge~m~l~r~~~~~~   80 (146)
+                      +.....+.|-...++..+|..........++.+||+..... --.....++.++...+.++..|++|+-+..........
+T Consensus       144 ~d~~~~~g~~v~~~~~~~~~~~~~~~~~v~~~~ng~~~~~~-~~~~~~~~~~~l~~~~~~~~~l~~Gdvi~tGs~~~~~~  222 (259)
+T 1NKQ_C          144 FDTFMPISAIVSREKFSSYKSNLQDIFRVKCSVNGQLRQDG-GTNLMLHPLHKILQHISTMISLEPGDIILTGTPAGVGE  222 (259)
+T ss_dssp             STTCEEBCCCEEGGGGGGGTTSHHHHEEEEEEETTEEEEEE-EGGGBSSCHHHHHHHHHTTSCBCTTCEEECCCCSCCEE
+T ss_pred             CCCCceecceEeHHHcCCccccccCcceEEEEECCEEEEEc-chhhccCCHHHHHHHHHhcCCcCCCCEEECCCCCCcee
+
+
+Q ss_pred             EE
+Q alr4939          81 LH   82 (146)
+Q Consensus        81 Ih   82 (146)
+                      +.
+T Consensus       223 l~  224 (259)
+T 1NKQ_C          223 LK  224 (259)
+T ss_dssp             EC
+T ss_pred             CC
+
+
+No 19
+>1O6A_B putative flagellar motor switch protein FliN; PUTATIVE FLAGELLAR MOTOR SWITCH PROTEIN FLIN, C- TERMINAL PROTEOLYTIC FRAGMENT, STRUCTURAL GENOMICS, JOINT CENTER FOR STRUCTURAL; HET: MSE; 1.85A {Thermotoga maritima} SCOP: b.139.1.1
+Probab=42.83  E-value=87  Score=21.87  Aligned_cols=33  Identities=12%  Similarity=0.084  Sum_probs=0.0  Template_Neff=8.900
+
+Q ss_pred             HHHHHcCCCCCeeEecccccceEEEEEcCCeEE
+Q alr4939          58 IREFRALQPGDKMTLVRIASACTLHCVGINCYA   90 (146)
+Q Consensus        58 i~~FR~Lqpge~m~l~r~~~~~~IhCis~NCYA   90 (146)
+                      +.++.+|+||+.+.|.........-++...+.+
+T Consensus        34 l~~l~~L~~Gdvi~l~~~~~~~v~l~v~~~~~~   66 (96)
+T 1O6A_B           34 LKRVLEMIHGSIIELDKLTGEPVDILVNGKLIA   66 (96)
+T ss_dssp             HHHHHHCCTTCEEEEEEETTSCEEEEETTEEEE
+T ss_pred             HHHHhcCCCCCEEEcCCCCCCCEEEEECCEEEE
+
+
+No 20
+>2K7I_B UPF0339 protein Atu0232; protein of unknown function, swapped dimer. PSI2, structural genomics, unknown function, Protein Structure Initiative, Northeast Structural; NMR {Agrobacterium tumefaciens str.} SCOP: d.348.1.1
+Probab=41.72  E-value=1.6e+02  Score=20.76  Aligned_cols=40  Identities=10%  Similarity=0.145  Sum_probs=0.0  Template_Neff=7.900
+
+Q ss_pred             eEEEecCCCccEEEeCCcccCCHHHHHHHHHHHHcCCCCCee
+Q alr4939          29 YWVMVNGDKNLTVALPGLMVSTMSELRQAIREFRALQPGDKM   70 (146)
+Q Consensus        29 YWi~VNGd~~~~v~iPGL~v~s~~e~kq~i~~FR~Lqpge~m   70 (146)
+                      ||-.++.+......-.+.  .|.++..++|..+|...+...+
+T Consensus        36 ~f~L~~~ng~~ia~S~~y--~sk~~~~~ai~~l~~~~~~a~i   75 (83)
+T 2K7I_B           36 RFRFKASNGETMFSSEGY--KAKASAIHAIESIKRNSAGADT   75 (83)
+T ss_dssp             EEEECCTTSCCCEEBCCS--SSHHHHHHHHHHHHHHTTTSEE
+T ss_pred             EEEEEeCCCCEEEEeCCC--CCHHHHHHHHHHHHHhcCCCce
+
+
+No 21
+>8ODT_F Tol-Pal system protein TolR; TolQ, TolR, Tol-Pal, complex, inner membrane, MEMBRANE PROTEIN;{Escherichia coli K-12}
+Probab=41.19  E-value=1.9e+02  Score=23.10  Aligned_cols=49  Identities=12%  Similarity=0.077  Sum_probs=0.0  Template_Neff=8.500
+
+Q ss_pred             CCCCceEEEecCCCccEEEeCCcccC--CHHHHHHHHHHHHcCCCCCeeEe
+Q alr4939          24 DPSRHYWVMVNGDKNLTVALPGLMVS--TMSELRQAIREFRALQPGDKMTL   72 (146)
+Q Consensus        24 DP~R~YWi~VNGd~~~~v~iPGL~v~--s~~e~kq~i~~FR~Lqpge~m~l   72 (146)
+                      ++.....|.|+.+..+.+.+.|-.+.  +.+++++.+++.++-.+...+.|
+T Consensus        59 ~~~~~i~I~I~~~g~i~i~~~~~~~~~~~~~~L~~~L~~~~~~~~~~~v~I  109 (189)
+T 8ODT_F           59 NDNPPVIVEVSGIGQYTVVVEKDRLERLPPEQVVAEVSSRFKANPKTVFLI  109 (189)
+T ss_dssp             ---------------------------------------------------
+T ss_pred             CCCCCEEEEEcCCCeEEEEECCeeccCCCHHHHHHHHHHHHHHCCCCeEEE
+
+
+No 22
+>4QGE_B Phosphodiesterase 9A; PDE9 catalytic domain, HYDROLASE-HYDROLASE INHIBITOR complex; HET: 35O; 2.0A {Pan troglodytes} SCOP: a.211.1.2
+Probab=40.96  E-value=1.4e+02  Score=27.78  Aligned_cols=52  Identities=12%  Similarity=0.193  Sum_probs=0.0  Template_Neff=8.600
+
+Q ss_pred             CCCceEEEecCCCccEEEeCCcccCCHHHHHHHHHHHHcCCCCCeeEecccccce
+Q alr4939          25 PSRHYWVMVNGDKNLTVALPGLMVSTMSELRQAIREFRALQPGDKMTLVRIASAC   79 (146)
+Q Consensus        25 P~R~YWi~VNGd~~~~v~iPGL~v~s~~e~kq~i~~FR~Lqpge~m~l~r~~~~~   79 (146)
+                      ..+..++.||| +...|.|+-  ..|.+|+|+.|+.-=.+.++..++|.+..+..
+T Consensus         9 ~~~~iy~~v~~-~~~~i~~~~--~~s~~~v~~~l~~a~~~~~~~vlKLrn~~G~L   60 (533)
+T 4QGE_B            9 RPKAIYLDIDG-RIQKVIFSK--YCNSSDIMDLFCIATGLPRNTTISLLTTDDAM   60 (533)
+T ss_dssp             -------------------------------------------------------
+T ss_pred             CCceEEEEECC-eEEEEEEcC--CCChHHHHHHHHHHhCCCccceeEeecCCCCe
+
+
+No 23
+>9N4Z_VG Flagellar motor switch protein FliN; C-ring, Bacterial, Chemotaxis, C ring, Flagellar Motor complex, switch complex, FliG, FliM, FliN, FliF, MOTOR PROTEIN; 3.0A {Salmonella enterica subsp. enterica serovar Typhimurium}
+Probab=40.44  E-value=69  Score=24.97  Aligned_cols=26  Identities=23%  Similarity=0.322  Sum_probs=0.0  Template_Neff=7.400
+
+Q ss_pred             HHHHHcCCCCCeeEecccc-cceEEEE
+Q alr4939          58 IREFRALQPGDKMTLVRIA-SACTLHC   83 (146)
+Q Consensus        58 i~~FR~Lqpge~m~l~r~~-~~~~IhC   83 (146)
+                      ++++.+|+||+.+.|.+.. ....|++
+T Consensus        75 l~dl~~L~~Gdvi~L~~~~~~~v~l~v  101 (137)
+T 9N4Z_VG          75 IKELLRLTQGSVVALDGLAGEPLDILI  101 (137)
+T ss_pred             HHHHhcCCCCCEEEeCCCCCCCEEEEE
+
+
+No 24
+>9O40_F Tol-Pal system protein TolR; Molecular motor Multi-pass membrane protein Accumulates at cell constriction sites., MEMBRANE PROTEIN; 2.92A {Escherichia coli}
+Probab=39.97  E-value=2e+02  Score=20.87  Aligned_cols=49  Identities=12%  Similarity=0.077  Sum_probs=0.0  Template_Neff=9.800
+
+Q ss_pred             CCCCceEEEecCCCccEEEeCCcccC--CHHHHHHHHHHHHcCCCCCeeEe
+Q alr4939          24 DPSRHYWVMVNGDKNLTVALPGLMVS--TMSELRQAIREFRALQPGDKMTL   72 (146)
+Q Consensus        24 DP~R~YWi~VNGd~~~~v~iPGL~v~--s~~e~kq~i~~FR~Lqpge~m~l   72 (146)
+                      +.....+|.|..+....+.+.|-...  +.+++.+.+++++.-.+...+.|
+T Consensus        59 ~~~~~i~i~i~~~g~~~~~~~~~~~~~~~~~~l~~~l~~~~~~~~~~~v~i  109 (142)
+T 9O40_F           59 NDNPPVIVEVSGIGQYTVVVEKDRLERLPPEQVVAEVSSRFKANPKTVFLI  109 (142)
+T ss_dssp             ---------------------------------------------------
+T ss_pred             CCCCCEEEEEcCCCeEEEEECCccccCCCHHHHHHHHHHHHHhCCCCcEEE
+
+
+No 25
+>4DBF_A 2-HYDROXYHEPTA-2,4-DIENE-1,7-DIOATE ISOMERASE; oxaloacetate decarboxylase, ISOMERASE; 1.9A {Corynebacterium glutamicum}
+Probab=39.24  E-value=57  Score=27.10  Aligned_cols=47  Identities=19%  Similarity=0.230  Sum_probs=0.0  Template_Neff=9.300
+
+Q ss_pred             EEEecC--CCccEEEeCCcccCCHHHHHHHHHHHHcCCCCCeeEeccccc
+Q alr4939          30 WVMVNG--DKNLTVALPGLMVSTMSELRQAIREFRALQPGDKMTLVRIAS   77 (146)
+Q Consensus        30 Wi~VNG--d~~~~v~iPGL~v~s~~e~kq~i~~FR~Lqpge~m~l~r~~~   77 (146)
+                      ++.+||  +.........+.. ++.++-..+.++..|+|||-+......+
+T Consensus       213 ~v~~ng~~~~~~~~~~~~~~~-~~~~~i~~ls~~~~L~~Gdvi~tGt~~~  261 (288)
+T 4DBF_A          213 RLTHDGETQLKQDSNSNQMIM-KMGEIIEFITASMTLLPGDVIATGSPAG  261 (288)
+T ss_dssp             EEEETTEEEEEEEEEGGGBSS-CHHHHHHHHHTTSCBCTTCEEECCCCSC
+T ss_pred             EEEECCceEEEEEecHHHcCC-CHHHHHHHHHhcCCcCCCCEEECCCCCC
+
+
+No 26
+>3R6O_A 2-hydroxyhepta-2,4-diene-1, 7-dioateisomerase; SSGCID, 2-hydroxyhepta-2, 4-diene-1, 7-dioateisomerase, structural genomics, seattle structural genomics center for infectious disease, ISOMERASE; 1.95A {Mycobacterium abscessus}
+Probab=39.13  E-value=88  Score=26.54  Aligned_cols=71  Identities=11%  Similarity=0.114  Sum_probs=0.0  Template_Neff=9.300
+
+Q ss_pred             CCCccccccccccCCCChhhcCCCCCC-ceEEEecCCCccEEEeCCcccCCHHHHHHHHHHHHcCCCCCeeEeccccc
+Q alr4939           1 MEALFCLSPRYRLDDESPWLEGIDPSR-HYWVMVNGDKNLTVALPGLMVSTMSELRQAIREFRALQPGDKMTLVRIAS   77 (146)
+Q Consensus         1 M~~~f~LaPRYRLDDespWL~GIDP~R-~YWi~VNGd~~~~v~iPGL~v~s~~e~kq~i~~FR~Lqpge~m~l~r~~~   77 (146)
+                      .....++.|--...|+.+     |+.. ..++.|||+....-..-.+. -++.++-..+.++..|+|||-+......+
+T Consensus       216 ~d~~~~~Gp~iv~~d~~~-----d~~~l~i~~~vng~~~~~~~t~~~~-~~~~~~i~~ls~~~tL~pGdvi~tGt~~g  287 (329)
+T 3R6O_A          216 YPTFCPTGPWLFTTGSDT-----TFETFDFELRINGELRQSGSTVDMT-LGFAEVVETVSATIALRAGDIILTGTPGG  287 (329)
+T ss_dssp             STTSEEBCSCEEECTTCS-----SCCCCEEEEEETTEEEEEEEGGGCS-SCHHHHHHHHHTTSCBCTTCEEECCCCSC
+T ss_pred             CCCccCccceEeccccCC-----ChhhCeEEEEECCEEcceeeHHHcc-cCHHHHHHHHhCCCCcCCCCEEECCCCCC
+
+
+No 27
+>1HYO_B FUMARYLACETOACETATE HYDROLASE; beta-sandwich roll, HYDROLASE; HET: HBU; 1.3A {Mus musculus} SCOP: d.177.1.1, b.34.8.1, l.1.1.1
+Probab=36.56  E-value=76  Score=28.13  Aligned_cols=67  Identities=19%  Similarity=0.148  Sum_probs=0.0  Template_Neff=9.000
+
+Q ss_pred             CChhhcCCCC---CCceEEEecCCC-----ccEEEeCCcccCCHHHHHHHHH-HHHcCCCCCeeEecccccceEEE
+Q alr4939          16 ESPWLEGIDP---SRHYWVMVNGDK-----NLTVALPGLMVSTMSELRQAIR-EFRALQPGDKMTLVRIASACTLH   82 (146)
+Q Consensus        16 espWL~GIDP---~R~YWi~VNGd~-----~~~v~iPGL~v~s~~e~kq~i~-~FR~Lqpge~m~l~r~~~~~~Ih   82 (146)
+                      ..|||..=||   .-+-.+.|||+.     ...-..-|=..-++.++-..+. ++..|+|||-+......+...+.
+T Consensus       285 ~~~~~~~~~~~~~~~~~~~~vng~~~~~~~~~~~~~~~~~~~~~~~li~~~s~~~~~L~~Gdvi~tGt~~g~~~~~  360 (421)
+T 1HYO_B          285 PLPYLCHSQPYTFDINLSVSLKGEGMSQAATICRSNFKHMYWTMLQQLTHHSVNGCNLRPGDLLASGTISGSDPES  360 (421)
+T ss_dssp             CCGGGCCCSCCEECCEEEEEEECTTCSSCEEEEEEEGGGCSSCHHHHHHHHHTTSCCCCTTCEEECCCCCCSSGGG
+T ss_pred             CccccCCCCCCeeeEEEEEEECCCcccCCeEEeccchhhhhchHHHHHHHHHhCCCccCCCCEEEeCcCCCCCccc
+
+
+No 28
+>6J5X_A Predicted 2-keto-4-pentenoate hydratase/2-oxohepta-3-ene-1,7-dioic acid hydratase; hydrolase; HET: SO4; 1.79A {Corynebacterium glutamicum}
+Probab=36.21  E-value=84  Score=25.52  Aligned_cols=60  Identities=17%  Similarity=0.278  Sum_probs=0.0  Template_Neff=10.000
+
+Q ss_pred             ChhhcC---CCCCCceEEEecCCCccEEEeCCcccCCHHHHHHHHHHHHcCCCCCeeEeccccc
+Q alr4939          17 SPWLEG---IDPSRHYWVMVNGDKNLTVALPGLMVSTMSELRQAIREFRALQPGDKMTLVRIAS   77 (146)
+Q Consensus        17 spWL~G---IDP~R~YWi~VNGd~~~~v~iPGL~v~s~~e~kq~i~~FR~Lqpge~m~l~r~~~   77 (146)
+                      .||+.-   +|+..-..+.|||+....-....+. -++.++-..+.++..|+||+-+......+
+T Consensus       183 Gp~i~~~~~~~~~~~~~~~~ng~~~~~~~~~~~~-~~~~~~i~~ls~~~~L~~Gdvi~tGt~~~  245 (287)
+T 6J5X_A          183 GPWMTTPDSFEFGGELATYLEGEKVQSTPTNDLV-FSPEKLIEYITHIYPLDAGDVIVTGTPGG  245 (287)
+T ss_dssp             EEEEECGGGCCTTSEEEEEETTEEEEEEETTCBS-SCHHHHHHHHHTTSCBCTTCEEECCCCSC
+T ss_pred             cCcccCccccCCCCCEEEEECCEEEEeeeHHHcC-CCHHHHHHHHhcCCccCCCCEEECCCCCC
+
+
+No 29
+>1EYQ_B CHALCONE-FLAVONONE ISOMERASE 1; chalcone isomerase, flavonoid, ISOMERASE; HET: SO4, NAR; 1.85A {Medicago sativa} SCOP: d.36.1.1
+Probab=36.16  E-value=2.2e+02  Score=23.07  Aligned_cols=56  Identities=11%  Similarity=0.244  Sum_probs=0.0  Template_Neff=8.900
+
+Q ss_pred             HHHHHHHHHHH--cCCCCCeeEecccc-cceEEEEEcCCeEEEeEecCCceeeeecCHHHHHHHH
+Q alr4939          52 SELRQAIREFR--ALQPGDKMTLVRIA-SACTLHCVGINCYAIEATINNAPVWHLFDQETLDSLL  113 (146)
+Q Consensus        52 ~e~kq~i~~FR--~Lqpge~m~l~r~~-~~~~IhCis~NCYAI~~~v~gapvWHLFD~EtLESLL  113 (146)
+                      +++++.+..|.  .+++|++|++.... +...|+      +.=++.++|.++..+-|.+--.+++
+T Consensus       130 ~~l~~f~~~~~~~~l~~Gd~l~~~~~~~~~~~v~------~~~~~~~~g~~~~~i~~~~l~~ai~  188 (222)
+T 1EYQ_B          130 EAMQKFAEAFKPVNFPPGASVFYRQSPDGILGLS------FSPDTSIPEKEAALIENKAVSSAVL  188 (222)
+T ss_dssp             HHHHHHHHHHTTCEECTTCEEEEEEETTTEEEEE------EESSSSCCSSCSEEEECHHHHHHHH
+T ss_pred             HHHHHHHHhcCCCCCCCCCEEEEEECCCCeEEEE------EcCCCCCCcceeeeecCHHHHHHHH
+
+
+No 30
+>6NIB_A Porphyromonas-type peptidyl-arginine deiminase; Polyamine metabolism, Putrescine biosynthesis, HYDROLASE; HET: GOL, PEG; 1.2A {Medicago truncatula} SCOP: d.126.1.6
+Probab=34.40  E-value=93  Score=27.09  Aligned_cols=71  Identities=23%  Similarity=0.366  Sum_probs=0.0  Template_Neff=9.000
+
+Q ss_pred             CCChhhcCCCCCCce--EEEecCCCccEEEeCCcccCCHHHHHHHHHHHHcCCCCCeeEecc-cc----cceEEEEEcCC
+Q alr4939          15 DESPWLEGIDPSRHY--WVMVNGDKNLTVALPGLMVSTMSELRQAIREFRALQPGDKMTLVR-IA----SACTLHCVGIN   87 (146)
+Q Consensus        15 DespWL~GIDP~R~Y--Wi~VNGd~~~~v~iPGL~v~s~~e~kq~i~~FR~Lqpge~m~l~r-~~----~~~~IhCis~N   87 (146)
+                      |+.++-.|....+.|  .|.+|+    .|.+|.......+  +++...+|++-||=++.--. ..    ....|||++..
+T Consensus       290 ~~~~~~~~~~~~~sY~N~l~~n~----~v~~P~y~~~~~d--~~a~~~~~~~~pg~~Vi~i~~~~~l~~~gG~lhC~T~~  363 (367)
+T 6NIB_A          290 GAKPRLPGTRLAASYVNFYIANG----AIIAPQFGDKKWD--DEAIRVLSKTFPHHEVVGIEGSREIVLSGGNIHCITQQ  363 (367)
+T ss_dssp             ---CCCTTCBCCCCTTCCEEETT----EEEEECCSCHHHH--HHHHHHHHHHSTTSEEEEETTTHHHHTTTCCHHHHEEE
+T ss_pred             CCCCCCCCCeeeehhccEEEECC----EEEecccCChhhc--HHHHHHHHHHCCCCEEEEcccchHHHHcCCcchhhccc
+
+
+Q ss_pred             eEEE
+Q alr4939          88 CYAI   91 (146)
+Q Consensus        88 CYAI   91 (146)
+                      .-++
+T Consensus       364 iP~~  367 (367)
+T 6NIB_A          364 QPAI  367 (367)
+T ss_dssp             EECC
+T ss_pred             cCCC
+
+
+No 31
+>1JDQ_A HYPOTHETICAL PROTEIN TM0983; TM006, Thermotoga maritima, STRUCTURAL GENOMICS; NMR {Thermotoga maritima} SCOP: d.68.3.3, l.1.1.1
+Probab=32.38  E-value=1.9e+02  Score=20.11  Aligned_cols=37  Identities=14%  Similarity=0.213  Sum_probs=0.0  Template_Neff=9.200
+
+Q ss_pred             cCCCccEEEeCCcccCCHHHHHHHHHHHHcCCCCCeeEe
+Q alr4939          34 NGDKNLTVALPGLMVSTMSELRQAIREFRALQPGDKMTL   72 (146)
+Q Consensus        34 NGd~~~~v~iPGL~v~s~~e~kq~i~~FR~Lqpge~m~l   72 (146)
+                      .......+.+-|+  ....-+..+.+.|+.+.+|+.+.+
+T Consensus        22 ~~~~~~~lD~rg~--~~p~~~~~v~~~l~~l~~g~~l~i   58 (98)
+T 1JDQ_A           22 KYQVTKTLDVRGE--VCPVPDVETKRALQNMKPGEILEV   58 (98)
+T ss_dssp             CCCCCEEEECSSC--CSSHHHHHHHHHHHTCCTTCEEEE
+T ss_pred             cCCCCEEEECCCC--CCCHHHHHHHHHHhcCCCCCEEEE
+
+
+No 32
+>6JVV_B maleylpyruvate hydrolase; hydrolase; HET: GOL; 1.51A {Sphingobium sp. (strain NBRC 103272 / SYK-6)}
+Probab=30.62  E-value=1.3e+02  Score=25.28  Aligned_cols=49  Identities=18%  Similarity=0.192  Sum_probs=0.0  Template_Neff=9.300
+
+Q ss_pred             ceEEEecCCCccEEEeCCcccCCHHHHHHHHHHHHcCCCCCeeEeccccc
+Q alr4939          28 HYWVMVNGDKNLTVALPGLMVSTMSELRQAIREFRALQPGDKMTLVRIAS   77 (146)
+Q Consensus        28 ~YWi~VNGd~~~~v~iPGL~v~s~~e~kq~i~~FR~Lqpge~m~l~r~~~   77 (146)
+                      +-++.|||+....-....+. -++.++-..+.++..|+|||-+......+
+T Consensus       201 ~~~~~vng~~~~~~~~~~~~-~~~~~~i~~ls~~~~L~~Gdvi~tGt~~g  249 (303)
+T 6JVV_B          201 DMKLWVNDDLRQKANTRDLV-LDIPGMIATASAVMTLQPGDIIATGTPEG  249 (303)
+T ss_dssp             EEEEEETTEEEEEEEGGGBS-SCHHHHHHHHHHHSCBCTTCEEECCCCSC
+T ss_pred             EEEEEECCEEceeeehhHhC-CCHHHHHHHHHhcCCcCCCCEEEcCCCCC
+
+
+No 33
+>3QO6_A Protease Do-like 1, chloroplastic; protease, HtrA, pH-sensor, hydrolase, PHOTOSYNTHESIS; 2.5A {Arabidopsis thaliana}
+Probab=30.20  E-value=1.7e+02  Score=24.17  Aligned_cols=40  Identities=20%  Similarity=0.297  Sum_probs=0.0  Template_Neff=10.500
+
+Q ss_pred             EEecCC--------CccEEEeCCcccCCHHHHHHHHHHHHcCCCCCeeEec
+Q alr4939          31 VMVNGD--------KNLTVALPGLMVSTMSELRQAIREFRALQPGDKMTLV   73 (146)
+Q Consensus        31 i~VNGd--------~~~~v~iPGL~v~s~~e~kq~i~~FR~Lqpge~m~l~   73 (146)
+                      +..++.        ....+.|-|-.+.+++++.+++.   .+++|+++++.
+T Consensus       269 ~~~~~~~~~~~~~~gd~i~~~~~~~~~~~~~~~~~~~---~~~~~~~~~~~  316 (348)
+T 3QO6_A          269 LQSTKRDGYGRLVLGDIITSVNGTKVSNGSDLYRILD---QCKVGDEVTVE  316 (348)
+T ss_dssp             CCCCEECSSSCEECCCEECEETTBCCSSSHHHHHHHT---TCCTTCEEEEE
+T ss_pred             CccCCCCCCCcccCCCEEEEECCEEeCCHHHHHHHHh---hCCCCCEEEEE
+
+
+No 34
+>6SBJ_A Acylpyruvase FAHD1, mitochondrial; HYDROLASE; 2.22A {Mus musculus} SCOP: d.177.1.1
+Probab=29.67  E-value=1.4e+02  Score=23.85  Aligned_cols=51  Identities=14%  Similarity=0.253  Sum_probs=0.0  Template_Neff=10.200
+
+Q ss_pred             EEEecCCCccEEEeCCcccCCHHHHHHHHHHHHcCCCCCeeEecccccceEE
+Q alr4939          30 WVMVNGDKNLTVALPGLMVSTMSELRQAIREFRALQPGDKMTLVRIASACTL   81 (146)
+Q Consensus        30 Wi~VNGd~~~~v~iPGL~v~s~~e~kq~i~~FR~Lqpge~m~l~r~~~~~~I   81 (146)
+                      .+.+||+.......-.+. .++.+.-..+.+++.|++||-+......+...+
+T Consensus       190 ~~~~ng~~~~~~~~~~~~-~~~~~~l~~ls~~~~l~~Gdvi~tG~~~~~~~~  240 (265)
+T 6SBJ_A          190 WLKVNGELRQEGKTSSMI-FSIPYIISYVSKIITLEEGDLILTGTPKGVGPI  240 (265)
+T ss_dssp             EEEETTEEEEEEEGGGBS-SCHHHHHHHHHHHSCBCTTCEEECCCCSCCEEC
+T ss_pred             EEEECCEEEEEEEccccC-CCHHHHHHHHHhcCCCCCCCEEEcCCCCCCCCC
+
+
+No 35
+>1YWL_A Hypothetical UPF0213 protein EF2693; Alpha and beta, Structural Genomics, Northeast Structural Genomics Consortium (NESG), Protein Structure Initiative (PSI), UNKNOWN FUNCTION; NMR {Enterococcus faecalis}
+Probab=29.59  E-value=78  Score=20.71  Aligned_cols=18  Identities=17%  Similarity=0.281  Sum_probs=0.0  Template_Neff=10.600
+
+Q ss_pred             cCHHHHHHHHhhcCCCCC
+Q alr4939         104 FDQETLDSLLMTAHPDWQ  121 (146)
+Q Consensus       104 FD~EtLESLLmTAHPDWq  121 (146)
+                      ++++..++|+.++.|+|+
+T Consensus        75 ~~~~~~~~li~~~~~~~~   92 (96)
+T 1YWL_A           75 LTRKQKEQYLKTFHLEHH   92 (96)
+T ss_dssp             SCHHHHHHHHHHHHHSCC
+T ss_pred             CCHHHHHHHHHhcCcccc
+
+
+No 36
+>2HD9_A UPF0310 protein PH1033; Pyrococcus horikoshii OT3, Structural Genomics, NPPSFA, National Project on Protein Structural and Functional Analyses, RIKEN Structural; HET: CIT; 1.35A {Pyrococcus horikoshii} SCOP: b.122.1.8
+Probab=29.56  E-value=53  Score=23.78  Aligned_cols=56  Identities=14%  Similarity=0.268  Sum_probs=0.0  Template_Neff=10.000
+
+Q ss_pred             ceEEEecCCCccEEEeCCcccCCHHHHHHHHHHHHcCCCCCeeEecccccc--------eEEEEEcC
+Q alr4939          28 HYWVMVNGDKNLTVALPGLMVSTMSELRQAIREFRALQPGDKMTLVRIASA--------CTLHCVGI   86 (146)
+Q Consensus        28 ~YWi~VNGd~~~~v~iPGL~v~s~~e~kq~i~~FR~Lqpge~m~l~r~~~~--------~~IhCis~   86 (146)
+                      +|||.+-......+.   +......--...-..++++++||.+-+-.....        ..|..+..
+T Consensus         2 ~~wi~~~~~~~~~~~---~~~~~~g~~~~~~~~~~~i~~GD~v~~y~~~~~~~~~~~~~~~i~g~~~   65 (145)
+T 2HD9_A            2 TYWICITNRENWEVI---KRHNVWGVPKKHKNTLSRVKPGDKLVIYVRQEKDKEGNLLEPKIVGIYE   65 (145)
+T ss_dssp             CEEEEEECHHHHHHH---HHHCEEEECGGGHHHHTTCCTTCEEEEEECCEECTTCCEECCEEEEEEE
+T ss_pred             eEEEEEeCHHHHHHH---HHhCccccCHHhcchHhhCCCCCEEEEEEccccCCCCCccCCEEEEEEE
+
+
+No 37
+>4RNZ_A Conserved hypothetical secreted protein; M23B metallopeptidase, metallopeptidase, peptidoglycan, Hydrolase; HET: GOL, PO4; 1.98A {Helicobacter pylori}
+Probab=29.04  E-value=44  Score=27.80  Aligned_cols=34  Identities=15%  Similarity=0.087  Sum_probs=0.0  Template_Neff=10.400
+
+Q ss_pred             CcccCCHHHHHHHHHHH-HcCCCCCeeEecccccc
+Q alr4939          45 GLMVSTMSELRQAIREF-RALQPGDKMTLVRIASA   78 (146)
+Q Consensus        45 GL~v~s~~e~kq~i~~F-R~Lqpge~m~l~r~~~~   78 (146)
+                      |+..+++.++.++...+ |.|+||+++.+....+.
+T Consensus        19 gi~~~~~~~i~~~~~~~~~~l~~G~~~~~~~~~~g   53 (371)
+T 4RNZ_A           19 HIPQKLYYNLSSQDKELSAEIQSNVTYYTLRDANN   53 (371)
+T ss_dssp             TCCTHHHHTSCHHHHHHHTTCCTTCEEEEEECTTC
+T ss_pred             CCCHHHHhcCChhHHHHHHHccCCCeEEEEECCCC
+
+
+No 38
+>3F42_A protein HP0035; Helicobacter pylori Unknown-function, Structural Genomics, PSI-2, Protein Structure Initiative, Midwest Center for Structural Genomics, MCSG, unknown; HET: EDO, MSE; 1.78A {Helicobacter pylori} SCOP: d.222.1.0, l.1.1.1
+Probab=26.94  E-value=3e+02  Score=18.83  Aligned_cols=63  Identities=11%  Similarity=0.161  Sum_probs=0.0  Template_Neff=9.600
+
+Q ss_pred             HHHHHHHHHHHHcCCCCCeeEecccccceEEEEEcCCeEEEeEecCCceeeeecCHHHHHHHHhhcC
+Q alr4939          51 MSELRQAIREFRALQPGDKMTLVRIASACTLHCVGINCYAIEATINNAPVWHLFDQETLDSLLMTAH  117 (146)
+Q Consensus        51 ~~e~kq~i~~FR~Lqpge~m~l~r~~~~~~IhCis~NCYAI~~~v~gapvWHLFD~EtLESLLmTAH  117 (146)
+                      ..++++.+.+++.--...+.+-....+..+|. ++.++--++-+++.... .  +.+.|+.+++.++
+T Consensus        12 ~~~~~~~~~~~~~~l~~~~~~~~s~~g~V~v~-~~g~g~i~~i~i~~~~~-~--~~~~L~~~i~~a~   74 (99)
+T 3F42_A           12 LDGMKKEFSQLEEKNKDTIHTSKSGGGMVSVS-FNGLGELVDLQIDDSLL-E--DKEAMQIYLMSAL   74 (99)
+T ss_dssp             HHHHHHHHHHHHHHHHTCEEEEEEGGGTEEEE-EETTSCEEEEEECGGGG-G--CHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHhhcCEEEEEeCCceEEEE-EeCCCcEEEEEECHHHc-C--CHHHHHHHHHHHH
+
+
+No 39
+>6MS8_G Chalcone-flavonone isomerase family protein; chalcone isomerase, naringenin, flavanone, PLANT PROTEIN, isomerase; HET: NAR; 1.9A {Medicago truncatula} SCOP: d.36.1.0
+Probab=26.73  E-value=5e+02  Score=21.27  Aligned_cols=56  Identities=11%  Similarity=0.226  Sum_probs=0.0  Template_Neff=8.700
+
+Q ss_pred             HHHHHHHHHHH--cCCCCCeeEecccccc---eEEEEEcCCeEEEeEecCCceeeeecCHHHHHHHH
+Q alr4939          52 SELRQAIREFR--ALQPGDKMTLVRIASA---CTLHCVGINCYAIEATINNAPVWHLFDQETLDSLL  113 (146)
+Q Consensus        52 ~e~kq~i~~FR--~Lqpge~m~l~r~~~~---~~IhCis~NCYAI~~~v~gapvWHLFD~EtLESLL  113 (146)
+                      +++++.+..|+  .+++|++|.+....+.   .+|.-..      .+.++|.++=.+-+++--++++
+T Consensus       131 ~~l~~~~~~~~~~~l~~Gd~l~~~~~~~~~~~~~i~~~~------~g~~n~~~~~~i~~~~l~~a~~  191 (224)
+T 6MS8_G          131 KAIDKFVSVFKDETFPPGSSILFTVSPKGLGSLTISFSK------DGSIPEVETAVIENKLLSQAVL  191 (224)
+T ss_dssp             HHHHHHHHHHTTCEECTTCEEEEEEEC---CEEEEEEES------SSSCCSSCSEEECCHHHHHHHH
+T ss_pred             HHHHHHHHhhcCCCCCCCCEEEEEECCCCcceEEEEEEe------CCCCCCeEEEEECCHHHHHHHH
+
+
+No 40
+>8IWI_A Iron-sulfur cluster assembly protein CyaY; CyaY, Escherichia coli, Frataxin, METAL BINDING PROTEIN; 1.3A {Escherichia coli}
+Probab=26.49  E-value=3.5e+02  Score=19.50  Aligned_cols=50  Identities=8%  Similarity=-0.028  Sum_probs=0.0  Template_Neff=8.500
+
+Q ss_pred             HHHHHHHHHHHcCCCCCeeEecccccceEEEEEcCCeEEEeEecCCceee
+Q alr4939          52 SELRQAIREFRALQPGDKMTLVRIASACTLHCVGINCYAIEATINNAPVW  101 (146)
+Q Consensus        52 ~e~kq~i~~FR~Lqpge~m~l~r~~~~~~IhCis~NCYAI~~~v~gapvW  101 (146)
+                      +.|.+....+-.+.++..+.+.+..+..+|.+-..++|-|......-.+|
+T Consensus        12 ~~l~~l~~~le~~~~~~d~d~~~~~~~l~i~~~~~~~~vin~q~~~~qiW   61 (106)
+T 8IWI_A           12 QLWLTIEERLDDWDGDSDIDCEINGGVLTITFENGSKIIINRQEPLHQVW   61 (106)
+T ss_pred             HHHHHHHHHHhccCCCCCeEEEEeCCEEEEEECCCcEEEEEeeCCCeEEE
+
+
+No 41
+>3JSZ_A Putative uncharacterized protein; glucosyltransferase, Legionnaire's disease, Legionella pneumophila, TRANSFERASE; HET: UPG, MSE; 1.7A {Legionella pneumophila}
+Probab=26.48  E-value=1.9e+02  Score=28.95  Aligned_cols=53  Identities=17%  Similarity=0.291  Sum_probs=0.0  Template_Neff=4.700
+
+Q ss_pred             cccccCCCChhhcCCCCCCceEEEecCCCccEEEeCCcccCCHHHHHHHHHHHHcCCCCCeeEe
+Q alr4939           9 PRYRLDDESPWLEGIDPSRHYWVMVNGDKNLTVALPGLMVSTMSELRQAIREFRALQPGDKMTL   72 (146)
+Q Consensus         9 PRYRLDDespWL~GIDP~R~YWi~VNGd~~~~v~iPGL~v~s~~e~kq~i~~FR~Lqpge~m~l   72 (146)
+                      |++.++.+.++  .|+|.+++.||+-++++.-+.         ++.++.|.+||.+-||-++.|
+T Consensus       118 ~g~~~~~~~~y--~iiPkihHfIWlG~nPd~flP---------~e~~~~Ii~wk~~NPdyei~L  170 (525)
+T 3JSZ_A          118 GGFKVRDSNEF--KFKTNVQTSIWFSIKPELFMP---------SKQQEALKRRREQYPGCKIRL  170 (525)
+T ss_dssp             TTEECCSSCCE--EEESSEEEEECCCSSTTCSSC---------HHHHHHHHHHHHHCTTCEEEE
+T ss_pred             CCcccCCCCCc--cCCCCeeEEEEecCChhhcCC---------HHHHHHHHHHHHHCCCCEEEE
+
+
+No 42
+>3OEQ_A Frataxin homolog, mitochondrial; ALPHA/BETA SANDWICH, METALLOCHAPERONE, IRON-STORAGE, TRANSPORT PROTEIN; 2.96A {Saccharomyces cerevisiae} SCOP: d.82.2.1
+Probab=25.94  E-value=4.1e+02  Score=20.00  Aligned_cols=51  Identities=18%  Similarity=0.300  Sum_probs=0.0  Template_Neff=8.100
+
+Q ss_pred             HHHHHHHHHHHHcCCCCCeeEecccccceEEEEEcCCeEEEeEecCCceee
+Q alr4939          51 MSELRQAIREFRALQPGDKMTLVRIASACTLHCVGINCYAIEATINNAPVW  101 (146)
+Q Consensus        51 ~~e~kq~i~~FR~Lqpge~m~l~r~~~~~~IhCis~NCYAI~~~v~gapvW  101 (146)
+                      ++.+.+.|..+-.-.++..+.+....+..+|.+...++|-|......-.+|
+T Consensus        30 l~~l~~~le~~~~~~~~~~~d~~~~~~vL~i~~~~~~~~vin~q~~~~qiW   80 (123)
+T 3OEQ_A           30 LDHLLDSLEELSEAHPDCIPDVELSHGVMTLEIPAFGTYVINKQPPNKQIW   80 (123)
+T ss_dssp             HHHHHHHHTTTSSSCSSCCCEEEECSSEEEEECTTTCCEEEECCCSSSCCE
+T ss_pred             HHHHHHHHHHHhhhCCCCCcEEEeeCCeEEEEeCCCeEEEEEccCCCeEEE
+
+
+No 43
+>4OI3_A Nickel responsive protein; nickel responsive protein, Structural Genomics, ferredoxin-like fold, a nickel responsive protein, nickel binding, METAL BINDING PROTEIN; HET: MSE; 1.3A {Streptomyces coelicolor}
+Probab=25.87  E-value=2.4e+02  Score=19.79  Aligned_cols=44  Identities=18%  Similarity=0.206  Sum_probs=0.0  Template_Neff=8.300
+
+Q ss_pred             EEeCCcccCCHHHHHHHHHHHHcCCCCCeeEecccc---cceEEEEE
+Q alr4939          41 VALPGLMVSTMSELRQAIREFRALQPGDKMTLVRIA---SACTLHCV   84 (146)
+Q Consensus        41 v~iPGL~v~s~~e~kq~i~~FR~Lqpge~m~l~r~~---~~~~IhCi   84 (146)
+                      +..+++-.-+.+++.+...+.++...+..++..+..   +..++.|+
+T Consensus        13 ~~~~~~~~~t~~~l~~~~~~~~~~~~~~~V~w~~s~~~~~~~~~~Cl   59 (89)
+T 4OI3_A           13 DVHRGMHGITSDQLHQAHQADLAVEKDENVHFEQAWADPASGTIYCL   59 (89)
+T ss_dssp             EEECCCTTCCHHHHHHHHHHHHHHHGGGTCEEEEEEEETTTTEEEEE
+T ss_pred             eecCCCCCCCHHHHHHHHHHHHHHhccCCeEEEEEEEECCCCEEEEE
+
+
+No 44
+>5JD6_A MGS-MChE2; alpha/beta hydrolase, esterase, metagenome, HYDROLASE; 2.463A {uncultured bacterium}
+Probab=25.65  E-value=2.4e+02  Score=19.57  Aligned_cols=42  Identities=19%  Similarity=0.343  Sum_probs=0.0  Template_Neff=13.500
+
+Q ss_pred             cCCCCCCceEEEecCCCccEEEeCCcccCCHHHHHHHHHHHHc
+Q alr4939          21 EGIDPSRHYWVMVNGDKNLTVALPGLMVSTMSELRQAIREFRA   63 (146)
+Q Consensus        21 ~GIDP~R~YWi~VNGd~~~~v~iPGL~v~s~~e~kq~i~~FR~   63 (146)
+                      .|+....+++..-+|.+...+.++|+ ..+...++..+..+..
+T Consensus         3 ~~~~~~~~~~~~~~~~~~~vv~~hG~-~~~~~~~~~~~~~l~~   44 (254)
+T 5JD6_A            3 DHLKQEGKFTYLEKGEGTPIVILHGL-MGGLSNFDGVIDYFPE   44 (254)
+T ss_dssp             CEEEEETTEEEEEECSSEEEEEECCS-SCCGGGGHHHHHHGGG
+T ss_pred             ccchhcCceeEeecCCCCcEEEECCC-CCchhhHHHHHHhccc
+
+
+No 45
+>5J3E_A Thymocyte nuclear protein 1; protein-DNA complex, modified DNA, 5-methylcytosine containing DNA, Structural Genomics Consortium, SGC, NUCLEAR PROTEIN-DNA complex; HET: 5CM; 2.6A {Homo sapiens}
+Probab=25.63  E-value=2.9e+02  Score=23.06  Aligned_cols=60  Identities=8%  Similarity=0.114  Sum_probs=0.0  Template_Neff=8.000
+
+Q ss_pred             CCceEEEecCCCccEEEeCCcccCCHHHHHHH---------------HHHHHcCCCCCeeEecccc-cceEEEEEcC
+Q alr4939          26 SRHYWVMVNGDKNLTVALPGLMVSTMSELRQA---------------IREFRALQPGDKMTLVRIA-SACTLHCVGI   86 (146)
+Q Consensus        26 ~R~YWi~VNGd~~~~v~iPGL~v~s~~e~kq~---------------i~~FR~Lqpge~m~l~r~~-~~~~IhCis~   86 (146)
+                      ..+||| +.++.......-+=..-+++++++.               ...+|.+++||.+-+-+.. ..--|..+..
+T Consensus        53 ~~~yWl-~~~nP~~~~~~g~~~~f~i~d~~~~~~~~~~W~~~~~~~~~~~~~~mk~GD~v~~y~sg~~~~GI~gl~~  128 (225)
+T 5J3E_A           53 LSSHWL-MKSEPESRLEKGVDVKFSIEDLKAQPKQTTCWDGVRNYQARNFLRAMKLGEEAFFYHSNCKEPGIAGLMK  128 (225)
+T ss_dssp             CCCEEE-EEECCSCCEETTEECCCCHHHHHHSGGGEEECCCCCCHHHHHHHHHCCTTCEEEEEECSSSSCEEEEEEE
+T ss_pred             ccceEE-EEeCccccccCCcccccCHHHHHhCCCccccccccchHHHHHHHHhCCCCCEEEEEEeCCCCCeEEEEEE
+
+
+No 46
+>2Z9I_B PROBABLE SERINE PROTEASE PEPD; SERINE PROTEASE, HtrA, Hydrolase; HET: MSE; 2.0A {Mycobacterium tuberculosis} SCOP: b.47.1.1, b.36.1.4
+Probab=25.60  E-value=2.4e+02  Score=23.03  Aligned_cols=34  Identities=18%  Similarity=0.297  Sum_probs=0.0  Template_Neff=10.500
+
+Q ss_pred             CccEEEeCCcccCCHHHHHHHHHHHHcCCCCCeeEec
+Q alr4939          37 KNLTVALPGLMVSTMSELRQAIREFRALQPGDKMTLV   73 (146)
+Q Consensus        37 ~~~~v~iPGL~v~s~~e~kq~i~~FR~Lqpge~m~l~   73 (146)
+                      ..+.+.|.|-.+.+.++|.+.+..   .+||++++|.
+T Consensus       263 gD~i~~i~~~~v~~~~~~~~~l~~---~~~g~~~~l~  296 (324)
+T 2Z9I_B          263 GVVVTKVDDRPINSADALVAAVRS---KAPGATVALT  296 (324)
+T ss_dssp             TCEECEETTEECCSHHHHHHHHHT---SCTTCEEECC
+T ss_pred             CCEEEEECCEEcCCHHHHHHHHhh---CCCCCEEEEE
+
+
+No 47
+>6W3F_A Rd1NTF2_05_I64F_A80G_T94P_D101K_L106W; NTF2-like, synthetic, BIOSYNTHETIC PROTEIN; 1.83A {synthetic construct}
+Probab=25.34  E-value=2.6e+02  Score=17.53  Aligned_cols=69  Identities=13%  Similarity=0.085  Sum_probs=0.0  Template_Neff=12.300
+
+Q ss_pred             CCccEEEeCCcccCCHHHHHHHHHHHHcCCCCCeeEecccc-cceEEEEEcCCeEEEeEecCCceeeeec
+Q alr4939          36 DKNLTVALPGLMVSTMSELRQAIREFRALQPGDKMTLVRIA-SACTLHCVGINCYAIEATINNAPVWHLF  104 (146)
+Q Consensus        36 d~~~~v~iPGL~v~s~~e~kq~i~~FR~Lqpge~m~l~r~~-~~~~IhCis~NCYAI~~~v~gapvWHLF  104 (146)
+                      .++..+..||......+++++.+.++....++-++++.... ....+.......+-..+..-..+..++|
+T Consensus        31 ~~d~~~~~~~~~~~g~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~g~~~~~~~~~~~  100 (115)
+T 6W3F_A           31 DPNVRADVGDKTVHGREHAAKFLAHIVKRADHISFTLKSLHNHNGRLRMQGEVRIVHNGRTERVPLEMVF  100 (115)
+T ss_dssp             EEEEEEEETTEEEESHHHHHHHHHHHGGGCSEEEEEEEEEEEETTEEEEEEEEEEEETTEEEEEEEEEEE
+T ss_pred             cccEEEEeCCeeEeCHHHHHHHHHHHHHhCCceeEEEEEEEEeCCEEEEEEEEEEEeCCEEEEeccEEEE
+
+
+No 48
+>1L4T_A Gastrin/cholecystokinin type B receptor; HORMONE/GROWTH FACTOR RECEPTOR, HORMONE-GROWTH FACTOR RECEPTOR complex; NMR {N/A} SCOP: j.82.1.1
+Probab=25.27  E-value=73  Score=18.35  Aligned_cols=14  Identities=29%  Similarity=0.584  Sum_probs=0.0  Template_Neff=7.500
+
+Q ss_pred             eeeecCHHHHHHHH
+Q alr4939         100 VWHLFDQETLDSLL  113 (146)
+Q Consensus       100 vWHLFD~EtLESLL  113 (146)
+                      .|.+||+++....+
+T Consensus         4 tw~~fd~~~~~~~l   17 (30)
+T 1L4T_A            4 TWRAFDGPGAHRAL   17 (30)
+T ss_dssp             HHHHHSCCCHHHHH
+T ss_pred             eeeeccchHHHHHc
+
+
+No 49
+>4HDE_A SCO1/SenC family lipoprotein; structural genomics, The Center for Structural Genomics of Infectious Diseases, CSGID, NIAID, National Institute of Allergy; HET: MSE; 1.317A {Bacillus anthracis} SCOP: c.47.1.0, l.1.1.1
+Probab=24.83  E-value=3e+02  Score=18.02  Aligned_cols=35  Identities=3%  Similarity=0.266  Sum_probs=0.0  Template_Neff=13.100
+
+Q ss_pred             eEEEecCCCccEEEeCCcccCCHHHHHHHHHHHHc
+Q alr4939          29 YWVMVNGDKNLTVALPGLMVSTMSELRQAIREFRA   63 (146)
+Q Consensus        29 YWi~VNGd~~~~v~iPGL~v~s~~e~kq~i~~FR~   63 (146)
+                      .++-|+.+..+.....|....+.+++++.|.+..+
+T Consensus       136 ~~~lid~~g~v~~~~~~~~~~~~~~~~~~l~~ll~  170 (170)
+T 4HDE_A          136 SFYLIDQNGKVMKKYSGISNTPYEDIIRDMKRLAE  170 (170)
+T ss_dssp             EEEEECTTSCEEEEEESSSSCCHHHHHHHHHHHHC
+T ss_pred             EEEEECCCCcEEEEeeCCCCCCHHHHHHHHHHHhC
+
+
+No 50
+>3TZG_A hypothetical protein BVU_2266; beta barrel, Structural Genomics, Joint Center for Structural Genomics, JCSG, Protein Structure Initiative, PSI-BIOLOGY, UNKNOWN FUNCTION; HET: MSE; 2.8A {Bacteroides vulgatus}
+Probab=24.30  E-value=51  Score=29.64  Aligned_cols=8  Identities=88%  Similarity=1.580  Sum_probs=0.0  Template_Neff=1.400
+
+Q ss_pred             cccCCCCh
+Q alr4939          11 YRLDDESP   18 (146)
+Q Consensus        11 YRLDDesp   18 (146)
+                      ||||||+|
+T Consensus       221 yrldde~p  228 (252)
+T 3TZG_A          221 YRLDDENP  228 (252)
+T ss_dssp             EEEETTEE
+T ss_pred             eecCCCCC
+
+
+No 51
+>2Q18_X 2-keto-3-deoxy-D-arabinonate dehydratase; FAH-family fold, Lyase; 2.1A {Sulfolobus solfataricus}
+Probab=24.21  E-value=1.4e+02  Score=24.47  Aligned_cols=65  Identities=14%  Similarity=0.136  Sum_probs=0.0  Template_Neff=9.800
+
+Q ss_pred             CCCccccccccccCCCChhhcCCCCCC-ceEEEe--cCCCccE-EEeCCcccCCHHHHHHHHHHHHcCCCCCee
+Q alr4939           1 MEALFCLSPRYRLDDESPWLEGIDPSR-HYWVMV--NGDKNLT-VALPGLMVSTMSELRQAIREFRALQPGDKM   70 (146)
+Q Consensus         1 M~~~f~LaPRYRLDDespWL~GIDP~R-~YWi~V--NGd~~~~-v~iPGL~v~s~~e~kq~i~~FR~Lqpge~m   70 (146)
+                      ....+++.|.....||.+     |+.. +-.+.|  ||+.... ..--+-...++.++-..+.++..|+||+-+
+T Consensus       184 ~d~~~~~Gp~~~~~~e~~-----~~~~l~i~~~v~~ng~~~~~~~~~~~~~~~~~~~~i~~ls~~~~L~~Gdvi  252 (293)
+T 2Q18_X          184 YAGCCAFGPVIVTSDEIK-----NPYSLDITLKIVREGRVFFEGSVNTNKMRRKIEEQIQYLIRDNPIPDGTIL  252 (293)
+T ss_dssp             STTCEEEEEEEECGGGCS-----CTTSCEEEEEEEETTEEEEEEEEEGGGBCSCHHHHHHHHHTTCCCCTTEEE
+T ss_pred             CCceeeeccEEEeHHHcC-----CcccceEEEEEEECCEEEEEeeccHHhcccCHHHHHHHHhcCCCCCCCCEE
+
+
+No 52
+>8SUT_A Fumarylacetoacetate hydrolase family protein; fumarylacetoacetate hydrolase, decarboxylase, elongasome, HYDROLASE; HET: IO9; 1.93A {Bacillus subtilis}
+Probab=24.00  E-value=1.2e+02  Score=25.19  Aligned_cols=47  Identities=17%  Similarity=0.215  Sum_probs=0.0  Template_Neff=9.700
+
+Q ss_pred             EEEecCCCccEEEeCCcccCCHHHHHHHHHHHHcCCCCCeeEeccccc
+Q alr4939          30 WVMVNGDKNLTVALPGLMVSTMSELRQAIREFRALQPGDKMTLVRIAS   77 (146)
+Q Consensus        30 Wi~VNGd~~~~v~iPGL~v~s~~e~kq~i~~FR~Lqpge~m~l~r~~~   77 (146)
+                      ++.|||+....-..-.+. -++.++-..+.++..|+|||-+......+
+T Consensus       226 ~~~vng~~~~~~~~~~~~-~~~~~~v~~ls~~~~L~pGdvi~tGt~~~  272 (312)
+T 8SUT_A          226 ETRVNGELRQSGSASDMI-FSIPELIETLSKGMTLEAGDIIATGTPSG  272 (312)
+T ss_dssp             EEEETTEEEEEEEGGGBS-SCHHHHHHHHHSSSCBCTTCEEECCCCSC
+T ss_pred             EEEECCEEEeeeeHHHhC-CCHHHHHHHHhCCCCCCCCCEEECCCCCC
+
+
+No 53
+>1JFU_B THIOL:DISULFIDE INTERCHANGE PROTEIN TLPA; THIOREDOXIN-LIKE, DOUBLE DISULFIDE BRIDGE, MEMBRANE PROTEIN; 1.6A {Bradyrhizobium japonicum} SCOP: c.47.1.10
+Probab=23.93  E-value=3.4e+02  Score=18.41  Aligned_cols=35  Identities=14%  Similarity=0.074  Sum_probs=0.0  Template_Neff=12.700
+
+Q ss_pred             eEEEecCCCccEEEeCCcccCCHHHHHHHHHHHHc
+Q alr4939          29 YWVMVNGDKNLTVALPGLMVSTMSELRQAIREFRA   63 (146)
+Q Consensus        29 YWi~VNGd~~~~v~iPGL~v~s~~e~kq~i~~FR~   63 (146)
+                      +.+.||.+..+.....|....+.+++.+.|.+..+
+T Consensus       146 ~~~lid~~g~v~~~~~~~~~~~~~~l~~~l~~~~~  180 (186)
+T 1JFU_B          146 TSVLVDPQGCEIATIAGPAEWASEDALKLIRAATG  180 (186)
+T ss_dssp             EEEEECTTSBEEEEEESCCCTTSHHHHHHHHHHHC
+T ss_pred             EEEEECCCCcEEEEEcCCCccChHHHHHHHHHHhc
+
+
+No 54
+>3GL3_C Putative Thiol:disulfide interchange protein DsbE; Oxidoreductase, PSI-II, 11210h, Thiol:disulfide interchange protein DsbE, putative, Chlorobium tepidum, Structural Genomics, Protein Structure Initiative, New; HET: MSE; 2.09A {Chlorobium tepidum TLS} SCOP: c.47.1.0
+Probab=23.88  E-value=3.1e+02  Score=18.00  Aligned_cols=35  Identities=11%  Similarity=0.116  Sum_probs=0.0  Template_Neff=12.500
+
+Q ss_pred             eEEEecCCCccEEEeCCcccCCHHHHHHHHHHHHc
+Q alr4939          29 YWVMVNGDKNLTVALPGLMVSTMSELRQAIREFRA   63 (146)
+Q Consensus        29 YWi~VNGd~~~~v~iPGL~v~s~~e~kq~i~~FR~   63 (146)
+                      +.+.++.+..+.....|....+.+++.+.|.+.+.
+T Consensus       108 ~~~lid~~g~i~~~~~~~~~~~~~~~~~~l~~~~~  142 (152)
+T 3GL3_C          108 TSFLIDRNGKVLLQHVGFRPADKEALEQQILAALG  142 (152)
+T ss_dssp             EEEEECTTSBEEEEEECCCHHHHHHHHHHHHHHC-
+T ss_pred             EEEEECCCCcEEEeecCCChhhHHHHHHHHHHHhc
+
+
+No 55
+>5JNE_E E3 SUMO-protein ligase SIZ1,Ubiquitin-like protein SMT3; ubiquitin, ubiquitin-like, SUMO, E3 ligase, substrate complex, E2 conjugating enzyme, ligase-signaling protein complex, SIZ, PIAS; HET: GOL; 2.85A {Saccharomyces cerevisiae}
+Probab=23.80  E-value=2.1e+02  Score=24.80  Aligned_cols=70  Identities=17%  Similarity=0.239  Sum_probs=0.0  Template_Neff=9.300
+
+Q ss_pred             CHHHHHHHHHHHHcCCCCCeeEecccccceEEEEEcCCeEEEeEecCCceeeee--cCHHHHHHHHhhcCCCCCCC
+Q alr4939          50 TMSELRQAIREFRALQPGDKMTLVRIASACTLHCVGINCYAIEATINNAPVWHL--FDQETLDSLLMTAHPDWQCA  123 (146)
+Q Consensus        50 s~~e~kq~i~~FR~Lqpge~m~l~r~~~~~~IhCis~NCYAI~~~v~gapvWHL--FD~EtLESLLmTAHPDWqCa  123 (146)
+                      +.++.++.|++  .+..++.-.+........+.|+-+-+ .|...+.|...=|+  ||-++.=.+... ++.|.|.
+T Consensus       166 ~~~~~~~~i~~--~~~~~~d~~i~~~~~~vsl~cp~s~~-ri~~P~r~~~C~H~~cfdl~~~l~~~~~-~~~w~CP  237 (367)
+T 5JNE_E          166 IKQATLLYLKK--TLREDEEMGLTTTSTIMSLQDPISYT-RMKYPSKSINCKHLQCFDALWFLHSQLQ-IPTWQCP  237 (367)
+T ss_dssp             CHHHHHHHHHH--HHHHHHHHTCEEEEEEEECBCTTTCS-BCSSEEEETTCCSSCCEEHHHHHHHHHH-SCCCBCT
+T ss_pred             CHHHHHHHHHH--HhccCcccCceeccceeeccCcccCc-eecccccCCCCCCHHHccHHHHHHhccc-CCCccCC
+
+
+No 56
+>2WFP_A MANNOSE-6-PHOSPHATE ISOMERASE; ISOMERASE, APO-STRUCTURE, METAL-BINDING; HET: EDO; 1.67A {SALMONELLA TYPHIMURIUM}
+Probab=23.25  E-value=2.3e+02  Score=24.62  Aligned_cols=70  Identities=24%  Similarity=0.196  Sum_probs=0.0  Template_Neff=9.500
+
+Q ss_pred             CcccCCHHHHHHHHHHHHc------------------------------------CCCCCeeEecccccceEEEEEcCCe
+Q alr4939          45 GLMVSTMSELRQAIREFRA------------------------------------LQPGDKMTLVRIASACTLHCVGINC   88 (146)
+Q Consensus        45 GL~v~s~~e~kq~i~~FR~------------------------------------Lqpge~m~l~r~~~~~~IhCis~NC   88 (146)
+                      ||...+.+++++.+.+++.                                    ++|||.+.++    ..++|++....
+T Consensus       189 ~l~~~~~~~~~~~~~~l~~~~~~~~~~~~~~~~~l~~~~p~D~g~~~~~~ln~~~l~~G~~i~ip----aG~~Ha~~~G~  264 (394)
+T 2WFP_A          189 SLLNMQGEEKSRALAVLKAALNSQQGEPWQTIRVISEYYPDDSGLFSPLLLNVVKLNPGEAMFLF----AETPHAYLQGV  264 (394)
+T ss_dssp             HHHTCCHHHHHHHHHHHHHHHHHCCSTTHHHHHHHHHHCTTCGGGGHHHHEEEEEECTTCEEEEC----TTCCEEEEEEE
+T ss_pred             HHHcCCHHHHHHHHHHHHHHHhcCCCChHHHHHHHHHHCCCCceecchHhccceecCCCCeEEeC----CCCchhHHcCC
+
+
+Q ss_pred             EEEeEecCCceeeeecCHHHHHHHHhhcCCCCCCCHHHHHHHHHHH
+Q alr4939          89 YAIEATINNAPVWHLFDQETLDSLLMTAHPDWQCAPSDVELGRKML  134 (146)
+Q Consensus        89 YAI~~~v~gapvWHLFD~EtLESLLmTAHPDWqCap~dieLGR~~L  134 (146)
+                       ++|...+.--++.+               +....+.|++...+.+
+T Consensus       265 -~~Ei~~~sd~t~r~---------------~~~~r~~~~~~~l~~~  294 (394)
+T 2WFP_A          265 -ALEVMANSDNVLRA---------------GLTPKYIDIPELVANV  294 (394)
+T ss_dssp             -EEEEECSSCBCEEC---------------SSCSSCCCHHHHHHTC
+T ss_pred             -cEEEeccccceeec---------------CCCCccCCHHHHHHhC
+
+
+No 57
+>9L6B_A UPF0225 protein YchJ -A; DNA binding, DNA BINDING PROTEIN; 2.3A {Salmonella enterica subsp. enterica serovar Typhimurium str. 14028S}
+Probab=23.23  E-value=88  Score=17.09  Aligned_cols=20  Identities=30%  Similarity=0.424  Sum_probs=0.0  Template_Neff=12.200
+
+Q ss_pred             cCHHHHHHHHhhcCCCCCCC
+Q alr4939         104 FDQETLDSLLMTAHPDWQCA  123 (146)
+Q Consensus       104 FD~EtLESLLmTAHPDWqCa  123 (146)
+                      |....+++|+.|-||.++.+
+T Consensus        41 ~~~~~~~~~~~~~~~~~~~~   60 (60)
+T 9L6B_A           41 FVMKDADYLIKSWHPTCNAA   60 (60)
+T ss_dssp             HHTTCHHHHHHHBCGGGCCC
+T ss_pred             HHhhhHHHHHHHcCcccCCC
+
+
+No 58
+>7BUP_A Proliferating cell nuclear antigen; DNA polymerase processivity factor activity, DNA replication, DNA repair, cell cycle control, DNA BINDING PROTEIN; 2.7A {Candida albicans SC5314} SCOP: d.131.1.0
+Probab=23.07  E-value=5e+02  Score=20.01  Aligned_cols=104  Identities=12%  Similarity=0.141  Sum_probs=0.0  Template_Neff=11.300
+
+Q ss_pred             ccCC--CChhhcCCCCC----CceEEEecCCCccEEEeCCcccC-----CHHHHHHHHHHHHcCCCCCeeEecccccceE
+Q alr4939          12 RLDD--ESPWLEGIDPS----RHYWVMVNGDKNLTVALPGLMVS-----TMSELRQAIREFRALQPGDKMTLVRIASACT   80 (146)
+Q Consensus        12 RLDD--espWL~GIDP~----R~YWi~VNGd~~~~v~iPGL~v~-----s~~e~kq~i~~FR~Lqpge~m~l~r~~~~~~   80 (146)
+                      .+++  ..-.+..-++.    +.|.+..-......+.+|.....     +.++|+++|+.+..+  ++.+++.-..+...
+T Consensus        91 ~~~~~~~~l~i~~~~~~~~~~~~~~~~~~~~~~~~~~~p~~~~~~~~~i~~~~l~~~i~~~~~~--~~~v~l~~~~~~l~  168 (267)
+T 7BUP_A           91 LAEDSPDQIMAILEEKQKEKISEYSLKLMDIDSEFLQIDDMEYDAVVNMPSSDFAKLVRDLKNL--SESLRVVVTKDSVK  168 (267)
+T ss_dssp             EECSSCSEEEEEEECTTSSEEEEEEEECCCCCC-------CCCSEEEEEEHHHHHHHHHHHHTT--CSEEEEEECSSCEE
+T ss_pred             EEcCCCCEEEEEEEeCCCCeEEEEEEEEecCCccccCCCcccccEEEEEeHHHHHHHHHHHHhc--CCcEEEEEeCCEEE
+
+
+Q ss_pred             EEEEcCCeEEEeEecC---------------CceeeeecCHHHHHHHHhhcC
+Q alr4939          81 LHCVGINCYAIEATIN---------------NAPVWHLFDQETLDSLLMTAH  117 (146)
+Q Consensus        81 IhCis~NCYAI~~~v~---------------gapvWHLFD~EtLESLLmTAH  117 (146)
+                      +.+-+...-+...-..               +.++-..|+-..|..++....
+T Consensus       169 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~l~~~~~~~~  220 (267)
+T 7BUP_A          169 FTSEGDSGSGSVILKPYTNLKNERESVTISLDDPVDLTFGLKYLNDIVKAAT  220 (267)
+T ss_dssp             EEECCTTCEEEEEECCC--------CCEEEESSCEEEEEEHHHHHHHGGGGG
+T ss_pred             EEEecCCceEEEEEccCCCCCCcCccEEEecCCCEEEEEEHHHHHHHHHhcc
+
+
+No 59
+>3L0W_A Proliferating cell nuclear antigen; Replication, DNA damage, DNA repair, DNA replication, DNA-binding, Isopeptide bond, Nucleus, Ubl conjugation; 2.8A {Saccharomyces cerevisiae} SCOP: d.131.1.2
+Probab=22.93  E-value=2.3e+02  Score=20.84  Aligned_cols=48  Identities=17%  Similarity=0.263  Sum_probs=0.0  Template_Neff=10.300
+
+Q ss_pred             CCCCceEEEecCCCccEEEeCCcccC-----CHHHHHHHHHHHHcCCCCCeeEec
+Q alr4939          24 DPSRHYWVMVNGDKNLTVALPGLMVS-----TMSELRQAIREFRALQPGDKMTLV   73 (146)
+Q Consensus        24 DP~R~YWi~VNGd~~~~v~iPGL~v~-----s~~e~kq~i~~FR~Lqpge~m~l~   73 (146)
+                      +..++|++.+--.....+.+|.....     ..++|+++++.|...  |+++++.
+T Consensus       115 ~~~~~~~l~~~~~~~~~~~~~~~~~~~~v~i~s~~f~~~i~~~~~~--~~~v~i~  167 (169)
+T 3L0W_A          115 DRIAEYSLKLMDIDADFLKIEELQYDSTLSLPSSEFSKIVRDLSQL--SDSINIM  167 (169)
+T ss_dssp             SCEEEEEEECCCCCCCCCCCCCSCCSEEEEEEHHHHHHHHHHHTTT--CSEEEEE
+T ss_pred             CeEEEEEEEeecCCccccCCCCCCCcEEEEEEHHHHHHHHHHHHhc--CCcEEEE
+
+
+No 60
+>8IH6_F 4-oxalocrotonate decarboxylase; meta-cleavage pathway for 2-aminophenol catabolism. decarboxylase-hydratase complex, BIOSYNTHETIC PROTEIN; HET: GOL; 2.519A {Pseudomonas sp.}
+Probab=22.89  E-value=3.9e+02  Score=21.44  Aligned_cols=66  Identities=14%  Similarity=0.050  Sum_probs=0.0  Template_Neff=10.000
+
+Q ss_pred             cCCCChhhcCCCCCC-ceEEEecCCCccEEEeCCcccCCHHHHHHHHHHH-----HcCCCCCeeEecccccceEE
+Q alr4939          13 LDDESPWLEGIDPSR-HYWVMVNGDKNLTVALPGLMVSTMSELRQAIREF-----RALQPGDKMTLVRIASACTL   81 (146)
+Q Consensus        13 LDDespWL~GIDP~R-~YWi~VNGd~~~~v~iPGL~v~s~~e~kq~i~~F-----R~Lqpge~m~l~r~~~~~~I   81 (146)
+                      +-+..+|  .+|+.. .-++.+||+....-..-.+. .+..+.-..+.++     +.|++||-+..........+
+T Consensus       163 ~G~~i~~--~~~~~~~~~~~~~ng~~~~~~~~~~~~-~~p~~~l~~l~~~~~~~g~~l~~G~~i~tGs~~~~~~~  234 (258)
+T 8IH6_F          163 VGAWHKP--ETDVSNLGMVMSFDGRAVELGTSAAIL-GSPIRALVAAARLAAQQGEALEAGSLILAGAATAAVAL  234 (258)
+T ss_dssp             ECCCBCT--TCCCTTCEEEEEETTEEEEEEEGGGTT-TSTHHHHHHHHHHHHHTTCCBCTTCEEEEEESSCCEEC
+T ss_pred             eCCCcCc--CCCHHhCeEEEEECCEEEEEEEchhhc-CCHHHHHHHHHHHHHHcCCCCCCCCEEECCcccccEeC
+
+
+No 61
+>6HBB_A Carbon dioxide concentrating mechanism protein CcmM; alpha-beta structure, Rubisco, Carboxysome, PROTEIN BINDING; HET: SO4; 1.2A {Synechococcus elongatus (strain PCC 7942)}
+Probab=22.69  E-value=3.8e+02  Score=19.44  Aligned_cols=52  Identities=8%  Similarity=0.138  Sum_probs=0.0  Template_Neff=7.500
+
+Q ss_pred             CCCCceEEEecCCCccEEEeCCcccCCHHHHHHHHHHHHcCCCCCeeEecccccceEEEEEc
+Q alr4939          24 DPSRHYWVMVNGDKNLTVALPGLMVSTMSELRQAIREFRALQPGDKMTLVRIASACTLHCVG   85 (146)
+Q Consensus        24 DP~R~YWi~VNGd~~~~v~iPGL~v~s~~e~kq~i~~FR~Lqpge~m~l~r~~~~~~IhCis   85 (146)
+                      .+.-+||-          ..|-+...+.++.-..|.++++--|+.-+.|.......+..|++
+T Consensus        31 ~~r~~~W~----------~~p~~~~~~~~~vl~el~~c~~~~p~~yVRl~g~d~~~~~r~~~   82 (92)
+T 6HBB_A           31 RFRTSSWQ----------PCAPIQSTNERQVLSELENCLSEHEGEYVRLLGIDTNTRSRVFE   82 (92)
+T ss_dssp             HHHTTCCE----------ECCCCCCCCHHHHHHHHHHHHHHTTTSEEEEEEECTTTCCEEEE
+T ss_pred             CccCCccc----------cCCCCCCCCHHHHHHHHHHHHHHCCCCEEEEEEEccCCCeEEEE
+
+
+No 62
+>7T2F_B HEEH mini protein HEEH_TK_rd5_0341; mini protein, DE NOVO PROTEIN, homodimer; NMR {Escherichia coli}
+Probab=22.65  E-value=1.5e+02  Score=20.93  Aligned_cols=28  Identities=25%  Similarity=0.334  Sum_probs=0.0  Template_Neff=4.700
+
+Q ss_pred             CCccEEEeCCcccCCHHHHHHHHHHHHc
+Q alr4939          36 DKNLTVALPGLMVSTMSELRQAIREFRA   63 (146)
+Q Consensus        36 d~~~~v~iPGL~v~s~~e~kq~i~~FR~   63 (146)
+                      ++...+.+-|+++.+.+++|..+..+|.
+T Consensus        24 eead~~~~~g~t~~~~~~~~~~~e~~~~   51 (53)
+T 7T2F_B           24 REGRKVNILGIEVTTEEQARRLIEFLRR   51 (53)
+T ss_dssp             HTTCCEEETTEEECSHHHHHHHHHHHTT
+T ss_pred             HhhcceeeecceeCCHHHHHHHHHHHHh
+
+
+No 63
+>6U75_B E3 SUMO-protein ligase SIZ2; SUMO, SIGNAL TRANSDUCTION, REPLICATION, RING E3, PIAS, SIZ, UBIQUITIN, UBC9, LIGASE, METAL-BINDING, NUCLEUS, PHOSPHOPROTEIN, UBL CONJUGATION; 2.63A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=22.11  E-value=5.1e+02  Score=21.77  Aligned_cols=70  Identities=20%  Similarity=0.356  Sum_probs=0.0  Template_Neff=8.800
+
+Q ss_pred             CHHHHHHHHHHHHcCCCCCeeEecccccceEEEEEcCCeEEEeEecCCceeeee--cCHHHHHHHHhhcCCCCCCC
+Q alr4939          50 TMSELRQAIREFRALQPGDKMTLVRIASACTLHCVGINCYAIEATINNAPVWHL--FDQETLDSLLMTAHPDWQCA  123 (146)
+Q Consensus        50 s~~e~kq~i~~FR~Lqpge~m~l~r~~~~~~IhCis~NCYAI~~~v~gapvWHL--FD~EtLESLLmTAHPDWqCa  123 (146)
+                      +.++.++.|++.-+-...+.+....  ....+.|. -..=-|...+.|.--=|+  ||-++.-+ ....+|.|+|.
+T Consensus       156 ~~~~~~~~i~~~l~~~~d~di~~~~--~~isL~cP-ls~~ri~~P~Rg~~C~H~qCFDl~~fl~-~~~~~~~w~CP  227 (269)
+T 6U75_B          156 IKQATTAYIKRTLNEQDDDDIITTS--TVLSLQCP-ISCTRMKYPAKTDQCKHIQCFDALWFLH-SQSQVPTWQCP  227 (269)
+T ss_dssp             CHHHHHHHHHHHHHC-------CCE--EEEECBCT-TTSSBCSSEEECTTCCCSCCEEHHHHHH-HHHHSCCCBCT
+T ss_pred             CHHHHHHHHHHHhccCCCCCeEeec--eEEEccCC-CcCceeceeEecCCCCccceecHHHHHH-hccCCCCccCC
+
+
+No 64
+>8GNN_A Cell cycle checkpoint control protein RAD9A; DNA damage, checkpoint, DNA repair, DNA binding clamp, Cell cycle; 2.119A {Homo sapiens}
+Probab=22.11  E-value=3.1e+02  Score=21.46  Aligned_cols=40  Identities=18%  Similarity=0.325  Sum_probs=0.0  Template_Neff=10.900
+
+Q ss_pred             cccCCHHHHHHHHHHHHcCCCCCeeEecccccceEEEEEcCC
+Q alr4939          46 LMVSTMSELRQAIREFRALQPGDKMTLVRIASACTLHCVGIN   87 (146)
+Q Consensus        46 L~v~s~~e~kq~i~~FR~Lqpge~m~l~r~~~~~~IhCis~N   87 (146)
+                      +...+...|++++..++.+  ++.+.+.-..+..+|+|+..+
+T Consensus         5 i~~~~~~~~~~~l~~l~~~--~~~~~l~~~~~gl~i~~~d~~   44 (270)
+T 8GNN_A            5 VTGGNVKVLGKAVHSLSRI--GDELYLEPLEDGLSLRTVNSS   44 (270)
+T ss_dssp             EETTHHHHHHHHHHHHHTT--CSEEEEEEETTEEEEEEECTT
+T ss_pred             EchhhHHHHHHHHHHHhhc--CCcEEEEEeCCeEEEEEecCC
+
+
+No 65
+>2LJK_A Protein C17orf37; MIEN1, oncoprotein, SIGNALING PROTEIN; NMR {Homo sapiens}
+Probab=22.05  E-value=2.5e+02  Score=21.27  Aligned_cols=48  Identities=23%  Similarity=0.274  Sum_probs=0.0  Template_Neff=7.500
+
+Q ss_pred             EEecCCCccEEEeCCcccCCHHHHHHHHHHHHcCCCCCeeEecccccceEE
+Q alr4939          31 VMVNGDKNLTVALPGLMVSTMSELRQAIREFRALQPGDKMTLVRIASACTL   81 (146)
+Q Consensus        31 i~VNGd~~~~v~iPGL~v~s~~e~kq~i~~FR~Lqpge~m~l~r~~~~~~I   81 (146)
+                      |.|||+.-..-.--| ...+.+|+.++|.+...-++-++++-.+.  .|+|
+T Consensus        69 V~vng~lV~Sk~~~~-~~P~~~ev~~~I~~~l~~~~~~~~~~~~~--~c~~  116 (117)
+T 2LJK_A           69 IEINGQLVFSKLENG-GFPYEKDLIEAIRRASNGETLEKITNSRP--PCVI  116 (117)
+T ss_dssp             EETTSSCCBCHHHHC-SCCCTTTTTHHHHHHTTTSCCCCCCCCSC--CCCC
+T ss_pred             EEECCEEEEeecccC-CCCCHHHHHHHHHHHhCCCcchhcccCCC--Ccee
+
+
+No 66
+>2AR1_A hypothetical protein; STRUCTURAL GENOMICS, PSI, Protein Structure Initiative, Structural Genomics of Pathogenic Protozoa Consortium, SGPP, UNKNOWN FUNCTION; 1.602A {Leishmania major} SCOP: b.122.1.8
+Probab=21.97  E-value=3.9e+02  Score=18.98  Aligned_cols=65  Identities=14%  Similarity=0.160  Sum_probs=0.0  Template_Neff=11.300
+
+Q ss_pred             hhcCCCCCCceEEEecCCCccEE-----EeCCcccCCHHHHHHHHHHHHcCCCCCeeEecccc-cceEEEEEc
+Q alr4939          19 WLEGIDPSRHYWVMVNGDKNLTV-----ALPGLMVSTMSELRQAIREFRALQPGDKMTLVRIA-SACTLHCVG   85 (146)
+Q Consensus        19 WL~GIDP~R~YWi~VNGd~~~~v-----~iPGL~v~s~~e~kq~i~~FR~Lqpge~m~l~r~~-~~~~IhCis   85 (146)
+                      |-...+...+||+...+.....+     .  +...-....-.+....+..+++||.+-+-+.. ....|.++.
+T Consensus        11 ~~~~~~~~~~yw~~~~~~~~~~~~~~~~~--~~~~~~~~~~~~~~~~~~~i~~gD~v~~~~~~~~~~~i~~~~   81 (172)
+T 2AR1_A           11 RKRVRAEDIHYWLLKSEPHKFSIDDLAKQ--KTSPWDGVRNYAARNNMRAMSVGDKVLFYHSNTKEPGVAGLA   81 (172)
+T ss_dssp             ----CTTSCCEEEEEECTTTSCHHHHHHH--SEEECCCCCCHHHHHHHHHCCTTCEEEEEECSSSSCEEEEEE
+T ss_pred             ccCcCcccCCeEEEEeCCCccCHHHHHhc--CCcccccCCcHHHHHhHHhCCCCCEEEEEEeCCCCCeEEEEE
+
+
+No 67
+>1XZO_B Hypothetical protein ypmQ; thioredoxin-like fold, Structural Genomics, Montreal-Kingston Bacterial Structural Genomics Initiative, BSGI, METAL BINDING PROTEIN; HET: CA; 1.702A {Bacillus subtilis} SCOP: c.47.1.10
+Probab=21.91  E-value=3.6e+02  Score=17.96  Aligned_cols=35  Identities=9%  Similarity=0.200  Sum_probs=0.0  Template_Neff=12.800
+
+Q ss_pred             eEEEecCCCccEEEeCCcccCCHHHHHHHHHHHHc
+Q alr4939          29 YWVMVNGDKNLTVALPGLMVSTMSELRQAIREFRA   63 (146)
+Q Consensus        29 YWi~VNGd~~~~v~iPGL~v~s~~e~kq~i~~FR~   63 (146)
+                      ..+-|+.+..+....+|....+.+++++.|.+...
+T Consensus       138 ~~~lid~~g~i~~~~~~~~~~~~~~l~~~l~~l~~  172 (174)
+T 1XZO_B          138 SFYLVGPDGKVLKDYNGVENTPYDDIISDVKSAST  172 (174)
+T ss_dssp             EEEEECTTSEEEEEEESSSSCCHHHHHHHHHHHTT
+T ss_pred             EEEEECCCCcEEEEecCCCCCCHHHHHHHHHHHhc
+
+
+No 68
+>2DNF_A Doublecortin domain-containing protein 2; doublecortin, structural genomics, RIKEN STRUCTURAL GENOMICS/PROTEOMICS INITIATIVE, RSGI, NPPSFA, National Project on Protein Structural and Functional; NMR {Homo sapiens}
+Probab=21.82  E-value=3.5e+02  Score=17.77  Aligned_cols=55  Identities=16%  Similarity=0.216  Sum_probs=0.0  Template_Neff=11.000
+
+Q ss_pred             EEEecCCCc---cEEEeCCcccCCHHHHHHHHHHHHcCCCCCeeEecccccceEEEEEc
+Q alr4939          30 WVMVNGDKN---LTVALPGLMVSTMSELRQAIREFRALQPGDKMTLVRIASACTLHCVG   85 (146)
+Q Consensus        30 Wi~VNGd~~---~~v~iPGL~v~s~~e~kq~i~~FR~Lqpge~m~l~r~~~~~~IhCis   85 (146)
+                      ++..||+..   ..+.++.....+++++.+.+..--.+..|..-.+-. .....|..+.
+T Consensus        18 ~~~~ng~~~~~~~~~~~~~~~~~~~~~ll~~~~~~~~~~~g~~~~l~~-~~g~~i~~~~   75 (108)
+T 2DNF_A           18 FLIANGDLINPASRLLIPRKTLNQWDHVLQMVTEKITLRSGAVHRLYT-LEGKLVESGA   75 (108)
+T ss_dssp             EECBTTCSSSCCEEEEECHHHHTCHHHHHHHHHHHCCCTTSSCCEEEE-TTCCEESSTT
+T ss_pred             EEEcCCCCCCCCeEEEeCHhhcCCHHHHHHHHHHHCCCCCCCeEEEEc-CCCcEeCCHH
+
+
+No 69
+>9XQS_N PHIKZ049; baseplate, inner peripheral, VIRAL PROTEIN; 3.65A {Pseudomonas phage phiKZ}
+Probab=21.75  E-value=1.5e+02  Score=24.25  Aligned_cols=30  Identities=17%  Similarity=0.159  Sum_probs=0.0  Template_Neff=5.500
+
+Q ss_pred             EEecCCCccEEEeCCcccCCHHHHHHHHHH
+Q alr4939          31 VMVNGDKNLTVALPGLMVSTMSELRQAIRE   60 (146)
+Q Consensus        31 i~VNGd~~~~v~iPGL~v~s~~e~kq~i~~   60 (146)
+                      |.++.....++.|++....+.+.+|+++.+
+T Consensus        98 i~~~~~~~~~v~i~n~~~~d~~~i~~aL~~  127 (138)
+T 9XQS_N           98 LERVDGKRLTLVWDDVDNKMYDRILLAVRQ  127 (138)
+T ss_dssp             CEECCCCEEEEECCSBCHHHHHHHHHHHHH
+T ss_pred             EEEEeCcEEEEEEeCCChHHHHHHHHHHHh
+
+
+No 70
+>4V42_BD 50S RIBOSOMAL PROTEIN L2; ribosome assembly, protein synthesis, life, RIBOSOME; HET: OMC, OMG, 2MG, 4SU, 5MU, M2G, 7MG, YG, PSU, 1MA, 5MC, H2U; 5.5A {Thermus thermophilus}
+Probab=21.57  E-value=82  Score=24.77  Aligned_cols=60  Identities=20%  Similarity=0.324  Sum_probs=0.0  Template_Neff=8.600
+
+Q ss_pred             CCCCceEEEe----cCCCccEEEeCCcccCCHHHHHHHHHHHHcCCCCCeeEecccccceEEEEEcCC
+Q alr4939          24 DPSRHYWVMV----NGDKNLTVALPGLMVSTMSELRQAIREFRALQPGDKMTLVRIASACTLHCVGIN   87 (146)
+Q Consensus        24 DP~R~YWi~V----NGd~~~~v~iPGL~v~s~~e~kq~i~~FR~Lqpge~m~l~r~~~~~~IhCis~N   87 (146)
+                      ||.|.=.|+.    ||.....++-.|+.+.+.=..-....    +++|+.+.|...-....||+|..+
+T Consensus        24 dp~r~a~ialv~~~~~~~~~ila~~~~~~G~~i~~~~~~~----~~~G~~~~l~~ip~Gt~i~nie~~   87 (178)
+T 4V42_BD          24 DPNRSANIALINYADGEKRYIIAPKNLKVGMEIMSGPDAD----IKIGNALPLENIPVGTLVHNIELK   87 (178)
+T ss_pred             CCCCCCeEEEEEEcCCCEEEEEecCCccCCCEEEeCCccc----eecCCeeecccCCCCcEEEeeeec
+
+
+No 71
+>2DFU_C probable 2-hydroxyhepta-2,4-diene-1,7-dioate isomerase; 2-hydroxyhepta-2, 4-diene-1, 7-dioate isomerase, structural genomics, NPPSFA, National Project on Protein Structural and Functional Analyses, RIKEN; 2.2A {Thermus thermophilus}
+Probab=21.52  E-value=2.2e+02  Score=22.61  Aligned_cols=51  Identities=20%  Similarity=0.191  Sum_probs=0.0  Template_Neff=10.300
+
+Q ss_pred             EEEecCCCccEEEeCCcccCCHHHHHHHHHHHHcCCCCCeeEecccccceEE
+Q alr4939          30 WVMVNGDKNLTVALPGLMVSTMSELRQAIREFRALQPGDKMTLVRIASACTL   81 (146)
+Q Consensus        30 Wi~VNGd~~~~v~iPGL~v~s~~e~kq~i~~FR~Lqpge~m~l~r~~~~~~I   81 (146)
+                      .+.+||+.........+. .++.++-..+.++..|+|||-+..........+
+T Consensus       186 ~~~~ng~~~~~~~~~~~~-~~~~~~v~~l~~~~~l~~Gdvi~tG~~~~~~~l  236 (264)
+T 2DFU_C          186 RTYVNGTLRQEGHTSQMI-FSVAEILSYISTFMTLEPLDVVLTGTPEGVGAL  236 (264)
+T ss_dssp             EEEETTEEEEEEEGGGCS-SCHHHHHHHHHHHSCBCTTCEEECCCCSCCEEC
+T ss_pred             EEEECCEEEEEeeHHhcC-CCHHHHHHHHhhcCCCCCCCEEECCCCCCCeeC
+
+
+No 72
+>2P5D_A UPF0310 protein MJECL36; Methanocaldococcus jannaschii, NPPSFA, National Project on Protein Structural and Functional Analyses, RIKEN Structural Genomics/Proteomics Initiative, RSGI; 1.7A {Methanocaldococcus jannaschii} SCOP: b.122.1.8, l.1.1.1
+Probab=21.21  E-value=1.3e+02  Score=21.31  Aligned_cols=58  Identities=16%  Similarity=0.244  Sum_probs=0.0  Template_Neff=10.700
+
+Q ss_pred             CCCceEEEecCCCccEEEeCCcccCCHHHHHHHHHHHHcCCCCCeeEecccccc------eEEEEEc
+Q alr4939          25 PSRHYWVMVNGDKNLTVALPGLMVSTMSELRQAIREFRALQPGDKMTLVRIASA------CTLHCVG   85 (146)
+Q Consensus        25 P~R~YWi~VNGd~~~~v~iPGL~v~s~~e~kq~i~~FR~Lqpge~m~l~r~~~~------~~IhCis   85 (146)
+                      ...+|||.+-+.......+..   ....--......++.++|||.+-+-.....      ..|.++.
+T Consensus         2 ~~~~~wi~~~~~~~~~~~~~~---~~~g~~~~~~~~~~~i~~GD~v~~y~~~~~~~~~~~~~i~g~~   65 (147)
+T 2P5D_A            2 DLMAYWLCITNEDNWKVIKEK---KIWGVAERYKNTINKVKVGDKLIIYEIQRSGKDYKPPYIRGVY   65 (147)
+T ss_dssp             CCCCEEEEEECHHHHHHHHHH---CEEEECGGGHHHHTTCCTTCEEEEEECCBCSTTCBCCEEEEEE
+T ss_pred             CCccEEEEEcCHHHHHHHHHh---cceeccHHhhhHHhhCCCCCEEEEEEeecCCCCCCCCeEEEEE
+
+
+No 73
+>3RR6_A Putative uncharacterized protein; Structural Genomics, Seattle Structural Genomics Center for Infectious Disease, SSGCID, UNKNOWN FUNCTION; HET: PEG, EDO; 1.58A {Mycobacterium abscessus}
+Probab=20.47  E-value=2.1e+02  Score=22.93  Aligned_cols=49  Identities=16%  Similarity=0.152  Sum_probs=0.0  Template_Neff=10.100
+
+Q ss_pred             ceEEEecCCCccEEEeCCcccCCHHHHHHHHHHHHcCCCCCeeEeccccc
+Q alr4939          28 HYWVMVNGDKNLTVALPGLMVSTMSELRQAIREFRALQPGDKMTLVRIAS   77 (146)
+Q Consensus        28 ~YWi~VNGd~~~~v~iPGL~v~s~~e~kq~i~~FR~Lqpge~m~l~r~~~   77 (146)
+                      ..++.|||+.......-.+.. ++.+.-..+.++..|+|||-+......+
+T Consensus       188 ~~~~~~ng~~~~~~~~~~~~~-~~~~~~~~ls~~~~l~~Gdvi~tGt~~~  236 (265)
+T 3RR6_A          188 EIRTEVNGQVRQRSRTSLLLH-DVGAIVEWVSAVMTLLPGDVILTGTPEG  236 (265)
+T ss_dssp             EEEEEETTEEEEEEEGGGBSS-CHHHHHHHHHHHSCBCTTCEEECCCCSC
+T ss_pred             EEEEEECCEEEEecchhhcCC-CHHHHHHHHHccCCcCCCCEEEcCCCCC
+
+
+No 74
+>5Y28_C Periplasmic serine endoprotease DegP-like; Serine protease, HYDROLASE; 3.08606824134A {Helicobacter pylori}
+Probab=20.43  E-value=4.9e+02  Score=22.21  Aligned_cols=44  Identities=25%  Similarity=0.284  Sum_probs=0.0  Template_Neff=9.800
+
+Q ss_pred             CCccEEEeCCcccCCHHHHHHHHHHHHcCCCCCeeEecccccceEEE
+Q alr4939          36 DKNLTVALPGLMVSTMSELRQAIREFRALQPGDKMTLVRIASACTLH   82 (146)
+Q Consensus        36 d~~~~v~iPGL~v~s~~e~kq~i~~FR~Lqpge~m~l~r~~~~~~Ih   82 (146)
+                      ...+.+.|-|-.+.+.++|...+..   +.||++++|.-.-...++.
+T Consensus       305 ~gD~i~~ing~~i~~~~~l~~~i~~---~~~g~~v~l~v~r~~~~~~  348 (357)
+T 5Y28_C          305 VWDLITEVNGKKVKNTNELRNLIGS---MLPNQRVTLKVIRDKKERA  348 (357)
+T ss_dssp             TTCEEEEETTEECCSHHHHHHHHHH---SCSSCEEEEEEEESEEEEE
+T ss_pred             CCCEEEEECCEECCCHHHHHHHHHc---CCCCCEEEEEEEeCCEEEE
+
+
+No 75
+>3VHJ_A BfpC; type IV pilus biogenesis, BfpD, membrane, MEMBRANE PROTEIN; HET: MSE; 1.9A {Escherichia coli}
+Probab=20.34  E-value=5.3e+02  Score=20.56  Aligned_cols=49  Identities=14%  Similarity=0.100  Sum_probs=0.0  Template_Neff=8.100
+
+Q ss_pred             cccCCCChhhcCCCCCCceEEEecC-CCccEEEeCCcccCCHHHHHHHHHHHHc-CCCCCeeEec
+Q alr4939          11 YRLDDESPWLEGIDPSRHYWVMVNG-DKNLTVALPGLMVSTMSELRQAIREFRA-LQPGDKMTLV   73 (146)
+Q Consensus        11 YRLDDespWL~GIDP~R~YWi~VNG-d~~~~v~iPGL~v~s~~e~kq~i~~FR~-Lqpge~m~l~   73 (146)
+                      |+|+|+           +||+..=- +....   ..-.+.+.+|.++.+.+|.+ +..=+.+..+
+T Consensus        89 ~~l~~~-----------~~w~vav~~dG~i~---~D~v~~~~~ea~~~~~~~~~~~~~w~~v~~p  139 (172)
+T 3VHJ_A           89 FPADNE-----------LWLVIGVDKDGMVH---FDKSFHSKDDAKKFFFDHVAYGYPWDRTYSP  139 (172)
+T ss_dssp             EECSSS-----------CEEEEEECTTSCEE---EEEEESCHHHHHHHCCCCCTTTSCCSEEECC
+T ss_pred             EEeCCC-----------eEEEEEEeCCCcEE---cceeeCCHHHHHHHHHHHHhhcCCCCeEEec
+
+
+No 76
+>6L7O_V Tlr0472 protein; photosystem I, cyclic electron transfer, PHOTOSYNTHESIS; HET: DGD, AJP, PQN, LHG, SF4, SQD, BCR; 3.2A {Thermosynechococcus elongatus BP-1}
+Probab=20.31  E-value=82  Score=26.53  Aligned_cols=33  Identities=21%  Similarity=0.475  Sum_probs=0.0  Template_Neff=4.000
+
+Q ss_pred             hhcCCCCCCceEEE-----ecCCCccEEEeCCcccCCHHHH
+Q alr4939          19 WLEGIDPSRHYWVM-----VNGDKNLTVALPGLMVSTMSEL   54 (146)
+Q Consensus        19 WL~GIDP~R~YWi~-----VNGd~~~~v~iPGL~v~s~~e~   54 (146)
+                      |..|   .|++|+.     ++|.+.+..+..|-..|.+|-|
+T Consensus        80 ~~~g---~r~F~i~F~~~~i~G~K~Fs~s~~Gs~pStvEpF  117 (146)
+T 6L7O_V           80 WGKG---MYQFRLYFLEGNIQGPKVFVCSSGGIAPSTLEPF  117 (146)
+T ss_dssp             ESSS---SEEEEEEECSSSSSSCEEEEEEETTSCCCCEEEC
+T ss_pred             eCCC---eEEEEEEEcCCCCCCCeEEEEeCCCCCCceeccc
+
+
+No 77
+>4DOL_A At1g53520; chalcone-isomerase like fold, fatty-acid binding, ISOMERASE; HET: PLM; 1.7A {Arabidopsis thaliana}
+Probab=20.30  E-value=3.7e+02  Score=21.64  Aligned_cols=36  Identities=19%  Similarity=0.180  Sum_probs=0.0  Template_Neff=9.000
+
+Q ss_pred             HHHHHHHHHHH--cCCCCCeeEecccc-cceEEEEEcCC
+Q alr4939          52 SELRQAIREFR--ALQPGDKMTLVRIA-SACTLHCVGIN   87 (146)
+Q Consensus        52 ~e~kq~i~~FR--~Lqpge~m~l~r~~-~~~~IhCis~N   87 (146)
+                      +++++.+..|.  .+++|+++++.... +..++.+.-..
+T Consensus       134 ~~l~~~~~~~~~~~~~~Gd~l~~~~~~~~~~~~~~~~ng  172 (217)
+T 4DOL_A          134 TALSTFCCIFQNRPLNKGSVILLTWINTSNMLVSVSSGG  172 (217)
+T ss_dssp             HHHHHHHHHHTTCCBCTTCEEEEEEEETTEEEEEEESSS
+T ss_pred             HHHHHHHHhhcCCCCCCCCEEEEEEeCCCeEEEEEEeCC
+
+
+No 78
+>2Y9K_A PROTEIN INVG; PROTEIN TRANSPORT, TYPE III SECRETION SYSTEM, OUTER MEMBRANE RING, SECRETIN FAMILY, C15 FOLD; 8.3A {SALMONELLA ENTERICA SUBSP. ENTERICA SEROVAR TYPHIMURIUM}
+Probab=20.24  E-value=4.2e+02  Score=18.09  Aligned_cols=52  Identities=6%  Similarity=0.053  Sum_probs=0.0  Template_Neff=11.200
+
+Q ss_pred             EEecCCCccEEEeCCcccCCHHHHHHHHHHHHcCCCCCeeEecccccceEEE
+Q alr4939          31 VMVNGDKNLTVALPGLMVSTMSELRQAIREFRALQPGDKMTLVRIASACTLH   82 (146)
+Q Consensus        31 i~VNGd~~~~v~iPGL~v~s~~e~kq~i~~FR~Lqpge~m~l~r~~~~~~Ih   82 (146)
+                      +.|.........+-.|...+.+++++.+..+..+.++..+......+...|+
+T Consensus        66 ~~i~~~~~~~~~~~~l~~~~~~~~~~~l~~~~~~~~~~~~~~~~~~~~iiv~  117 (137)
+T 2Y9K_A           66 IYIYDASEMRNAVVSLRNVSLNEFNNFLKRSGLYNKNYPLRGDNRKGTFYVS  117 (137)
+T ss_dssp             EEEEEGGGCEEEEEECSSSCHHHHHHHHCCTTCCCSSSCEEECSSTTEEEEE
+T ss_pred             EEEEehhhceEEEEecCCCCHHHHHHHHHHcCCCCCCCCcEEeCCCCeEEEE
+
+
+No 79
+>3H43_E Proteasome-activating nucleotidase; Proteasome, regulatory particle, nucleosidase, ATP-binding, Cytoplasm, Nucleotide-binding, HYDROLASE; HET: MSE; 2.1A {Methanocaldococcus jannaschii} SCOP: b.40.17.1, h.1.39.1
+Probab=20.22  E-value=3.9e+02  Score=17.72  Aligned_cols=51  Identities=18%  Similarity=0.140  Sum_probs=0.0  Template_Neff=9.600
+
+Q ss_pred             CCCceEEEecCCCccEEEeCCcccCCHHHHHHHHHHHHcCCCCCeeEecccccceEEEEEcCCeE
+Q alr4939          25 PSRHYWVMVNGDKNLTVALPGLMVSTMSELRQAIREFRALQPGDKMTLVRIASACTLHCVGINCY   89 (146)
+Q Consensus        25 P~R~YWi~VNGd~~~~v~iPGL~v~s~~e~kq~i~~FR~Lqpge~m~l~r~~~~~~IhCis~NCY   89 (146)
+                      +..++.+...|.....+.+.+-.            ..-.|.||+.+.|....  ..|..+-..+|
+T Consensus        29 ~~~~~~v~~~~~~~~~v~~~~~v------------~~~~l~~G~~V~l~~~~--~~iv~~l~~~~   79 (85)
+T 3H43_E           29 GERKVVVKSSTGPSFLVNVSHFV------------NPDDLAPGKRVCLNQQT--LTVVDVLPELE   79 (85)
+T ss_dssp             SSSEEEEEETTSSEEEEEBCTTS------------CGGGCCTTCEEEECTTT--CCEEEECC---
+T ss_pred             CCCeEEEEeCCCCEEEEEcCCCC------------CHHHCCCCCEEEEeCCC--eEEEEeCCccc
+
+
+No 80
+>9D5L_A TnsE, Tn7 transposition protein; Tn7, target-site selector, DNA BINDING PROTEIN, DNA BINDING PROTEIN-DNA complex; 2.8A {Thiopseudomonas alkaliphila}
+Probab=20.02  E-value=3.7e+02  Score=21.34  Aligned_cols=62  Identities=11%  Similarity=0.189  Sum_probs=0.0  Template_Neff=8.000
+
+Q ss_pred             CcccCCHHHHHHHHHHHHcCCCCCee------EecccccceEEEEEc---CCeEEEeEecCCceeeeecCHHH
+Q alr4939          45 GLMVSTMSELRQAIREFRALQPGDKM------TLVRIASACTLHCVG---INCYAIEATINNAPVWHLFDQET  108 (146)
+Q Consensus        45 GL~v~s~~e~kq~i~~FR~Lqpge~m------~l~r~~~~~~IhCis---~NCYAI~~~v~gapvWHLFD~Et  108 (146)
+                      ++...++++|.++|...+... |-+.      .|+.. +.+..|.+.   .-||+|+.-.-+....+|++-|+
+T Consensus         7 ~~~~~~f~~F~~~i~~L~~~~-~~~~~~~~~~~LP~~-~~~~~~~l~~g~~R~~~va~i~~~~~~~~liEVd~   77 (166)
+T 9D5L_A            7 HVFASRFAAFNELLSILKTKF-RCRVIFEETLVLPKV-GRSRLHLCKDGSPRVIKAVGVWRNASEFILLEVDA   77 (166)
+T ss_dssp             EECSSHHHHHHHHHHHHHHTT-CCEEEEEEEEECCCC-TTCCTTBCTTSCBCEEEEEEEECSSCEEEEEEECC
+T ss_pred             hhhhhhHHHHHHHHHHHhhhc-CeEEEEEEeeeCCCC-CCeeEEEccCCCccEEEEEEEEECCEEEEEEEEeC
+
+

@@ -1,0 +1,29 @@
+locus_tag,best_desc,best_evalue,best_cov,call,priority
+all1797,,,,unknown,0
+all3173,,,,unknown,0
+all4349,,,,unknown,0
+all4578,,,,unknown,0
+alr1674,"Nephrocystin 3, N-terminal",42.0,0.058,unknown,0
+alr4939,Family of unknown function (DUF5740),0.14,0.226,unknown,0
+asl3322,,,,unknown,0
+asl3518,,,,unknown,0
+asr0461,,,,unknown,0
+asr1667,,,,unknown,0
+asr2665,,,,unknown,0
+asr3168,,,,unknown,0
+all3516,Tetratricopeptide repeat,2e-05,0.098,suggestive,1
+all3941,Iron permease-associated 4-helix bundle domain,3e-42,0.341,suggestive,1
+alr0683,PIN domain,2.4e-07,0.865,suggestive,1
+alr3692,"Mechanosensitive ion channel, beta-domain",2.8e-20,0.232,suggestive,1
+alr4957,YCF81 N-terminal domain,4.4e-48,0.399,suggestive,1
+all0232,NYN domain,4.7e-34,0.713,confident,2
+all0334,Protein of unknown function (DUF2605),8.8e-45,0.886,confident,2
+all0605,Spirochaete HEAT repeat protein,1.1e-14,0.5,confident,2
+all2567,XFP N-terminal domain,5.8e-184,0.456,confident,2
+all3259,Protein CHAPERONE-LIKE PROTEIN OF POR1-like,4.5e-74,0.933,confident,2
+all3319,PAAR motif,6.3e-22,0.66,confident,2
+alr0515,Thymidylate synthase complementing protein,3.1e-41,0.9,confident,2
+alr3844,Photosynthesis system II assembly factor YCF48,2.2e-133,0.885,confident,2
+alr4077,Domain of unknown function (DUF1815),6.7e-56,0.868,confident,2
+alr4777,NADPH-dependent FMN reductase,4.7e-41,0.79,confident,2
+asl0597,Asr1405/Asl0597-like,1.6e-30,0.776,confident,2

@@ -1,0 +1,79 @@
+dataset,gene_id,gene_symbol,annotation,peak_time_h,corr_p,amplitude_cv,rhythmic_tier,rhythmic_flag,peak_time_h_nminus,corr_p_nminus,amplitude_cv_nminus,rhythmic_tier_nminus
+Kushige2013,all0232,,hypothetical protein,10.8,0.007,0.273,a,True,11.6,0.010,0.364,b
+Kushige2013,all0333,,hypothetical protein,10.6,0.008,0.338,a,True,10,0.003,0.470,a
+Kushige2013,all0334,,hypothetical protein,9.0,0.011,0.335,b,True,8.8,0.002,0.439,a
+Kushige2013,all0605,,NirB-like protein,13.2,0.029,0.268,b,True,-,-,-,AR
+Kushige2013,all0713,glgB,"1,4-alpha-glucan branching enzyme",7.8,0.008,0.301,a,True,6.8,0.030,0.323,b
+Kushige2013,all0888,,ribose 5-phosphate isomerase,21.8,0.019,0.232,b,True,20.8,0.041,0.166,c
+Kushige2013,all1272,,probable glycogen phosphorylase,15.0,0.028,0.676,b,True,15.6,0.003,0.538,a
+Kushige2013,all1353,,putative hydrolase,7.2,0.031,0.206,b,True,6.8,0.033,0.381,b
+Kushige2013,all1743,por,light-dependent NADPH-protochlorophyllide oxidoreductase,8.6,0.042,0.34,b,True,10,0.017,0.365,b
+Kushige2013,all1797,,unknown protein,6.4,0.043,0.349,b,True,5.6,0.003,0.497,a
+Kushige2013,all1897,,heme oxygenase,8.2,0.007,0.45,a,True,8.8,0.046,0.402,b
+Kushige2013,all2327,apcF,allophycocyanin beta-18 subunit,8.8,0.005,0.337,a,True,8,0.035,0.421,b
+Kushige2013,all2566,gap1,glyceraldehyde-3-phosphate dehydrogenase,16.8,0.02,0.476,b,True,14.4,0.008,0.517,a
+Kushige2013,all2567,,hypothetical protein,14.8,0.043,0.527,b,True,14.8,0.023,1.032,b
+Kushige2013,all2906,moeB,molybdopterin biosynthesis protein,18.8,0.04,0.25,b,True,17.6,0.018,0.224,b
+Kushige2013,all3173,,hypothetical protein,18.6,0.007,0.708,a,True,17.6,0.001,0.712,a
+Kushige2013,all3259,,hypothetical protein,10.8,0.028,0.203,b,True,-,-,-,AR
+Kushige2013,all3319,,hypothetical protein,12.0,0.009,0.365,a,True,-,-,-,AR
+Kushige2013,all3516,,unknown protein,19.4,0.021,0.206,b,True,16,0.020,0.214,b
+Kushige2013,all3572,psbAIV,photosystem II reaction center D1 protein,5.4,0.044,0.415,b,True,-,-,-,AR
+Kushige2013,all3941,,unknown protein,8.8,0.042,0.391,b,True,-,-,-,AR
+Kushige2013,all4103,ribG,riboflavin-specific deaminase,20.8,0.033,0.268,b,True,20.8,0.064,0.265,c
+Kushige2013,all4189,,tRNA-pseudouridine synthase I,22.0,0.024,0.379,b,True,-,-,-,AR
+Kushige2013,all4197,secY,preprotein translocase SecY subunit,21.8,0.025,0.329,b,True,-,-,-,AR
+Kushige2013,all4336,rps10,30S ribosomal protein S10,22.2,0.039,0.445,b,True,20.4,0.090,0.307,c
+Kushige2013,all4349,,unknown protein,22.0,0.043,0.341,b,True,-,-,-,AR
+Kushige2013,all4563,fda,"fructose-1,6-bisphosphate aldolase",5.6,0.029,0.472,b,True,4.4,0.046,0.392,b
+Kushige2013,all4578,,unknown protein,22.2,0.034,0.39,b,True,-,-,-,AR
+Kushige2013,all4822,,similar to beta-lactamase,21.6,0.039,0.222,b,True,22,0.050,0.253,b
+Kushige2013,all5062,gap2,glyceraldehyde-3-phosphate dehydrogenase,4.2,0.03,0.401,b,True,2.4,0.010,0.249,b
+Kushige2013,alr0020,apcE,"phycobilisome core-membrane linker polypeptide Lcm, allophy",8.8,0.011,0.51,b,True,10,0.035,0.538,b
+Kushige2013,alr0022,apcB,allophycocyanin beta subunit,8.6,0.003,0.304,a,True,-,-,-,AR
+Kushige2013,alr0515,,hypothetical protein,22.6,0.036,0.336,b,True,19.2,0.088,0.175,c
+Kushige2013,alr0523,pecB,phycoerythrocyanin beta chain,11.2,0.034,0.526,b,True,10.4,0.001,0.741,a
+Kushige2013,alr0524,pecA,phycoerythrocyanin alpha chain,9.6,0.002,0.656,a,True,10.4,0.007,0.950,a
+Kushige2013,alr0525,pecC,phycoerythrocyanin-associated rod linker protein,10.2,0.005,0.592,a,True,10.4,0.002,0.802,a
+Kushige2013,alr0530,cpcC,"phycobilisome rod linker polypeptide Lr, phycocyanin-associate",8.8,0.035,0.477,b,True,10.4,0.024,0.390,b
+Kushige2013,alr0532,cpcE,"phycocyanin alpha subunit phycocyanobilin lyase, CpcE subuni",9.4,0.007,0.39,a,True,-,-,-,AR
+Kushige2013,alr0533,cpcF,"phycocyanin alpha subunit phycocyanobilin lyase, CpcF subunit",9.2,0.009,0.37,a,True,9.2,0.010,0.601,b
+Kushige2013,alr0535,cpcG2,"phycobilisome rod-core linker polypeptide Lrc, C-phycocyanin",8.8,0.022,0.462,b,True,9.6,0.011,0.448,b
+Kushige2013,alr0545,,probable pseudouridine synthase,9.0,0.039,0.342,b,True,8,0.007,0.325,a
+Kushige2013,alr0577,,FKBP-type peptidyl-prolyl cis-trans isomerase,8.0,0.037,0.31,b,True,-,-,-,AR
+Kushige2013,alr0608,nrtA,ABC-type nitrate/nitrite transport system substrate-binding prote,12.6,0.045,0.316,b,True,-,-,-,AR
+Kushige2013,alr0609,nrtB,ABC-type nitrate/nitrite transport system permease protein,12.8,0.049,0.238,b,True,-,-,-,AR
+Kushige2013,alr0611,nrtD,ABC-type nitrate/nitrite transport system ATP-binding protein,13.0,0.01,0.285,a,True,-,-,-,AR
+Kushige2013,alr0612,narB,ferredoxin--nitrate reductase,11.6,0.046,0.231,b,True,-,-,-,AR
+Kushige2013,alr0683,,hypothetical protein,23.0,0.049,0.319,b,True,-,-,-,AR
+Kushige2013,alr1674,,hypothetical protein,8.2,0.047,0.346,b,True,5.6,0.057,0.290,c
+Kushige2013,alr1690,,cell wall-binding protein,8.6,0.028,0.275,b,True,-,-,-,AR
+Kushige2013,alr2311,rbpF,RNA-binding protein,18.8,0.042,0.265,b,True,-,-,-,AR
+Kushige2013,alr2885,kaiB,circadian oscillation regulator,21.0,0.046,0.246,b,True,16,0.065,0.213,c
+Kushige2013,alr3606,,dihydrolipoamide S-acetyltransferase,21.8,0.05,0.237,b,True,-,-,-,AR
+Kushige2013,alr3662,groEL,chaperonin GroEL,19.4,0.019,0.626,b,True,18,0.004,0.539,a
+Kushige2013,alr3692,,hypothetical protein,15.0,0.004,0.535,a,True,14,0.030,0.956,b
+Kushige2013,alr3843,hoxR,rubredoxin,4.2,0.01,0.266,b,True,4.8,0.065,0.314,c
+Kushige2013,alr3844,,hypothetical protein,6.8,0.048,0.372,b,True,5.6,0.016,0.354,b
+Kushige2013,alr4077,,hypothetical protein,3.4,0.007,0.477,a,True,2.4,0.007,0.341,a
+Kushige2013,alr4156,ndhF3,NADH dehydrogenase subunit 5,4.2,0.018,0.258,b,True,5.2,0.012,0.251,b
+Kushige2013,alr4777,,hypothetical protein,4.6,0.029,0.271,b,True,2.8,0.043,0.307,b
+Kushige2013,alr4784,,adenylosuccinate synthetase,20.2,0.022,0.34,b,True,-,-,-,AR
+Kushige2013,alr4939,,unknown protein,7.2,0.046,0.449,b,True,7.2,0.005,0.479,a
+Kushige2013,alr4957,,hypothetical protein,9.6,0.021,0.203,b,True,10.4,0.065,0.298,c
+Kushige2013,alr5275,,6-phosphogluconate dehydrogenase,16.0,0.038,0.491,b,True,-,-,-,AR
+Kushige2013,alr5286,,probable short-chain dehydrogenase,1.2,0.024,0.419,b,True,0,0.006,0.458,a
+Kushige2013,alr5299,nusG,transcription antitermination protein,21.2,0.027,0.307,b,True,-,-,-,AR
+Kushige2013,alr5302,rpl10,50S ribosomal protein L10,21.4,0.013,0.362,b,True,21.2,0.024,0.235,b
+Kushige2013,alr5303,rpl12,50S ribosomal protein L12,22.0,0.003,0.387,a,True,22.4,0.012,0.245,b
+Kushige2013,asl0597,,hypothetical protein,8.4,0.039,0.631,b,True,-,-,-,AR
+Kushige2013,asl3322,,unknown protein,14.8,0.024,0.404,b,True,13.2,0.012,0.447,b
+Kushige2013,asl3518,,unknown protein,21.0,0.022,0.309,b,True,-,-,-,AR
+Kushige2013,asl4207,rpl29,50S ribosomal protein L29,20.4,0.034,0.513,b,True,-,-,-,AR
+Kushige2013,asr0023,apcC,"phycobilisome small core linker polypeptide Lc, allophycocyani",8.8,0.004,0.401,a,True,-,-,-,AR
+Kushige2013,asr0461,,unknown protein,8.8,0.039,0.356,b,True,-,-,-,AR
+Kushige2013,asr0531,cpcD,"phycobilisome small rod linker polypeptide Lr, phycocyanin-ass",10.0,0.017,0.26,b,True,-,-,-,AR
+Kushige2013,asr1667,,unknown protein,4.0,0.038,0.752,b,True,3.2,0.015,0.739,b
+Kushige2013,asr2665,,unknown protein,10.4,0.018,0.33,b,True,-,-,-,AR
+Kushige2013,asr3168,,hypothetical protein,21.6,0.002,0.293,a,True,19.6,0.012,0.215,b
+Kushige2013,asr5298,secE,secretory protein,21.2,0.034,0.342,b,True,-,-,-,AR

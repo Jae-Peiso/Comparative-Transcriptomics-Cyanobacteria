@@ -1,0 +1,3 @@
+gene_symbol,gene_id_7942,locus_tag,annotation_7942,peak_time_h_7942,corr_p_7942,amplitude_cv_7942,gene_id_anabaena,annotation_anabaena,peak_time_h_anabaena,corr_p_anabaena,amplitude_cv_anabaena,ortholog_method,rbh_confirmed
+kaib,syc0333_d,Synpcc7942_1217,circadian clock protein KaiB,11.2,0.0,0.5710727242530804,alr2885,circadian oscillation regulator,21.0,0.046,0.246,name-match,False
+gap1,syc1268_d,Synpcc7942_0245,glyceraldehyde 3-phosphate dehydrogenase,10.6,0.00077,0.971665921955842,all2566,glyceraldehyde-3-phosphate dehydrogenase,16.8,0.02,0.476,name-match,False

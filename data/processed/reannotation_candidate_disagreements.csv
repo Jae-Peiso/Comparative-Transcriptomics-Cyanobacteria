@@ -1,0 +1,418 @@
+locus_tag,organism,best_hit_id,best_hit_description,best_hit_evalue,refseq_product
+all0025,anabaena,PF10604.16,Polyketide cyclase / dehydrase and lipid transport,9.4e-30,SRPBCC family protein
+all0042,anabaena,PF00535.33,Glycosyl transferase family 2,9.7e-15,glycosyltransferase family 2 protein
+all0089,anabaena,PF04402.20,Protein of unknown function (DUF541),5.3e-51,SIMPL domain-containing protein
+all0143,anabaena,PF00535.33,Glycosyl transferase family 2,7.3e-24,2'-O-glycosyltransferase CruG
+all0144,anabaena,PF04240.18,Carotenoid biosynthesis protein,1.4e-87,gamma-carotene 1'-hydroxylase CruF
+all0195,anabaena,PF03960.22,ArsC family,1.2e-12,Spx/MgsR family RNA polymerase-binding regulatory protein
+all0216,anabaena,PF10674.15,Ycf54 protein,9.9e-47,MgPME-cyclase complex family protein
+all0219,anabaena,PF00563.26,EAL domain,2e-74,putative bifunctional diguanylate cyclase/phosphodiesterase
+all0244,anabaena,PF02698.24,DUF218 domain,7e-12,YdcF family protein
+all0250,anabaena,PF00149.34,Calcineurin-like phosphoesterase,9.4e-15,metallophosphoesterase
+all0251,anabaena,PF00149.34,Calcineurin-like phosphoesterase,3.7e-15,metallophosphoesterase
+all0268,anabaena,PF13483.13,Beta-lactamase superfamily domain,2.2e-55,MBL fold metallo-hydrolase
+all0355,anabaena,PF04055.28,Radical SAM superfamily,1e-15,23S rRNA (adenine(2503)-C(2))-methyltransferase RlmN
+all0385,anabaena,PF06080.19,Protein of unknown function (DUF938),3.8e-94,class I SAM-dependent methyltransferase
+all0391,anabaena,PF07690.22,Major Facilitator Superfamily,4.8e-12,MFS transporter
+all0415,anabaena,PF01663.28,Type I phosphodiesterase / nucleotide pyrophosphatase,5.7e-68,alkaline phosphatase family protein
+all0425,anabaena,PF30732.1,Domain of unknown function (DUF8713),4.3e-64,scytonemin biosynthesis cyclase/decarboxylase ScyC
+all0437,anabaena,PF13319.12,Protein of unknown function (DUF4090),2.4e-45,small RNA NsiR4-regulated ssr1528 family protein
+all0458,anabaena,PF00210.31,Ferritin-like domain,1.2e-30,Dps family protein
+all0481,anabaena,PF03364.26,Polyketide cyclase / dehydrase and lipid transport,3.3e-11,SRPBCC family protein
+all0497,anabaena,PF09721.16,Transmembrane exosortase (Exosortase_EpsH),2.2e-59,cyanoexosortase B
+all0513,anabaena,PF00578.28,AhpC/TSA family,9.6e-18,thioredoxin family protein
+all0604,anabaena,PF05973.21,Phage derived protein Gp49-like (DUF891),4.8e-20,type II toxin-antitoxin system RelE/ParE family toxin
+all0615,anabaena,PF05974.19,Domain of unknown function (DUF892),3e-48,ferritin-like domain-containing protein
+all0646,anabaena,PF11264.14,Thylakoid formation protein,3.1e-100,photosystem II biogenesis protein Psp29
+all0748,anabaena,PF11947.14,Photosynthesis affected mutant 68,1.4e-60,PAM68 family protein
+all0753,anabaena,PF01850.28,PIN domain,1.3e-13,type II toxin-antitoxin system VapC family toxin
+all0767,anabaena,PF01042.27,Endoribonuclease L-PSP,1.3e-23,RidA family protein
+all0781,anabaena,PF00082.28,Subtilase family,1.5e-15,S8 family serine peptidase
+all0792,anabaena,PF03364.26,Polyketide cyclase / dehydrase and lipid transport,8e-14,SRPBCC family protein
+all0852,anabaena,PF03364.26,Polyketide cyclase / dehydrase and lipid transport,9.9e-25,SRPBCC family protein
+all0858,anabaena,PF09685.16,Magnetosome magnetite crystal formation protein family,2.4e-19,DUF4870 domain-containing protein
+all0861,anabaena,PF13598.13,Domain of unknown function (DUF4139),1e-68,mucoidy inhibitor MuiA family protein
+all0902,anabaena,PF13462.13,Thioredoxin,2.1e-20,DsbA family protein
+all0932,anabaena,PF01171.28,PP-loop domain,1.8e-52,tRNA lysidine(34) synthetase TilS
+all0949,anabaena,PF02628.21,Cytochrome oxidase assembly protein,2.5e-28,COX15/CtaA family protein
+all0985,anabaena,PF02401.24,LytB protein,9.9e-83,4-hydroxy-3-methylbut-2-enyl diphosphate reductase
+all1023,anabaena,PF09654.16,Protein of unknown function (DUF2396),1.3e-87,TIGR02652 family protein
+all1034,anabaena,PF05973.21,Phage derived protein Gp49-like (DUF891),4.1e-26,type II toxin-antitoxin system RelE/ParE family toxin
+all1091,anabaena,PF05635.18,23S rRNA-intervening sequence protein,5.1e-21,four helix bundle protein
+all1149,anabaena,PF08592.17,Anthrone oxygenase,1.9e-17,DUF1772 domain-containing protein
+all1162,anabaena,PF14489.12,QueF-like protein,2.2e-34,preQ(1) synthase
+all1211,anabaena,PF04459.18,Protein of unknown function (DUF512),5.4e-77,TIGR03279 family radical SAM protein
+all1265,anabaena,PF04480.19,Protein of unknown function (DUF559),9.6e-36,endonuclease domain-containing protein
+all1340,anabaena,PF24276.2,Family of unknown function (DUF7469),1.3e-108,Npun_F0813 family protein
+all1355,anabaena,PF05757.17,Oxygen evolving enhancer protein 3,1.2e-19,photosystem II protein PsbQ
+all1367,anabaena,PF03602.22,Conserved hypothetical protein 95,7.6e-52,16S rRNA (guanine(966)-N(2))-methyltransferase RsmD
+all1435,anabaena,PF03270.19,"Protein of unknown function, DUF269",1e-49,NifX-associated nitrogen fixation protein
+all1483,anabaena,PF09364.16,XFP N-terminal domain,6.4e-183,phosphoketolase family protein
+all1641,anabaena,PF07690.22,Major Facilitator Superfamily,8e-41,MFS transporter
+all1711,anabaena,PF07690.22,Major Facilitator Superfamily,9.6e-16,MFS transporter
+all1732,anabaena,PF10664.16,Cyanobacterial and plastid NDH-1 subunit M,1.1e-38,NAD(P)H-quinone oxidoreductase subunit M
+all1737,anabaena,PF00535.33,Glycosyl transferase family 2,7.9e-25,glycosyltransferase
+all1750,anabaena,PF23381.2,IFT122 first beta-propeller,2.3e-33,WD40 repeat domain-containing protein
+all1756,anabaena,PF21053.4,"Biogenesis factor required for ATP synthase 1, C-terminal domain",5.9e-60,DUF3598 family protein
+all1758,anabaena,PF07228.18,Stage II sporulation protein E (SpoIIE),1.5e-56,PP2C family protein-serine/threonine phosphatase
+all1764,anabaena,PF09837.16,Uncharacterized protein conserved in bacteria (DUF2064),1.7e-35,TIGR04282 family arsenosugar biosynthesis glycosyltransferase
+all1800,anabaena,PF02254.25,TrkA-N domain,2.5e-27,potassium channel family protein
+all1816,anabaena,PF02698.24,DUF218 domain,1e-27,YdcF family protein
+all1843,anabaena,PF00420.30,NADH-ubiquinone/plastoquinone oxidoreductase chain 4L,4.8e-23,cation:proton antiporter subunit C
+all1881,anabaena,PF00188.33,Cysteine-rich secretory protein family,4.4e-14,CAP domain-containing protein
+all1882,anabaena,PF00188.33,Cysteine-rich secretory protein family,1.9e-12,CAP domain-containing protein
+all1886,anabaena,PF00535.33,Glycosyl transferase family 2,3.6e-16,glycosyltransferase family 2 protein
+all1995,anabaena,PF00156.34,Phosphoribosyl transferase domain,2.8e-19,phosphoribosyltransferase
+all2002,anabaena,PF19991.6,Heavy metal associated domain 2,1e-13,HMA2 domain-containing protein
+all2115,anabaena,PF11103.15,Protein of unknown function (DUF2887),1.4e-76,Rpn family recombination-promoting nuclease/putative transposase
+all2177,anabaena,PF11103.15,Protein of unknown function (DUF2887),1.4e-73,Rpn family recombination-promoting nuclease/putative transposase
+all2196,anabaena,PF01850.28,PIN domain,1.8e-13,type II toxin-antitoxin system VapC family toxin
+all2260,anabaena,PF11845.14,Tll0287,1.6e-42,c-type heme family protein
+all2317,anabaena,PF00565.24,Staphylococcal nuclease homologue,1.1e-15,thermonuclease family protein
+all2381,anabaena,PF03364.26,Polyketide cyclase / dehydrase and lipid transport,1.2e-18,SRPBCC family protein
+all2425,anabaena,PF08291.17,Peptidase M15,1.6e-36,D-Ala-D-Ala carboxypeptidase family metallohydrolase
+all2461,anabaena,PF05673.20,Protein of unknown function (DUF815),4.1e-96,ATP-binding protein
+all2501,anabaena,PF04551.20,GcpE TIM-barrel domain,1.4e-89,(E)-4-hydroxy-3-methylbut-2-enyl-diphosphate synthase
+all2567,anabaena,PF09364.16,XFP N-terminal domain,5.8e-184,phosphoketolase family protein
+all2598,anabaena,PF13460.13,NAD(P)H-binding,2.6e-23,SDR family oxidoreductase
+all2653,anabaena,PF00296.27,Luciferase-like monooxygenase,2.8e-43,LLM class flavin-dependent oxidoreductase
+all2658,anabaena,PF04116.20,Fatty acid hydroxylase,1.2e-27,sterol desaturase family protein
+all2673,anabaena,PF07690.22,Major Facilitator Superfamily,5.3e-21,MFS transporter
+all2685,anabaena,PF01850.28,PIN domain,8.2e-14,type II toxin-antitoxin system VapC family toxin
+all2703,anabaena,PF11103.15,Protein of unknown function (DUF2887),1.4e-81,Rpn family recombination-promoting nuclease/putative transposase
+all2706,anabaena,PF03547.24,Membrane transport protein,1.8e-12,AEC family transporter
+all2720,anabaena,PF00534.27,Glycosyl transferases group 1,2.1e-25,glycosyltransferase family 4 protein
+all2724,anabaena,PF03079.21,ARD/ARD' family,1.4e-12,"1,2-dihydroxy-3-keto-5-methylthiopentene dioxygenase"
+all2753,anabaena,PF00561.27,alpha/beta hydrolase fold,7.4e-27,"2-succinyl-6-hydroxy-2,4-cyclohexadiene-1-carboxylate synthase"
+all2804,anabaena,PF11848.14,PIN domain,1.9e-54,DUF3368 domain-containing protein
+all2852,anabaena,PF00149.34,Calcineurin-like phosphoesterase,5.3e-21,metallophosphoesterase family protein
+all2907,anabaena,PF14464.12,Prokaryotic homologs of the JAB domain,1.1e-25,Mov34/MPN/PAD-1 family protein
+all2931,anabaena,PF00903.32,Glyoxalase/Bleomycin resistance protein/Dioxygenase superfamily,2.3e-14,VOC family protein
+all3011,anabaena,PF03649.19,Uncharacterised protein family (UPF0014),9.3e-87,ABC transporter permease
+all3033,anabaena,PF03600.23,Citrate transporter,2e-57,SLC13 family permease
+all3259,anabaena,PF11833.14,Protein CHAPERONE-LIKE PROTEIN OF POR1-like,4.5e-74,CPP1-like family protein
+all3320,anabaena,PF30637.1,Alg8 N-terminal domain,9.2e-127,type VI secretion system tip protein VgrG
+all3327,anabaena,PF14065.12,Pvc16 N-terminal domain,8.4e-39,DUF4255 domain-containing protein
+all3354,anabaena,PF01795.26,MraW methylase family,4.5e-108,16S rRNA (cytosine(1402)-N(4))-methyltransferase RsmH
+all3378,anabaena,PF13354.13,Beta-lactamase enzyme family,1.5e-20,serine hydrolase
+all3391,anabaena,PF14108.12,ABA DEFICIENT 4-like,8.5e-51,ABA4-like family protein
+all3446,anabaena,PF14534.13,Domain of unknown function (DUF4440),2.5e-23,nuclear transport factor 2 family protein
+all3579,anabaena,PF09685.16,Magnetosome magnetite crystal formation protein family,1.5e-20,DUF4870 domain-containing protein
+all3669,anabaena,PF13366.13,PD-(D/E)XK nuclease superfamily,1.1e-39,GxxExxY protein
+all3741,anabaena,PF03060.22,Nitronate monooxygenase,8.1e-43,NAD(P)H-dependent flavin oxidoreductase
+all3792,anabaena,PF00188.33,Cysteine-rich secretory protein family,1.9e-15,CAP domain-containing protein
+all3793,anabaena,PF00188.33,Cysteine-rich secretory protein family,2.8e-13,CAP domain-containing protein
+all3837,anabaena,PF11103.15,Protein of unknown function (DUF2887),9.4e-81,Rpn family recombination-promoting nuclease/putative transposase
+all3971,anabaena,PF02163.29,Peptidase family M50,8.7e-64,RIP metalloprotease RseP
+all3972,anabaena,PF01850.28,PIN domain,1.1e-12,type II toxin-antitoxin system VapC family toxin
+all4102,anabaena,PF04339.19,Peptidogalycan biosysnthesis/recognition,6.3e-143,GNAT family N-acetyltransferase
+all4116,anabaena,PF01427.23,D-ala-D-ala dipeptidase,2.5e-36,M15 family metallopeptidase
+all4135,anabaena,PF01850.28,PIN domain,3e-12,type II toxin-antitoxin system VapC family toxin
+all4184,anabaena,PF11103.15,Protein of unknown function (DUF2887),1.1e-31,Rpn family recombination-promoting nuclease/putative transposase
+all4225,anabaena,PF00563.26,EAL domain,1.7e-76,putative bifunctional diguanylate cyclase/phosphodiesterase
+all4283,anabaena,PF02633.20,Creatinine amidohydrolase,2e-71,creatininase family protein
+all4285,anabaena,PF03092.23,BT1 family,3.4e-139,folate/biopterin family MFS transporter
+all4341,anabaena,PF01521.27,Iron-sulphur cluster biosynthesis,3.6e-15,HesB/IscA family protein
+all4403,anabaena,PF13416.12,Bacterial extracellular solute-binding protein,6.3e-32,VWA domain-containing protein
+all4462,anabaena,PF03209.22,PUCC protein,3.3e-109,BCD family MFS transporter
+all4463,anabaena,PF00149.34,Calcineurin-like phosphoesterase,3.4e-13,exonuclease subunit SbcD
+all4478,anabaena,PF29531.1,Domain of unknown function (DUF8561),1.8e-24,DoxX family protein
+all4556,anabaena,PF03486.21,HI0933-like protein Rossmann domain,1.3e-78,NAD(P)/FAD-dependent oxidoreductase
+all4591,anabaena,PF01070.25,FMN-dependent dehydrogenase,5.2e-18,type 2 isopentenyl-diphosphate Delta-isomerase
+all4614,anabaena,PF07690.22,Major Facilitator Superfamily,6.7e-30,MFS transporter
+all4618,anabaena,PF00188.33,Cysteine-rich secretory protein family,1.6e-19,CAP domain-containing protein
+all4667,anabaena,PF13500.13,AAA domain,9.9e-50,dethiobiotin synthase
+all4671,anabaena,PF13328.13,HD domain,5.7e-26,HD domain-containing protein
+all4752,anabaena,PF05368.20,NmrA-like family,8.2e-32,SDR family oxidoreductase
+all4799,anabaena,PF09335.17,VTT domain,5.4e-15,DedA family protein
+all4874,anabaena,PF13460.13,NAD(P)H-binding,2.2e-43,SDR family oxidoreductase
+all4895,anabaena,PF03055.22,Retinal pigment epithelial membrane protein,8.7e-127,carotenoid oxygenase family protein
+all4916,anabaena,PF14072.12,DNA-sulfur modification-associated,9.1e-11,DGQHR domain-containing protein
+all4967,anabaena,PF05728.19,Uncharacterised protein family (UPF0227),2.2e-64,YqiA/YcfP family alpha/beta fold hydrolase
+all4972,anabaena,PF10400.16,Virulence activator alpha C-term,4e-23,PadR family transcriptional regulator
+all5037,anabaena,PF13483.13,Beta-lactamase superfamily domain,4.7e-32,MBL fold metallo-hydrolase
+all5093,anabaena,PF09335.17,VTT domain,9.3e-24,DedA family protein
+all5096,anabaena,PF01595.26,Cyclin M transmembrane N-terminal domain,1.8e-42,hemolysin family protein
+all5102,anabaena,PF00535.33,Glycosyl transferase family 2,1.1e-19,TIGR04283 family arsenosugar biosynthesis glycosyltransferase
+all5119,anabaena,PF09335.17,VTT domain,3e-26,TVP38/TMEM64 family protein
+all5132,anabaena,PF01850.28,PIN domain,4.4e-11,type II toxin-antitoxin system VapC family toxin
+all5169,anabaena,PF08847.17,Chlororespiratory reduction 6,1.7e-75,CRR6 family NdhI maturation factor
+all5246,anabaena,PF09721.16,Transmembrane exosortase (Exosortase_EpsH),6.8e-45,cyanoexosortase A
+all5255,anabaena,PF02578.22,Multi-copper polyphenol oxidoreductase laccase,9.8e-47,peptidoglycan editing factor PgeF
+all5292,anabaena,PF09367.17,CpeS-like protein,8.2e-46,phycobiliprotein lyase
+all5305,anabaena,PF13460.13,NAD(P)H-binding,2.3e-33,SDR family oxidoreductase
+all5342,anabaena,PF13506.14,Glycosyl transferase family 21,1.1e-23,glycosyltransferase
+all5343,anabaena,PF13506.14,Glycosyl transferase family 21,1.7e-26,glycosyltransferase
+alr0024,anabaena,PF13369.13,Transglutaminase-like superfamily,1.9e-57,SirB1 family protein
+alr0114,anabaena,PF04278.18,Tic22-like family,6.9e-18,outer membrane biogenesis proteinTic22
+alr0116,anabaena,PF01300.25,Telomere recombination,1.9e-39,L-threonylcarbamoyladenylate synthase
+alr0149,anabaena,PF01850.28,PIN domain,6.6e-16,type II toxin-antitoxin system VapC family toxin
+alr0159,anabaena,PF00534.27,Glycosyl transferases group 1,1.4e-21,glycosyltransferase family 4 protein
+alr0201,anabaena,PF01300.25,Telomere recombination,8.3e-45,L-threonylcarbamoyladenylate synthase
+alr0303,anabaena,PF19493.5,Trypsin-co-occurring domain 1,1.4e-22,CU044_2847 family protein
+alr0309,anabaena,PF01595.26,Cyclin M transmembrane N-terminal domain,2.6e-44,hemolysin family protein
+alr0379,anabaena,PF02654.22,Cobalamin-5-phosphate synthase,8.3e-65,adenosylcobinamide-GDP ribazoletransferase
+alr0446,anabaena,PF12704.15,MacB-like periplasmic core domain,6e-51,ABC transporter permease
+alr0452,anabaena,PF12704.15,MacB-like periplasmic core domain,9.6e-52,ABC transporter permease
+alr0480,anabaena,PF01370.28,NAD dependent epimerase/dehydratase family,9.3e-14,SDR family oxidoreductase
+alr0484,anabaena,PF02361.22,Cobalt transport protein,2.9e-37,energy-coupling factor transporter transmembrane component T family protein
+alr0486,anabaena,PF01168.27,"Alanine racemase, N-terminal domain",1e-21,YggS family pyridoxal phosphate-dependent enzyme
+alr0519,anabaena,PF01903.24,CbiX,2.6e-19,sirohydrochlorin chelatase
+alr0549,anabaena,PF05635.18,23S rRNA-intervening sequence protein,1.3e-30,four helix bundle protein
+alr0617,anabaena,PF09367.17,CpeS-like protein,1.9e-73,phycobiliprotein lyase
+alr0739,anabaena,PF28474.1,Domain of unknown function (DUF8412),9.2e-42,YdeI/OmpD-associated family protein
+alr0776,anabaena,PF00535.33,Glycosyl transferase family 2,1.1e-20,glycosyltransferase
+alr0894,anabaena,PF03364.26,Polyketide cyclase / dehydrase and lipid transport,1.3e-15,SRPBCC family protein
+alr1198,anabaena,PF12850.13,Calcineurin-like phosphoesterase superfamily domain,1.6e-22,metallophosphoesterase family protein
+alr1206,anabaena,PF00578.28,AhpC/TSA family,1.5e-16,thioredoxin family protein
+alr1209,anabaena,PF01494.26,FAD binding domain,7.3e-15,geranylgeranyl reductase family protein
+alr1352,anabaena,PF02089.22,Palmitoyl protein thioesterase,8e-13,esterase/lipase family protein
+alr1372,anabaena,PF10021.16,"Microbial-type PARG, catalytic domain",4.8e-52,TIGR02452 family protein
+alr1374,anabaena,PF02633.20,Creatinine amidohydrolase,2.6e-76,creatininase family protein
+alr1385,anabaena,PF16955.12,"Ferrous iron uptake permease, iron-lead transporter",1.1e-13,COG4280 domain-containing protein
+alr1392,anabaena,PF17765.8,MmyB-like transcription regulator ligand binding domain,7.9e-29,helix-turn-helix domain-containing protein
+alr1506,anabaena,PF12704.15,MacB-like periplasmic core domain,2e-44,ABC transporter permease
+alr1567,anabaena,PF01930.24,Domain of unknown function DUF83,1.6e-23,CRISPR-associated protein Cas4
+alr1581,anabaena,PF14534.13,Domain of unknown function (DUF4440),3.1e-17,YybH family protein
+alr1604,anabaena,PF13398.13,Peptidase M50B-like,3.8e-48,M50 family metallopeptidase
+alr1612,anabaena,PF01940.22,Integral membrane protein DUF92,3.5e-67,TIGR00297 family protein
+alr1621,anabaena,PF09822.17,ABC-type uncharacterized transport system,9.1e-29,GldG family protein
+alr1788,anabaena,PF01593.31,Flavin containing amine oxidoreductase,3.3e-32,hydroxysqualene dehydroxylase
+alr1796,anabaena,PF02021.24,Uncharacterised protein family UPF0102,5.3e-24,YraN family protein
+alr1954,anabaena,PF13083.14,"KhpA/KhpB, KH domain",5.3e-16,KH domain-containing protein
+alr1960,anabaena,PF10722.15,Putative bacterial sensory transduction regulator,1.6e-20,YbjN domain-containing protein
+alr2018,anabaena,PF10400.16,Virulence activator alpha C-term,1.7e-16,PadR family transcriptional regulator
+alr2064,anabaena,PF01593.31,Flavin containing amine oxidoreductase,6.1e-22,carotenoid isomerase
+alr2074,anabaena,PF00903.32,Glyoxalase/Bleomycin resistance protein/Dioxygenase superfamily,2.1e-12,VOC family protein
+alr2111,anabaena,PF02254.25,TrkA-N domain,7.3e-25,potassium channel family protein
+alr2122,anabaena,PF00857.27,Isochorismatase domain,5.6e-31,cysteine hydrolase family protein
+alr2140,anabaena,PF13462.13,Thioredoxin,1.5e-12,DsbA family protein
+alr2207,anabaena,PF09335.17,VTT domain,3.1e-30,TVP38/TMEM64 family protein
+alr2298,anabaena,PF01933.24,2-phospho-L-lactate transferase CofD,4.2e-121,gluconeogenesis factor YvcK family protein
+alr2308,anabaena,PF12617.14,Light dependent period A C-terminal domain,2.2e-78,circadian clock protein LdpA
+alr2310,anabaena,PF00491.27,Arginase family,8.2e-47,agmatinase SpeB
+alr2363,anabaena,PF07690.22,Major Facilitator Superfamily,5.6e-21,MFS transporter
+alr2393,anabaena,PF17310.8,Family of unknown function (DUF5357),7e-171,filament integrity protein FraD
+alr2404,anabaena,PF07063.20,2-oxoadipate dioxygenase/decarboxylase,8.3e-27,DUF1338 domain-containing protein
+alr2408,anabaena,PF00535.33,Glycosyl transferase family 2,2.7e-24,TIGR04283 family arsenosugar biosynthesis glycosyltransferase
+alr2434,anabaena,PF07690.22,Major Facilitator Superfamily,6.7e-21,MFS transporter
+alr2462,anabaena,PF03647.19,Transmembrane proteins 14C,4.5e-25,TMEM14 family protein
+alr2467,anabaena,PF02698.24,DUF218 domain,5.8e-37,YdcF family protein
+alr2488,anabaena,PF01906.25,Putative heavy-metal-binding,1.1e-33,YbjQ family protein
+alr2569,anabaena,PF03965.23,Penicillinase repressor,1.5e-30,BlaI/MecI/CopY family transcriptional regulator
+alr2577,anabaena,PF11103.15,Protein of unknown function (DUF2887),4e-74,Rpn family recombination-promoting nuclease/putative transposase
+alr2628,anabaena,PF13911.13,AhpC/TSA antioxidant enzyme,1.5e-25,peroxiredoxin-like family protein
+alr2710,anabaena,PF13230.12,Glutamine amidotransferases class-II,3.9e-17,ergothioneine biosynthesis protein EgtC
+alr2711,anabaena,PF03781.24,Sulfatase-modifying factor enzyme 1-like domain,1.6e-59,ergothioneine biosynthesis protein EgtB
+alr2751,anabaena,PF13460.13,NAD(P)H-binding,7.1e-51,SDR family oxidoreductase
+alr2752,anabaena,PF31186.1,Endolysin,2.5e-12,glycoside hydrolase family 24 protein
+alr2762,anabaena,PF10726.15,Protein of function (DUF2518),5.2e-67,Ycf51 family protein
+alr2784,anabaena,PF07697.17,7TM-HD extracellular,8.5e-53,HD family phosphohydrolase
+alr2802,anabaena,PF02656.21,Domain of unknown function (DUF202),9e-20,YidH family protein
+alr2822,anabaena,PF00092.35,von Willebrand factor type A domain,3.2e-11,vWA domain-containing protein
+alr2826,anabaena,PF01266.31,FAD dependent oxidoreductase,1.5e-61,L-2-hydroxyglutarate oxidase
+alr2903,anabaena,PF13460.13,NAD(P)H-binding,1.4e-29,SDR family oxidoreductase
+alr2922,anabaena,PF00903.32,Glyoxalase/Bleomycin resistance protein/Dioxygenase superfamily,2.2e-14,VOC family protein
+alr3026,anabaena,PF04290.19,"Tripartite ATP-independent periplasmic transporters, DctQ component",4.3e-21,TRAP transporter small permease subunit
+alr3097,anabaena,PF12345.14,Protein of unknown function (DUF3641),6.7e-54,arsenosugar biosynthesis radical SAM (seleno)protein ArsS
+alr3238,anabaena,PF10057.15,Na+-translocating membrane potential-generating system (MpsC),3.3e-32,DUF2294 domain-containing protein
+alr3252,anabaena,PF00106.32,short chain dehydrogenase,1.8e-31,SDR family NAD(P)-dependent oxidoreductase
+alr3362,anabaena,PF21537.3,DUF1980 C-terminal domain,7.4e-22,TIGR03943 family putative permease subunit
+alr3414,anabaena,PF03703.22,Bacterial PH domain,3.4e-11,PH domain-containing protein
+alr3434,anabaena,PF14355.13,HEPN-like domain,2.8e-52,STM4504/CBY_0614 family protein
+alr3448,anabaena,PF01040.24,UbiA prenyltransferase family,2e-45,homogentisate phytyltransferase
+alr3469,anabaena,PF01850.28,PIN domain,9.2e-14,type II toxin-antitoxin system VapC family toxin
+alr3496,anabaena,PF22296.3,bAvd-like,2e-21,diversity-generating retroelement protein Avd
+alr3506,anabaena,PF01040.24,UbiA prenyltransferase family,1.3e-20,decaprenyl-phosphate phosphoribosyltransferase
+alr3513,anabaena,PF02657.22,Fe-S metabolism associated domain,3e-44,SufE family protein
+alr3529,anabaena,PF27865.1,Conserved hypothetical protein CHP04376,5.3e-85,TIGR04376 family protein
+alr3573,anabaena,PF04055.28,Radical SAM superfamily,1.2e-13,"7,8-didemethyl-8-hydroxy-5-deazariboflavin synthase subunit CofG"
+alr3703,anabaena,PF03547.24,Membrane transport protein,4.2e-16,AEC family transporter
+alr3729,anabaena,PF07366.19,SnoaL-like polyketide cyclase,6.5e-35,nuclear transport factor 2 family protein
+alr3760,anabaena,PF13581.13,Histidine kinase-like ATPase domain,7.1e-19,ATP-binding protein
+alr3901,anabaena,PF01641.27,SelR domain,1.6e-50,peptide-methionine (R)-S-oxide reductase MsrB
+alr4009,anabaena,PF00487.31,Fatty acid desaturase,9.6e-38,beta-carotene hydroxylase
+alr4010,anabaena,PF00027.36,Cyclic nucleotide-binding domain,4.8e-13,Crp/Fnr family transcriptional regulator
+alr4030,anabaena,PF24724.3,Family of unknown function (DUF7676),4.7e-63,(2Fe-2S) ferredoxin domain-containing protein
+alr4059,anabaena,PF00550.32,Phosphopantetheine attachment site,3.2e-15,acyl carrier protein
+alr4100,anabaena,PF04536.21,TPM domain,8e-28,photosystem II repair protein Psb32
+alr4129,anabaena,PF04055.28,Radical SAM superfamily,1.5e-15,"7,8-didemethyl-8-hydroxy-5-deazariboflavin synthase subunit CofH"
+alr4170,anabaena,PF06799.17,Conserved in the green lineage and diatoms 27,3.4e-66,CGLD27 family protein
+alr4176,anabaena,PF05977.20,Transmembrane secretion effector,3e-16,MFS transporter
+alr4229,anabaena,PF03235.20,"GmrSD restriction endonuclease, N-terminal domain",3.3e-32,DUF262 domain-containing protein
+alr4275,anabaena,PF11103.15,Protein of unknown function (DUF2887),3.7e-21,Rpn family recombination-promoting nuclease/putative transposase
+alr4323,anabaena,PF02485.28,Core-2/I-Branching enzyme,2.5e-27,"beta-1,6-N-acetylglucosaminyltransferase"
+alr4469,anabaena,PF00903.32,Glyoxalase/Bleomycin resistance protein/Dioxygenase superfamily,5.4e-23,SMU1112c/YaeR family gloxylase I-like metalloprotein
+alr4543,anabaena,PF13354.13,Beta-lactamase enzyme family,2.5e-89,serine hydrolase
+alr4631,anabaena,PF01593.31,Flavin containing amine oxidoreductase,4.6e-13,phytoene desaturase family protein
+alr4655,anabaena,PF01869.27,BadF/BadG/BcrA/BcrD ATPase family,2.4e-41,N-acetylglucosamine kinase
+alr4696,anabaena,PF00472.27,RF-1 domain,7.6e-25,alternative ribosome rescue aminoacyl-tRNA hydrolase ArfB
+alr4711,anabaena,PF13386.13,Cytochrome C biogenesis protein transmembrane region,5.8e-45,sulfite exporter TauE/SafE family protein
+alr4847,anabaena,PF12706.14,Beta-lactamase superfamily domain,1.5e-20,MBL fold metallo-hydrolase
+alr5027,anabaena,PF01243.28,Pyridoxamine 5'-phosphate oxidase,2.7e-22,HugZ family protein
+alr5055,anabaena,PF10646.15,Sporulation and spore germination,5.7e-28,GerMN domain-containing protein
+alr5087,anabaena,PF09685.16,Magnetosome magnetite crystal formation protein family,3.4e-13,DUF4870 domain-containing protein
+alr5129,anabaena,PF03692.21,Putative zinc- or iron-chelating domain,2.6e-13,YkgJ family cysteine cluster protein
+alr5156,anabaena,PF03235.20,"GmrSD restriction endonuclease, N-terminal domain",3e-20,DUF262 domain-containing protein
+alr5159,anabaena,PF07510.17,"GmrSD restriction endonucleases, C-terminal domain",1e-25,HNH endonuclease family protein
+alr5186,anabaena,PF09335.17,VTT domain,4.3e-29,TVP38/TMEM64 family protein
+alr5235,anabaena,PF00534.27,Glycosyl transferases group 1,2.7e-30,glycosyltransferase family 4 protein
+alr5239,anabaena,PF00534.27,Glycosyl transferases group 1,5.4e-32,glycosyltransferase
+alr5361,anabaena,PF02608.21,ABC transporter substrate-binding protein PnrA-like,8.7e-60,BMP family protein
+asl0491,anabaena,PF10985.14,Protein of unknown function (DUF2805),2.5e-34,TIGR03643 family protein
+asl0793,anabaena,PF14255.12,Bacterial zinc ribbon domain,2.6e-23,CPXCG motif-containing cysteine-rich protein
+asl0795,anabaena,PF04193.20,PQ loop repeat,2e-12,SemiSWEET family sugar transporter
+asl0845,anabaena,PF02416.22,mttA/Hcf106 family,1.8e-20,TatA/E family twin arginine-targeting protein translocase
+asl1434,anabaena,PF05082.19,Rop-like,4.5e-30,CCE_0567 family metalloprotein
+asl2451,anabaena,PF26637.1,Family of unknown function (DUF8210),8.9e-40,"photosystem II protein, Psb35-related"
+asl2557,anabaena,PF11347.15,Protein CHLORORESPIRATORY REDUCTION 42-like,1.1e-35,regulatory protein SipA
+asl3112,anabaena,PF10742.15,Protein of unknown function (DUF2555),1.1e-30,protein IsiD
+asl3196,anabaena,PF02594.22,PF1765 protein family,9.7e-25,DUF167 domain-containing protein
+asl3609,anabaena,PF11998.14,Low psii accumulation1 / Rep27,1.2e-32,DUF3493 domain-containing protein
+asr0148,anabaena,PF10047.16,Protein of unknown function (DUF2281),1.2e-15,type II toxin-antitoxin system VapB family antitoxin
+asr0485,anabaena,PF12058.14,PII-interacting protein X,1.4e-41,transcriptional coactivator PipX
+asr1017,anabaena,PF13318.12,1-carboxybiuret hydrolase subunit AtzG-like,1.2e-27,DUF4089 domain-containing protein
+asr3830,anabaena,PF04296.19,Protein of unknown function (DUF448),4.5e-22,YlxR family protein
+asr3992,anabaena,PF01737.23,YCF9,9.7e-29,photosystem II reaction center protein PsbZ
+asr4321,anabaena,PF11910.15,Cyanobacterial and plant NDH-1 subunit O,4.7e-36,NAD(P)H-quinone oxidoreductase subunit O
+Synpcc7942_0010,synechococcus,PF09335.17,VTT domain,2.8e-16,DedA family protein
+Synpcc7942_0015,synechococcus,PF13640.13,2OG-Fe(II) oxygenase superfamily,9.8e-14,Fe2+-dependent dioxygenase
+Synpcc7942_0054,synechococcus,PF04989.19,Rhamnosyl O-methyltransferase/CmcI,3.4e-96,cephalosporin hydroxylase family protein
+Synpcc7942_0066,synechococcus,PF09822.17,ABC-type uncharacterized transport system,2.4e-19,GldG family protein
+Synpcc7942_0081,synechococcus,PF13275.12,S4 domain,4.8e-25,RNA-binding S4 domain-containing protein
+Synpcc7942_0144,synechococcus,PF14108.12,ABA DEFICIENT 4-like,1.6e-42,ABA4-like family protein
+Synpcc7942_0159,synechococcus,PF14464.12,Prokaryotic homologs of the JAB domain,5.6e-25,Mov34/MPN/PAD-1 family protein
+Synpcc7942_0161,synechococcus,PF09367.17,CpeS-like protein,2.2e-24,phycobiliprotein lyase
+Synpcc7942_0165,synechococcus,PF06799.17,Conserved in the green lineage and diatoms 27,7.3e-60,CGLD27 family protein
+Synpcc7942_0187,synechococcus,PF01595.26,Cyclin M transmembrane N-terminal domain,4.3e-43,hemolysin family protein
+Synpcc7942_0188,synechococcus,PF00563.26,EAL domain,1.3e-59,bifunctional diguanylate cyclase/phosphodiesterase
+Synpcc7942_0197,synechococcus,PF03092.23,BT1 family,8e-151,folate/biopterin family MFS transporter
+Synpcc7942_0209,synechococcus,PF02545.20,Maf-like protein,4.9e-58,nucleoside triphosphate pyrophosphatase
+Synpcc7942_0214,synechococcus,PF03547.24,Membrane transport protein,2.3e-13,AEC family transporter
+Synpcc7942_0226,synechococcus,PF02416.22,mttA/Hcf106 family,7.3e-21,TatA/E family twin arginine-targeting protein translocase
+Synpcc7942_0238,synechococcus,PF13386.13,Cytochrome C biogenesis protein transmembrane region,1.9e-52,sulfite exporter TauE/SafE family protein
+Synpcc7942_0255,synechococcus,PF05673.20,Protein of unknown function (DUF815),1.5e-97,ATP-binding protein
+Synpcc7942_0257,synechococcus,PF01940.22,Integral membrane protein DUF92,5.7e-61,TIGR00297 family protein
+Synpcc7942_0258,synechococcus,PF00903.32,Glyoxalase/Bleomycin resistance protein/Dioxygenase superfamily,2.4e-11,VOC family protein
+Synpcc7942_0291,synechococcus,PF10742.15,Protein of unknown function (DUF2555),1.1e-30,protein IsiD
+Synpcc7942_0312,synechococcus,PF02021.24,Uncharacterised protein family UPF0102,5.4e-21,YraN family protein
+Synpcc7942_0346,synechococcus,PF02578.22,Multi-copper polyphenol oxidoreductase laccase,1.4e-46,peptidoglycan editing factor PgeF
+Synpcc7942_0352,synechococcus,PF01641.27,SelR domain,1.6e-42,peptide-methionine (R)-S-oxide reductase MsrB
+Synpcc7942_0359,synechococcus,PF00149.34,Calcineurin-like phosphoesterase,8.4e-18,metallophosphoesterase family protein
+Synpcc7942_0364,synechococcus,PF09367.17,CpeS-like protein,2.4e-35,phycobiliprotein lyase
+Synpcc7942_0386,synechococcus,PF01933.24,2-phospho-L-lactate transferase CofD,3.2e-118,gluconeogenesis factor YvcK family protein
+Synpcc7942_0399,synechococcus,PF13483.13,Beta-lactamase superfamily domain,3.5e-49,MBL fold metallo-hydrolase
+Synpcc7942_0420,synechococcus,PF24923.2,"IQCH-like, ATP-grasp",1.2e-17,peptide ligase PGM1-related protein
+Synpcc7942_0432,synechococcus,PF01427.23,D-ala-D-ala dipeptidase,8.7e-42,M15 family metallopeptidase
+Synpcc7942_0435,synechococcus,PF21537.3,DUF1980 C-terminal domain,5.8e-18,TIGR03943 family putative permease subunit
+Synpcc7942_0448,synechococcus,PF02163.29,Peptidase family M50,2.3e-60,RIP metalloprotease RseP
+Synpcc7942_0488,synechococcus,PF01979.27,Amidohydrolase family,2.8e-22,dihydroorotase
+Synpcc7942_0501,synechococcus,PF13460.13,NAD(P)H-binding,2.3e-46,SDR family oxidoreductase
+Synpcc7942_0531,synechococcus,PF23914.2,Cytochrome c-type biogenesis protein H TPR domain,1.2e-11,tetratricopeptide repeat protein
+Synpcc7942_0539,synechococcus,PF02517.22,Type II CAAX prenyl endopeptidase Rce1-like,5e-13,CPBP family glutamic-type intramembrane protease
+Synpcc7942_0558,synechococcus,PF11833.14,Protein CHAPERONE-LIKE PROTEIN OF POR1-like,1.7e-61,CPP1-like family protein
+Synpcc7942_0566,synechococcus,PF05116.20,Sucrose-6F-phosphate phosphohydrolase,2.3e-14,HAD family hydrolase
+Synpcc7942_0572,synechococcus,PF00903.32,Glyoxalase/Bleomycin resistance protein/Dioxygenase superfamily,4.1e-16,VOC family protein
+Synpcc7942_0574,synechococcus,PF21053.4,"Biogenesis factor required for ATP synthase 1, C-terminal domain",9.4e-51,DUF3598 family protein
+Synpcc7942_0586,synechococcus,PF00149.34,Calcineurin-like phosphoesterase,1.4e-16,metallophosphoesterase
+Synpcc7942_0594,synechococcus,PF02129.25,X-Pro dipeptidyl-peptidase (S15 family),2.8e-71,CocE/NonD family hydrolase
+Synpcc7942_0608,synechococcus,PF03079.21,ARD/ARD' family,3.8e-30,"1,2-dihydroxy-3-keto-5-methylthiopentene dioxygenase"
+Synpcc7942_0619,synechococcus,PF09335.17,VTT domain,1.9e-24,DedA family protein
+Synpcc7942_0620,synechococcus,PF04402.20,Protein of unknown function (DUF541),1.4e-44,SIMPL domain-containing protein
+Synpcc7942_0628,synechococcus,PF01564.24,Spermine/spermidine synthase domain,2.5e-53,polyamine aminopropyltransferase
+Synpcc7942_0665,synechococcus,PF02633.20,Creatinine amidohydrolase,1.3e-70,creatininase family protein
+Synpcc7942_0671,synechococcus,PF06695.17,Putative small multi-drug export protein,6.3e-37,COG2426 family protein
+Synpcc7942_0695,synechococcus,PF03477.22,ATP cone domain,3.6e-23,transcriptional regulator NrdR
+Synpcc7942_0713,synechococcus,PF04551.20,GcpE TIM-barrel domain,6e-89,(E)-4-hydroxy-3-methylbut-2-enyl-diphosphate synthase
+Synpcc7942_0805,synechococcus,PF13483.13,Beta-lactamase superfamily domain,3.1e-29,MBL fold metallo-hydrolase
+Synpcc7942_0807,synechococcus,PF11103.15,Protein of unknown function (DUF2887),1.3e-55,Rpn family recombination-promoting nuclease/putative transposase
+Synpcc7942_0824,synechococcus,PF09924.16,"Phosphatidylglycerol lysyltransferase, C-terminal",8.3e-82,bifunctional lysylphosphatidylglycerol flippase/synthetase MprF
+Synpcc7942_0825,synechococcus,PF00877.26,NlpC/P60 family,7.8e-22,C40 family peptidase
+Synpcc7942_0826,synechococcus,PF13354.13,Beta-lactamase enzyme family,3.5e-15,serine hydrolase
+Synpcc7942_0831,synechococcus,PF13328.13,HD domain,3.7e-24,HD domain-containing protein
+Synpcc7942_0846,synechococcus,PF01263.27,Aldose 1-epimerase,5e-32,D-hexose-6-phosphate mutarotase
+Synpcc7942_0892,synechococcus,PF04055.28,Radical SAM superfamily,1.9e-14,"7,8-didemethyl-8-hydroxy-5-deazariboflavin synthase subunit CofG"
+Synpcc7942_0909,synechococcus,PF01521.27,Iron-sulphur cluster biosynthesis,1.3e-20,HesB/IscA family protein
+Synpcc7942_0945,synechococcus,PF12345.14,Protein of unknown function (DUF3641),5.8e-54,arsenosugar biosynthesis radical SAM (seleno)protein ArsS
+Synpcc7942_0972,synechococcus,PF01042.27,Endoribonuclease L-PSP,4.8e-46,RidA family protein
+Synpcc7942_0975,synechococcus,PF01795.26,MraW methylase family,1.2e-106,16S rRNA (cytosine(1402)-N(4))-methyltransferase RsmH
+Synpcc7942_0982,synechococcus,PF03364.26,Polyketide cyclase / dehydrase and lipid transport,2.6e-23,SRPBCC family protein
+Synpcc7942_0985,synechococcus,PF07690.22,Major Facilitator Superfamily,8.1e-24,MFS transporter
+Synpcc7942_0988,synechococcus,PF10674.15,Ycf54 protein,2.3e-45,MgPME-cyclase complex family protein
+Synpcc7942_1006,synechococcus,PF29407.1,Cilia and flagella-associated protein 70 C-terminal domain,5.3e-13,tetratricopeptide repeat protein
+Synpcc7942_1027,synechococcus,PF04025.19,Extracellular matrix regulatory protein A-like,2.1e-32,DUF370 domain-containing protein
+Synpcc7942_1073,synechococcus,PF01138.28,"3' exoribonuclease family, domain 1",1.1e-24,ribonuclease PH
+Synpcc7942_1081,synechococcus,PF02254.25,TrkA-N domain,3.3e-27,potassium channel family protein
+Synpcc7942_1106,synechococcus,PF08847.17,Chlororespiratory reduction 6,3e-65,CRR6 family NdhI maturation factor
+Synpcc7942_1119,synechococcus,PF09335.17,VTT domain,2.7e-27,TVP38/TMEM64 family protein
+Synpcc7942_1138,synechococcus,PF01171.28,PP-loop domain,1.8e-47,tRNA lysidine(34) synthetase TilS
+Synpcc7942_1148,synechococcus,PF13487.13,HD domain,1.1e-38,HD domain-containing phosphohydrolase
+Synpcc7942_1161,synechococcus,PF04657.20,"Putative inner membrane exporter, YdcZ",8e-34,DMT family transporter
+Synpcc7942_1162,synechococcus,PF04657.20,"Putative inner membrane exporter, YdcZ",5e-36,DMT family transporter
+Synpcc7942_1163,synechococcus,PF07690.22,Major Facilitator Superfamily,2.6e-19,MFS transporter
+Synpcc7942_1167,synechococcus,PF09367.17,CpeS-like protein,3e-30,phycobiliprotein lyase
+Synpcc7942_1171,synechococcus,PF04244.20,Deoxyribodipyrimidine photo-lyase-related protein,8.3e-72,cryptochrome/photolyase family protein
+Synpcc7942_1187,synechococcus,PF04339.19,Peptidogalycan biosysnthesis/recognition,4.5e-137,GNAT family N-acetyltransferase
+Synpcc7942_1196,synechococcus,PF11347.15,Protein CHLORORESPIRATORY REDUCTION 42-like,1.4e-29,regulatory protein SipA
+Synpcc7942_1265,synechococcus,PF02254.25,TrkA-N domain,7.1e-25,potassium channel family protein
+Synpcc7942_1272,synechococcus,PF10604.16,Polyketide cyclase / dehydrase and lipid transport,8.1e-19,SRPBCC family protein
+Synpcc7942_1329,synechococcus,PF04536.21,TPM domain,8.7e-27,photosystem II repair protein Psb32
+Synpcc7942_1336,synechococcus,PF16261.12,Domain of unknown function (DUF4915),2e-142,TIGR03032 family protein
+Synpcc7942_1349,synechococcus,PF05728.19,Uncharacterised protein family (UPF0227),4.1e-33,YqiA/YcfP family alpha/beta fold hydrolase
+Synpcc7942_1401,synechococcus,PF00903.32,Glyoxalase/Bleomycin resistance protein/Dioxygenase superfamily,4.8e-18,VOC family protein
+Synpcc7942_1405,synechococcus,PF02643.22,"Uncharacterized ACR, COG1430",5.3e-36,DUF192 domain-containing protein
+Synpcc7942_1412,synechococcus,PF10722.15,Putative bacterial sensory transduction regulator,7.7e-17,YbjN domain-containing protein
+Synpcc7942_1458,synechococcus,PF02698.24,DUF218 domain,7e-16,YdcF family protein
+Synpcc7942_1467,synechococcus,PF30527.1,"Cyanobacterial DnaJ chaperone, C-terminal domain",1e-46,J domain-containing protein
+Synpcc7942_1474,synechococcus,PF00420.30,NADH-ubiquinone/plastoquinone oxidoreductase chain 4L,2.3e-21,cation:proton antiporter subunit C
+Synpcc7942_1477,synechococcus,PF09899.15,Putative amidoligase enzyme (DUF2126),8.8e-172,transglutaminase family protein
+Synpcc7942_1480,synechococcus,PF03602.22,Conserved hypothetical protein 95,9.3e-43,16S rRNA (guanine(966)-N(2))-methyltransferase RsmD
+Synpcc7942_1511,synechococcus,PF03364.26,Polyketide cyclase / dehydrase and lipid transport,1.2e-19,SRPBCC family protein
+Synpcc7942_1555,synechococcus,PF11264.14,Thylakoid formation protein,3.6e-86,photosystem II biogenesis protein Psp29
+Synpcc7942_1581,synechococcus,PF00246.30,Zinc carboxypeptidase,7.4e-48,M14 family metallopeptidase
+Synpcc7942_1585,synechococcus,PF01510.31,N-acetylmuramoyl-L-alanine amidase,6.4e-14,peptidoglycan recognition protein family protein
+Synpcc7942_1678,synechococcus,PF05757.17,Oxygen evolving enhancer protein 3,1e-17,photosystem II protein PsbQ
+Synpcc7942_1701,synechococcus,PF27865.1,Conserved hypothetical protein CHP04376,1.8e-67,TIGR04376 family protein
+Synpcc7942_1730,synechococcus,PF00578.28,AhpC/TSA family,1.3e-16,thioredoxin family protein
+Synpcc7942_1731,synechococcus,PF00156.34,Phosphoribosyl transferase domain,1e-22,phosphoribosyltransferase
+Synpcc7942_1758,synechococcus,PF04055.28,Radical SAM superfamily,1.7e-15,23S rRNA (adenine(2503)-C(2))-methyltransferase RlmN
+Synpcc7942_1762,synechococcus,PF03209.22,PUCC protein,1.1e-107,BCD family MFS transporter
+Synpcc7942_1773,synechococcus,PF13083.14,"KhpA/KhpB, KH domain",9.9e-11,KH domain-containing protein
+Synpcc7942_1786,synechococcus,PF10726.15,Protein of function (DUF2518),5.6e-60,Ycf51 family protein
+Synpcc7942_1800,synechococcus,PF07813.18,LTXXQ motif family protein,2.3e-11,Spy/CpxP family protein refolding chaperone
+Synpcc7942_1819,synechococcus,PF01872.23,RibD C-terminal domain,4e-19,dihydrofolate reductase family protein
+Synpcc7942_1833,synechococcus,PF13614.13,AAA domain,1.2e-32,ParA family protein
+Synpcc7942_1844,synechococcus,PF14489.12,QueF-like protein,3.9e-32,preQ(1) synthase
+Synpcc7942_1864,synechococcus,PF01300.25,Telomere recombination,1.2e-40,L-threonylcarbamoyladenylate synthase
+Synpcc7942_1958,synechococcus,PF13443.13,Cro/C1-type HTH DNA-binding domain,4.1e-13,helix-turn-helix domain-containing protein
+Synpcc7942_1960,synechococcus,PF09654.16,Protein of unknown function (DUF2396),1.2e-73,TIGR02652 family protein
+Synpcc7942_1968,synechococcus,PF04459.18,Protein of unknown function (DUF512),7.4e-76,TIGR03279 family radical SAM protein
+Synpcc7942_1975,synechococcus,PF06305.17,Lipopolysaccharide assembly protein A domain,2.2e-13,LapA family protein
+Synpcc7942_1982,synechococcus,PF10664.16,Cyanobacterial and plastid NDH-1 subunit M,5.1e-37,NAD(P)H-quinone oxidoreductase subunit M
+Synpcc7942_1993,synechococcus,PF00596.28,Class II Aldolase and Adducin N-terminal domain,6e-39,methylthioribulose 1-phosphate dehydratase
+Synpcc7942_2018,synechococcus,PF11998.14,Low psii accumulation1 / Rep27,6.8e-28,DUF3493 domain-containing protein
+Synpcc7942_2021,synechococcus,PF04296.19,Protein of unknown function (DUF448),4.2e-19,YlxR family protein
+Synpcc7942_2031,synechococcus,PF09367.17,CpeS-like protein,3.3e-71,phycobiliprotein lyase
+Synpcc7942_2060,synechococcus,PF01168.27,"Alanine racemase, N-terminal domain",2e-23,YggS family pyridoxal phosphate-dependent enzyme
+Synpcc7942_2067,synechococcus,PF03486.21,HI0933-like protein Rossmann domain,2.5e-72,NAD(P)/FAD-dependent oxidoreductase
+Synpcc7942_2116,synechococcus,PF12146.16,"Serine aminopeptidase, S33",1.1e-14,alpha/beta hydrolase
+Synpcc7942_2144,synechococcus,PF00565.24,Staphylococcal nuclease homologue,1.6e-19,thermonuclease family protein
+Synpcc7942_2190,synechococcus,PF01641.27,SelR domain,3.6e-53,peptide-methionine (R)-S-oxide reductase MsrB
+Synpcc7942_2191,synechococcus,PF01925.26,Sulfite exporter TauE/SafE,4.8e-15,TSUP family transporter
+Synpcc7942_2300,synechococcus,PF11947.14,Photosynthesis affected mutant 68,1.2e-55,PAM68 family protein
+Synpcc7942_2319,synechococcus,PF01381.29,Helix-turn-helix,3.5e-11,HigA family addiction module antitoxin
+Synpcc7942_2326,synechococcus,PF04402.20,Protein of unknown function (DUF541),2.9e-27,SIMPL domain-containing protein
+Synpcc7942_2341,synechococcus,PF02361.22,Cobalt transport protein,2.5e-36,CbiQ family ECF transporter T component
+Synpcc7942_2350,synechococcus,PF01300.25,Telomere recombination,1.8e-39,L-threonylcarbamoyladenylate synthase
+Synpcc7942_2373,synechococcus,PF13378.13,Enolase C-terminal domain-like,1.1e-28,dipeptide epimerase
+Synpcc7942_2407,synechococcus,PF13911.13,AhpC/TSA antioxidant enzyme,4.2e-23,peroxiredoxin-like family protein
+Synpcc7942_2408,synechococcus,PF01042.27,Endoribonuclease L-PSP,3.2e-29,RidA family protein
+Synpcc7942_2411,synechococcus,PF08000.18,Bacterial PH domain,2.9e-27,PH domain-containing protein
+Synpcc7942_2473,synechococcus,PF07228.18,Stage II sporulation protein E (SpoIIE),2.6e-55,PP2C family protein-serine/threonine phosphatase
+Synpcc7942_2487,synechococcus,PF11910.15,Cyanobacterial and plant NDH-1 subunit O,7.5e-33,NAD(P)H-quinone oxidoreductase subunit O
+Synpcc7942_2499,synechococcus,PF01145.32,SPFH domain / Band 7 family,2.1e-25,flotillin family protein
+Synpcc7942_2520,synechococcus,PF03641.20,Possible lysine decarboxylase,2.6e-18,LOG family protein
+Synpcc7942_2586,synechococcus,PF02656.21,Domain of unknown function (DUF202),4.1e-18,YidH family protein
+Synpcc7942_2595,synechococcus,PF01595.26,Cyclin M transmembrane N-terminal domain,1.5e-41,hemolysin family protein
+Synpcc7942_2601,synechococcus,PF02628.21,Cytochrome oxidase assembly protein,6.2e-22,COX15/CtaA family protein
+Synpcc7942_2611,synechococcus,PF01903.24,CbiX,7.1e-17,sirohydrochlorin chelatase

@@ -1,0 +1,1509 @@
+Query         all4349
+Match_columns 399
+No_of_seqs    1422 out of 2144
+Neff          12.0005
+Searched_HMMs 75560
+Date          Fri Jul 31 18:06:51 2026
+Command       hhsearch -cpu 8 -i ../results/full.a3m -d /cluster/toolkit/production/databases/hh-suite/mmcif70/pdb70 -o ../results/6094724_9.hhr -oa3m ../results/6094724_9.a3m -p 20 -Z 250 -loc -z 1 -b 1 -B 250 -ssm 2 -sc 1 -seq 1 -dbstrlen 10000 -norealign -maxres 32000 -contxt /cluster/toolkit/production/bioprogs/tools/hh-suite-build-new/data/context_data.crf 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 9WNO_A GPI mannosyltransferase  99.9 1.2E-19 1.6E-24  163.1  36.8  149   51-207    37-189 (431)
+  2 5EZM_A 4-amino-4-deoxy-L-arabi  99.9 5.3E-18   7E-23  158.4  35.0  149   50-203    55-218 (578)
+  3 9MJB_A Mannosyltransferase; Pr  99.9 7.5E-18 9.9E-23  150.9  31.7  273   50-342    55-339 (415)
+  4 6SNH_X Dolichyl pyrophosphate   99.8 3.6E-16 4.7E-21  145.1  36.9  374    2-381    27-458 (562)
+  5 9DLF_C Arabinosyltransferase A  99.8 1.9E-16 2.6E-21  150.2  29.9  350    1-357    10-415 (669)
+  6 7WLD_U Phosphatidylinositol gl  99.8   3E-14   4E-19  135.7  35.5  349   32-399     7-423 (712)
+  7 6S7O_A Dolichyl-diphosphooligo  99.7 5.1E-14 6.7E-19  135.1  30.3  338   10-358     1-471 (705)
+  8 5OGL_A Undecaprenyl-diphosphoo  99.6   3E-13   4E-18  130.2  27.4  313   13-339     1-390 (713)
+  9 9E6I_A Dolichyl-phosphate-mann  99.6 6.6E-13 8.7E-18  128.3  28.3  335    1-345    25-685 (762)
+ 10 8I9Z_Lh dolichyl-diphosphoolig  99.6 1.5E-12   2E-17  129.3  30.5  335    1-345   187-622 (935)
+ 11 3WAJ_A Transmembrane oligosacc  99.6   2E-12 2.6E-17  127.5  29.8  314   16-339     1-441 (875)
+ 12 6S7T_A Dolichyl-diphosphooligo  99.6 4.7E-12 6.2E-17  124.1  31.1  328    1-339    46-474 (826)
+ 13 7W72_U Phosphatidylinositol gl  99.6 7.1E-11 9.4E-16  106.3  33.8  347   32-398     5-420 (420)
+ 14 6P25_A Dolichyl-phosphate-mann  99.6 7.4E-13 9.7E-18  127.8  22.4  239    1-249    22-302 (817)
+ 15 8AGC_A Dolichyl-diphosphooligo  99.6   8E-12 1.1E-16  120.5  29.3  318   12-339     1-419 (718)
+ 16 9I5L_B Dolichyl-phosphate-mann  99.5 4.6E-12   6E-17  123.3  22.9  222    1-232    29-299 (804)
+ 17 6X0O_A Integral membrane indol  99.5   6E-11 7.9E-16  116.3  28.9  302   35-339   267-595 (1098)
+ 18 8IF8_B Galactan 5-O-arabinofur  99.5 1.1E-10 1.5E-15  111.3  30.1  312   21-345    92-436 (643)
+ 19 6P25_B Dolichyl-phosphate-mann  99.5 1.8E-11 2.4E-16  118.3  24.8  221    2-232    38-301 (759)
+ 20 7BVG_A Integral membrane indol  99.5 1.6E-09 2.1E-14  106.2  37.8  346   35-386   251-661 (1088)
+ 21 7ZLJ_A C-mannosyltransferase d  99.5 5.6E-11 7.5E-16  114.6  26.4  357    1-359     1-516 (707)
+ 22 7BVF_B Probable arabinosyltran  99.5 1.4E-10 1.8E-15  113.5  27.2  299   35-339   281-609 (1116)
+ 23 6W98_A F5/8 type C domain-cont  99.3 1.6E-08 2.1E-13  105.4  29.9  340   14-358     1-421 (1413)
+ 24 7BVF_A Probable arabinosyltran  98.9 2.7E-05 3.5E-10   77.0  30.5  302   35-339   263-595 (1102)
+ 25 7BVE_B Integral membrane indol  98.6 7.3E-05 9.6E-10   74.0  25.4  301   35-339   261-589 (1084)
+ 26 2RDD_B UPF0092 membrane protei  24.7 1.9E+02  0.0025   15.7   3.7   31  367-397     3-33  (37)
+
+No 1
+>9WNO_A GPI mannosyltransferase 1; GT-C, GPI, Mannosyltransferase, MEMBRANE PROTEIN; HET: Y01, MJC, NAG; 3.48A {Nakaseomyces glabratus}
+Probab=99.90  E-value=1.2e-19  Score=163.12  Aligned_cols=149  Identities=19%  Similarity=0.286  Sum_probs=126.9  Template_Neff=11.600
+
+Q ss_pred             CCCHHHhhHHHHHHHHHCCcHHHhhccccCCCHHHHHHHHHHHHHhcCcchHHHHHHHHHHHHHHHHHHHHHHHHH----
+Q all4349          51 SVDYKYFLAPWYDFIVSNGGFSALKYSFADYTPPYLYWILIAGTVLSGLPKILAIKLFAMSVDFVCAFFTYKIVKL----  126 (399)
+Q Consensus        51 ~~D~~~~~~~~a~~~~~~g~~~~~~~~~~~~~Pl~~~~~~~~~~l~~~~~~~~~~~~~~~l~~~~~~~~~~~~~~~----  126 (399)
+                      +.|+..| .+.++++.+++  ++|.+..+.|||+..++..+..  ..  .+....|+.+.+++.+++..+|++.|+    
+T Consensus        37 ~~D~~~~-~~~a~~~~~g~--~~y~~~~~~~pPl~~~l~~~~~--~l--~~~~~~r~~~~l~~~~~~~~~~~l~~~~~~~  109 (431)
+T 9WNO_A           37 DIDYQVF-NDAAWFVAHRK--SPYNRDTYRYTPLLSWLLLPNH--MI--PWFHFGKLIFVLCDLATGVLILQMLKKLKSK  109 (431)
+T ss_dssp             CHHHHHH-HHHHHHHHTTS--CGGGSTTCCSCHHHHHHHTHHH--HT--TCSCHHHHHHHHHHHHHHHHHHHHHHHHHTT
+T ss_pred             cccchhH-HHHHHHHHcCC--CCCCCCCCCCcHHHHHHHHHHh--hh--hHHHHHHHHHHHHHHHHHHHHHHHHHHhhhc
+Confidence            3488888 78888888744  3666778899999999999998  54  556789999999999999999999999    
+
+
+Q ss_pred             HCCcchHHHHHHHHHHHcHHHHHHHhHHhhHHHHHHHHHHHHHHHHHcCCHHHHHHHHHHHHHhhHHHHHHHHHHHHHHH
+Q all4349         127 KYPEGRKAIFAFITVILSPVVIYNSALWGQCDSIYTTGLIACIYFLSIQKQLSALVSFGIALSFKLQAMFLSPLLLIFLI  206 (399)
+Q Consensus       127 ~~~~~~~a~~~~~l~~~~p~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~gl~~~la~~~k~~~~~~~~~~~~~~~  206 (399)
+                      ...++..+..++++++++|.....+.. ++.|....+++++++++..|++...+|+++|++..+|+.++++++...+..+
+T Consensus       110 ~~~~~~~~~~~~~l~~~~p~~~~~~~~-~~~d~~~~~~~~~~~~~~~~~~~~~ag~~lgla~~~K~~~~~~~~~~~~~~~  188 (431)
+T 9WNO_A          110 YRYGTDRMTIMAAIWLLNPMVITISTR-GNAESVLCFLILSFLYCFLCEQYLLGGLLFGLSIHFKIYPIIYALPIAIYVA  188 (431)
+T ss_dssp             BCCSSCCHHHHHHHHHTCHHHHHHHHT-TCCHHHHHHHHHHHHHHHHTTCHHHHHHHHHHHHHHCSGGGGGHHHHHHHHH
+T ss_pred             CCCCcchHHHHHHHHHHChHHHHHhcC-CChHHHHHHHHHHHHHHHHhcCHHHHHHHHHHHHHccHHHHHHHHHHHHHHH
+Confidence            333444889999999999999977776 7999999999999999999999999999999999999998888777766655
+
+
+Q ss_pred             h
+Q all4349         207 K  207 (399)
+Q Consensus       207 ~  207 (399)
+                      .
+T Consensus       189 ~  189 (431)
+T 9WNO_A          189 A  189 (431)
+T ss_dssp             H
+T ss_pred             H
+Confidence            4
+
+
+No 2
+>5EZM_A 4-amino-4-deoxy-L-arabinose transferase or related glycosyltransferases of PMT family; membrane protein, lipid glycosyltransferase, zinc, GT-C fold, Structural Genomics, PSI-Biology, New York Consortium on Membrane Protein; HET: DSL, MPG, PO4, EPE, PC; 2.7A {Cupriavidus metallidurans (strain ATCC 43123 / DSM 2839 / NBRC 102507 / CH34)}
+Probab=99.86  E-value=5.3e-18  Score=158.42  Aligned_cols=149  Identities=10%  Similarity=0.084  Sum_probs=121.6  Template_Neff=12.100
+
+Q ss_pred             CCCCHHHhhHHHHHHHHHCCcHHHh---hccccCCCHHHHHHHHHHHHHhcCcchHHHHHHHHHHHHHHHHHHHHHHHHH
+Q all4349          50 KSVDYKYFLAPWYDFIVSNGGFSAL---KYSFADYTPPYLYWILIAGTVLSGLPKILAIKLFAMSVDFVCAFFTYKIVKL  126 (399)
+Q Consensus        50 ~~~D~~~~~~~~a~~~~~~g~~~~~---~~~~~~~~Pl~~~~~~~~~~l~~~~~~~~~~~~~~~l~~~~~~~~~~~~~~~  126 (399)
+                      .+.||..| ...++++.++++....   ...+..+||++.++.+...  ..++++....|+.+.+++.+++..+|.+.|+
+T Consensus        55 ~~~D~~~~-~~~a~~~~~~~~~~~~~~~~~~~~~~ppl~~~l~~~~~--~l~g~~~~~~~~~~~l~~~~~~~~~~~l~~~  131 (578)
+T 5EZM_A           55 VGPDEGRY-AEISREMFASGDWVTIRYNALKYFEKPPFHMWVTVVGY--ELFGLGEWQARLAVALSGLLGIGVSMMAARR  131 (578)
+T ss_dssp             CTTHHHHH-HHHHHHHHHHCCSSSCEETTEECCSSCSHHHHHHHHHH--HHHCSSHHHHTHHHHHHHHHHHHHHHHHHHH
+T ss_pred             CCcCHHHH-HHHHHHHHHhCCceeeEeCCcccCCCChHHHHHHHHHH--HHHCcCHHHHHHHHHHHHHHHHHHHHHHHHH
+Confidence            56688888 8899998776633221   2235579999999999999  7777889999999999999999999999999
+
+
+Q ss_pred             HCCcchHHHHHHHHHHHcHHHHHHHhHHhhHHHHHHHHHHHHHHHHHc------------CCHHHHHHHHHHHHHhhHHH
+Q all4349         127 KYPEGRKAIFAFITVILSPVVIYNSALWGQCDSIYTTGLIACIYFLSI------------QKQLSALVSFGIALSFKLQA  194 (399)
+Q Consensus       127 ~~~~~~~a~~~~~l~~~~p~~~~~~~~~~~~~~~~~~~~~~~~~~~~~------------~~~~~~gl~~~la~~~k~~~  194 (399)
+                      ..+++ .+.+++++++++|....++.. ++.|.+..++.+++++++.+            ++..++|++++++.++|+..
+T Consensus       132 ~~~~~-~a~~a~~l~~~~p~~~~~~~~-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~g~~~~la~~~k~~~  209 (578)
+T 5EZM_A          132 WFGAR-AAAFTGLALLAAPMWSVAAHF-NTLDMTLAGVMSCVLAFMLMGQHPDASVAARRGWMVACWAAMGVAILTKGLV  209 (578)
+T ss_dssp             HHCHH-HHHHHHHHHHHCHHHHHHHTS-CCHHHHHHHHHHHHHHHHHHHTCTTSCHHHHHHHHHHHHHHHHHHHHHHTTH
+T ss_pred             HhCHH-HHHHHHHHHHHcHHHHHHHHH-HHhHHHHHHHHHHHHHHHHHHhCCCcchhhccHhHHHHHHHHHHHHHccchH
+Confidence            98655 899999999999999988777 68999999999999998874            12457899999999999666
+
+
+Q ss_pred             HHHHHHHHH
+Q all4349         195 MFLSPLLLI  203 (399)
+Q Consensus       195 ~~~~~~~~~  203 (399)
+                      .++.+...+
+T Consensus       210 ~~~~~~~~~  218 (578)
+T 5EZM_A          210 GIALPGLVL  218 (578)
+T ss_dssp             HHHHHHHHH
+T ss_pred             HHHHHHHHH
+Confidence            555544433
+
+
+No 3
+>9MJB_A Mannosyltransferase; Product-bound Mannosyltransferase PimE in complex with Fab, MEMBRANE PROTEIN; HET: A1A8B, DSL; 3.46A {Mycobacteroides abscessus}
+Probab=99.85  E-value=7.5e-18  Score=150.86  Aligned_cols=273  Identities=11%  Similarity=0.013  Sum_probs=156.4  Template_Neff=11.200
+
+Q ss_pred             CCCCHHHhhHHHHHHHHHCCcHHH--------hhccccCCCHHHHHHHHHHHHHhcC-cchHHHHHHHHHHHHHHHHHHH
+Q all4349          50 KSVDYKYFLAPWYDFIVSNGGFSA--------LKYSFADYTPPYLYWILIAGTVLSG-LPKILAIKLFAMSVDFVCAFFT  120 (399)
+Q Consensus        50 ~~~D~~~~~~~~a~~~~~~g~~~~--------~~~~~~~~~Pl~~~~~~~~~~l~~~-~~~~~~~~~~~~l~~~~~~~~~  120 (399)
+                      ...|+..| ...++...+ ++...        ..+..+.|||+..++..+..  ... +......++.+.++..+++..+
+T Consensus        55 ~~~D~~~y-~~~a~~~~~-~~~y~~~~~~~~~~~~~~~~ypP~~~~l~~~~~--~l~~~~~~~~~~~~~~~~~~~~~~~~  130 (415)
+T 9MJB_A           55 DLVDLHVY-VSGPATLGH-GNLYEFTYPDKTPDFPLPFTYPPFAAVVFWPLH--LIPFTLLGLCWILGTIAALYAVVRLS  130 (415)
+T ss_dssp             CCHHHHHH-HHTGGGTTT-TCSSSCEECSSCTTSCEECCSCHHHHHHHTGGG--GSCHHHHHHHHHHHHHHHHHHHHHHH
+T ss_pred             CCccHHHH-HHHHHHHhc-CCCCCCCCCCCCCCCCCCCCCCHHHHHHHHHHh--cCCHHHHHHHHHHHHHHHHHHHHHHH
+Confidence            45688888 777777766 42221        01234669999999999988  663 3566788999999999999999
+
+
+Q ss_pred             HHHHHHHCCcchHHHHHHHHHHHcHHHHHHHhHHhhHHHHHHHHHHHHHHHHHcCCHHHHHHHHHHHHHhhHHHHHHHHH
+Q all4349         121 YKIVKLKYPEGRKAIFAFITVILSPVVIYNSALWGQCDSIYTTGLIACIYFLSIQKQLSALVSFGIALSFKLQAMFLSPL  200 (399)
+Q Consensus       121 ~~~~~~~~~~~~~a~~~~~l~~~~p~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~gl~~~la~~~k~~~~~~~~~  200 (399)
+                      ++..++..+ +..+..+++++..+|. ...... ++.|.+..++++++++   +++...+|+++|++.++|++.+++.+.
+T Consensus       131 ~~~~~~~~~-~~~~~~~~~~~~~~p~-~~~~~~-g~~d~~~~~~~~la~~---~~r~~~ag~~lgla~~~K~~~~~~~~~  204 (415)
+T 9MJB_A          131 QRLLGFDDA-RAAAVWTAVTMWTEPV-RSTLDY-GQINVLLMLLILLAVA---SSRWWISGTLIGLAGGVKLTPLVSGLY  204 (415)
+T ss_dssp             HHHHTCCCH-HHHHHHHHHHTTSHHH-HHHHHH-TCSSHHHHHHHHHHHH---CCCHHHHHHHHHHHHHHCSGGGGHHHH
+T ss_pred             HHHhCCCCH-HHHHHHHHHHHHHHHH-HHHHHc-CCHHHHHHHHHHHHHh---CCCcchHHHHHHHHHHHHHHHHHHHHH
+Confidence            998887533 3255566666667775 444444 8999999999999988   888999999999999999998775544
+
+
+Q ss_pred             HHHHHHhccCChhhchHHHHHHHH-HHHHHHHCCCCHHHHHHHHH-HHHhhcchhhccCCCHHHhcCCcchh-hHHHHHH
+Q all4349         201 LLIFLIKNRIKWYYLPIPFLVYLI-AIMPAWVAGRPIQELLLIYF-NQANKYKELAKNAPNIYQWIPNNSYN-IVAPLGV  277 (399)
+Q Consensus       201 ~~~~~~~~~~~~~~~~~~~~~~~~-~~~~~~~~~~~~~~~~~~~~-~~~~~~~~~~~~~~~~~~~~~~~~~~-~~~~~~~  277 (399)
+                      ...     ++++|......+...+ ...+.........+.+.... ..............+........... .......
+T Consensus       205 l~~-----~~~~r~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~s~~~~~~~~~~~~~~~~~~~  279 (415)
+T 9MJB_A          205 FLG-----ARRWTTAIWAGVVFLLTVVVGIAVVGEQGRYYFTDLLGKPDRIGPIATVFNQSWRGGISRILGHDAGSGVLV  279 (415)
+T ss_dssp             HHH-----TTCHHHHHHHHHHHHHHHHHHHHHSTTTSCCSSSSCTTCHHHHSCSSSTTCCSHHHHHHHHHSSCCTTCHHH
+T ss_pred             HHH-----cchHHHHHHHHHHHHHHHHHHHHHhChHHHHHHHHhhcCcccCCCccccccccHHHHHHHHHCCCchhHHHH
+Confidence            433     4455554433333322 23333332211100000000 00000011111122222221111000 0000111
+
+
+Q ss_pred             HHHHHHHHHHHHHHHHccCCCCHHHHHHHHHHHHHHHHHhccCCCCCChHHHHHHHHHHHHhCCC
+Q all4349         278 IITIFAIFLLTYVVYKSKLEITLDRLIHLATTIVLLVPYILPKMHERYFYPADICSIIFAFYFPH  342 (399)
+Q Consensus       278 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ry~~~~~p~~~l~~~~~~~  342 (399)
+                      ...............|+++  .   ................+..++||..+.+|++++......+
+T Consensus       280 ~~~~~~~~~~~~~~~r~~~--~---~~~~~~~~~~~~~~~~~~~~~~y~~~~~p~~~l~~~~~~~  339 (415)
+T 9MJB_A          280 LFAYAVTAILAFLAWRAVN--D---RLGQICVVEMFGLLISPISWTHHWVWMVPFMVWLLHGPWR  339 (415)
+T ss_dssp             HHHHHHHHHHHHHHHHTCC--S---HHHHHHHHHHHHHHHSSCCCGGGGGGHHHHHHHHHHSTTS
+T ss_pred             HHHHHHHHHHHHHHHHHcc--c---hHHHHHHHHHHHHHHCccCCchHHHHHHHHHHHHHhChhc
+Confidence            1122222222223333332  1   2333444455566677889999999999999998887544
+
+
+No 4
+>6SNH_X Dolichyl pyrophosphate Man9GlcNAc2 alpha-1,3-glucosyltransferase; Glycosyltransferase, Glucosyltransferase, GT-C, N-Glycosylation, MEMBRANE PROTEIN; HET: LMH;{Saccharomyces cerevisiae}
+Probab=99.83  E-value=3.6e-16  Score=145.13  Aligned_cols=374  Identities=12%  Similarity=0.073  Sum_probs=0.0  Template_Neff=9.600
+
+Q ss_pred             CccccccchHHhHhhhhccccchhhHHHHHHHHHHHHHHHHHHHcccc---------CCCCHHHhhHHHHHHHHHCCcHH
+Q all4349           2 TQWTGRKSFKFIKHDFKSLLISFQQRFPRYLIVCIICAVIIRLICVPN---------KSVDYKYFLAPWYDFIVSNGGFS   72 (399)
+Q Consensus         2 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~---------~~~D~~~~~~~~a~~~~~~g~~~   72 (399)
+                      .+....................+.......+..++++++.+|......         ...|...| .++.+...+.+...
+T Consensus        27 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~l~~il~l~l~lR~~~~~~~~~g~~~~~~~~D~~~~-~~w~~~~~~~~~~~  105 (562)
+T 6SNH_X           27 VNKPAEESFYASPMYDFLYPFRPVGNQWLPEYIIFVCAVILRCTIGLGPYSGKGSPPLYGDFEAQ-RHWMEITQHLPLSK  105 (562)
+T ss_dssp             -----------------------------CCTHHHHHHHHHHHHHTTSCCTTTTCCSSCCHHHHH-HHHHHHHTTSCGGG
+T ss_pred             cCCCccccccCCchHHhhhhccccCCchHHHHHHHHHHHHHHHHHhcCCCCCCCCCCCCCCHHHH-HHHHHHHHhCCHHH
+
+
+Q ss_pred             Hhhcc----ccCCCHHHHHHHHHHHHHhcC--------------------cchHHHHHHHHHHHHHHHHH-HHHHHHHHH
+Q all4349          73 ALKYS----FADYTPPYLYWILIAGTVLSG--------------------LPKILAIKLFAMSVDFVCAF-FTYKIVKLK  127 (399)
+Q Consensus        73 ~~~~~----~~~~~Pl~~~~~~~~~~l~~~--------------------~~~~~~~~~~~~l~~~~~~~-~~~~~~~~~  127 (399)
+                      .|.+.    ..+|||+..+...+..  ...                    .......|+.+++..+++.. .++.+.++.
+T Consensus       106 ~y~~~~~~~~~~YPPl~~~~~~~~~--~l~~~~~~~~~~l~~~~~~~~~~~~~~~~~rl~~ll~~~~~~~~~v~~~~~~~  183 (562)
+T 6SNH_X          106 WYWYDLQYWGLDYPPLTAFHSYLLG--LIGSFFNPSWFALEKSRGFESPDNGLKTYMRSTVIISDILFYFPAVIYFTKWL  183 (562)
+T ss_dssp             SSSSCTTSSCCCSCHHHHHHHHHHH--HHHHHHCSGGGCTTTSTTCCCTTCTTHHHHHHHHHHHHHHHTHHHHHHHHHHH
+T ss_pred             hcccChhhcCCCCcHHHHHHHHHHH--HHHHHhCHHHhhccccCCCCCCcHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+
+
+Q ss_pred             CC----cchHHHHHHHHHHHcHHHHHHHhHHhhHHHHHHHHHHHHHHHHHcCCHHHHHHHHHHHHHhhHHHHHHHHHHHH
+Q all4349         128 YP----EGRKAIFAFITVILSPVVIYNSALWGQCDSIYTTGLIACIYFLSIQKQLSALVSFGIALSFKLQAMFLSPLLLI  203 (399)
+Q Consensus       128 ~~----~~~~a~~~~~l~~~~p~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~gl~~~la~~~k~~~~~~~~~~~~  203 (399)
+                      .+    +++.+..++++++++|..+..+...+|.|.+..++++++++++.|++...++++++++..+|+..+.+++..++
+T Consensus       184 ~~~~~~~~~~~~~~~~~~l~~P~~i~~~~~~~q~d~~~l~~~llsl~~~~~~~~~~a~i~~~la~~~K~~~l~~~p~~~~  263 (562)
+T 6SNH_X          184 GRYRNQSPIGQSIAASAILFQPSLMLIDHGHFQYNSVMLGLTAYAINNLLDEYYAMAAVCFVLSICFKQMALYYAPIFFA  263 (562)
+T ss_dssp             HHHHTCCHHHHHHHHHHHHTCHHHHHHHTTTCCCHHHHHHHHHHHHHHHHTTCHHHHHHHHHHHHHHCGGGGGGHHHHHH
+T ss_pred             hhcCCCChHHHHHHHHHHHHCHHHHHhhccccccHHHHHHHHHHHHHHHHccchHHHHHHHHHHHhcchHHHHHHHHHHH
+
+
+Q ss_pred             HHHhc-----cCChhhc----hHHHHHHHHHHHHHHHCCCCHHHHHHHHHHHHhhcchh-hccCCCHHHhcCC-------
+Q all4349         204 FLIKN-----RIKWYYL----PIPFLVYLIAIMPAWVAGRPIQELLLIYFNQANKYKEL-AKNAPNIYQWIPN-------  266 (399)
+Q Consensus       204 ~~~~~-----~~~~~~~----~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-~~~~~~~~~~~~~-------  266 (399)
+                      +.+.+     ++++++.    .......++...|+...........+............ .....+.+.....       
+T Consensus       264 ~ll~~~~~~~~~~~~~~~~~~~~~~~~~~l~~~Pf~~~~~~~~~~~~~~~~~f~~~~g~~~~~~~n~w~~~~~~~~~~~~  343 (562)
+T 6SNH_X          264 YLLSRSLLFPKFNIARLTVIAFATLATFAIIFAPLYFLGGGLKNIHQCIHRIFPFARGIFEDKVANFWCVTNVFVKYKER  343 (562)
+T ss_dssp             HHCCCCCCSSSCCCHHHHHHHHHHHHHHHHHHHHHHTTSSTHHHHHHHHHHHSCCCCSSSCSCCSSSHHHHHHHHCHHHH
+T ss_pred             HHHHHhcCCCCccHHHHHHHHHHHHHHHHHHHHHHHhcCCchHHHHHHHHHHcCccccCccchhhHHHHHHHHHHHHHHh
+
+
+Q ss_pred             cchhhHHHHHHHHHHHHHHHHHHHHHHccCCCCHHHHHHHHHHHHHHHHHhccCCCCCC-hHHHHHHHHHHHHhCCChHH
+Q all4349         267 NSYNIVAPLGVIITIFAIFLLTYVVYKSKLEITLDRLIHLATTIVLLVPYILPKMHERY-FYPADICSIIFAFYFPHYRW  345 (399)
+Q Consensus       267 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ry-~~~~~p~~~l~~~~~~~~~~  345 (399)
+                      ...............+..+......++++++   ..............+.+.++.+++| +.+.+|+..+......+.+.
+T Consensus       344 ~~~~~~~~~~~~~~~~~~l~~~~~~~~~~~~---~~~~~~~~~~~l~~~l~~~~vh~~yill~llP~~ll~~~~~~~~~~  420 (562)
+T 6SNH_X          344 FTIQQLQLYSLIATVIGFLPAMIMTLLHPKK---HLLPYVLIACSMSFFLFSFQVHEKTILIPLLPITLLYSSTDWNVLS  420 (562)
+T ss_dssp             SCSHHHHHHHHHHHHHHHHHHHHHHHHCCCG---GGHHHHHHHHHHHHHHHCSSCCSCCTHHHHHHHHTTTTCCCHHHHH
+T ss_pred             CCHHHHHHHHHHHHHHHHHHHHHHHHhCCCc---chHHHHHHHHHHHHHHHHhhhChhhcHHHHHHHHHHHcCCChhHHH
+
+
+Q ss_pred             HHHHHHHHHHHHhc--CCCchHHHHHHHHHHHHHHHHH
+Q all4349         346 IAILVPMSSFFSYL--GTPIYIKLFSIPLAFVLWFVVK  381 (399)
+Q Consensus       346 ~~~~~~~~~~~~~~--~~~~~~~~~~~~~~~~~~~~~~  381 (399)
+                      ...........+..  ...............+...+..
+T Consensus       421 ~~~~~~~~~~~s~~Pll~~~~~~~~~~~~~~~~~~l~~  458 (562)
+T 6SNH_X          421 LVSWINNVALFTLWPLLKKDGLHLQYAVSFLLSNWLIG  458 (562)
+T ss_dssp             HHHHHHHHHHHHTHHHHHBTBCTTHHHHHHHHHHHHTT
+T ss_pred             HHHHHHHHHHHHHHHHHcCCCcHHHHHHHHHHHHHHHH
+
+
+No 5
+>9DLF_C Arabinosyltransferase AftB; Arabinosyltransferase, MEMBRANE PROTEIN; HET: 6OU;{Mycolicibacterium chubuense}
+Probab=99.80  E-value=1.9e-16  Score=150.18  Aligned_cols=350  Identities=9%  Similarity=-0.029  Sum_probs=0.0  Template_Neff=9.800
+
+Q ss_pred             CCccccccchHHhHhhhhccccchhhHHHHHHHHHHHHHHHHHHHccccCCCCHHHhhHHHHHHHHHCCcHHHhhcc--c
+Q all4349           1 MTQWTGRKSFKFIKHDFKSLLISFQQRFPRYLIVCIICAVIIRLICVPNKSVDYKYFLAPWYDFIVSNGGFSALKYS--F   78 (399)
+Q Consensus         1 m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~D~~~~~~~~a~~~~~~g~~~~~~~~--~   78 (399)
+                      ++..+..........................++++.+...........+..+|+..| ...++++.++++.......  .
+T Consensus        10 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ll~~~~~~~~~~~~~~~~~~dD~~~~-~~~a~~l~~g~~~~~~~~~~~~   88 (669)
+T 9DLF_C           10 LSRPFTEAAATRLNRWPAFPYHVWVRVSLWVSVVTVAALFGWGAWQRRWIADDGLIV-LRTVRNLLAGNGPVFNAGERVE   88 (669)
+T ss_dssp             -------------------CCCHHHHHHHHHHHHHHHHHHHHHHHSSCCCCTTHHHH-HHHHHHHHTTSCSCSSTTCCCC
+T ss_pred             ccCCCcchhhhhhcCCCCCCccHHHHHHHHHHHHHHHHHHHHHHHhhccCchhHHHH-HHHHHHHHcCCCCCCCCCCCcc
+
+
+Q ss_pred             cCCCHHHHHHHHHHHHHhcCcc--hHHHHHHHHHHHHHHHHHHHHHHHHHHCCcc------hHHHHHHHHHHHcHHHHHH
+Q all4349          79 ADYTPPYLYWILIAGTVLSGLP--KILAIKLFAMSVDFVCAFFTYKIVKLKYPEG------RKAIFAFITVILSPVVIYN  150 (399)
+Q Consensus        79 ~~~~Pl~~~~~~~~~~l~~~~~--~~~~~~~~~~l~~~~~~~~~~~~~~~~~~~~------~~a~~~~~l~~~~p~~~~~  150 (399)
+                      ..++|++.++.+...  .+++.  +....++.+.+++++++.++|.+.|+..+++      ..+.+++++++++|....+
+T Consensus        89 ~~~~Pl~~~lla~~~--~l~g~~~~~~~~~~~~~l~~~l~~~l~~~l~~~~~~~~~~~~~~~~a~~a~ll~~~~p~~~~~  166 (669)
+T 9DLF_C           89 ANTSTVWSYLVTLGG--FVAGSARLEYVALVLALTLSVLGVVLVMFGTARLYAPGLTGRRAVFLPAGALVYIAIPPARDF  166 (669)
+T ss_dssp             CCSCSSHHHHHHHHH--HHSCSSCCHHHHHHHHHHHHHHHHHHHHHHHHHHHGGGGTTCCEEEEESHHHHHHHSHHHHHT
+T ss_pred             ccCCHHHHHHHHHHH--HHcCcccHHHHHHHHHHHHHHHHHHHHHHHHHHHhCCCCCchHhhHHHHHHHHHHhCHHHHHH
+
+
+Q ss_pred             HhHHhhHHHHHHHHHHHHHHHHHc-----C----------CHHHHHHHHHHHHHhhHHHHHHHHHHHHHHHhccCChhhc
+Q all4349         151 SALWGQCDSIYTTGLIACIYFLSI-----Q----------KQLSALVSFGIALSFKLQAMFLSPLLLIFLIKNRIKWYYL  215 (399)
+Q Consensus       151 ~~~~~~~~~~~~~~~~~~~~~~~~-----~----------~~~~~gl~~~la~~~k~~~~~~~~~~~~~~~~~~~~~~~~  215 (399)
+                      +.. +..|.+..++++++++++.+     +          +..+++++++++.++|+..+++.+.+++..+.++++++..
+T Consensus       167 ~~~-~~~~~l~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~gl~~gla~l~r~~~~l~~~~~~~~~~~~~~~~~~~  245 (669)
+T 9DLF_C          167 ATS-GLENGLVLAYLGLLWWMMVCWSQGLRRPDGERTSRGFDATLAVVAGMSVLVRPELALIGGLALVMMLVAAPTWRRR  245 (669)
+T ss_dssp             TSS-SSSHHHHHHHHHHHHHHHHHHHHTCCCSSSSSSCHHHHHHHHHHHHTHHHHCSTTHHHHHHHHHHHHHHCSSHHHH
+T ss_pred             Hcc-chhHHHHHHHHHHHHHHHHHHHcCCCCCCCCccchHHHHHHHHHHHHHHhhcHHHHHHHHHHHHHHHHcCCcHHHH
+
+
+Q ss_pred             hHHHHHHHHHHHHHHHCCCCHHHHHHHHHHHHhhcchhhccCCCHHHhcCCcchhhHHHHHHHHHHHHHHHHHHHHHHcc
+Q all4349         216 PIPFLVYLIAIMPAWVAGRPIQELLLIYFNQANKYKELAKNAPNIYQWIPNNSYNIVAPLGVIITIFAIFLLTYVVYKSK  295 (399)
+Q Consensus       216 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  295 (399)
+                      ....+..+++.+++..+.  .........+.................++...... .........+.+.........+++
+T Consensus       246 ~~~~~~~~~~~~~~~~~~--~~~~g~~~~~~~~~~~~~~~~~~~~~~~l~~~~~~-~~~~~~~~~l~~~~~~~~~~~~~~  322 (669)
+T 9DLF_C          246 LALVVVGGLIPVAYQIFR--MGYYGLLVPGTALAKDASGAKWDQGLVYLANFNQP-YLLWAPAVLLIGLGLMVLLLRGRP  322 (669)
+T ss_dssp             HHHHHHHTHHHHHHHHHH--HHHHSSSSCSHHHHCCCCSCCHHHHHHHHHHHHTT-TCTHHHHHHHHHHHHHHHHHHCCC
+T ss_pred             HHHHHHHHHHHHHHHHHH--HHhhcCCCCccHHhhccccchhHHHHHHHHhcCcc-hhhHHHHHHHHHHHHHHHHHcCCC
+
+
+Q ss_pred             C---------------------CCCHHHHHHHHHHHHHHHHHhccCCCCCChHHHHHHHHHHHHhCCChH----------
+Q all4349         296 L---------------------EITLDRLIHLATTIVLLVPYILPKMHERYFYPADICSIIFAFYFPHYR----------  344 (399)
+Q Consensus       296 ~---------------------~~~~~~~~~~~~~~~~~~~~~~~~~~~ry~~~~~p~~~l~~~~~~~~~----------  344 (399)
+                      +                     .........................+.||+.+.+|++++..+......          
+T Consensus       323 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~gg~~~~~Ryll~~~p~l~l~~~~~~~~~~~~~~~~~~~  402 (669)
+T 9DLF_C          323 SWGDRGARKESGWIARTVQSPPAVVAFMLISGLLQAVYWIRQGGDFMHGRVLLTPLFCLLAPVAVIPLLLPDRSRMARGA  402 (669)
+T ss_dssp             ------------CHHHHHSSHHHHHHHHHHHHHHHHHHHHHHTCCSBSSGGGHHHHHHHTGGGSEEEEECCCTTTSCTHH
+T ss_pred             CCCCCCcccccchhHhhcCCHHHHHHHHHHHHHHHHHHHHHhcCCCcchHhHHHHHHHHHHHHHHHHhcCCchhhhhccc
+
+
+Q ss_pred             HHHHHHHHHHHHH
+Q all4349         345 WIAILVPMSSFFS  357 (399)
+Q Consensus       345 ~~~~~~~~~~~~~  357 (399)
+                      ..........+..
+T Consensus       403 ~~~~~~~~~~~~~  415 (669)
+T 9DLF_C          403 GYLYAGATAVLWL  415 (669)
+T ss_dssp             HHHHHHHHHHHHH
+T ss_pred             hHHHHHHHHHHHH
+
+
+No 6
+>7WLD_U Phosphatidylinositol glycan anchor biosynthesis class U protein; GPI anchoring, GPI-AP, glycosylphosphatidylinositol transamidase, GPI transamidase, membrane protein complex, TRANSFERASE; HET: PEE, NAG, DKB, Y01, CLR, CDL, 05E, P5S, AJP, PA1, 06O, BJR; 2.53A {Homo sapiens}
+Probab=99.75  E-value=3e-14  Score=135.67  Aligned_cols=349  Identities=12%  Similarity=0.064  Sum_probs=0.0  Template_Neff=8.900
+
+Q ss_pred             HHHHHHHHHHHHHHcccc-------------CCCCHHHhhHHHHHHHHHCCcHHHhhccccCCCHHHHHHHHHHHHHhcC
+Q all4349          32 LIVCIICAVIIRLICVPN-------------KSVDYKYFLAPWYDFIVSNGGFSALKYSFADYTPPYLYWILIAGTVLSG   98 (399)
+Q Consensus        32 ~~~~~~~~~~~~~~~~~~-------------~~~D~~~~~~~~a~~~~~~g~~~~~~~~~~~~~Pl~~~~~~~~~~l~~~   98 (399)
+                      +..++++++++|+.....             ...|...+ ...+.....+| .++|.+..+.|||++.+++.+..  .  
+T Consensus         7 ~~~l~~~al~~Rl~l~~~~~~~~~~~~~~~~~~~~~~~~-~~~~~~~~~~G-~~pY~~~~~~YpPl~~~l~~~~~--~--   80 (712)
+T 7WLD_U            7 LVLVLVVAVTVRAALFRSSLAEFISERVEVVSPLSSWKR-VVEGLSLLDLG-VSPYSGAVFHETPLIIYLFHFLI--D--   80 (712)
+T ss_dssp             HHHHHHHHHHHHHHHHTSTTHHHHTTCTTTCCTTTCHHH-HHHHHHHHHTT-CCGGGSSSCCCCHHHHHHHHHSS--T--
+T ss_pred             HHHHHHHHHHHHHHHHhcchHHHHHhCceeeCchHHHHH-HHHHHHHHHcC-CCCCCCCchhcCHHHHHHHHHHh--H--
+
+
+Q ss_pred             cchHHHHHHHHHHHHHHHHHHHHHHHHH----------------------------HCCcchHHHHHHHHHHHcHHHHHH
+Q all4349          99 LPKILAIKLFAMSVDFVCAFFTYKIVKL----------------------------KYPEGRKAIFAFITVILSPVVIYN  150 (399)
+Q Consensus        99 ~~~~~~~~~~~~l~~~~~~~~~~~~~~~----------------------------~~~~~~~a~~~~~l~~~~p~~~~~  150 (399)
+                           ..+++.+++.++++.+++++.++                            ....+..+..++++++++|..+..
+T Consensus        81 -----~~kl~~il~dl~~~~ll~~i~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~l~~~nP~~l~~  155 (712)
+T 7WLD_U           81 -----YAELVFMITDALTAIALYFAIQDFNKVVFKKQKLLLELDQYAPDVAELIRTPMEMRYIPLKVALFYLLNPYTILS  155 (712)
+T ss_dssp             -----THHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHTTCSCTTCCSSSCCTTTSSSHHHHHHHHHHTCHHHHHH
+T ss_pred             -----HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhhhhcCcchHHHccChhHhcchhHHHHHHHhhCHHHHHH
+
+
+Q ss_pred             HhHHhhHHHHHHHHHHHHHHHHHcCCHHHHHHHHHHHHHhhHHHHHHHHHHHHHHHhccCC-------------hhhchH
+Q all4349         151 SALWGQCDSIYTTGLIACIYFLSIQKQLSALVSFGIALSFKLQAMFLSPLLLIFLIKNRIK-------------WYYLPI  217 (399)
+Q Consensus       151 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~gl~~~la~~~k~~~~~~~~~~~~~~~~~~~~-------------~~~~~~  217 (399)
+                      +.. ++.|.+..+++++++++..+++..++++++++++++|+.++++++.++.....++++             .+....
+T Consensus       156 ~~~-g~~D~i~~~~lllal~~~~~~r~~~a~~~lglA~~~K~~p~lllp~~l~~~~~~~~~~~~~~~r~~~~~~~~~~~~  234 (712)
+T 7WLD_U          156 CVA-KSTCAINNTLIAFFILTTIKGSAFLSAIFLALATYQSLYPLTLFVPGLLYLLQRQYIPVKMKSKAFWIFSWEYAMM  234 (712)
+T ss_dssp             HHT-TCTHHHHHHHHHHHHHHHHTTCHHHHHHHHHHHHHHSSGGGGGHHHHHHHHHHHHTCCCCTTCSHHHHHHHHHHHH
+T ss_pred             HHc-cCchHHHHHHHHHHHHHHHcCcHHHHHHHHHHHHHcCcHHHHHHHHHHHHHHhcCCCCCCcCchHHHHHHHHHHHH
+
+
+Q ss_pred             HHHHH-HHHHHHHHHCCCCHHHHHHHHHHHHhhcchhhccCCCHHHhcCCcchhhHHHHHHHHHHHHHHHHHHHHHHccC
+Q all4349         218 PFLVY-LIAIMPAWVAGRPIQELLLIYFNQANKYKELAKNAPNIYQWIPNNSYNIVAPLGVIITIFAIFLLTYVVYKSKL  296 (399)
+Q Consensus       218 ~~~~~-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  296 (399)
+                      .+... .+...|+....  ....................+....+..............................++.++
+T Consensus       235 ~~~~~~~l~~l~~~~~~--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  312 (712)
+T 7WLD_U          235 YVGSLVVIICLSFFLLS--SWDFIPAVYGFILSVPDLTPNIGLFWYFFAEMFEHFSLFFVCVFQINVFFYTIPLAIKLKE  312 (712)
+T ss_dssp             HHHHHHHHHHHHHHHHT--CSTHHCCCCCHHHHCCCCCCCSSSSHHHHHSCCTTSHHHHHHHHHHHHHHTHHHHHHHTTT
+T ss_pred             HHHHHHHHHHHHHHHhc--chhhHHHHhhhhcccCCCCCcchHHHHHHHHhhhhHHHHHHHHHHHHHHHHHHHHHHHccC
+
+
+Q ss_pred             CCCHHHHHHHHHHHHHHHHHhccCCCCCChHHHHHHHHHHHHhCCChHHHHHHHHHHHHHHhc-------------CCCc
+Q all4349         297 EITLDRLIHLATTIVLLVPYILPKMHERYFYPADICSIIFAFYFPHYRWIAILVPMSSFFSYL-------------GTPI  363 (399)
+Q Consensus       297 ~~~~~~~~~~~~~~~~~~~~~~~~~~~ry~~~~~p~~~l~~~~~~~~~~~~~~~~~~~~~~~~-------------~~~~  363 (399)
+                      .     ..............+.+..+++|..+.+|++.+......+++...............             ....
+T Consensus       313 ~-----~~~~~~~~~~~~~l~~~~~~~~y~~~~lpll~l~~~~~~~~~~~~~~~~~~~~~~~~~~~~y~~~~~~~~~~~~  387 (712)
+T 7WLD_U          313 H-----PIFFMFIQIAVIAIFKSYPTVGDVALYMAFFPVWNHLYRFLRNIFVLTCIIIVCSLLFPVLWHLWIYAGSANSN  387 (712)
+T ss_dssp             C-----HHHHHHHHHHHHHHHCSSCCHHHHHHHHTTGGGGGGGGGGCCSHHHHHHHHHHHHHHHHHHHHCCCCCCSCCHH
+T ss_pred             C-----HHHHHHHHHHHHHHhCCCCCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHcCCcchH
+
+
+Q ss_pred             hHHHHHHHHHHHHHHHHHHHHHHcHHHHhhhhhccC
+Q all4349         364 YIKLFSIPLAFVLWFVVKTCDLIYPRYQAKFYLNNQ  399 (399)
+Q Consensus       364 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  399 (399)
+                      ......+......++++....+...++.....+.+.
+T Consensus       388 ~~~~~~l~~~~~~~~l~~~~~~~~~~~~~~~~~~~~  423 (712)
+T 7WLD_U          388 FFYAITLTFNVGQILLISDYFYAFLRREYYLTHGLY  423 (712)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHCC-
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHcCce
+
+
+No 7
+>6S7O_A Dolichyl-diphosphooligosaccharide--protein glycosyltransferase subunit STT3A; N-glycosylation, Oligosaccharyltransferase, OSTA, TRANSFERASE; HET: EGY, KZE, NAG, MAN, KZB, BMA; 3.5A {Homo sapiens}
+Probab=99.71  E-value=5.1e-14  Score=135.12  Aligned_cols=338  Identities=13%  Similarity=-0.005  Sum_probs=0.0  Template_Neff=12.200
+
+Q ss_pred             hHHhHhhhhccccchhhHHHHHHHHHHHHHHHHHHHc-----cccCCCCHHHhhHHHHHHHHHCCcHHHhh---ccccCC
+Q all4349          10 FKFIKHDFKSLLISFQQRFPRYLIVCIICAVIIRLIC-----VPNKSVDYKYFLAPWYDFIVSNGGFSALK---YSFADY   81 (399)
+Q Consensus        10 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-----~~~~~~D~~~~~~~~a~~~~~~g~~~~~~---~~~~~~   81 (399)
+                      +..+..................+++++++++.++...     ....+.|+..| ...++++.++| ..+..   +....+
+T Consensus         1 m~~~~~~~~~~~~~~~~~~~~~l~~~~~~~~~~~~~~~~~~~~~~~~~D~~~~-~~~a~~~~~~g-~~~~~~~~~~~~~~   78 (705)
+T 6S7O_A            1 MTKFGFLRLSYEKQDTLLKLLILSMAAVLSFSTRLFAVLRFESVIHEFDPYFN-YRTTRFLAEEG-FYKFHNWFDDRAWY   78 (705)
+T ss_dssp             ------CCCCHHHHHHHHHHHHHHHHHHHHHHHHCSHHHHSCCCCCSSSHHHH-HHHHHHHHHHC-SHHHHSCEECSSST
+T ss_pred             CCcccccccChhHHHHHHHHHHHHHHHHHHHHHHHHHHHhccccccccChHHH-HHHHHHHHHHC-cHhhhccccccccC
+
+
+Q ss_pred             C----------HHHHHHHHHHHHHhcCc------chHHHHHHHHHHHHHHHHHHHHHHHHHHCCcchHHHHHHHHHHHcH
+Q all4349          82 T----------PPYLYWILIAGTVLSGL------PKILAIKLFAMSVDFVCAFFTYKIVKLKYPEGRKAIFAFITVILSP  145 (399)
+Q Consensus        82 ~----------Pl~~~~~~~~~~l~~~~------~~~~~~~~~~~l~~~~~~~~~~~~~~~~~~~~~~a~~~~~l~~~~p  145 (399)
+                      |          |+++++.+...  ..++      +.....++.+.+++++++..+|.++|+..+++ .+++++++++++|
+T Consensus        79 p~g~~~~~~~~p~~~~~~~~~~--~~~~~~~~~~~~~~~~~~~~~l~~~l~~~~~y~l~r~~~~~~-~a~~aa~l~~~~p  155 (705)
+T 6S7O_A           79 PLGRIIGGTIYPGLMITSAAIY--HVLHFFHITIDIRNVCVFLAPLFSSFTTIVTYHLTKELKDAG-AGLLAAAMIAVVP  155 (705)
+T ss_dssp             TSCEEHHHHSCCHHHHHHHHHH--HHHHHTTCCCCHHHHHHTHHHHHHHHHHHHHHHHHHHHSCHH-HHHHHHHHHHSCH
+T ss_pred             cCcCCCCCCCCcHHHHHHHHHH--HHHHHcCCCCCHHHHHHHHHHHHHHHHHHHHHHHHHHhcChh-HHHHHHHHHHHHH
+
+
+Q ss_pred             HHHHHHh--HHhhHHHHHHHHHHHHHHHHHc-------CCHHHHHHHHHHHHHhhHHHHHHHHHHHHHHH----------
+Q all4349         146 VVIYNSA--LWGQCDSIYTTGLIACIYFLSI-------QKQLSALVSFGIALSFKLQAMFLSPLLLIFLI----------  206 (399)
+Q Consensus       146 ~~~~~~~--~~~~~~~~~~~~~~~~~~~~~~-------~~~~~~gl~~~la~~~k~~~~~~~~~~~~~~~----------  206 (399)
+                      .....+.  . ...|.+..++.+++++++.+       ++..++|++.+++..+|+......+.+.+...          
+T Consensus       156 ~~~~~~~~~~-~~~~~~~~~~~~l~l~~~~~~~~~~~~~~~~~~g~~~~l~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  234 (705)
+T 6S7O_A          156 GYISRSVAGS-YDNEGIAIFCMLLTYYMWIKAVKTGSICWAAKCALAYFYMVSSWGGYVFLINLIPLHVLVLMLTGRFSH  234 (705)
+T ss_dssp             HHHHSSCTTC-CCHHHHHHHHHHHHHHHHHHHHHHCCHHHHHHHHHHHHHHHHHCTTHHHHTTTHHHHHHHHHHHTCCCH
+T ss_pred             HHHHhhhcCC-cccHHHHHHHHHHHHHHHHHHHHhCCHHHHHHHHHHHHHHHHhhhHHHHHHHHHHHHHHHHHHcCCCCH
+
+
+Q ss_pred             ----------------------------------------------------------hccCChhhchHHHHHHHHHHHH
+Q all4349         207 ----------------------------------------------------------KNRIKWYYLPIPFLVYLIAIMP  228 (399)
+Q Consensus       207 ----------------------------------------------------------~~~~~~~~~~~~~~~~~~~~~~  228 (399)
+                                                                                .+++.............+....
+T Consensus       235 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  314 (705)
+T 6S7O_A          235 RIYVAYCTVYCLGTILSMQISFVGFQPVLSSEHMAAFGVFGLCQIHAFVDYLRSKLNPQQFEVLFRSVISLVGFVLLTVG  314 (705)
+T ss_dssp             HHHHHHHHHHHHHHHHHHTTSSSTTHHHHSSTTHHHHHHHHHHHHHHHHHHHHHHSCHHHHHHHC---------------
+T ss_pred             HHHHHHHHHHHHHHHHHHhccCCCCcccCCHHHHHHHHHHHHHHHHHHHHHHHhcCCHHHHHHHHHHHHHHHHHHHHHHH
+
+
+Q ss_pred             HHHCCCCHHHHHHHHHHHHhhcchhhccCCCHHHhcCCcchhhHHHHHHHHHHHHHHHHHHHHHHccCCCCHHHHHHHHH
+Q all4349         229 AWVAGRPIQELLLIYFNQANKYKELAKNAPNIYQWIPNNSYNIVAPLGVIITIFAIFLLTYVVYKSKLEITLDRLIHLAT  308 (399)
+Q Consensus       229 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  308 (399)
+                      ......................................................++.........++++..........+
+T Consensus       315 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  394 (705)
+T 6S7O_A          315 ALLMLTGKISPWTGRFYSLLDPSYAKNNIPIIASVSEHQPTTWSSYYFDLQLLVFMFPVGLYYCFSNLSDARIFIIMYGV  394 (705)
+T ss_dssp             -------CCCCCCSTTHHHHSTTHHHHTCTTTTTSGGGSCCCHHHHHHHCSSSGGGHHHHHHHHHHSCCTTHHHHHHHHH
+T ss_pred             HHHHHccccccchHHHHHhhChhhccCCCcceeeccccCCCCHHHHHHHhhHHHHHHHHHHHHHHhCCChhhHHHHHHHH
+
+
+Q ss_pred             HHHHHHHHhccCCCCCChHHHHHHHHHHHHhCCChHHH--------------------------------HHHHHHHHHH
+Q all4349         309 TIVLLVPYILPKMHERYFYPADICSIIFAFYFPHYRWI--------------------------------AILVPMSSFF  356 (399)
+Q Consensus       309 ~~~~~~~~~~~~~~~ry~~~~~p~~~l~~~~~~~~~~~--------------------------------~~~~~~~~~~  356 (399)
+                      .........     .||..+..|+++++++........                                ...+.++...
+T Consensus       395 ~~~~~~~~~-----~R~~~~~~p~~~l~~a~~l~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  469 (705)
+T 6S7O_A          395 TSMYFSAVM-----VRLMLVLAPVMCILSGIGVSQVLSTYMKNLDISRPDKKSKKQQDSTYPIKNEVASGMILVMAFFLI  469 (705)
+T ss_dssp             HHHHHHHHC-----SGGGGGGHHHHHHHHHHHHHHHHHHHTTTSSSCC---------------CCHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHH-----HHHHHHHHHHHHHHHHHHHHHHHHHHHHhcCCCCCCccCccccCCCCCcCHHHHHHHHHHHHHHHH
+
+
+Q ss_pred             Hh
+Q all4349         357 SY  358 (399)
+Q Consensus       357 ~~  358 (399)
+                      ..
+T Consensus       470 ~~  471 (705)
+T 6S7O_A          470 TY  471 (705)
+T ss_dssp             HH
+T ss_pred             HH
+
+
+No 8
+>5OGL_A Undecaprenyl-diphosphooligosaccharide--protein glycotransferase; Oligosaccharyltransferase, Complex, Protein N-glycosylation, Bacteria, MEMBRANE PROTEIN; HET: 9UB, PPN; 2.7A {Campylobacter lari (strain RM2100 / D67 / ATCC BAA-1060)}
+Probab=99.65  E-value=3e-13  Score=130.16  Aligned_cols=313  Identities=9%  Similarity=-0.056  Sum_probs=0.0  Template_Neff=11.200
+
+Q ss_pred             hHhhhhccccchhhHHHHHHHHHHHHHHHHHHHccccCC---------------CCHHHhhHHHHHHHHHCCcHHHhhcc
+Q all4349          13 IKHDFKSLLISFQQRFPRYLIVCIICAVIIRLICVPNKS---------------VDYKYFLAPWYDFIVSNGGFSALKYS   77 (399)
+Q Consensus        13 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~---------------~D~~~~~~~~a~~~~~~g~~~~~~~~   77 (399)
+                      +..................+++++++++.+|........               .|+..| ...++++.+++...   +.
+T Consensus         1 m~~~~~~~~~~~~~~~~~~l~~i~~~~~~~r~~~~~~~~~~~~~~~~~~~~~~~~D~~~~-~~~a~~~~~~~~~~---~~   76 (713)
+T 5OGL_A            1 MELQQNFTDNNSIKYTAILILIAFAFSVLARLYWVAWASEFYEFFFNDQLMITTNDGYAF-AEGARDMIAGFHQP---ND   76 (713)
+T ss_dssp             -CCSSCCTTCCCHHHHHHHHHHHHHHHHHHHHHHHHHHTTCGGGEETTEECCSSTTHHHH-HHHHHHHHHTCCCT---TS
+T ss_pred             CccchhcccCCHHHHHHHHHHHHHHHHHHHHHHHHHHHhcCccceeCCEEeeecCcHHHH-HHHHHHHHcCCCCC---CC
+
+
+Q ss_pred             ccCCCHHHHHHHHHHHHHhcCc-chHHHHHHHHHHHHHHHHHHHHHHHHHHCCcchHHHHHHHHHHHcHHHHHHHhHHh-
+Q all4349          78 FADYTPPYLYWILIAGTVLSGL-PKILAIKLFAMSVDFVCAFFTYKIVKLKYPEGRKAIFAFITVILSPVVIYNSALWG-  155 (399)
+Q Consensus        78 ~~~~~Pl~~~~~~~~~~l~~~~-~~~~~~~~~~~l~~~~~~~~~~~~~~~~~~~~~~a~~~~~l~~~~p~~~~~~~~~~-  155 (399)
+                      ...++|+++++.+...  ..++ +.....++.+.+++++++..+|.++|+..+++ .+++++++++++|.....+.. + 
+T Consensus        77 ~~~~~p~~~~l~~~~~--~l~g~~~~~~~~~~~~l~~~l~~~~~y~l~r~~~~~~-~al~aall~~~~p~~~~~s~~-g~  152 (713)
+T 5OGL_A           77 LSYFGSSLSTLTYWLY--SILPFSFESIILYMSTFFASLIVVPIILIAREYKLTT-YGFIAALLGSIANSYYNRTMS-GY  152 (713)
+T ss_dssp             CCCTTCHHHHHHHHHH--HHSCSCHHHHHHHHHHHHGGGGHHHHHHHHHHTTCHH-HHHHHHHHHHHCHHHHHTTST-TC
+T ss_pred             CccccCHHHHHHHHHH--HHcCCCHHHHHHHHHHHHHHHHHHHHHHHHHHhCChH-HHHHHHHHHHHHHHHHHHhhc-cc
+
+
+Q ss_pred             -hHHHHHHHHHHHHHHHHHc-------CCHHHHHHHHHHHHHhhHHHHHHHHHHHHHHHh----ccCChhhchHH-----
+Q all4349         156 -QCDSIYTTGLIACIYFLSI-------QKQLSALVSFGIALSFKLQAMFLSPLLLIFLIK----NRIKWYYLPIP-----  218 (399)
+Q Consensus       156 -~~~~~~~~~~~~~~~~~~~-------~~~~~~gl~~~la~~~k~~~~~~~~~~~~~~~~----~~~~~~~~~~~-----  218 (399)
+                       .+|.+..++.+++++++.+       ++..++|++++++.++|+...............    ++++.+.....     
+T Consensus       153 ~~~~~~~~~~~~l~l~~~~~~~~~~~~~~~~l~gl~~~l~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  232 (713)
+T 5OGL_A          153 YDTDMLVLVLPMLILLTFIRLTINKDIFTLLLSPVFIMIYLWWYPSSYSLNFAMIGLFGLYTLVFHRKEKIFYLTIALMI  232 (713)
+T ss_dssp             CSGGGGTTHHHHHHHHHHHHHHHHCCTTHHHHHHHHHHHHHHHCGGGHHHHHHHHHHHHHHHHHHTTTCHHHHHHHHHHH
+T ss_pred             cCcHHHHHHHHHHHHHHHHHHHcCCCHHHHHHHHHHHHHHHhhCcchHHHHHHHHHHHHHHHHHHCCChhHHHHHHHHHH
+
+
+Q ss_pred             ---------------------------------HHHHHHHHHHHHHCCCCHHHHHHHHHHHHhhcc----------hhhc
+Q all4349         219 ---------------------------------FLVYLIAIMPAWVAGRPIQELLLIYFNQANKYK----------ELAK  255 (399)
+Q Consensus       219 ---------------------------------~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~----------~~~~  255 (399)
+                                                       .....+...........................          ....
+T Consensus       233 ~~~~~~p~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  312 (713)
+T 5OGL_A          233 IALSMLAWQYKLALIVLLFAIFAFKEEKINFYMIWALIFISILILHLSGGLDPVLYQLKFYVFKASDVQNLKDAAFMYFN  312 (713)
+T ss_dssp             HHHSCCCHHHHHHHHHHHHHHHHHCSSCCCHHHHHHHHHHHHHHHHHTTTTHHHHHHHHHHTSCCSCCSCCTTTSCCCCC
+T ss_pred             HHHhcccHHHHHHHHHHHHHHHHcccccCCHHHHHHHHHHHHHHHHHcCCcHHHHHHHHHHhcccccccccccchhcccc
+
+
+Q ss_pred             cCCCHHHhcCCcchhhHHHHHHHHHHHHHHHHHHHHHHccCCCCHHHHHHHHHHHHHHHHHhccCCCCCChHHHHHHHHH
+Q all4349         256 NAPNIYQWIPNNSYNIVAPLGVIITIFAIFLLTYVVYKSKLEITLDRLIHLATTIVLLVPYILPKMHERYFYPADICSII  335 (399)
+Q Consensus       256 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ry~~~~~p~~~l  335 (399)
+                      ......+.....................+.........++++.      ...................||..+..|++++
+T Consensus       313 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~l~~~g~~~~~~~~~~------~~~~~~~~~~~~~~~~~~~R~~~~~~p~~~i  386 (713)
+T 5OGL_A          313 VNETIMEVNTIDPEVFMQRISSSVLVFILSFIGFILLLKDHKS------MLLALPMLALGFMALRAGLRFTIYAVPVMAL  386 (713)
+T ss_dssp             GGGGBGGGCCCCHHHHHHHHHSSHHHHHHHHHHHHHHHTTCGG------GGGGHHHHHHHHHHHHHCGGGGGGGHHHHHH
+T ss_pred             HHHHHHhhcCCCHHHHHHHcchhHHHHHHHHHHHHHHHHHCHh------HHHHHHHHHHHHHHHHHhHHHHHhHHHHHHH
+
+
+Q ss_pred             HHHh
+Q all4349         336 FAFY  339 (399)
+Q Consensus       336 ~~~~  339 (399)
+                      +++.
+T Consensus       387 ~~~~  390 (713)
+T 5OGL_A          387 GFGY  390 (713)
+T ss_dssp             HHHH
+T ss_pred             HHHH
+
+
+No 9
+>9E6I_A Dolichyl-phosphate-mannose--protein mannosyltransferase 4; Pmt4, O-mannosylation, MEMBRANE PROTEIN; HET: NNM; 3.2A {Saccharomyces cerevisiae}
+Probab=99.63  E-value=6.6e-13  Score=128.32  Aligned_cols=335  Identities=11%  Similarity=0.022  Sum_probs=0.0  Template_Neff=9.700
+
+Q ss_pred             CCccccccchHHhHhhhhccccchhhHHHHHHHHHHHHHHHHHHHcccc---CCCCHHHhhHHHHHHHHHCCcHHHhhcc
+Q all4349           1 MTQWTGRKSFKFIKHDFKSLLISFQQRFPRYLIVCIICAVIIRLICVPN---KSVDYKYFLAPWYDFIVSNGGFSALKYS   77 (399)
+Q Consensus         1 m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~---~~~D~~~~~~~~a~~~~~~g~~~~~~~~   77 (399)
+                      ++.+...........................+++++++++.++......   ...||..| ...++++.+++      ..
+T Consensus        25 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~l~ll~~~~~~~~~~~l~~~~~~~~De~~~-~~~a~~~~~~~------~~   97 (762)
+T 9E6I_A           25 KYTKAAPKCEQVAEHWLLQPLPEPESRYSFWVTIVTLLAFAARFYKIWYPKEVVFDEVHF-GKFASYYLERS------YF   97 (762)
+T ss_dssp             ----------CTTHHHHTSCCSSCHHHHHHHHHHHHHHHHHHHHTTTTCSSBCCTTHHHH-HHHHHHHHHTB------CC
+T ss_pred             cccCCCCccccccccccCCCCCCCcHHHHHHHHHHHHHHHHHHHHhccCCCcceEEHHHH-HHHHHHHHhCC------cc
+
+
+Q ss_pred             ccCCCHHHHHHHHHHHHHhcCcchH------------------HHHHHHHHHHHHHHHHHHHHHHHHHCCcchHHHHHHH
+Q all4349          78 FADYTPPYLYWILIAGTVLSGLPKI------------------LAIKLFAMSVDFVCAFFTYKIVKLKYPEGRKAIFAFI  139 (399)
+Q Consensus        78 ~~~~~Pl~~~~~~~~~~l~~~~~~~------------------~~~~~~~~l~~~~~~~~~~~~~~~~~~~~~~a~~~~~  139 (399)
+                      ...+||++.++.+...  ..++.+.                  ...|++++++++++++++|.++|+..+++..++++++
+T Consensus        98 ~~~~pPl~~~l~a~~~--~l~g~~~~~~~~~~~~~~~~~~~~~~~~rl~~~l~~~l~~~~~y~l~r~l~~~~~~a~laal  175 (762)
+T 9E6I_A           98 FDVHPPFAKMMIAFIG--WLCGYDGSFKFDEIGYSYETHPAPYIAYRSFNAILGTLTVPIMFNTLKELNFRAITCAFASL  175 (762)
+T ss_dssp             CCSSCSHHHHHHHHHH--HHTTCCSCCCCCSTTCBTTTSCCCHHHHHHHHHHHHHHHHHHHHHHHHHTTCCHHHHHHHHH
+T ss_pred             CCCCChHHHHHHHHHH--HHcCCCCCCCcccCCCcCCCCCCChHHHHHHHHHHHHhHHHHHHHHHHHCCCcHHHHHHHHH
+
+
+Q ss_pred             HHHHcHHHHHHHhHHhhHHHHHHHHHHHHHHHHHc----C-C----------HHHHHHHHHHHHHhhHHHHHHHHHHHHH
+Q all4349         140 TVILSPVVIYNSALWGQCDSIYTTGLIACIYFLSI----Q-K----------QLSALVSFGIALSFKLQAMFLSPLLLIF  204 (399)
+Q Consensus       140 l~~~~p~~~~~~~~~~~~~~~~~~~~~~~~~~~~~----~-~----------~~~~gl~~~la~~~k~~~~~~~~~~~~~  204 (399)
+                      +++++|.....+.. .+.|.+..++.+++++++.+    + +          .+++|+++++++++|+.++++++..++.
+T Consensus       176 l~~~~p~~~~~s~~-~~~d~~~~~~~~l~l~~~~~~~~~~~~~~~~~~~~~~~~l~gl~~gla~l~k~~~~~~~~~~~l~  254 (762)
+T 9E6I_A          176 LVAIDTAHVTETRL-ILLDAILIISIAATMYCYVRFYKCQLRQPFTWSWYIWLHATGLSLSFVISTKYVGVMTYSAIGFA  254 (762)
+T ss_dssp             HHHTCHHHHHHHHS-SCSHHHHHHHHHHHHHHHHHHHHHHHHCTTSHHHHHHHHHHHHHHHHHHHHCGGGHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHH-HHhHHHHHHHHHHHHHHHHHHHHcccCCCCCHHHHHHHHHHHHHHHHHHchhHHHHHHHHHHHHH
+
+
+Q ss_pred             HHh-----------ccCChhhchHHHHHHHHHHHHHHHCCCCHHHHHHHHHHHHhhcchhhccCCCHH------------
+Q all4349         205 LIK-----------NRIKWYYLPIPFLVYLIAIMPAWVAGRPIQELLLIYFNQANKYKELAKNAPNIY------------  261 (399)
+Q Consensus       205 ~~~-----------~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~------------  261 (399)
+                      .+.           ++.+.+.............++...+..........................+..            
+T Consensus       255 ~l~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~f~~~l~~~~~~~~~~~~  334 (762)
+T 9E6I_A          255 AVVNLWQLLDIKAGLSLRQFMRHFSKRLNGLVLIPFVIYLFWFWVHFTVLNTSGPGDAFMSAEFQETLKDSPLSVDSKTV  334 (762)
+T ss_dssp             HHHHHHHHHSGGGCCCHHHHHHHHHHHHCCCCCHHHHHHHHHHHHHHHHCCBCCTTGGGSCHHHHTTSBCCHHHHHCCBC
+T ss_pred             HHHHHHHHHHcccCCCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhcCCCCccccCHHHHHHhcCCCCcCCCcee
+
+
+Q ss_pred             --------------------------------------------------------------------------------
+Q all4349         262 --------------------------------------------------------------------------------  261 (399)
+Q Consensus       262 --------------------------------------------------------------------------------  261 (399)
+                                                                                                      
+T Consensus       335 ~~g~~v~~~~~~~~~~l~s~~~~y~~~~~~~~~~~~~~~~~~~~~~~~~~~w~~~~~~~~~~~~~~~~~~~~~v~l~~~~  414 (762)
+T 9E6I_A          335 NYFDIITIKHQDTDAFLHSHLARYPQRYEDGRISSAGQQVTGYTHPDFNNQWEVLPPHGSDVGKGQAVLLNQHIRLRHVA  414 (762)
+T ss_dssp             BTTCEEEEEETTTCCEEEEEEEECCSBCTTSCBCCCCEEEEEESSCCGGGEEEEECCTTCCCCTTCBCBTTCEEEEEETT
+T ss_pred             eeCCEEEEEeCCCCceeecccccCCccccCCCCCCCCceEEEeeccCCCCcEEEeCCCCCCCCCCccccCCCEEEEEECC
+
+
+Q ss_pred             --------------------------------------------------------------------------------
+Q all4349         262 --------------------------------------------------------------------------------  261 (399)
+Q Consensus       262 --------------------------------------------------------------------------------  261 (399)
+                                                                                                      
+T Consensus       415 ~~~~l~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~w~~~~~~~~~~~~~~~~~~~~~~l~~~~~~~~l~~~~~~~~p  494 (762)
+T 9E6I_A          415 TDTYLLAHDVASPFYPTNEEITTVTLEEGDGELYPETLFAFQPLKKSDEGHVLKSKTVSFRLFHVDTSVALWTHNDELLP  494 (762)
+T ss_dssp             TTEEEEEEEEECSSCTTSEEEEEEEHHHHTTTTGGGGCEEEEESSGGGTTCBCBTTTCEEEEEETTTCCEEEECSSSCCC
+T ss_pred             CCCEEEEcCcCCCCCCCCcEEEEEecCCCCCCCCcccCeEEEEccCCCCCCeEEEceeEEEEEECCCCeEEEEcCCcccC
+
+
+Q ss_pred             --------------------------------------------------------------------------------
+Q all4349         262 --------------------------------------------------------------------------------  261 (399)
+Q Consensus       262 --------------------------------------------------------------------------------  261 (399)
+                                                                                                      
+T Consensus       495 ~~~~~~~~~~~~~~~~~~~~~w~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~m~~~~~~~~~~~~~~s~~~~wp~  574 (762)
+T 9E6I_A          495 DWGFQQQEINGNKKVIDPSNNWVVDEIVNLDEVRKVYIPKVVKPLPFLKKWIETQKSMFEHNNKLSSEHPFASEPYSWPG  574 (762)
+T ss_dssp             GGGTTCEEEEEESCTTCGGGCEEEEEETTCCHHHHCCCCCCCCCCCHHHHHHHHHHHHHHHHHCCCCCCTTCCCGGGTTT
+T ss_pred             cccccceeEecccCCCCCCCeEEEEEeecccccccCCCCCcCCCCCHHHHHHHHHHHHHHHHhhcCCCCCCCCCchhccc
+
+
+Q ss_pred             --------------HhcCCcchhhHHHHHHHHHHHHHHHHHHHHHHccC-------------CCCHHHHHHHHHHHHHHH
+Q all4349         262 --------------QWIPNNSYNIVAPLGVIITIFAIFLLTYVVYKSKL-------------EITLDRLIHLATTIVLLV  314 (399)
+Q Consensus       262 --------------~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-------------~~~~~~~~~~~~~~~~~~  314 (399)
+                                    ...................++..+.......++++             ..........+.+..+..
+T Consensus       575 ~~~~~~~~~~~~~~~~~~~~~n~~~~~~~~~~~~~~~~~~~~~~~~~~r~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  654 (762)
+T 9E6I_A          575 SLSGVSFWTNGDEKKQIYFIGNIIGWWFQVISLAVFVGIIVADLITRHRGYYALNKMTREKLYGPLMFFFVSWCCHYFPF  654 (762)
+T ss_dssp             TCCCEEEEEETTTTEEEEECCCHHHHHHHHHHHHHHHHHHHHHHHHHHTTCCCBCHHHHHHCCCCCHHHHHHHHHHHGGG
+T ss_pred             ccceeeeEeCCCcceEEEEccCHHHHHHHHHHHHHHHHHHHHHHHHHhcCCccCCHHHHHHhHHHHHHHHHHHHHHHHHH
+
+
+Q ss_pred             HHhccCCCCCChHHHHHHHHHHHHhCCChHH
+Q all4349         315 PYILPKMHERYFYPADICSIIFAFYFPHYRW  345 (399)
+Q Consensus       315 ~~~~~~~~~ry~~~~~p~~~l~~~~~~~~~~  345 (399)
+                      .........||.+|.+|+.+++++...+...
+T Consensus       655 ~~~~r~~~~~~ylp~~~~~~l~~~~~l~~~~  685 (762)
+T 9E6I_A          655 FLMARQKFLHHYLPAHLIACLFSGALWEVIF  685 (762)
+T ss_dssp             GGCCSCCCGGGGHHHHHHHHHHHHHHHHHHT
+T ss_pred             HHccCcccHhhHHHHHHHHHHHHHHHHHHHH
+
+
+No 10
+>8I9Z_Lh dolichyl-diphosphooligosaccharide--protein glycotransferase; Ribosome, Ribosome biogenesis, pre-60S ribosome; HET: GTP, ADP; 2.7A {Chaetomium thermophilum}
+Probab=99.62  E-value=1.5e-12  Score=129.29  Aligned_cols=335  Identities=12%  Similarity=-0.075  Sum_probs=0.0  Template_Neff=11.200
+
+Q ss_pred             CCccccccchHHhHhhhhccccchhhHHHHHHHHHHHHHHHHHHHcccc-----CCCCHHHhhHHHHHHHHHCCcHHHhh
+Q all4349           1 MTQWTGRKSFKFIKHDFKSLLISFQQRFPRYLIVCIICAVIIRLICVPN-----KSVDYKYFLAPWYDFIVSNGGFSALK   75 (399)
+Q Consensus         1 m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-----~~~D~~~~~~~~a~~~~~~g~~~~~~   75 (399)
+                      ....+..........................+++++++++.++......     .++|+..| ...++++.++| ..++.
+T Consensus       187 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~l~~i~~~~~~~~~~~~~~~~~~~~~~D~~~~-~~~a~~~~~~g-~~~~~  264 (935)
+T 8I9Z_Lh         187 SEATMSAAEPLKLLASAGKGKSTRSVLRVAILVLIAGAAVASRLFSVIRFESIIHEFDPWFN-FRATKYLVANG-FYKFW  264 (935)
+T ss_pred             CHHHhccccchHHhhcCCCCCCHHHHHHHHHHHHHHHHHHHHHHhHHhhcchhhcccchHHH-HHHHHHHHHhC-cHHhh
+
+
+Q ss_pred             ccccCCC-------------HHHHHHHHHHHHHhcCc------chHHHHHHHHHHHHHHHHHHHHHHHHHHCCcchHHHH
+Q all4349          76 YSFADYT-------------PPYLYWILIAGTVLSGL------PKILAIKLFAMSVDFVCAFFTYKIVKLKYPEGRKAIF  136 (399)
+Q Consensus        76 ~~~~~~~-------------Pl~~~~~~~~~~l~~~~------~~~~~~~~~~~l~~~~~~~~~~~~~~~~~~~~~~a~~  136 (399)
+                      +....++             |+++++.+.+.  ..++      +.....++.+.++++++++++|.++|+..+++..+++
+T Consensus       265 ~~~~~~~~~p~g~~~~~~~~p~~~~l~a~~~--~l~~~~~~~~~~~~~~~~~~~l~~~l~~~~~y~l~r~l~~~~~~al~  342 (935)
+T 8I9Z_Lh         265 DWFDDRTWHPLGRVTGGTLYPGLMVTSGVIY--HLLRFLTVPVDIRNICVLLAPGFSGLTAIAAYLLTNEMTTSPSAGLL  342 (935)
+T ss_pred             ccccCCCCCCCCcCCCCCCchHHHHHHHHHH--HHHHHcCCCCCHHHHHHHHHHHHHHHHHHHHHHHHHHHcCCHHHHHH
+
+
+Q ss_pred             HHHHHHHcHHHH--HHHhHHhhHHHHHHHHHHHHHHHHHc-------CCHHHHHHHHHHHHHhhHHHHHHHHHHHHHHHh
+Q all4349         137 AFITVILSPVVI--YNSALWGQCDSIYTTGLIACIYFLSI-------QKQLSALVSFGIALSFKLQAMFLSPLLLIFLIK  207 (399)
+Q Consensus       137 ~~~l~~~~p~~~--~~~~~~~~~~~~~~~~~~~~~~~~~~-------~~~~~~gl~~~la~~~k~~~~~~~~~~~~~~~~  207 (399)
+                      ++++++++|..+  ..... ...|.+..++.+++++++.+       ++..++|++++++.++|....++++.+.+..+.
+T Consensus       343 aall~~~~p~~~~~~~~~~-~~~~~~~~~~~~l~l~~~~~~~~~~~~~~~~l~gl~~gl~~~~~~~~~~~~~~~~~~~~~  421 (935)
+T 8I9Z_Lh         343 AAAFMGIAPGYISRSVAGS-YDNEAIAIFLLVFTFFLWIKALKQGSMLWGALCALFYGYMVASWGGYAFITCLLPLHSFV  421 (935)
+T ss_pred             HHHHHHHhHHHHHhhcccC-CchHHHHHHHHHHHHHHHHHHHHcCChHHHHHHHHHHHHHHHhhhHHHHHHHHHHHHHHH
+
+
+Q ss_pred             ---ccCChhh-----------------------------------------------------------------chHHH
+Q all4349         208 ---NRIKWYY-----------------------------------------------------------------LPIPF  219 (399)
+Q Consensus       208 ---~~~~~~~-----------------------------------------------------------------~~~~~  219 (399)
+                         .++..+.                                                                 .....
+T Consensus       422 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~p~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  501 (935)
+T 8I9Z_Lh         422 LICMGRYSTRLYVAYTTWYALGTLASMQIPFVGFLPVKTSEHMPALGIFGFLQLLAFLDYVRSTISSRQFQTFLWLFAGG  501 (935)
+T ss_pred             HHHccCCCHHHHHHHHHHHHHHHHHHhccccCCCCCCCChhhHHHHHHHHHHHHHHHHHHHHhcCChhHHHHHHHHHHHH
+
+
+Q ss_pred             HHHHHHHHHHHHCCCCHHHHHHHHHHHHhhcchhhccCCCHHHhcCCcchhhHHHHHHHHHHHHHHHHHHHHHHccCCCC
+Q all4349         220 LVYLIAIMPAWVAGRPIQELLLIYFNQANKYKELAKNAPNIYQWIPNNSYNIVAPLGVIITIFAIFLLTYVVYKSKLEIT  299 (399)
+Q Consensus       220 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  299 (399)
+                      ..............................................................++++........++++..
+T Consensus       502 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~l~~~~~~~~~~~~~~~  581 (935)
+T 8I9Z_Lh         502 IFGLGLLGLVIATSAGLIAPWSGRFYSLWDTGYAKIHIPIIASVSEHQPTAWPAFFFDLNMLVWLFPVGVYLCFQQLGDE  581 (935)
+T ss_pred             HHHHHHHHHHHHHHccccccchHHHHHHhcccccccCCcccccHHhhCCCCHHHHHHHHHHHHHHHHHHHHHHHHhhCcc
+
+
+Q ss_pred             HHHHHHHHHHHHHHHHHhccCCCCCChHHHHHHHHHHHHhCCChHH
+Q all4349         300 LDRLIHLATTIVLLVPYILPKMHERYFYPADICSIIFAFYFPHYRW  345 (399)
+Q Consensus       300 ~~~~~~~~~~~~~~~~~~~~~~~~ry~~~~~p~~~l~~~~~~~~~~  345 (399)
+                      ........+..........     ||.++..|+++++++.......
+T Consensus       582 ~~~~l~~~~~~~~~~~~~~-----R~~~~~~p~~~il~a~~l~~l~  622 (935)
+T 8I9Z_Lh         582 HVFIIVYALFGSYFAGVMV-----RLMLTLTPVVCVAAAIAFSSLL  622 (935)
+T ss_pred             hHHHHHHHHHHHHHHHHHH-----HHHHHHHHHHHHHHHHHHHHHH
+
+
+No 11
+>3WAJ_A Transmembrane oligosaccharyl transferase; oligosaccharyltransferase, N-glycosylation, Archaeoglobus fulgidus, GT-C, protein b-oligosaccharyltransferase, TRANSFERASE; 2.501A {Archaeoglobus fulgidus}
+Probab=99.61  E-value=2e-12  Score=127.54  Aligned_cols=314  Identities=12%  Similarity=0.062  Sum_probs=0.0  Template_Neff=11.100
+
+Q ss_pred             hhhccccchhhHHHHHHHHHHHHHHHHH-HHc--------cccCCCCHHHhhHHHHHHHHHCCcHHHhhccccCCC----
+Q all4349          16 DFKSLLISFQQRFPRYLIVCIICAVIIR-LIC--------VPNKSVDYKYFLAPWYDFIVSNGGFSALKYSFADYT----   82 (399)
+Q Consensus        16 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-~~~--------~~~~~~D~~~~~~~~a~~~~~~g~~~~~~~~~~~~~----   82 (399)
+                      ++..............+++++++++.++ ...        ......|+..| ...++++.+++...+..+....+|    
+T Consensus         1 m~~~~~~~~~~~~~~~l~~~~~~~~~~r~~~~~~~~~~~~~~~~~~D~~~~-~~~a~~~~~~~~~~~~~d~~~~~p~g~~   79 (875)
+T 3WAJ_A            1 MQNAESWFKKYWHLSVLVIAALISVKLRILNPWNSVFTWTVRLGGNDPWYY-YRLIENTIHNFPHRIWFDPFTYYPYGSY   79 (875)
+T ss_dssp             --------------CTTTHHHHHHHCCCCCTTHHHHBSSSBCCCSSHHHHH-HHHHHHHHHTTTCCCSEETTSTTTTCEE
+T ss_pred             CcchHHHHHHHHHHHHHHHHHHHHHHHHHhcchhhhccCCCcccccCHHHH-HHHHHHHHHHCCCcCccCchhcCCCCCC
+
+
+Q ss_pred             ----HHHHHHHHHHHHHhcCc-----chHHHHHHHHHHHHHHHHHHHHHHHHHHCCcchHHHHHHHHHHHcHH-HHHHHh
+Q all4349          83 ----PPYLYWILIAGTVLSGL-----PKILAIKLFAMSVDFVCAFFTYKIVKLKYPEGRKAIFAFITVILSPV-VIYNSA  152 (399)
+Q Consensus        83 ----Pl~~~~~~~~~~l~~~~-----~~~~~~~~~~~l~~~~~~~~~~~~~~~~~~~~~~a~~~~~l~~~~p~-~~~~~~  152 (399)
+                          |++.++.+...  .+++     +.....++.+.++++++++++|.++|+..+++ .+++++++++++|. .+..+.
+T Consensus        80 ~~~~pl~~~l~a~~~--~l~g~~~~~~~~~~~~~~~~l~~~l~~~~~y~l~r~l~~~~-~al~aall~a~~p~~~~~~s~  156 (875)
+T 3WAJ_A           80 THFGPFLVYLGSIAG--IIFSATSGESLRAVLAFIPAIGGVLAILPVYLLTREVFDKR-AAVIAAFLIAIVPGQFLQRSI  156 (875)
+T ss_dssp             CCSCHHHHHHHHHHH--HHTTCCSHHHHHHHHHHHHHHHHHTTHHHHHHHHHHHSCHH-HHHHHHHHHTTCCSHHHHTTS
+T ss_pred             CCcchHHHHHHHHHH--HHhcCCChHHHHHHHHHHHHHHHHHHHHHHHHHHHHHcChH-HHHHHHHHHHHcchHHHHHHh
+
+
+Q ss_pred             H--HhhHHHHHHHHHHHHHHHHHcCCH-------------------HHHHHHHHHHHHhhHHHHHHHHHHHHHHHh----
+Q all4349         153 L--WGQCDSIYTTGLIACIYFLSIQKQ-------------------LSALVSFGIALSFKLQAMFLSPLLLIFLIK----  207 (399)
+Q Consensus       153 ~--~~~~~~~~~~~~~~~~~~~~~~~~-------------------~~~gl~~~la~~~k~~~~~~~~~~~~~~~~----  207 (399)
+                      .  . ..|....++.+++++++.+...                   .++|++++++.++|+...++.+.+.+..+.    
+T Consensus       157 ~~~~-~~~~~~~~~~~l~l~~~~~~~~~~~~~~~~~~~~~~~~~~~~l~gl~~~l~~~~~~~~~~~~~~~~~~~~~~~~~  235 (875)
+T 3WAJ_A          157 LGFN-DHHIWEAFWQVSALGTFLLAYNRWKGHDLSHNLTARQMAYPVIAGITIGLYVLSWGAGFIIAPIILAFMFFAFVL  235 (875)
+T ss_dssp             TTCC-CSHHHHHHHHHHHHHHHHHHHTTSSSCCC----CTTTSHHHHHHHHHHHHHHHHCGGGGGHHHHHHHHHHHHHHT
+T ss_pred             hchh-hHHHHHHHHHHHHHHHHHHHHHHhccCCCccCCCcchhHHHHHHHHHHHHHHHHhchHHHHHHHHHHHHHHHHHH
+
+
+Q ss_pred             ---ccCChhhchHHHHHHHHHHHHHHH-----------------------------------------------------
+Q all4349         208 ---NRIKWYYLPIPFLVYLIAIMPAWV-----------------------------------------------------  231 (399)
+Q Consensus       208 ---~~~~~~~~~~~~~~~~~~~~~~~~-----------------------------------------------------  231 (399)
+                         ++++.+......+...++......                                                     
+T Consensus       236 ~~~~~~~~~~~~~~~~~~~~~~~~~~~p~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  315 (875)
+T 3WAJ_A          236 AGFVNADRKNLSLVAVVTFAVSALIYLPFAFNYPGFSTIFYSPFQLLVLLGSAVIAAAFYQIEKWNDVGFFERVGLGRKG  315 (875)
+T ss_dssp             TTTCCCCHHHHHHHHHHHHHHHHHHHGGGTTSSSSCCSSSSCHHHHHHHHHHHHHHHHHHHHHHHHHHTHHHHTTCGGGH
+T ss_pred             HHhcCCChHHHHHHHHHHHHHHHHHHHHHhcCCCCCCcccCCHHHHHHHHHHHHHHHHHHHHHHhcccchHHhcCCCcch
+
+
+Q ss_pred             ---------------CCCCHHHHHHHHHHHHhhcchhhccCCCHHHhcCCc--------chhhHHHHHHHHHHHHHHHHH
+Q all4349         232 ---------------AGRPIQELLLIYFNQANKYKELAKNAPNIYQWIPNN--------SYNIVAPLGVIITIFAIFLLT  288 (399)
+Q Consensus       232 ---------------~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~--------~~~~~~~~~~~~~~~~~~~~~  288 (399)
+                                     .................. ...........+.....        .............+.++....
+T Consensus       316 ~~~~~~~~~~~~~~~~~~~~p~~~~~~~~~~~~-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~l~~~~~~~  394 (875)
+T 3WAJ_A          316 MPLAVIVLTALIMGLFFVISPDFARNLLSVVRV-VQPKGGALTIAEVYPFFFTHNGEFTLTNAVLHFGALFFFGMAGILY  394 (875)
+T ss_dssp             HHHHHHHHHHHHHHHHHC-----------------------------------------CTHHHHHHTTHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHHHHCHHHHHHHHhhcee-ecCCCCceeeEecccccccCCCccCHHHHHHHhHHHHHHHHHHHHH
+
+
+Q ss_pred             HHHHHccCCCCHHHHHHHHHHHHHHHHHhccCCCCCChHHHHHHHHHHHHh
+Q all4349         289 YVVYKSKLEITLDRLIHLATTIVLLVPYILPKMHERYFYPADICSIIFAFY  339 (399)
+Q Consensus       289 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ry~~~~~p~~~l~~~~  339 (399)
+                      .....+++++........+.+........    ..||..+..|+++++++.
+T Consensus       395 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~----~~R~~~~~~p~~~ll~a~  441 (875)
+T 3WAJ_A          395 SAYRFLKRRSFPEMALLIWAIAMFIALWG----QNRFAYYFAAVSAVYSAL  441 (875)
+T ss_dssp             HHHHHHHHCCHHHHHHHHHHHHHHHHTSS----CGGGTHHHHHHHHHHHHH
+T ss_pred             HHHHHHhcCCHHHHHHHHHHHHHHHHHHH----chhhHHHHHHHHHHHHHH
+
+
+No 12
+>6S7T_A Dolichyl-diphosphooligosaccharide--protein glycosyltransferase subunit STT3B; N-glycosylation, Oligosaccharyltransferase, OSTB, TRANSFERASE; HET: EGY, NAG, MAN, KZB, BMA, 0K3; 3.5A {Homo sapiens}
+Probab=99.60  E-value=4.7e-12  Score=124.11  Aligned_cols=328  Identities=10%  Similarity=-0.018  Sum_probs=0.0  Template_Neff=10.800
+
+Q ss_pred             CCccccccchHHhHhhhhccccchhhHHHHHHHHHHHHHHHHHHHcccc-----CCCCHHHhhHHHHHHHHHCCcHHHhh
+Q all4349           1 MTQWTGRKSFKFIKHDFKSLLISFQQRFPRYLIVCIICAVIIRLICVPN-----KSVDYKYFLAPWYDFIVSNGGFSALK   75 (399)
+Q Consensus         1 m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-----~~~D~~~~~~~~a~~~~~~g~~~~~~   75 (399)
+                      ++.............................+++++++++..+......     ..+|+..+ ...++++.++| ..++.
+T Consensus        46 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~l~~i~~~~~~~r~~~~~~~~~~~~~~D~~~~-~~~a~~i~~~g-~~~~~  123 (826)
+T 6S7T_A           46 GGAAPPKPAPAGLSGGLSQPAGWQSLLSFTILFLAWLAGFSSRLFAVIRFESIIHEFDPWFN-YRSTHHLASHG-FYEFL  123 (826)
+T ss_dssp             -----------------CCHHHHHHHHHHHHHHHHHHHHHHTTCTTTTTTCSCCCSTTHHHH-HHHHHHHHHHC-HHHHH
+T ss_pred             CCCCCCCCCCCCCCCCcCCcchHHHHHHHHHHHHHHHHHHHHHHhHHhhchhccccCCcHHH-HHHHHHHHHhc-cHHHh
+
+
+Q ss_pred             ccccCC-------------CHHHHHHHHHHHHHhcCcchH------HHHHHHHHHHHHHHHHHHHHHHHHHCCcchHHHH
+Q all4349          76 YSFADY-------------TPPYLYWILIAGTVLSGLPKI------LAIKLFAMSVDFVCAFFTYKIVKLKYPEGRKAIF  136 (399)
+Q Consensus        76 ~~~~~~-------------~Pl~~~~~~~~~~l~~~~~~~------~~~~~~~~l~~~~~~~~~~~~~~~~~~~~~~a~~  136 (399)
+                      +....+             +|+++++.....  ...+...      ...++.+.++++++++++|.++|+..++. .+++
+T Consensus       124 ~~~d~~~~~p~g~~~~~~~~p~~~~~~~~~~--~l~~~~~~~~~~~~~~~l~~~l~~~l~~~~~y~l~r~l~~~~-~all  200 (826)
+T 6S7T_A          124 NWFDERAWYPLGRIVGGTVYPGLMITAGLIH--WILNTLNITVHIRDVCVFLAPTFSGLTSISTFLLTRELWNQG-AGLL  200 (826)
+T ss_dssp             TCEECSSSTTTCEESTTSSCTTHHHHHHHHH--HHHHHTTCCCCHHHHHHTHHHHHHHHHHHHHHHHHHHHSCHH-HHHH
+T ss_pred             hccCCccCCCCCCCCCCCCChHHHHHHHHHH--HHHHHCCCCCcHHHHHHHHHHHHHHHHHHHHHHHHHHHccch-HHHH
+
+
+Q ss_pred             HHHHHHHcHHHHHHHhH--HhhHHHHHHHHHHHHHHHHHc-------CCHHHHHHHHHHHHHhhHHHHHHHHHHHHHHHh
+Q all4349         137 AFITVILSPVVIYNSAL--WGQCDSIYTTGLIACIYFLSI-------QKQLSALVSFGIALSFKLQAMFLSPLLLIFLIK  207 (399)
+Q Consensus       137 ~~~l~~~~p~~~~~~~~--~~~~~~~~~~~~~~~~~~~~~-------~~~~~~gl~~~la~~~k~~~~~~~~~~~~~~~~  207 (399)
+                      ++++++++|..+..+..  . ..|.+..++.+++++++.+       ++..++|++.+++.++|....++.+.+.+..+.
+T Consensus       201 aall~a~~p~~~~~s~~g~~-~~~~~~~~~~~l~l~~~~~~~~~~~~~~~~l~gl~~~l~~~~~~~~~~~~~~~~l~~~~  279 (826)
+T 6S7T_A          201 AACFIAIVPGYISRSVAGSF-DNEGIAIFALQFTYYLWVKSVKTGSVFWTMCCCLSYFYMVSAWGGYVFIINLIPLHVFV  279 (826)
+T ss_dssp             HHHHTTTCHHHHGGGSTTCC-CSHHHHHHHHHHHHHHHHHHHHHCCHHHHHHHHHHHHHHHHHCTTHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHhHHHHHhHhccCC-chHHHHHHHHHHHHHHHHHHhhcCCHHHHHHHHHHHHHHHHHhhHHHHHHHHHHHHHHH
+
+
+Q ss_pred             ---ccCChhhc-----------------------------------------------------------------hHHH
+Q all4349         208 ---NRIKWYYL-----------------------------------------------------------------PIPF  219 (399)
+Q Consensus       208 ---~~~~~~~~-----------------------------------------------------------------~~~~  219 (399)
+                         .+++.++.                                                                 ....
+T Consensus       280 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~p~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  359 (826)
+T 6S7T_A          280 LLLMQRYSKRVYIAYSTFYIVGLILSMQIPFVGFQPIRTSEHMAAAGVFALLQAYAFLQYLRDRLTKQEFQTLFFLGVSL  359 (826)
+T ss_dssp             HHHTTCCCHHHHHHHHHHHHHHHHHHTTSTTTTTHHHHBSSTHHHHHHHHHHHHHHHHHHHHHHSCSTTTHHHHHHHHHH
+T ss_pred             HHHcccCCHHHHHHHHHHHHHHHHHHhcCccCCCcccCchHHHHHHHHHHHHHHHHHHHHHHHhCCHHHHHHHHHHHHHH
+
+
+Q ss_pred             HHHHHHHHHHHHCCCCHHHHHHHHHHHHhhcchhhccCCCHHHhcCCcchhhHHHHHHHHHHHHHHHHHHHHHHccCCCC
+Q all4349         220 LVYLIAIMPAWVAGRPIQELLLIYFNQANKYKELAKNAPNIYQWIPNNSYNIVAPLGVIITIFAIFLLTYVVYKSKLEIT  299 (399)
+Q Consensus       220 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  299 (399)
+                      ....+.........................................................+++.........++++..
+T Consensus       360 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~l~~~~~~~~~~~~~~~  439 (826)
+T 6S7T_A          360 AAGAVFLSVIYLTYTGYIAPWSGRFYSLWDTGYAKIHIPIIASVSEHQPTTWVSFFFDLHILVCTFPAGLWFCIKNINDE  439 (826)
+T ss_dssp             HHHHHHHHHHHHHHHTSSBCCCHHHHHHHHSSHHHHTCHHHHHBSTTSCCCHHHHHHSCSSHHHHHHHHHHHHHHSCCHH
+T ss_pred             HHHHHHHHHHHHHHccccchhhHHHHHHHcccccccCCccccchhhcCCCcHHHHHHHHHHHHHHHHHHHHHHHhccChh
+
+
+Q ss_pred             HHHHHHHHHHHHHHHHHhccCCCCCChHHHHHHHHHHHHh
+Q all4349         300 LDRLIHLATTIVLLVPYILPKMHERYFYPADICSIIFAFY  339 (399)
+Q Consensus       300 ~~~~~~~~~~~~~~~~~~~~~~~~ry~~~~~p~~~l~~~~  339 (399)
+                      ........+.........     .||..+..|+++++++.
+T Consensus       440 ~~~~~~~~~~~~~~~~~~-----~R~~~~~~p~~~ilaa~  474 (826)
+T 6S7T_A          440 RVFVALYAISAVYFAGVM-----VRLMLTLTPVVCMLSAI  474 (826)
+T ss_dssp             HHHHHHHHHHHHHHHTTC-----STTHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHHH-----HHHHHHHHHHHHHHHHH
+
+
+No 13
+>7W72_U Phosphatidylinositol glycan anchor biosynthesis class U protein; glycosylphosphatidylinositol, transamidase, MEMBRANE PROTEIN; HET: BMA, 8JY, NAG;{Homo sapiens}
+Probab=99.58  E-value=7.1e-11  Score=106.33  Aligned_cols=347  Identities=12%  Similarity=0.091  Sum_probs=0.0  Template_Neff=10.200
+
+Q ss_pred             HHHHHHHHHHHHHHccc--------------cCCCCHHHhhHHHHHHHHHCCcHHHhhccccCCCHHHHHHHHHHHHHhc
+Q all4349          32 LIVCIICAVIIRLICVP--------------NKSVDYKYFLAPWYDFIVSNGGFSALKYSFADYTPPYLYWILIAGTVLS   97 (399)
+Q Consensus        32 ~~~~~~~~~~~~~~~~~--------------~~~~D~~~~~~~~a~~~~~~g~~~~~~~~~~~~~Pl~~~~~~~~~~l~~   97 (399)
+                      +..++++++.+|.....              ....|...+ .+..+...+ | .++|.+..+.|||+..++..+..  . 
+T Consensus         5 ~~~~~~~~~~iR~~l~~~~~~~~~~~~~~~~~~~~~~~~~-~~~~~~~~~-g-~~~y~~~~~~y~Pl~~~~~~~~~--~-   78 (420)
+T 7W72_U            5 LVLVLVVAVTVRAALFRSSLAEFISERVEVVSPLSSWKRV-VEGLSLLDL-G-VSPYSGAVFHETPLIIYLFHFLI--D-   78 (420)
+T ss_dssp             HHHHHHHHHHHHHHHHHSTTHHHHHHCSSSCCTTSCHHHH-HHHHHHHHH-T-SCTTSSSSCCCCHHHHHHHHHSS--S-
+T ss_pred             HHHHHHHHHHHHHHHHCCchHHHHHhCcceeCchhhHHHH-HHHHHHHHc-C-CCCCCCCcccccHHHHHHHHHHh--h-
+
+
+Q ss_pred             CcchHHHHHHHHHHHHHHHHHHHHHHHHH------HCCc----------------------chHHHHHHHHHHHcHHHHH
+Q all4349          98 GLPKILAIKLFAMSVDFVCAFFTYKIVKL------KYPE----------------------GRKAIFAFITVILSPVVIY  149 (399)
+Q Consensus        98 ~~~~~~~~~~~~~l~~~~~~~~~~~~~~~------~~~~----------------------~~~a~~~~~l~~~~p~~~~  149 (399)
+                            ..++...++..+++..++++.++      ...+                      +..+...+.+++++|..+.
+T Consensus        79 ------~~~l~~~l~d~~~~~~i~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~nP~~~~  152 (420)
+T 7W72_U           79 ------YAELVFMITDALTAIALYFAIQDFNKVVFKKQKLLLELDQYAPDVAELIRTPMEMRYIPLKVALFYLLNPYTIL  152 (420)
+T ss_dssp             ------SHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHTCSCSSCSTTSCCTTTSTTHHHHHHHHHHSSHHHHH
+T ss_pred             ------HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhhhhcCcchHHHccChhHhcchhHHHHHHHHhCHHHHH
+
+
+Q ss_pred             HHhHHhhHHHHHHHHHHHHHHHHHcCCHHHHHHHHHHHHHhhHHHHHHHHHHHHHHHhccCC-------------hhhch
+Q all4349         150 NSALWGQCDSIYTTGLIACIYFLSIQKQLSALVSFGIALSFKLQAMFLSPLLLIFLIKNRIK-------------WYYLP  216 (399)
+Q Consensus       150 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~gl~~~la~~~k~~~~~~~~~~~~~~~~~~~~-------------~~~~~  216 (399)
+                      .+.. ++.|....++++++++...|++...+++..|++..+|..++++.+........++++             .+...
+T Consensus       153 ~~~~-~~~d~~~~~~~~la~~~~~~~~~~~a~~~l~la~~~K~~~~~l~p~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  231 (420)
+T 7W72_U          153 SCVA-KSTCAINNTLIAFFILTTIKGSAFLSAIFLALATYQSLYPLTLFVPGLLYLLQRQYIPVKMKSKAFWIFSWEYAM  231 (420)
+T ss_dssp             HHHT-TCTHHHHHHHHHHHHHHHHHTCHHHHHHHHHHHHHHHSCCSTTHHHHHHHHHHHHTCCCSTTCHHHHHHHHHHHH
+T ss_pred             HHHc-CCcHHHHHHHHHHHHHHHHcCcHHHHHHHHHHHHHcCchHHHHHHHHHHHHHhcCCCCCCCCchHHHHHHHHHHH
+
+
+Q ss_pred             HHHHHHH-HHHHHHHHCCCCHHHHHHHHHHHHhhcchhhccCCCHHHhcCCcchhhHHHHHHHHHHHHHHHHHHHHHHcc
+Q all4349         217 IPFLVYL-IAIMPAWVAGRPIQELLLIYFNQANKYKELAKNAPNIYQWIPNNSYNIVAPLGVIITIFAIFLLTYVVYKSK  295 (399)
+Q Consensus       217 ~~~~~~~-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  295 (399)
+                      ...+... +...|+....  ..+.................+....+...............................+.+
+T Consensus       232 ~~~~~~~~~~~~~~~~~~--~~~~l~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~l~~~~~  309 (420)
+T 7W72_U          232 MYVGSLVVIICLSFFLLS--SWDFIPAVYGFILSVPDLTPNIGLFWYFFAEMFEHFSLFFVCVFQINVFFYTIPLAIKLK  309 (420)
+T ss_dssp             HHHHHHHHHHHHHHHHHT--STTHCCCCCCHHHHCCCCCCCSSSSHHHHHSCCSTTHHHHHHHHHHHHHHSHHHHHHHST
+T ss_pred             HHHHHHHHHHHHHHHHcc--CchhHHHHhhhhcccCCCCCCHHHHHHHHHHHhHHHHHHHHHHHHHHHHHHHHHHHHHcc
+
+
+Q ss_pred             CCCCHHHHHHHHHHHHHHHHHhccCCCCCChHHHHHHHHHHHHhCCChHHHHHHHHHHHHHHhc-------------CCC
+Q all4349         296 LEITLDRLIHLATTIVLLVPYILPKMHERYFYPADICSIIFAFYFPHYRWIAILVPMSSFFSYL-------------GTP  362 (399)
+Q Consensus       296 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~ry~~~~~p~~~l~~~~~~~~~~~~~~~~~~~~~~~~-------------~~~  362 (399)
+                      +.     ..............+.+..+.+|..+..|++.+......+.+.......+.......             +..
+T Consensus       310 ~~-----~~~~~~~~l~~~~~~~~~~~~~~~~w~~~ll~l~~~~~~~~~~~~~~~~~~~~~~~l~~~~~~~~~~~~~g~~  384 (420)
+T 7W72_U          310 EH-----PIFFMFIQIAVIAIFKSYPTVGDVALYMAFFPVWNHLYRFLRNIFVLTCIIIVCSLLFPVLWHLWIYAGSANS  384 (420)
+T ss_dssp             TC-----HHHHHHHHHHHHHHSCSSCCHHHHHHHHTTGGGGGGGTTTCSSHHHHHHHHHHHHHHHHHHHHHHHTSSSSCH
+T ss_pred             CC-----HHHHHHHHHHHHHHHCCCCCHHHHHHHHHHHHHHHHHHHHHhHHHHHHHHHHHHHHHHHHHHHHHHHcCCCch
+
+
+Q ss_pred             chHHHHHHHHHHHHHHHHHHHHHHcHHHHhhhhhcc
+Q all4349         363 IYIKLFSIPLAFVLWFVVKTCDLIYPRYQAKFYLNN  398 (399)
+Q Consensus       363 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  398 (399)
+                      .......+......+++.....+...++++..+++.
+T Consensus       385 ~~~~~~~l~~~~~~~~~~~~~~~~~~~~~~~~~~~~  420 (420)
+T 7W72_U          385 NFFYAITLTFNVGQILLISDYFYAFLRREYYLTHGL  420 (420)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHSCC
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhCC
+
+
+No 14
+>6P25_A Dolichyl-phosphate-mannose--protein mannosyltransferase 1; complex, TRANSFERASE, glycosylation; HET: NNM, NAG, CPL; 3.2A {Saccharomyces cerevisiae W303}
+Probab=99.58  E-value=7.4e-13  Score=127.79  Aligned_cols=239  Identities=12%  Similarity=0.009  Sum_probs=0.0  Template_Neff=8.400
+
+Q ss_pred             CCccccccchHHhHhhhhccccchhhHHHHHHHHHHHHHHHHHHHcccc---CCCCHHHhhHHHHHHHHHCCcHHHhhcc
+Q all4349           1 MTQWTGRKSFKFIKHDFKSLLISFQQRFPRYLIVCIICAVIIRLICVPN---KSVDYKYFLAPWYDFIVSNGGFSALKYS   77 (399)
+Q Consensus         1 m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~---~~~D~~~~~~~~a~~~~~~g~~~~~~~~   77 (399)
+                      ...............................+++++++++.++......   ...||..| ...++++.+++      ..
+T Consensus        22 ~~~~~r~~~~~~~~~~~~~~~~~~~~~~~~~l~lllll~l~lrl~~l~~~~~~~~DE~~~-~~~a~~~~~g~------~~   94 (817)
+T 6P25_A           22 KQGPVRPFIVTDPSAELASLRTMVTLKEKLLVACLAVFTAVIRLHGLAWPDSVVFDEVHF-GGFASQYIRGT------YF   94 (817)
+T ss_dssp             EECSSSEEECCCCCHHHHHHSSCCSHHHHHHHHHHHHHHHHHTTTTTTSSCBCCTTHHHH-HHHHHHHHHCB------CC
+T ss_pred             cCCCccccccCCccHHHhhhcccCcHHHHHHHHHHHHHHHHHHHhcccCCCcccccHHHH-HHHHHHHHhCC------CC
+
+
+Q ss_pred             ccCCCHHHHHHHHHHHHHhcCcchH-----------------HHHHHHHHHHHHHHHHHHHHHHHHHCCcchHHHHHHHH
+Q all4349          78 FADYTPPYLYWILIAGTVLSGLPKI-----------------LAIKLFAMSVDFVCAFFTYKIVKLKYPEGRKAIFAFIT  140 (399)
+Q Consensus        78 ~~~~~Pl~~~~~~~~~~l~~~~~~~-----------------~~~~~~~~l~~~~~~~~~~~~~~~~~~~~~~a~~~~~l  140 (399)
+                      ...+||++.++.+...  .+++.+.                 ...|+++++++++++.++|.++|+..+++..+++++++
+T Consensus        95 ~~~~PPl~~ll~a~~~--~l~G~~~~~~f~~~g~~~~~~~~~~~~Rl~~~l~~~l~v~l~y~l~r~l~~~~~~Allaall  172 (817)
+T 6P25_A           95 MDVHPPLAKMLYAGVA--SLGGFQGDFDFENIGDSFPSTTPYVLMRFFSASLGALTVILMYMTLRYSGVRMWVALMSAIC  172 (817)
+T ss_dssp             CCSSCTHHHHHHHHHH--HHTCCCSCCCCCSTTCBCCTTSCCHHHHHHHHHHHHHHHHHHHHHHHHTTCCHHHHHHHHHH
+T ss_pred             CCCCcHHHHHHHHHHH--HHcCCCCCCCccccccCCCCCCcHHHHHHHHHHHHHHHHHHHHHHHHHcCCcHHHHHHHHHH
+
+
+Q ss_pred             HHHcHHHHHHHhHHhhHHHHHHHHHHHHHHHHHc------------CCHHHHHHHHHHHHHhhHHHHHHHHHHHHHHHh-
+Q all4349         141 VILSPVVIYNSALWGQCDSIYTTGLIACIYFLSI------------QKQLSALVSFGIALSFKLQAMFLSPLLLIFLIK-  207 (399)
+Q Consensus       141 ~~~~p~~~~~~~~~~~~~~~~~~~~~~~~~~~~~------------~~~~~~gl~~~la~~~k~~~~~~~~~~~~~~~~-  207 (399)
+                      ++++|..+..+.. ...|.+..++++++++++.+            ++..++|+++|+++++|+.++++++.+++..+. 
+T Consensus       173 ~a~~p~~i~~s~~-~~~D~~~~~f~~lal~~~~~~~~~~~~~~~~~~~l~l~Gl~lgLa~ltK~~~l~~~~~~~l~~l~~  251 (817)
+T 6P25_A          173 FAVENSYVTISRY-ILLDAPLMFFIAAAVYSFKKYEMYPANSLNAYKSLLATGIALGMASSSKWVGLFTVTWVGLLCIWR  251 (817)
+T ss_dssp             HHSCHHHHHHHHS-SCSHHHHHHHHHHHHHHHHHHHTSCSSSHHHHHHHHHHHHHHHHHHTTCTTHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHH-HhcHHHHHHHHHHHHHHHHHHHhCCCCCHHHHHHHHHHHHHHHHHHhchHHHHHHHHHHHHHHHHH
+
+
+Q ss_pred             ---------ccCChhhchHHHHHHHHHHHHHHHCCCCHHHHHHHHHHHHhh
+Q all4349         208 ---------NRIKWYYLPIPFLVYLIAIMPAWVAGRPIQELLLIYFNQANK  249 (399)
+Q Consensus       208 ---------~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  249 (399)
+                               ++.+...........+++.+|...+...+...+.........
+T Consensus       252 ~~~~~~~~~~~~~~~~~~~~~~~~~ll~ip~~~y~~~~~~~f~~l~~~g~~  302 (817)
+T 6P25_A          252 LWFMIGDLTKSSKSIFKVAFAKLAFLLGVPFALYLVFFYIHFQSLTLDGDG  302 (817)
+T ss_dssp             HHHHHHCSSSCHHHHHHHHHHHHCCCCCHHHHHHHHHHHHHHHHCCBCCST
+T ss_pred             HHHHHCcCCCCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhcccCCCC
+
+
+No 15
+>8AGC_A Dolichyl-diphosphooligosaccharide--protein glycotransferase; N-glycosylation OST complex, TRANSFERASE; HET: GLC, NAG, PTY, NDG, ELU, 323, MAN, BMA, CPL;{Saccharomyces cerevisiae}
+Probab=99.58  E-value=8e-12  Score=120.54  Aligned_cols=318  Identities=13%  Similarity=-0.013  Sum_probs=0.0  Template_Neff=10.800
+
+Q ss_pred             HhHhhhhccccchhhHHHHHHHHHHHHHHHHHHHcccc-----CCCCHHHhhHHHHHHHHHCCcHH--HhhccccCCC--
+Q all4349          12 FIKHDFKSLLISFQQRFPRYLIVCIICAVIIRLICVPN-----KSVDYKYFLAPWYDFIVSNGGFS--ALKYSFADYT--   82 (399)
+Q Consensus        12 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-----~~~D~~~~~~~~a~~~~~~g~~~--~~~~~~~~~~--   82 (399)
+                      +........++..+......+++++++++.+|......     .+.|+..+ ...++++.++|...  ++.+....||  
+T Consensus         1 m~~~~~~~~~~~~~~~~~~~l~~i~~~a~~lrl~~~~~~~~~~~~~D~~~~-~~~a~~i~~~g~~~~~~~~d~~~~~p~g   79 (718)
+T 8AGC_A            1 MGSDRSCVLSVFQTILKLVIFVAIFGAAISSRLFAVIKFESIIHEFDPWFN-YRATKYLVNNSFYKFLNWFDDRTWYPLG   79 (718)
+T ss_dssp             -----CHHHHHHHHHHHHHHHHHHHHHHHHHHTHHHHHTCSCCCSSHHHHH-HHHHHHHHHSCHHHHHTCEESSBSTTTC
+T ss_pred             CCCcchhhhHHHHHHHHHHHHHHHHHHHHHHHHhHHhhcccccccCChHHH-HHHHHHHHHccchHhhcccCCccCCCCC
+
+
+Q ss_pred             --------HHHHHHHHHHHHHhc----CcchHH---HHHHHHHHHHHHHHHHHHHHHHHHCCcchHHHHHHHHHHHcHHH
+Q all4349          83 --------PPYLYWILIAGTVLS----GLPKIL---AIKLFAMSVDFVCAFFTYKIVKLKYPEGRKAIFAFITVILSPVV  147 (399)
+Q Consensus        83 --------Pl~~~~~~~~~~l~~----~~~~~~---~~~~~~~l~~~~~~~~~~~~~~~~~~~~~~a~~~~~l~~~~p~~  147 (399)
+                              |+..++.+...  ..    ++.+..   ..++.+.+++.+++..+|.++|+..+++ .+++++++++++|..
+T Consensus        80 ~~~~~~~~p~~~~~~a~~~--~~~~~~~g~~~~~~~~~~~~~~l~~~l~v~~~y~l~r~l~~~~-~al~aall~a~~p~~  156 (718)
+T 8AGC_A           80 RVTGGTLYPGLMTTSAFIW--HALRNWLGLPIDIRNVCVLFAPLFSGVTAWATYEFTKEIKDAS-AGLLAAGFIAIVPGY  156 (718)
+T ss_dssp             EEGGGSSCCHHHHHHHHHH--HHCCCCCCCCCCHHHHHHTHHHHHHHHHHHHHHHHHHTTSCHH-HHHHHHHHHHHCHHH
+T ss_pred             CCCCCCCChhHHHHHHHHH--HHHHHHhCCCCCHHHHHHHHHHHHHHHHHHHHHHHHHHHcCch-HHHHHHHHHHHhHHH
+
+
+Q ss_pred             HHHHhH--HhhHHHHHHHHHHHHHHHHHc-------CCHHHHHHHHHHHHHhhHHHHHHHHHHHHHHHh-----------
+Q all4349         148 IYNSAL--WGQCDSIYTTGLIACIYFLSI-------QKQLSALVSFGIALSFKLQAMFLSPLLLIFLIK-----------  207 (399)
+Q Consensus       148 ~~~~~~--~~~~~~~~~~~~~~~~~~~~~-------~~~~~~gl~~~la~~~k~~~~~~~~~~~~~~~~-----------  207 (399)
+                      +..+..  . ..|.+..++.+++++++.+       ++..++|++++++.++|.....+.+.+.+....           
+T Consensus       157 ~~~s~~g~~-~~~~l~~~~~~l~l~~~~~~~~~~~~~~~~lagl~~~l~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  235 (718)
+T 8AGC_A          157 ISRSVAGSY-DNEAIAITLLMVTFMFWIKAQKTGSIMHATCAALFYFYMVSAWGGYVFITNLIPLHVFLLILMGRYSSKL  235 (718)
+T ss_dssp             HHTCSTTCC-STHHHHHHHHHHHHHHHHHHHHHCCHHHHHHHHHHHHHHHHHCSCTHHHHHHHHHHHHHHHHTTCCCHHH
+T ss_pred             HHHhhccCc-chHHHHHHHHHHHHHHHHHHhhcCCHHHHHHHHHHHHHHHHhhchHHHHHHHHHHHHHHHHHcccCChhH
+
+
+Q ss_pred             ---------------------------------------------------------ccCChhhchHHHHHHHHHHHHHH
+Q all4349         208 ---------------------------------------------------------NRIKWYYLPIPFLVYLIAIMPAW  230 (399)
+Q Consensus       208 ---------------------------------------------------------~~~~~~~~~~~~~~~~~~~~~~~  230 (399)
+                                                                               +++....................
+T Consensus       236 ~~~~~~~~~~~~~~~~~~p~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  315 (718)
+T 8AGC_A          236 YSAYTTWYAIGTVASMQIPFVGFLPIRSNDHMAALGVFGLIQIVAFGDFVKGQISTAKFKVIMMVSLFLILVLGVVGLSA  315 (718)
+T ss_dssp             HHHHHHHHHHHHHHHTCSTTTTTHHHHBGGGHHHHHHHHHHHHHHHHHHHHHTTCSTHHHHHHHHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHhcccccCCccccChHHHHHHHHHHHHHHHHHHHHHHhcCChHHHHHHHHHHHHHHHHHHHHHHHH
+
+
+Q ss_pred             HCCCCHHHHHHHHHHHHhhcchhhccCCCHHHhcCCcchhhHHHHHHHHHHHHHHHHHHHHHHccCCCCHHHHHHHHHHH
+Q all4349         231 VAGRPIQELLLIYFNQANKYKELAKNAPNIYQWIPNNSYNIVAPLGVIITIFAIFLLTYVVYKSKLEITLDRLIHLATTI  310 (399)
+Q Consensus       231 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  310 (399)
+                      .....................................................+.........++++..........+..
+T Consensus       316 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~e~~~~~~~~~~~~~~~~~~l~~~g~~~~~~~~~~~~~~~~~~~~~~  395 (718)
+T 8AGC_A          316 LTYMGLIAPWTGRFYSLWDTNYAKIHIPIIASVSEHQPVSWPAFFFDTHFLIWLFPAGVFLLFLDLKDEHVFVIAYSVLC  395 (718)
+T ss_dssp             HHHHTSSBCCCTTTTTTTSTTHHHHSCTTTTTBGGGSCCCTTHHHHTSTTHHHHHHHHHHHHHHSCCHHHHHHHHHHHHH
+T ss_pred             HHHcchhhhhhHHHHHHhcccccccCCcccccHhHhCCCCHHHHHHHhHHHHHHHHHHHHHHHhcCChhHHHHHHHHHHH
+
+
+Q ss_pred             HHHHHHhccCCCCCChHHHHHHHHHHHHh
+Q all4349         311 VLLVPYILPKMHERYFYPADICSIIFAFY  339 (399)
+Q Consensus       311 ~~~~~~~~~~~~~ry~~~~~p~~~l~~~~  339 (399)
+                      .......     .||..+..|+++++++.
+T Consensus       396 ~~~~~~~-----~R~~~~~~p~l~il~a~  419 (718)
+T 8AGC_A          396 SYFAGVM-----VRLMLTLTPVICVSAAV  419 (718)
+T ss_dssp             HHHHHHC-----GGGGGGGHHHHHHHHHH
+T ss_pred             HHHHHHH-----HHHHHHHHHHHHHHHHH
+
+
+No 16
+>9I5L_B Dolichyl-phosphate-mannose--protein mannosyltransferase; homodimer, glycosylation, ER, biogenesis, MEMBRANE PROTEIN; HET: A1I0M, A1I0N;{Thermochaetoides thermophila}
+Probab=99.52  E-value=4.6e-12  Score=123.29  Aligned_cols=222  Identities=10%  Similarity=-0.017  Sum_probs=0.0  Template_Neff=9.600
+
+Q ss_pred             CCccccccchHHhHhhhhccccchhhHHHHHHHHHHHHHHHHHHHcccc---CCCCHHHhhHHHHHHHHHCCcHHHhhcc
+Q all4349           1 MTQWTGRKSFKFIKHDFKSLLISFQQRFPRYLIVCIICAVIIRLICVPN---KSVDYKYFLAPWYDFIVSNGGFSALKYS   77 (399)
+Q Consensus         1 m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~---~~~D~~~~~~~~a~~~~~~g~~~~~~~~   77 (399)
+                      ...............................+++++++++.++......   ...||..| ...++++.+++      ..
+T Consensus        29 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~l~ll~~~~~~~r~~~l~~~~~~~~De~~~-~~~a~~~~~g~------~~  101 (804)
+T 9I5L_B           29 GAASDAELDKLVKEAAAAKAPAGSERDYKIAFAIITALAFLTRFWGISHPDQVVFDEVHF-GKFASYYLQRT------YF  101 (804)
+T ss_dssp             --------------------CCCCHHHHHHHHHHHHHHHHHHHHTTTTSSCBCCTTHHHH-HHHHHHHHTTB------CC
+T ss_pred             cccchHHHHHHHHHHHhccCCCCChHHHHHHHHHHHHHHHHHHHHcCCCCCceeeeHHHH-HHHHHHHHhCC------CC
+
+
+Q ss_pred             ccCCCHHHHHHHHHHHHHhcCcchH------------------HHHHHHHHHHHHHHHHHHHHHHHHHCCcchHHHHHHH
+Q all4349          78 FADYTPPYLYWILIAGTVLSGLPKI------------------LAIKLFAMSVDFVCAFFTYKIVKLKYPEGRKAIFAFI  139 (399)
+Q Consensus        78 ~~~~~Pl~~~~~~~~~~l~~~~~~~------------------~~~~~~~~l~~~~~~~~~~~~~~~~~~~~~~a~~~~~  139 (399)
+                      ...+||++.++.+...  .+++.+.                  ...|+++++++++++.++|.++|+...++..++++++
+T Consensus       102 ~~~~pPl~~~l~a~~~--~l~G~~~~~~~~~~~~~~~~~~~~~~~~rl~~~l~~~l~~~~~y~l~r~l~~~~~~allaal  179 (804)
+T 9I5L_B          102 FDVHPPLGKLLFAFMG--WLVGYDGHFHFDNIGDPYVINKVPYVAFRALPAILGSLTVSVVFLIMWESGYSLPACILASG  179 (804)
+T ss_dssp             CCSSCTHHHHHHHHHH--HHHTCCCSCCCCSSSCBSGGGTCCHHHHHHHHHHHHHHHHHHHHHHHHHHTCCHHHHHHHHH
+T ss_pred             CCCCCHHHHHHHHHHH--HHhCCCCCCCccCCCCccCCCCCChHHHHHHHHHHHHHHHHHHHHHHHHcCCCHHHHHHHHH
+
+
+Q ss_pred             HHHHcHHHHHHHhHHhhHHHHHHHHHHHHHHHHHcCCH--------------HHHHHHHHHHHHhhHHHHHHHHHHHHHH
+Q all4349         140 TVILSPVVIYNSALWGQCDSIYTTGLIACIYFLSIQKQ--------------LSALVSFGIALSFKLQAMFLSPLLLIFL  205 (399)
+Q Consensus       140 l~~~~p~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~--------------~~~gl~~~la~~~k~~~~~~~~~~~~~~  205 (399)
+                      ++++.|..+.++.. ...|.+..++++++++++.+...              .++|+++|++.++|+.++++++.+++..
+T Consensus       180 l~~~~p~~~~~s~~-~~~d~~~~~f~~l~l~~~~~~~~~~~~~~~~~~~~~~~l~gl~lgla~~~k~~~~~~~~~~~l~~  258 (804)
+T 9I5L_B          180 LVLLDNAHIGQTRL-ILLDATLVFAMACSLLCYIKFYKLRHEPFSRKWWKWLILTGFALSCDISTKYVGLFAFITIGSAV  258 (804)
+T ss_dssp             HHHTCHHHHHHTTS-SCTHHHHHHHHHHHHHHHHHHHTTTTSTTSHHHHHHHHHHHHHHHHHHHHCGGGHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHhh-HhcHHHHHHHHHHHHHHHHHHHHhcCCCCChHHHHHHHHHHHHHHHHHhchhHHHHHHHHHHHHH
+
+
+Q ss_pred             Hh-ccCChhh-------------chHHHHHHHHHHHHHHHC
+Q all4349         206 IK-NRIKWYY-------------LPIPFLVYLIAIMPAWVA  232 (399)
+Q Consensus       206 ~~-~~~~~~~-------------~~~~~~~~~~~~~~~~~~  232 (399)
+                      +. ..+..+.             ........+++.+|...+
+T Consensus       259 l~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~p~~i~  299 (804)
+T 9I5L_B          259 CIDLWDLLNINRPKGALTLPQFGKHFAARAFGLIFMPFMFY  299 (804)
+T ss_dssp             HHHHHHHHCSSCSSCCCCHHHHHHHHHHHHCCCCCHHHHHH
+T ss_pred             HHHHHHHhccCCCCCCCCHHHHHHHHHHHHHHHHHHHHHHH
+
+
+No 17
+>6X0O_A Integral membrane indolylacetylinositol arabinosyltransferase EmbB; Glycosyltransferase, membrane protein, nanodisc; HET: LHG; 3.3A {Mycolicibacterium smegmatis (strain ATCC 700084 / mc(2)155)}
+Probab=99.51  E-value=6e-11  Score=116.33  Aligned_cols=302  Identities=11%  Similarity=0.029  Sum_probs=0.0  Template_Neff=6.800
+
+Q ss_pred             HHHHHHHHHHHccccCCCCHHHhhHHHHHHHHHCCcHHHhhccccCCCHHHHHHHHHHHHHhcCcchHHHHHHHHHHHHH
+Q all4349          35 CIICAVIIRLICVPNKSVDYKYFLAPWYDFIVSNGGFSALKYSFADYTPPYLYWILIAGTVLSGLPKILAIKLFAMSVDF  114 (399)
+Q Consensus        35 ~~~~~~~~~~~~~~~~~~D~~~~~~~~a~~~~~~g~~~~~~~~~~~~~Pl~~~~~~~~~~l~~~~~~~~~~~~~~~l~~~  114 (399)
+                      ..+.+.............||..| ...+++..++|...+|++.+....+.+.+...........+.+....|+.++++++
+T Consensus       267 ~~V~~~l~~w~~igp~~~DeG~y-a~~Ar~~~~~G~~~ny~~~~~~~e~Pf~~y~~lla~~~~~G~s~~~lRLpsll~gl  345 (1098)
+T 6X0O_A          267 GVVVGGMAIWYVIGANSSDDGYI-LQMARTAEHAGYMANYFRWFGSPEDPFGWYYNVLALMTKVSDASIWIRLPDLICAL  345 (1098)
+T ss_dssp             HHHHHHHHHHHHHSCCCSSHHHH-HHHHHHHHHHTSCBCSSSSTTCBCCTTCHHHHHHHHHTTTCCCTTTTTHHHHHHHH
+T ss_pred             HHHHHHHHHHHHhccCCCcchHH-HHHHHhhhhcCCccchHHHhCCCCCchHHHHHHHHHHhhcCccchhccHHHHHHHH
+
+
+Q ss_pred             HHHHHHHHHHHHHCCcchHH----HHHHHHHHHcHHHHHHHhHHhhHHHHHHHHHHHHHHHHHc-------CCHHHHHHH
+Q all4349         115 VCAFFTYKIVKLKYPEGRKA----IFAFITVILSPVVIYNSALWGQCDSIYTTGLIACIYFLSI-------QKQLSALVS  183 (399)
+Q Consensus       115 ~~~~~~~~~~~~~~~~~~~a----~~~~~l~~~~p~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-------~~~~~~gl~  183 (399)
+                      +++.+++++.++..+++ .+    ...++..+++|..+.++.. .++|.+..++.+++++++.|       +.+.+++++
+T Consensus       346 lt~~ll~~l~~r~lg~~-~~~~~~a~~aaala~~~~~l~ys~~-aRpe~l~~ll~~lal~~~lra~~~~r~~~~~lagl~  423 (1098)
+T 6X0O_A          346 ICWLLLSREVLPRLGPA-VAGSRAAMWAAGLVLLGAWMPFNNG-LRPEGQIATGALITYVLIERAVTSGRLTPAALAITT  423 (1098)
+T ss_dssp             HHHHHCCCCCHHHHCSS-TTTCSHHHHHHHHHHHHHHTTTSSS-SSTHHHHHHHHHHHHHHHHHHHHHCCSHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHhCcc-ccchHHHHHHHHHHHHHHHHHhhcc-cchHHHHHHHHHHHHHHHHHHHHcCCcHHHHHHHHH
+
+
+Q ss_pred             HHHHHHhhHHHHHHHHHHHHHHHh---------ccCChhhchHHHHHHHHHHHHHHHCCCCHHHHHHHHHHHHhhcchhh
+Q all4349         184 FGIALSFKLQAMFLSPLLLIFLIK---------NRIKWYYLPIPFLVYLIAIMPAWVAGRPIQELLLIYFNQANKYKELA  254 (399)
+Q Consensus       184 ~~la~~~k~~~~~~~~~~~~~~~~---------~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  254 (399)
+                      .++++.+|+++.+.+..+++....         +...+.......+......+++.+.......................
+T Consensus       424 agla~~~hptg~~~~a~lll~l~~l~r~~r~r~~~~~~l~~l~~~aa~~~l~l~~lfa~~~l~~~~~a~~~~~~~~~~~~  503 (1098)
+T 6X0O_A          424 AAFTLGIQPTGLIAVAALLAGGRPILRIVMRRRRLVGTWPLIAPLLAAGTVILAVVFADQTIATVLEATRIRTAIGPSQE  503 (1098)
+T ss_dssp             HHHHHTTCGGGHHHHHHHHHSHHHHHHHHHHHHHHSCSHHHHHHHHHHHHTTHHHHTSSCCHHHHHHHHHHHHHSCC---
+T ss_pred             HHHHHhccHHHHHHHHHHHHhhHHHHHHHHHhhhhhcHHHHHHHHHHHHHHHHHHHHhccchHHHHHHhHhhhhcCCCch
+
+
+Q ss_pred             ccCCCHHHhcCCc---chhhHHHHHHHHHHHHHHHHHHHHHHccCC----CCHHHHHHHHHHHHHHHHHhccCCCCCChH
+Q all4349         255 KNAPNIYQWIPNN---SYNIVAPLGVIITIFAIFLLTYVVYKSKLE----ITLDRLIHLATTIVLLVPYILPKMHERYFY  327 (399)
+Q Consensus       255 ~~~~~~~~~~~~~---~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~----~~~~~~~~~~~~~~~~~~~~~~~~~~ry~~  327 (399)
+                      .............   ...........+.++.+++......|+++.    ......+..+.+..+....+.+.++.||+.
+T Consensus       504 w~~e~~r~~~ll~~~~~g~~a~r~~vll~llal~g~l~~l~Rrrr~~g~~~~~~~~Ll~~~~~~l~~l~l~pskw~hhf~  583 (1098)
+T 6X0O_A          504 WWTENLRYYYLILPTTDGAISRRVAFVFTAMCLFPSLFMMLRRKHIAGVARGPAWRLMGIIFATMFFLMFTPTKWIHHFG  583 (1098)
+T ss_dssp             ----------------------CCCCCHHHHHHHHHHHHHHHSSSCTTCCHHHHHHHHHHHHHHHHHHHHSSSCTTTSCG
+T ss_pred             HHHHHHHHHHHhcCCCCCchHHHHHHHHHHHHHHHHHHHHHHccCcCCCCchHHHHHHHHHHHHHHHHHcCCcccchHHH
+
+
+Q ss_pred             HHHHHHHHHHHh
+Q all4349         328 PADICSIIFAFY  339 (399)
+Q Consensus       328 ~~~p~~~l~~~~  339 (399)
+                      ...|+..++++.
+T Consensus       584 ~la~~~allaal  595 (1098)
+T 6X0O_A          584 LFAAVGGAMAAL  595 (1098)
+T ss_dssp             GGSHHHHHHHHH
+T ss_pred             HHHHHHHHHHHH
+
+
+No 18
+>8IF8_B Galactan 5-O-arabinofuranosyltransferase; Arabinosyltransferase, AftA, Mycobacterium tuberculosis, MEMBRANE PROTEIN;{Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv)}
+Probab=99.50  E-value=1.1e-10  Score=111.26  Aligned_cols=312  Identities=9%  Similarity=-0.060  Sum_probs=0.0  Template_Neff=11.100
+
+Q ss_pred             ccchhhHHHHHHHHHHHHHHHHHHHccccCCC----CHHHhhHHHHHHHHHCCcHHHhhcc--ccCCCHHHHHHHHHHHH
+Q all4349          21 LISFQQRFPRYLIVCIICAVIIRLICVPNKSV----DYKYFLAPWYDFIVSNGGFSALKYS--FADYTPPYLYWILIAGT   94 (399)
+Q Consensus        21 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~----D~~~~~~~~a~~~~~~g~~~~~~~~--~~~~~Pl~~~~~~~~~~   94 (399)
+                      +..........+.+++.+.+.......+....    |+..| ...++++.+++.+.++...  ...|||++.++.+... 
+T Consensus        92 ~~~~~~~~~~~~~~~~~~~~~~~l~~~~~~~~~~~~D~~~~-~~~~~~~~~~~~~~~~~~~~~~~~yppl~~~l~a~~~-  169 (643)
+T 8IF8_B           92 RRLARLGGLVLVSAFTVVTLGMPLGATKLYLFGISVDQQFR-TEYLTRLTDTAALRDMTYIGLPPFYPPGWFWIGGRAA-  169 (643)
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHhhccccccCcchhhHHHH-HHHHHHHHhcccccCCccCCCCCCCCcHHHHHHHHHH-
+
+
+Q ss_pred             HhcCcchHH-HHHHHHHHHHHHHHHHHHHHHHHHCCcchHHHHHHHHHHHcHHHHHHHhHHhhHHHHHHHHHHHHHHHHH
+Q all4349          95 VLSGLPKIL-AIKLFAMSVDFVCAFFTYKIVKLKYPEGRKAIFAFITVILSPVVIYNSALWGQCDSIYTTGLIACIYFLS  173 (399)
+Q Consensus        95 l~~~~~~~~-~~~~~~~l~~~~~~~~~~~~~~~~~~~~~~a~~~~~l~~~~p~~~~~~~~~~~~~~~~~~~~~~~~~~~~  173 (399)
+                       ..+|.+.. ..++.+.+++.+++..+|.+.|+..+++ .+..+++++...|  ...... ...+....++.+.++++..
+T Consensus       170 -~l~g~~~~~~~~~~~~~~~~l~~~~~~~l~r~~~~~~-~a~~~a~~~~~~~--~~~~~~-~~~~~~~~~~~~~~~~~~~  244 (643)
+T 8IF8_B          170 -ALTGTPAWEMFKPWAITSMAIAVAVALVLWWRMIRFE-YALLVTVATAAVM--LAYSSP-EPYAAMITVLLPPMLVLTW  244 (643)
+T ss_pred             -HHHCCCHHHhcHHHHHHHHHHHHHHHHHHHHHHcChh-HHHHHHHHHHHHH--HhhCCC-cchHHHHHHHHHHHHHHHH
+
+
+Q ss_pred             c----CC---H---HHHHHHHHHHHHhhHHHHHHHHHHHHHHHh-----ccC-----ChhhchHHHHHHHHHHHHHHHCC
+Q all4349         174 I----QK---Q---LSALVSFGIALSFKLQAMFLSPLLLIFLIK-----NRI-----KWYYLPIPFLVYLIAIMPAWVAG  233 (399)
+Q Consensus       174 ~----~~---~---~~~gl~~~la~~~k~~~~~~~~~~~~~~~~-----~~~-----~~~~~~~~~~~~~~~~~~~~~~~  233 (399)
+                      +    ++   +   .++|++++++.++|+...++.+...+....     +++     .++.........++..+....+ 
+T Consensus       245 ~~~~~~~~~~~~~~~~~g~~~gl~~l~~~~~~~~~~~~~~~~~~~~~~~~~r~~~~~~~~~~~~~~~~~~~~~~~~~~~-  323 (643)
+T 8IF8_B          245 SGLGARDRQGWAAVVGAGVFLGFAATWYTLLVAYGAFTVVLMALLLAGSRLQSGIKAAVDPLCRLAVVGAIAAAIGSTT-  323 (643)
+T ss_pred             HHhcCCCcccHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhhcccchhHHHHHHHHHHHHHHHHHHHHH-
+
+
+Q ss_pred             CCHHHHHHHHHHHHhhcchhhccCCCHHHhcCCcchhhHHHHHHHHHHHHHHHHHHHHHHccCCCCHHHHHHHHHHHHHH
+Q all4349         234 RPIQELLLIYFNQANKYKELAKNAPNIYQWIPNNSYNIVAPLGVIITIFAIFLLTYVVYKSKLEITLDRLIHLATTIVLL  313 (399)
+Q Consensus       234 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  313 (399)
+                           ..........................................+.++........+++++................
+T Consensus       324 -----~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~l~~l~~~~~~~~~r~~~~~~~~~~~~~~~~~~~  398 (643)
+T 8IF8_B          324 -----WLPYLLRAARDPVSDTGSAQHYLPADGAALTFPMLQFSLLGAICLLGTLWLVMRARSSAPAGALAIGVLAVYLWS  398 (643)
+T ss_pred             -----HHHHHHHHhcCCCCCCCccccCCCCCccccCCcchhcHHHHHHHHHHHHHHHHhhcCChhHHHHHHHHHHHHHHH
+
+
+Q ss_pred             HHHhc------cCCCCCChHHHHHHHHHHHHhCCChHH
+Q all4349         314 VPYIL------PKMHERYFYPADICSIIFAFYFPHYRW  345 (399)
+Q Consensus       314 ~~~~~------~~~~~ry~~~~~p~~~l~~~~~~~~~~  345 (399)
+                      .....      .....||..+..|.++++++.......
+T Consensus       399 ~~~~~~~~~~~~~~~~R~~~~~~~~l~~l~~~~~~~l~  436 (643)
+T 8IF8_B          399 LLSMLATLARTTLLSFRLQPTLSVLLVAAGAFGFVEAV  436 (643)
+T ss_pred             HHHHHHHHhccccchhhcHHHHHHHHHHHHHHHHHHHH
+
+
+No 19
+>6P25_B Dolichyl-phosphate-mannose--protein mannosyltransferase 2; complex, TRANSFERASE, glycosylation; HET: NNM, NAG, CPL; 3.2A {Saccharomyces cerevisiae W303}
+Probab=99.50  E-value=1.8e-11  Score=118.30  Aligned_cols=221  Identities=13%  Similarity=0.133  Sum_probs=0.0  Template_Neff=9.400
+
+Q ss_pred             CccccccchHHhHhhhhccccchhhHHHHHHHHHHHHHHHHHHHcccc---CCCCHHHhhHHHHHHHHHCCcHHHhhccc
+Q all4349           2 TQWTGRKSFKFIKHDFKSLLISFQQRFPRYLIVCIICAVIIRLICVPN---KSVDYKYFLAPWYDFIVSNGGFSALKYSF   78 (399)
+Q Consensus         2 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~---~~~D~~~~~~~~a~~~~~~g~~~~~~~~~   78 (399)
+                      ..............................+++++++++..+......   ...||..| ...++++.+++      ...
+T Consensus        38 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~l~~~~~~~~~~~~~~~~~~~~De~~~-~~~a~~~~~g~------~~~  110 (759)
+T 6P25_B           38 SSADERDAEDFSKEKPAAQSSLLRLESVVMPVIFTALALFTRMYKIGINNHVVWDEAHF-GKFGSYYLRHE------FYH  110 (759)
+T ss_dssp             -------------------CCHHHHHHHHHHHHHHHHHHHHHSSSGGGSCBCCTTHHHH-HHHHHHHHTTB------CCC
+T ss_pred             hccChhHhccccccCcchhcccccHHHhHHHHHHHHHHHHHHHHHhcCCCcccccHHHH-HHHHHHHHhCC------CCc
+
+
+Q ss_pred             cCCCHHHHHHHHHHHHHhcCcchH----------------HHHHHHHHHHHHHHHHHHHHHHHHHCCcchHHHHHHHHHH
+Q all4349          79 ADYTPPYLYWILIAGTVLSGLPKI----------------LAIKLFAMSVDFVCAFFTYKIVKLKYPEGRKAIFAFITVI  142 (399)
+Q Consensus        79 ~~~~Pl~~~~~~~~~~l~~~~~~~----------------~~~~~~~~l~~~~~~~~~~~~~~~~~~~~~~a~~~~~l~~  142 (399)
+                      ..+||++.++.+...  .+++.+.                ...|+++++++++++.++|.++|+...++..+++++++++
+T Consensus       111 ~~~pPl~~~l~a~~~--~l~g~~~~~~~~~~~~~~~~~~~~~~rl~~~l~~~l~~~l~y~l~r~l~~~~~~A~laall~a  188 (759)
+T 6P25_B          111 DVHPPLGKMLVGLSG--YLAGYNGSWDFPSGEIYPDYLDYVKMRLFNASFSALCVPLAYFTAKAIGFSLPTVWLMTVLVL  188 (759)
+T ss_dssp             CSSCTHHHHHHHHHH--HTTTCCSCSCCCSSCBCCSSCCHHHHHHHHHHHHHHHHHHHHHHHHHSCCCTHHHHHHHHHHH
+T ss_pred             CCCCHHHHHHHHHHH--HHhCCCCCCCCCCCCCCCCCCCHHHHHHHHHHHHHHHHHHHHHHHHHcCCCHHHHHHHHHHHH
+
+
+Q ss_pred             HcHHHHHHHhHHhhHHHHHHHHHHHHHHHHHc----CC----------HHHHHHHHHHHHHhhHHHHHHHHHHHHHHHh-
+Q all4349         143 LSPVVIYNSALWGQCDSIYTTGLIACIYFLSI----QK----------QLSALVSFGIALSFKLQAMFLSPLLLIFLIK-  207 (399)
+Q Consensus       143 ~~p~~~~~~~~~~~~~~~~~~~~~~~~~~~~~----~~----------~~~~gl~~~la~~~k~~~~~~~~~~~~~~~~-  207 (399)
+                      +.|.....+.. ...|.+..++.+++++++.+    ++          ..++|+++|++.++|+.++++++.+++..+. 
+T Consensus       189 ~~p~~~~~s~~-~~~d~~~~~f~~lal~~~~~~~~~~~~~~~~~~~~~l~l~gl~~gla~~~K~~~~~~~~~~~l~~l~~  267 (759)
+T 6P25_B          189 FENSYSTLGRF-ILLDSMLLFFTVASFFSFVMFHNQRSKPFSRKWWKWLLITGISLGCTISVKMVGLFIITMVGIYTVID  267 (759)
+T ss_dssp             SCHHHHHHTSS-SCSHHHHHHHHHHHHHHHHHHHTTSSSTTSHHHHHHHHHHHHHHHHHHHHCGGGHHHHHHHHHHHHHH
+T ss_pred             HhHHHHHHHHH-HHHHHHHHHHHHHHHHHHHHHHhhcCCCCCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+
+
+Q ss_pred             -------ccCChhhch--HHHHHHHHHHHHHHHC
+Q all4349         208 -------NRIKWYYLP--IPFLVYLIAIMPAWVA  232 (399)
+Q Consensus       208 -------~~~~~~~~~--~~~~~~~~~~~~~~~~  232 (399)
+                             ++.+.+...  .......++.+|...+
+T Consensus       268 ~~~~~~~~~~~~~~~~~~~~~~~~~l~~~p~~v~  301 (759)
+T 6P25_B          268 LWTFLADKSMSWKTYINHWLARIFGLIIVPFCIF  301 (759)
+T ss_dssp             HHHHTTCSSSCHHHHHHHHHHHHCCCCCHHHHHH
+T ss_pred             HHHHHcCCCCCHHHHHHHHHHHHHHHHHHHHHHH
+
+
+No 20
+>7BVG_A Integral membrane indolylacetylinositol arabinosyltransferase EmbA; Mycobacterium smegmatis, cell wall synthesis, drug target, ethambutol, arabinosyltransferase, EmbA, EmbB, EmbC, acyl carrier protein, arabinogalactan; HET: BXY, F8L, CDL, PNS;{Mycolicibacterium smegmatis MC2 155}
+Probab=99.50  E-value=1.6e-09  Score=106.21  Aligned_cols=346  Identities=8%  Similarity=-0.057  Sum_probs=0.0  Template_Neff=6.600
+
+Q ss_pred             HHHHHHHHHHHccccCCCCHHHhhHHHHHHHHHCC---cHHHhhccccCCCHHHHHHHHHHHHHhcCcchHHHHHHHHHH
+Q all4349          35 CIICAVIIRLICVPNKSVDYKYFLAPWYDFIVSNG---GFSALKYSFADYTPPYLYWILIAGTVLSGLPKILAIKLFAMS  111 (399)
+Q Consensus        35 ~~~~~~~~~~~~~~~~~~D~~~~~~~~a~~~~~~g---~~~~~~~~~~~~~Pl~~~~~~~~~~l~~~~~~~~~~~~~~~l  111 (399)
+                      ..+.+........+....||..| ...+++..++|   ++..+.+.....+|++++++..+.  .+ +.++...|+.+++
+T Consensus       251 ~~V~~~l~~w~~~gp~~~DDg~~-~~~ar~~~~~g~~~ny~~~~~~~e~P~~~yy~lL~~w~--~l-g~se~alRlpSll  326 (1088)
+T 7BVG_A          251 TGVIGGLLIWHIVGAPTSDDGYN-MTIARVASEAGYTTNYYRYFGASEAPFDWYQSVLSHLA--SI-STAGVWMRLPATA  326 (1088)
+T ss_dssp             HHHHHHHHSSSSSCCCCTTTTHH-HHHHHTTSSSSSCBCTTSGGGCBCCSSCTTHHHHHHHT--TT-CCCHHHHTSHHHH
+T ss_pred             HHHHHHHHHHHhcCCCCccchHH-HHhhhhhcccCCcccHHHHhCCCCCCChHHHHHHHHHH--hc-cccchHhHHHHHH
+
+
+Q ss_pred             HHHHHHHHHHHHHHHHCCcchHHHHHHHHHHHcHHH---HHHHhHHhhHHHHHHHHHHHHHHHHHc-------CCHHHHH
+Q all4349         112 VDFVCAFFTYKIVKLKYPEGRKAIFAFITVILSPVV---IYNSALWGQCDSIYTTGLIACIYFLSI-------QKQLSAL  181 (399)
+Q Consensus       112 ~~~~~~~~~~~~~~~~~~~~~~a~~~~~l~~~~p~~---~~~~~~~~~~~~~~~~~~~~~~~~~~~-------~~~~~~g  181 (399)
+                      ++++++.++|+..++..+++..+...+.+.+..++.   +.+++. .++|.+..++.+++++++.|       +.+...+
+T Consensus       327 agl~t~~ll~~~~~~~lg~~~~~~~~a~l~Aa~~fla~~l~ys~~-aRpyal~~l~~~la~~~l~ra~~~~r~~~~~~~~  405 (1088)
+T 7BVG_A          327 AAIATWLIISRCVLPRIGRRVAANRVAMLTAGATFLAAWLPFNNG-LRPEPLIAFAVITVWMLVENSIGTRRLWPAAVAI  405 (1088)
+T ss_dssp             HHHHHHHHCCCCCHHHHCHHHHSCHHHHHHHHHHHHHHHTTTCSS-SCSHHHHHHHHHHHHHHHHHHHTTTCSSHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHhchhhHHhHHHHHHHHHHHHHHHHHHHcc-CCcHHHHHHHHHHHHHHHHHHHcCCCcHHHHHHH
+
+
+Q ss_pred             HHHHHHHHhhHHHHHHHHHHHHHHHh---------ccCChhhchHHHHHHHHHHHHHHHCCCCHHHHHHHHHHHHhhcch
+Q all4349         182 VSFGIALSFKLQAMFLSPLLLIFLIK---------NRIKWYYLPIPFLVYLIAIMPAWVAGRPIQELLLIYFNQANKYKE  252 (399)
+Q Consensus       182 l~~~la~~~k~~~~~~~~~~~~~~~~---------~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  252 (399)
+                      ++.++++.+|+.+++.+...++....         ++..........+......+++.+.........+...........
+T Consensus       406 l~a~lal~~h~~g~~~la~l~~~l~~l~r~~r~r~~~~~~~~~~~~~~a~~~l~l~~~f~~~~l~~~~~a~~~~~~~~~~  485 (1088)
+T 7BVG_A          406 VIAMFSVTLAPQGLIALAPLLVGARAIGRVVTARRAGTGILASLAPLAASVAVVFVIIFRDQTLATVAESVRIKYVVGPT  485 (1088)
+T ss_dssp             HHHHHHHTTCGGGGGGGHHHHTTHHHHHHHHTTSTTTTCSSTTTHHHHHSGGGHHHHSTTTSCHHHHHHHHHHHHHSSCC
+T ss_pred             HHHHHHHhhchhHHHHHHHHHHHHHHHHHHHHhhhchhHHHHHHHHHHHHHHHHHHHHHccccHHHHHHHhhcccccCCC
+
+
+Q ss_pred             hhccCCCHHHhcCCcchh-----hHHHHHHHHHHHHHHHHHHHHHHccCCCC----HHHHHHHHHHHHHHHHHhccCCCC
+Q all4349         253 LAKNAPNIYQWIPNNSYN-----IVAPLGVIITIFAIFLLTYVVYKSKLEIT----LDRLIHLATTIVLLVPYILPKMHE  323 (399)
+Q Consensus       253 ~~~~~~~~~~~~~~~~~~-----~~~~~~~~~~~~~~~~~~~~~~~~~~~~~----~~~~~~~~~~~~~~~~~~~~~~~~  323 (399)
+                      ..... ....+.......     ........+.++.+++......|+++...    ....+.......+....+.+.++.
+T Consensus       486 ~~w~~-e~~r~~~L~~~~~~~g~~a~r~~vll~llal~g~~~~l~Rrrr~~g~~~~~~~~ll~~~~l~l~lL~~tptkw~  564 (1088)
+T 7BVG_A          486 IPWYQ-EFLRYYFLTVEDSVDGSLTRRFAVLVLLLCLFGLIMVLLRRGRVPGAVSGPLWRLCGSTAIGLLLLILTPTKWA  564 (1088)
+T ss_dssp             CCGGG-THHHHHHHSCTTCSSSCHHHHHHHHHHHHHHHHHHHHHHHSSCCTTSCHHHHHHHHHHHHHHHHHTTSCSCCCG
+T ss_pred             ChhHH-HHHHHHHhhcccCCCchHHHHHHHHHHHHHHHHHHHHHHhcCCCCCCCccHHHHHHHHHHHHHHHHHhCccchh
+
+
+Q ss_pred             CChHHHHHHHHHHHHh----------CCChHHHHHHHHHHHHHHhc------------------------CCCchHHHHH
+Q all4349         324 RYFYPADICSIIFAFY----------FPHYRWIAILVPMSSFFSYL------------------------GTPIYIKLFS  369 (399)
+Q Consensus       324 ry~~~~~p~~~l~~~~----------~~~~~~~~~~~~~~~~~~~~------------------------~~~~~~~~~~  369 (399)
+                      ||+....|+..++.+.          ..++........+.......                        ..........
+T Consensus       565 ~hf~~la~~~~ll~a~~~~~l~~~~~r~~r~~~~~~a~l~~~~al~~~g~n~w~~~~~~g~p~~~~~p~~~g~~l~~~~l  644 (1088)
+T 7BVG_A          565 IQFGAFAGLAGALGGVTAFAFARVGLHSRRNLALYVTALLFILAWATSGLNGWFYVGNYGVPWFDKQPVIAHYPVTTIFL  644 (1088)
+T ss_dssp             GGGGGGHHHHHHHHHHHHHHHHHHHHSCHHHHHHHHHHHHHHHHHHTTSCCCCCTTTTSSCTTSSSCCBSSSSBHHHHHH
+T ss_pred             hhHHHHHHHHHHHHHHHHHHHHHhccCchHhHHHHHHHHHHHHHHHHhcccccccccccCCCccCCCCccCCCchHHHHH
+
+
+Q ss_pred             HHHHHHHHHHHHHHHHH
+Q all4349         370 IPLAFVLWFVVKTCDLI  386 (399)
+Q Consensus       370 ~~~~~~~~~~~~~~~~~  386 (399)
+                      ....++.+...+...|.
+T Consensus       645 ~~~~~~~~~~~~~~~r~  661 (1088)
+T 7BVG_A          645 VLAIVGGLLAGWLHFRM  661 (1088)
+T ss_dssp             HHHHHHHHHHHHHHHTT
+T ss_pred             HHHHHHHHHHHHHHHHh
+
+
+No 21
+>7ZLJ_A C-mannosyltransferase dpy-19; C-mannosyltransferase, MEMBRANE PROTEIN; HET: IZU;{synthetic construct}
+Probab=99.48  E-value=5.6e-11  Score=114.58  Aligned_cols=357  Identities=8%  Similarity=-0.072  Sum_probs=0.0  Template_Neff=11.600
+
+Q ss_pred             CCccccccchHHhHhhhhccccchhhHHHHHHHHHHHHHHHHHHHccc------------------cCCCCHHHhhHHHH
+Q all4349           1 MTQWTGRKSFKFIKHDFKSLLISFQQRFPRYLIVCIICAVIIRLICVP------------------NKSVDYKYFLAPWY   62 (399)
+Q Consensus         1 m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~------------------~~~~D~~~~~~~~a   62 (399)
+                      |.++...........................+++.+++..........                  ....|+..| ...+
+T Consensus         1 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~l~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~d~~~y-~~~~   79 (707)
+T 7ZLJ_A            1 MAKKPKNSPEKSKYSSDTSSSLYSQTWLASVVIIGLLVGYINYQHVYTLFENDKHFSHLADFEREMAYRTEMGLY-YSYY   79 (707)
+T ss_dssp             ----------------------CCSHHHHHHHHHHHHHHHHHHHHHHHHHHHHHCGGGCCHHHHHHHSCHHHHHH-HHHH
+T ss_pred             CCCCCCCCcccccCCCcCchhHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHcCCccccCcHHhHHHhcccchHHH-HHHH
+
+
+Q ss_pred             HHHHHCCcHHH-----hhcccc----------CCCHHHHHHHHHHHHHh-----------------------------cC
+Q all4349          63 DFIVSNGGFSA-----LKYSFA----------DYTPPYLYWILIAGTVL-----------------------------SG   98 (399)
+Q Consensus        63 ~~~~~~g~~~~-----~~~~~~----------~~~Pl~~~~~~~~~~l~-----------------------------~~   98 (399)
+                      +++.++++...     +.+...          .++|...++.+....+.                             ..
+T Consensus        80 ~~i~~~~~~~~~~~~~~~d~~~~~p~g~~~~~~~~~~~~~l~a~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~g~  159 (707)
+T 7ZLJ_A           80 KTIINAPSFLEGVQEITHDTVTEHGHEINTLNRFNLYPEVILAFLYRPFRAFAKSANWQIELCWQVNRGELRPVESCEGI  159 (707)
+T ss_dssp             HHHHHSSSHHHHHHHHTSBSSTTTTSCBCSHHHHTCHHHHHHHHHHHHHHHHHHHHTCCCEEEEEECCSSSCCEEEEEES
+T ss_pred             HHHhhCCCHHHHHHHHHccCCccCCccccchhhcCccHHHHHHHHHHHHHHHHHHcCCccceeeecccCCCCCccccCCC
+
+
+Q ss_pred             cchHHHHHHHHHHHHHHHHHHHHHHHHHHCCcchHHHHHHHHHHHcHHHHHHHhHHh--hHHHHHHHHHHHHHHHHHc--
+Q all4349          99 LPKILAIKLFAMSVDFVCAFFTYKIVKLKYPEGRKAIFAFITVILSPVVIYNSALWG--QCDSIYTTGLIACIYFLSI--  174 (399)
+Q Consensus        99 ~~~~~~~~~~~~l~~~~~~~~~~~~~~~~~~~~~~a~~~~~l~~~~p~~~~~~~~~~--~~~~~~~~~~~~~~~~~~~--  174 (399)
+                      ++.....+....++++++++.+|.++|+..+++..+++++++++++|.....+.. +  ..|.+..++.+++++++.+  
+T Consensus       160 ~~~~~~~~~~~~i~~~l~~~~~y~l~~~l~~~~~~al~aa~l~a~~p~~~~~~~~-~~~~~~~~~~~~~~l~l~~~~~~~  238 (707)
+T 7ZLJ_A          160 GNPHYFYITGVFIVAGTVASSIFYLGVLVSDSIFGGFLSVLCFAFNHGEATRVQW-TPPLRESFAFPFIIGHIAILTFVI  238 (707)
+T ss_dssp             SSHHHHHHHHHHHHHTTHHHHHHHHHHHHHSSHHHHHHHHHHHHHTCTTTCCTTT-CTTSSHHHHHHHHHHHHHHHHHHH
+T ss_pred             CChHHHHHHHHHHHHHHHHHHHHHHHHHHccCHHHHHHHHHHHHHcccchhcccC-CCCcccccHHHHHHHHHHHHHHHH
+
+
+Q ss_pred             -------CCHHHHHHHHHHHHHhhHHHHHHHHHHHHHHHh-------ccCChhhchHHHHHHHHHHHHHHHCCCCH----
+Q all4349         175 -------QKQLSALVSFGIALSFKLQAMFLSPLLLIFLIK-------NRIKWYYLPIPFLVYLIAIMPAWVAGRPI----  236 (399)
+Q Consensus       175 -------~~~~~~gl~~~la~~~k~~~~~~~~~~~~~~~~-------~~~~~~~~~~~~~~~~~~~~~~~~~~~~~----  236 (399)
+                             ++..++|++.+++.++|.......+...+....       +++..+......+...++..+....+...    
+T Consensus       239 ~~~~~~~~~~~l~gl~~~l~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  318 (707)
+T 7ZLJ_A          239 KYKKSGHSMILLLTSMAVPALLFWQFTQFAFFTQICSIFLAFSLDLIPFSTAKTVIHSHIISFLIGFLLLFGNEMMITAL  318 (707)
+T ss_dssp             HHTCCSHHHHHHHHHHHHHHHHSCTTHHHHHHHHHHHHHHHHTTTCSCHHHHHHHHHHHHHHHHHHHHHTTTCGGGTTSS
+T ss_pred             HcCCCchHHHHHHHHHHHHHHHHccchHHHHHHHHHHHHHHHHccCCCHHHHHHHHHHHHHHHHHHHHHhccCHHHHHHH
+
+
+Q ss_pred             -------------------------------------------------------HHHHHHHHHHHhhcchhhccCCCHH
+Q all4349         237 -------------------------------------------------------QELLLIYFNQANKYKELAKNAPNIY  261 (399)
+Q Consensus       237 -------------------------------------------------------~~~~~~~~~~~~~~~~~~~~~~~~~  261 (399)
+                                                                             .........................
+T Consensus       319 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  398 (707)
+T 7ZLJ_A          319 YFPSILALGMIIYISPLLSNLKFRPAYVLFLAIIFASITLGLKIGLSKGLGIEDDAHIFDILRSKFTSFANFHTRLYTCS  398 (707)
+T ss_dssp             SHHHHHHHHHHHHHGGGGTTCCBHHHHHHHHHHHHHHHHHHHHHHHHHHHCCCCCCHHHHHHHHHHSCCCCSHHHHHHTS
+T ss_pred             HHHHHHHHHHHHHHHHHhhcCCchHHHHHHHHHHHHHHHHHHHHHHHhccCCCChHHHHHHHHHHccCCCChHHHHHhcc
+
+
+Q ss_pred             HhcCCc---chhhHHHHHHHHHHHHHHHHHHHHHHccCCCCHH-------HHHHHHHHHHHHHHHhccCCCCCChHHHHH
+Q all4349         262 QWIPNN---SYNIVAPLGVIITIFAIFLLTYVVYKSKLEITLD-------RLIHLATTIVLLVPYILPKMHERYFYPADI  331 (399)
+Q Consensus       262 ~~~~~~---~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-------~~~~~~~~~~~~~~~~~~~~~~ry~~~~~p  331 (399)
+                      ......   ..............+...+.......++++++..       .......+..............||..+..|
+T Consensus       399 ~~~~~~~~~~~~~~~~~~~~~~~l~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~R~~~~~~p  478 (707)
+T 7ZLJ_A          399 AEFDFIQYSTIEKLCGTLLIPLALISLVTFVFNFVKNTNLLWRNSEEIGENGEILYNVVQLCCSTVMAFLIMRLKLFMTP  478 (707)
+T ss_dssp             SSSSCCCHHHHHHHHHTTHHHHHHHHHHHHHHHHHHTCCSSBCCSSSCCSCHHHHHHHHHHHHHHHHHHHSTTCHHHHHH
+T ss_pred             cccccCCHHHHHHHHHhhHHHHHHHHHHHHHHHHHHHHHHHhhcccccccCHHHHHHHHHHHHHHHHHHHHHHHHhhhHH
+
+
+Q ss_pred             HHHHHHHhCC----------ChHHHHHHHHHHHHHHhc
+Q all4349         332 CSIIFAFYFP----------HYRWIAILVPMSSFFSYL  359 (399)
+Q Consensus       332 ~~~l~~~~~~----------~~~~~~~~~~~~~~~~~~  359 (399)
+                      +++++++...          ++........++.+....
+T Consensus       479 ~~~i~~a~~l~~~~~~~~~~~~~~~~~~~~~~~~~~~~  516 (707)
+T 7ZLJ_A          479 HLCIVAALFANSKLLGGDRISKTIRVSALVGVIAILFY  516 (707)
+T ss_dssp             HHHHHGGGGGCTTTTTTTTTCSHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHcChhhcCCCccchHHHHHHHHHHHHHHHh
+
+
+No 22
+>7BVF_B Probable arabinosyltransferase B; Mycobacterium tuberculosis, cell wall synthesis, drug target, ethambutol, arabinosyltransferase, EmbA, EmbB, EmbC, acyl carrier protein, arabinogalactan; HET: DSL, CDL, 95E;{Mycolicibacterium smegmatis MC2 155}
+Probab=99.46  E-value=1.4e-10  Score=113.53  Aligned_cols=299  Identities=12%  Similarity=0.036  Sum_probs=0.0  Template_Neff=6.500
+
+Q ss_pred             HHHHHHHHHHHccccCCCCHHHhhHHHHHHHHHC---CcHHHhhccccCCCHHHHHHHHHHHHHhcCcchHHHHHHHHHH
+Q all4349          35 CIICAVIIRLICVPNKSVDYKYFLAPWYDFIVSN---GGFSALKYSFADYTPPYLYWILIAGTVLSGLPKILAIKLFAMS  111 (399)
+Q Consensus        35 ~~~~~~~~~~~~~~~~~~D~~~~~~~~a~~~~~~---g~~~~~~~~~~~~~Pl~~~~~~~~~~l~~~~~~~~~~~~~~~l  111 (399)
+                      ..+.+.............||..+ ...+++..++   +++..+.+....-.+++++++..+.  .+ +.++...|+.+++
+T Consensus       281 ~~V~~~l~~w~~~gp~~~DEg~~-~~~Ar~~~~~g~~~n~~~~~~~~e~P~~lyy~lL~~w~--~~-g~s~~~lRLpSll  356 (1116)
+T 7BVF_B          281 AVVIFGFLLWHVIGANSSDDGYI-LGMARVADHAGYMSNYFRWFGSPEDPFGWYYNLLALMT--HV-SDASLWMRLPDLA  356 (1116)
+T ss_dssp             HHHHHHHHHHHHHCCCCSSHHHH-HHHHHTTTTSSSCBCCSSSSSCBCCSSCSSHHHHHHHT--TT-CCCHHHHTSHHHH
+T ss_pred             HHHHHHHHHHHhcCcCCccccee-heeeeccccCCcccchHHHhCCCCCccHHHHHHHHHHh--hc-CChhHhhhHHHHH
+
+
+Q ss_pred             HHHHHHHHHHHHHHHHCCcchHH----HHHHHHHHHcHHHHHHHhHHhhHHHHHHHHHHHHHHHHHc-------CCHHHH
+Q all4349         112 VDFVCAFFTYKIVKLKYPEGRKA----IFAFITVILSPVVIYNSALWGQCDSIYTTGLIACIYFLSI-------QKQLSA  180 (399)
+Q Consensus       112 ~~~~~~~~~~~~~~~~~~~~~~a----~~~~~l~~~~p~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-------~~~~~~  180 (399)
+                      ++++++.++|+..++..+++ ..    ...++..+++|..+.++.. .++|.+..++.+++++++.|       +.+..+
+T Consensus       357 aG~~t~~ll~~~~~~~lg~~-~~~~~~a~~aaala~~~~~i~ys~~-aRpyal~~l~~~la~~~~~Ral~~~r~~~~~~~  434 (1116)
+T 7BVF_B          357 AGLVCWLLLSREVLPRLGPA-VEASKPAYWAAAMVLLTAWMPFNNG-LRPEGIIALGSLVTYVLIERSMRYSRLTPAALA  434 (1116)
+T ss_dssp             HHHHHHHHCCCCCGGGSCTT-TSSCHHHHHHHHHHHHHHHSSSTTS-SSTHHHHHHHHHHHHHHHHHHHHHTCSSHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHhChh-ccCCHHHHHHHHHHHHHHHHHHhcC-CCHHHHHHHHHHHHHHHHHHHHhcCCcHHHHHH
+
+
+Q ss_pred             HHHHHHHHHhhHHHHHHHHHHHHHHHh---------ccCChhhchHHHHHHHHHHHHHHHCCCCHHHHHHHHHHHHhhcc
+Q all4349         181 LVSFGIALSFKLQAMFLSPLLLIFLIK---------NRIKWYYLPIPFLVYLIAIMPAWVAGRPIQELLLIYFNQANKYK  251 (399)
+Q Consensus       181 gl~~~la~~~k~~~~~~~~~~~~~~~~---------~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  251 (399)
+                      +++.++++.+|+++++.+...++....         ++..+.......+......++..+....................
+T Consensus       435 ~l~a~la~~~hp~gl~~la~ll~~~~~l~r~~r~r~~~~~~l~~~~~~lA~~~l~l~~lf~~~~l~~~~~~~~v~~~~g~  514 (1116)
+T 7BVF_B          435 VVTAAFTLGVQPTGLIAVAALVAGGRPMLRILVRRHRLVGTLPLVSPMLAAGTVILTVVFADQTLSTVLEATRVRAKIGP  514 (1116)
+T ss_dssp             HHHHHHHHTTCGGGCCSHHHHHHTTHHHHHHHHHHHTTSCSHHHHSHHHHTTTCTHHHHTSSSCHHHHHHHHHHHHHTSC
+T ss_pred             HHHHHHHHccchHHHHHHHHHHHhhhHHHHHHHHchhhhchHHHHHHHHHHHHHHHHHHHhhhhHHHHHHHHHHHhhcCC
+
+
+Q ss_pred             hhhccCCCHHHhcCCcc---hhhHHHHHHHHHHHHHHHHHHHHHHccCC----CCHHHHHHHHHHHHHHHHHhccCCCCC
+Q all4349         252 ELAKNAPNIYQWIPNNS---YNIVAPLGVIITIFAIFLLTYVVYKSKLE----ITLDRLIHLATTIVLLVPYILPKMHER  324 (399)
+Q Consensus       252 ~~~~~~~~~~~~~~~~~---~~~~~~~~~~~~~~~~~~~~~~~~~~~~~----~~~~~~~~~~~~~~~~~~~~~~~~~~r  324 (399)
+                      .................   ..........+.++.+++......|+++.    ......+.......+....+.+..+.|
+T Consensus       515 ~~~w~~e~~R~~~Ll~~~~~G~~a~r~~vll~llal~~~~~~l~Rrrr~~g~~~~~~~~ll~~~~~~l~lL~~tPtkwth  594 (1116)
+T 7BVF_B          515 SQAWYTENLRYYYLILPTVDGSLSRRFGFLITALCLFTAVFIMLRRKRIPSVARGPAWRLMGVIFGTMFFLMFTPTKWVH  594 (1116)
+T ss_dssp             CCCGGGTHHHHHGGGSSSSSSCHHHHHHHHHHHHHHHHHHHHHHHCSCCTTSCTTHHHHHHHHHHHHHHHTTSCSCCCGG
+T ss_pred             CchhHHHHHHHHHHhccCCCCchHHHHHHHHHHHHHHHHHHHHHHcCCCCcccChhHHHHHHHHHHHHHHHHcCCcchhh
+
+
+Q ss_pred             ChHHHHHHHHHHHHh
+Q all4349         325 YFYPADICSIIFAFY  339 (399)
+Q Consensus       325 y~~~~~p~~~l~~~~  339 (399)
+                      |+....|+..++.+.
+T Consensus       595 hfg~la~l~~ll~A~  609 (1116)
+T 7BVF_B          595 HFGLFAAVGAAMAAL  609 (1116)
+T ss_dssp             GGGGGGTTHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHH
+
+
+No 23
+>6W98_A F5/8 type C domain-containing protein; Glycosyltransferase, lipomannan, lipoarabinomannan, arabinofuranose, membrane protein, nanodisc, single-particle cryo-electron microscopy, acyl carrier protein; HET: 6OU, PNS; 2.9A {Escherichia coli (strain K12)}
+Probab=99.26  E-value=1.6e-08  Score=105.41  Aligned_cols=340  Identities=12%  Similarity=-0.045  Sum_probs=0.0  Template_Neff=10.100
+
+Q ss_pred             HhhhhccccchhhHHHHHHHHHHHHHHHHHHHccccCCCCHHHhhHHHHHHHHHCCcHHHhhcc---------ccCCCHH
+Q all4349          14 KHDFKSLLISFQQRFPRYLIVCIICAVIIRLICVPNKSVDYKYFLAPWYDFIVSNGGFSALKYS---------FADYTPP   84 (399)
+Q Consensus        14 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~D~~~~~~~~a~~~~~~g~~~~~~~~---------~~~~~Pl   84 (399)
+                      ++.+..............+++++++.+.......+....|...++.....++.... ...+...         .+.|...
+T Consensus         1 s~~~~~~~~~~~~~~~~l~~~~l~~~~~~~~~~~~~~~~d~~~~~~~~~~~~l~~~-~~~w~~~~~~g~~~~~~~~~~~p   79 (1413)
+T 6W98_A            1 SYVMTYRLDSSALSRRWLAVAAAVSLLLTFSQSPGQISPDTKLDLAINPLRFAARA-LNLWSSDLPFGQAQNQAYGYLFP   79 (1413)
+T ss_dssp             ----CCCCCCCCCCTHHHHHHHHHHHHHHTTSSTTCBCCTTCSHHHHCHHHHHHHT-TSSEESSSTTSEECCSSGGGCCC
+T ss_pred             CccccccCCccchHHHHHHHHHHHHHHHHHhCCCCCCCCCCCcccccCHHHHHHHH-HhccCCCCCCCCCchhhhhhhhh
+
+
+Q ss_pred             HHHHHHHHHHHhcCcchHHHHHHHHHHHHHHHHHHHHHHHHHHCCcch-HHHHHHHHHHHcHHHHHHHhHHhhHHHHHHH
+Q all4349          85 YLYWILIAGTVLSGLPKILAIKLFAMSVDFVCAFFTYKIVKLKYPEGR-KAIFAFITVILSPVVIYNSALWGQCDSIYTT  163 (399)
+Q Consensus        85 ~~~~~~~~~~l~~~~~~~~~~~~~~~l~~~~~~~~~~~~~~~~~~~~~-~a~~~~~l~~~~p~~~~~~~~~~~~~~~~~~  163 (399)
+                      ...+..+..  ....+.....++.+.++.+++.+.+|.++|+...++. .+++++++++++|..+.+... ...+....+
+T Consensus        80 ~~~~~~l~~--~~g~~~~~~~rl~~~l~~~l~~~~~y~l~r~l~~~~~~aal~aall~a~sp~~~~~~~~-~~~~~~~~~  156 (1413)
+T 6W98_A           80 HGAFFSLGH--LLGVPAWVTQRLWWALLIVAGFWGLIRVAEALGIGTRGSRIIAAVAFALSPRVLTTLGA-ISSETLPMM  156 (1413)
+T ss_dssp             CCHHHHHHH--HHTCCHHHHHHHHHHHHHHHHHHHHHHHHHHHTCSCTTHHHHHHHHHHTCHHHHHHHTT-CGGGTHHHH
+T ss_pred             HHHHHHHHH--HcCCCHHHHHHHHHHHHHHHHHHHHHHHHHHhCCCChhHHHHHHHHHHHCHHHHHHHhh-ccHHHHHHH
+
+
+Q ss_pred             HHHHHHHHHHc---------CCHHHHHHHHHHHHHhhHHHHHHHHHHHHHHHh----ccCChhhchHHHHHHHHHHHHHH
+Q all4349         164 GLIACIYFLSI---------QKQLSALVSFGIALSFKLQAMFLSPLLLIFLIK----NRIKWYYLPIPFLVYLIAIMPAW  230 (399)
+Q Consensus       164 ~~~~~~~~~~~---------~~~~~~gl~~~la~~~k~~~~~~~~~~~~~~~~----~~~~~~~~~~~~~~~~~~~~~~~  230 (399)
+                      ++.++++++.+         +...++++++++...+|....++.....+.+..    ++++++......+..+++.++++
+T Consensus       157 ~~pl~l~~l~~~~~~~~~~~~~~~~~~l~~~~~~~~~~~~~~~~~~~~~~~~l~~~~~~~~~~~~~~~~~~~~l~~~~~l  236 (1413)
+T 6W98_A          157 LAPWVLLPLILTFQGRMSPRRAAALSAVAVALMGAVNAVATALACGVAVIWWLAHRPNRTWWRFTAWWIPCLALASTWWI  236 (1413)
+T ss_dssp             HHHHHHHHHHHHHTTSSCHHHHHHHHHHHHHHSCSSSHHHHHHHSHHHHHHHHSBCCCHHHHHHHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHhcCCCCHHHHHHHHHHHHHHhcchhHHHHHHHHHHHHHHHHHCCCCchHHHHHHHHHHHHHHHHHHHH
+
+
+Q ss_pred             HCCCCHHHHHHHHHHHHhhcchhhccCCCHHHhcCCcchhhHH--------------HHHHHHHHHHHHHHHHHHHHccC
+Q all4349         231 VAGRPIQELLLIYFNQANKYKELAKNAPNIYQWIPNNSYNIVA--------------PLGVIITIFAIFLLTYVVYKSKL  296 (399)
+Q Consensus       231 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~--------------~~~~~~~~~~~~~~~~~~~~~~~  296 (399)
+                      ... ........................+....+.........              ........++.+..+....++++
+T Consensus       237 ~p~-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~l~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~l~~l~l~~l~~~~~  315 (1413)
+T 6W98_A          237 VAL-LIFGKISPKFLDFIESSGVTTQWTSLTEVLRGTDSWTPFVAPTATAGSSLVTQSAMVIATTMLAAAGMAGLAMRGM  315 (1413)
+T ss_dssp             HHH-HHHHHHSCCCTTSSCC-------CCHHHHHHTC-----------------CCHHHHHHHHHHHHHHHHHHHSSTTC
+T ss_pred             HHH-HHHcccchhhHhhhcccccccccCCHHHHHhccCCccccCCCcccchhHHHHhHHHHHHHHHHHHHHHHHHHhCCC
+
+
+Q ss_pred             CCCHHHHHHHHHHHHHHHHHh---------------------ccCCCCCChHHHHHHHHHHHHhC---------------
+Q all4349         297 EITLDRLIHLATTIVLLVPYI---------------------LPKMHERYFYPADICSIIFAFYF---------------  340 (399)
+Q Consensus       297 ~~~~~~~~~~~~~~~~~~~~~---------------------~~~~~~ry~~~~~p~~~l~~~~~---------------  340 (399)
+                      +..........+...+.....                     ..+...||..+..+.++++++..               
+T Consensus       316 ~~~~~~~~~~~~~~~l~~~~~~~~~~~p~~~~~~~l~~~~~~~~R~~~R~~~~~~~~lall~a~~l~~l~~~~~~~~~~~  395 (1413)
+T 6W98_A          316 PARGRLVAVLLIGLVLLTAGYTGALGSPIAQQIQFFLDDGGTPLRNVHKLEPLIRLPLILGLAHALSRIPLPASVPVRQW  395 (1413)
+T ss_dssp             TTHHHHHHHHHHHHHTC---------------------------CCGGGSHHHHHHHHHHHHHHHTSSSCCTTTSCC---
+T ss_pred             chHHHHHHHHHHHHHHHHhhccccCCCchHHHHHHHHhcCchhhcChhhHHHHHHHHHHHHHHHHHHcCCCCCCCChHHH
+
+
+Q ss_pred             --------CChHHHHHHHHHHHHHHh
+Q all4349         341 --------PHYRWIAILVPMSSFFSY  358 (399)
+Q Consensus       341 --------~~~~~~~~~~~~~~~~~~  358 (399)
+                              .++......+.++.+...
+T Consensus       396 ~~~~~~~~~~~~~~~~~~~~~~~~~~  421 (1413)
+T 6W98_A          396 LSALARPERNRAVAFAIVLLVALAAS  421 (1413)
+T ss_dssp             ---------CTTTHHHHHHHHHHHHH
+T ss_pred             HHhccCchHHHHHHHHHHHHHHHHHH
+
+
+No 24
+>7BVF_A Probable arabinosyltransferase A; Mycobacterium tuberculosis, cell wall synthesis, drug target, ethambutol, arabinosyltransferase, EmbA, EmbB, EmbC, acyl carrier protein, arabinogalactan; HET: DSL, CDL, 95E;{Mycolicibacterium smegmatis MC2 155}
+Probab=98.85  E-value=2.7e-05  Score=77.01  Aligned_cols=302  Identities=10%  Similarity=0.038  Sum_probs=0.0  Template_Neff=5.800
+
+Q ss_pred             HHHHHHHHHHHccccCCCCHHHhhHHHHHHHHHCCcHHHhhccccCCCHHHHHHHHHHHHHhcCcchHHHHHHHHHHHHH
+Q all4349          35 CIICAVIIRLICVPNKSVDYKYFLAPWYDFIVSNGGFSALKYSFADYTPPYLYWILIAGTVLSGLPKILAIKLFAMSVDF  114 (399)
+Q Consensus        35 ~~~~~~~~~~~~~~~~~~D~~~~~~~~a~~~~~~g~~~~~~~~~~~~~Pl~~~~~~~~~~l~~~~~~~~~~~~~~~l~~~  114 (399)
+                      ..+.+......+.+....|+.++ ...+++..+.|...+|+..+..---.+.+.+..+......+.+...+|+.++++++
+T Consensus       263 ~~V~~~L~~W~~igp~t~DDGy~-~~maR~~~~~Gy~gNyyr~~n~~e~Pf~w~y~~l~~~~~ls~~~~wlRLPsll~Gl  341 (1102)
+T 7BVF_A          263 AAVIATLLLWHVIGATSSDDGYL-LTVARVAPKAGYVANYYRYFGTTEAPFDWYTSVLAQLAAVSTAGVWMRLPATLAGI  341 (1102)
+T ss_dssp             HHHHHHHHHTTTSCCCCSTTHHH-HHHHHHHHHHTSCBCSSSGGGCBCCTTCTTHHHHHHHHHHCCCHHHHTSHHHHHHH
+T ss_pred             HHHHHHHHHHHHhcCCCcchHHH-HHHHhhhcccCCcchhhhhcCCCCCcchHHHHHHHHHhhcccchHHhHHHHHHHHH
+
+
+Q ss_pred             HHHHHHHHHHHHHCC---cchH----HHHHHHHHHHcHHHHHHHhHHhhHHHHHHHHHHHHHHHHHc-------CCHHHH
+Q all4349         115 VCAFFTYKIVKLKYP---EGRK----AIFAFITVILSPVVIYNSALWGQCDSIYTTGLIACIYFLSI-------QKQLSA  180 (399)
+Q Consensus       115 ~~~~~~~~~~~~~~~---~~~~----a~~~~~l~~~~p~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-------~~~~~~  180 (399)
+                      ++.+++-+...+..+   .. .    ....++...+.-..+-++.. .++|.+..++.++++++..|       ....++
+T Consensus       342 ~~W~ll~r~vlprl~~~~~~-~~~~~~a~~~aa~~fLa~wlpy~~g-lRPEp~val~~~~~l~~v~rai~~rr~~p~~la  419 (1102)
+T 7BVF_A          342 ACWLIVSRFVLRRLGPGPGG-LASNRVAVFTAGAVFLSAWLPFNNG-LRPEPLIALGVLVTWVLVERSIALGRLAPAAVA  419 (1102)
+T ss_dssp             HHHHHCCCCCHHHSCCSSSS-SSSCSHHHHHHHHHHHHHHTTTCCS-SSSHHHHHHHHHHHHHHHHHHHHHTCSHHHHHH
+T ss_pred             HHHHHHHHHHHHHhCCCCCC-ccccHHHHHHHHHHHHHHHHHhcCC-CCchHHHHHHHHHHHHHHHHHHHcCCcHHHHHH
+
+
+Q ss_pred             HHHHHHHHHhhHHHHHHHHHHHHHHHh---------ccCChhhchHHHHHHHHHHHHHHHCCCCHHHHHHHHHHHHhhcc
+Q all4349         181 LVSFGIALSFKLQAMFLSPLLLIFLIK---------NRIKWYYLPIPFLVYLIAIMPAWVAGRPIQELLLIYFNQANKYK  251 (399)
+Q Consensus       181 gl~~~la~~~k~~~~~~~~~~~~~~~~---------~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  251 (399)
+                      .++.++++..++++++.+..++.....         ++.........++......++..+.........+..........
+T Consensus       420 ~~~A~la~~~~PtG~~a~apll~~~~~l~r~~r~~~~~~~~~~~~~~~lA~g~~~l~~~FaD~sl~~v~~a~~~~~~~g~  499 (1102)
+T 7BVF_A          420 IIVATLTATLAPQGLIALAPLLTGARAIAQRIRRRRATDGLLAPLAVLAAALSLITVVVFRDQTLATVAESARIKYKVGP  499 (1102)
+T ss_dssp             HHHHHHHTTSCGGGGGGGHHHHHTTHHHHHHHHHSCSSSCSSHHHHHHHHTGGGTHHHHSSSSCHHHHHHHHHHHHHSSC
+T ss_pred             HHHHHHHHhhChhHHHHHHHHHHHHHHHHHHHHhcchhhchHHHHHHHHHHHHHHHHHHhCCCCHHHHHHHHhHHhhhCC
+
+
+Q ss_pred             hh-hccCCCHHHhcCCcc---hhhHHHHHHHHHHHHHHHHHHHHHHccCC----CCHHHHHHHHHHHHHHHHHhccCCCC
+Q all4349         252 EL-AKNAPNIYQWIPNNS---YNIVAPLGVIITIFAIFLLTYVVYKSKLE----ITLDRLIHLATTIVLLVPYILPKMHE  323 (399)
+Q Consensus       252 ~~-~~~~~~~~~~~~~~~---~~~~~~~~~~~~~~~~~~~~~~~~~~~~~----~~~~~~~~~~~~~~~~~~~~~~~~~~  323 (399)
+                      +. ..+....+..+....   .+........+.++.+........|+++.    ......+.......+..+.+.+.++.
+T Consensus       500 ~~~w~~E~~Ry~~Ll~~~~~~Gs~arR~~Vll~l~~l~~~~~~l~R~~r~~g~~~~~~~~l~~~~~l~~~~L~~TPtKWt  579 (1102)
+T 7BVF_A          500 TIAWYQDFLRYYFLTVESNVEGSMSRRFAVLVLLFCLFGVLFVLLRRGRVAGLASGPAWRLIGTTAVGLLLLTFTPTKWA  579 (1102)
+T ss_dssp             CCCGGGTTTTSTTTSCSSCGGGCTTTHHHHHHHHHHHHHHHHHHHSSSCCSSSCHHHHHHHHHHHHHHHHHGGGCSCCCS
+T ss_pred             CCcchhhhHHHHHHhcCCCCCCChHHHHHHHHHHHHHHHHHHHHHHcCCCCCCCCcHHHHHHHHHHHHHHHHHhCCchHH
+
+
+Q ss_pred             CChHHHHHHHHHHHHh
+Q all4349         324 RYFYPADICSIIFAFY  339 (399)
+Q Consensus       324 ry~~~~~p~~~l~~~~  339 (399)
+                      ||+-....+-..+++.
+T Consensus       580 hHfGalAg~g~~~~Al  595 (1102)
+T 7BVF_A          580 VQFGAFAGLAGVLGAV  595 (1102)
+T ss_dssp             GGGGGGHHHHHHHHHH
+T ss_pred             hhhHHHHHHHHHHHHH
+
+
+No 25
+>7BVE_B Integral membrane indolylacetylinositol arabinosyltransferase EmbC; Mycobacterium smegmatis, cell wall synthesis, drug target, ethambutol, arabinosyltransferase, EmbC, acyl carrier protein, arabinogalactan, lipoarabinomannan, drug; HET: PO4, 95E, PN7; 2.81A {Mycolicibacterium smegmatis MC2 155}
+Probab=98.61  E-value=7.3e-05  Score=73.98  Aligned_cols=301  Identities=11%  Similarity=0.037  Sum_probs=0.0  Template_Neff=5.800
+
+Q ss_pred             HHHHHHHHHHHccccCCCCHHHhhHHHHHHHHHCCcHHHhhccccCCCHHHHHHHHHHHHHhcCcchHHHHHHHHHHHHH
+Q all4349          35 CIICAVIIRLICVPNKSVDYKYFLAPWYDFIVSNGGFSALKYSFADYTPPYLYWILIAGTVLSGLPKILAIKLFAMSVDF  114 (399)
+Q Consensus        35 ~~~~~~~~~~~~~~~~~~D~~~~~~~~a~~~~~~g~~~~~~~~~~~~~Pl~~~~~~~~~~l~~~~~~~~~~~~~~~l~~~  114 (399)
+                      ..+.+.+....+.+....|+.++ ..++++..+.|...+|+..+..---.+.+....+....-.+.+...+|+.+.++++
+T Consensus       261 ~~V~~~L~~W~~IGp~T~DDGy~-~~maR~~~~sGyvgNYyrwfn~pEaPF~w~y~~l~~~~~vs~~~~wlRLPall~Gl  339 (1084)
+T 7BVE_B          261 GLVSAMLVWWHFVGANTADDGYI-LTMARVSEHAGYMANYYRWFGTPESPFGWYYDLLALWAHVSTASVWMRFPTLLMGL  339 (1084)
+T ss_dssp             HHHHHHHHHHHHSCCCCSSSHHH-HHHHHHHHHHSSCBCSSSGGGCBCCSSCSSHHHHHHHTTTCCCHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHhhccCCCChhHH-HHHHhhhccCCCccchHhhhCCCCCCChHHHHHHHHHHhhccchHHhHHHHHHHHH
+
+
+Q ss_pred             HHHHHHHHHHHHHCCcc----hHHHHHHHHHHHcHHHHHHHhHHhhHHHHHHHHHHHHHHHHHc-------CCHHHHHHH
+Q all4349         115 VCAFFTYKIVKLKYPEG----RKAIFAFITVILSPVVIYNSALWGQCDSIYTTGLIACIYFLSI-------QKQLSALVS  183 (399)
+Q Consensus       115 ~~~~~~~~~~~~~~~~~----~~a~~~~~l~~~~p~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-------~~~~~~gl~  183 (399)
+                      ++-+++-+..-...+.+    +.+.+++....+.-..-+....  ++|....+..++.+.+..|       ....++.+.
+T Consensus       340 ~~W~llsR~vlprL~~~~~~~~~a~w~aa~~FLa~WLpy~~Gl--RPEp~valg~~~t~~~verAia~rrl~pla~a~~~  417 (1084)
+T 7BVE_B          340 ACWWVISREVIPRLGAAAKHSRAAAWTAAGLFLAFWLPLNNGL--RPEPIIALGILLTWCSVERGVATSRLLPVAVAIII  417 (1084)
+T ss_dssp             HHHHHCCCCCTTTSBSTTTSCSHHHHHHHHHHHHHHHHHCSSS--SSHHHHHHHHHHHHHHHHHHHHHTCSHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHhhHHhcccHHHHHHHHHHHHHHHHHhcCCC--CchHHHHHHHHHHHHHHHHHHccCCcHHHHHHHHH
+
+
+Q ss_pred             HHHHHHhhHHHHHHHHHHHHHHHh-----ccCChhhchHHHHHHHHHHHHHHHCCCCHHHHHHHHHHHHhhcchhhccCC
+Q all4349         184 FGIALSFKLQAMFLSPLLLIFLIK-----NRIKWYYLPIPFLVYLIAIMPAWVAGRPIQELLLIYFNQANKYKELAKNAP  258 (399)
+Q Consensus       184 ~~la~~~k~~~~~~~~~~~~~~~~-----~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  258 (399)
+                      .++++.+.+++++.+..++...-.     +++....-....+..++..........+..+.+...............+. 
+T Consensus       418 A~lt~a~~PTGlva~apll~~~p~l~r~lr~r~~~~~~~~~~a~~~Aag~~~l~~~FaDqtl~~vleat~v~~~~gp~~-  496 (1084)
+T 7BVE_B          418 GALTLFSGPTGIAAVGALLVAIGPLKTIVAAHVSRFGYWALLAPIAAAGTVTIFLIFRDQTLAAELQASSFKSAVGPSL-  496 (1084)
+T ss_dssp             HHHHHTSSGGGGGGHHHHHHTSHHHHHHHHHHTTTSCSHHHHHHHHHHHHTTHHHHTSSSCHHHHHHHHHHHHHHSCCC-
+T ss_pred             HHHHHhhChhHHHHHHHHHHHHHHHHHHHHhccccchHHHHHHHHHHHhhHHeehhhcCCCHHHHHHHHHHHhhhCCCC-
+
+
+Q ss_pred             CHHHhcCCcchh--------hHHHHHHHHHHHHHHHHHHHHHHccCC----CCHHHHHHHHHHHHHHHHHhccCCCCCCh
+Q all4349         259 NIYQWIPNNSYN--------IVAPLGVIITIFAIFLLTYVVYKSKLE----ITLDRLIHLATTIVLLVPYILPKMHERYF  326 (399)
+Q Consensus       259 ~~~~~~~~~~~~--------~~~~~~~~~~~~~~~~~~~~~~~~~~~----~~~~~~~~~~~~~~~~~~~~~~~~~~ry~  326 (399)
+                      ++++-..++..-        ...-....+.++.+........|+++.    ......+.......+..+.+.+.++.||+
+T Consensus       497 ~W~~E~~RY~~Ll~~~~~Gs~aRR~~VLl~l~~l~~~~~~l~R~~r~~g~~~~p~~rl~~~~~l~~~~L~~TPTKWtHHF  576 (1084)
+T 7BVE_B          497 AWFDEHIRYSRLFTTSPDGSVARRFAVLTLLLALAVSIAMTLRKGRIPGTALGPSRRIIGITIISFLAMMFTPTKWTHHF  576 (1084)
+T ss_dssp             CGGGTHHHHHHHTSSSSTTCHHHHHHHHHHHHHHHHHHHHHHHSSSCTTBCHHHHHHHHHHHHHHHHHGGGCSSCCSGGG
+T ss_pred             ccccCcccHHhccCCCCCCcHHHHHHHHHHHHHHHHHHHHHHhcCCCCCCCCcHHHHHHHHHHHHHHHHHhCCChhHHHh
+
+
+Q ss_pred             HHHHHHHHHHHHh
+Q all4349         327 YPADICSIIFAFY  339 (399)
+Q Consensus       327 ~~~~p~~~l~~~~  339 (399)
+                      -....+-..+++.
+T Consensus       577 Ga~Ag~g~~~~al  589 (1084)
+T 7BVE_B          577 GVFAGLAGCLGAL  589 (1084)
+T ss_dssp             GGGTTHHHHHHHH
+T ss_pred             hhHHHHHHHHHHH
+
+
+No 26
+>2RDD_B UPF0092 membrane protein yajC; DRUG RESISTANCE, MULTIDRUG EFFLUX, TRANSPORTER, ANTIPORTER, MEMBRANE PROTEIN, NOVEL TRANSMEMBRANE HELIX, ACRB, YAJC, Inner membrane, Membrane; HET: AIC; 3.5A {Escherichia coli}
+Probab=24.74  E-value=1.9e+02  Score=15.67  Aligned_cols=31  Identities=13%  Similarity=-0.057  Sum_probs=0.0  Template_Neff=7.600
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHHHcHHHHhhhhhc
+Q all4349         367 LFSIPLAFVLWFVVKTCDLIYPRYQAKFYLN  397 (399)
+Q Consensus       367 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  397 (399)
+                      ...+..+++.+.+.+....+..++.+++.++
+T Consensus         3 ~~~~~~~~~~~~~~~~~~~r~q~k~~k~~~~   33 (37)
+T 2RDD_B            3 MSLILMLVVFGLIFYFMILRPQQKRTKEHKK   33 (37)
+T ss_dssp             CHHHHHHHHHHHHHHHHTHHHHHHHHHHHTT
+T ss_pred             HHHHHHHHHHHHHHHHHHHChHHHHHHHHHH
+
+

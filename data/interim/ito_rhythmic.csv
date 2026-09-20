@@ -1,0 +1,96 @@
+dataset,gene_id,locus_tag,gene_symbol,annotation,peak_time_h,corr_p,amplitude_cv,rhythmic_tier,rhythmic_flag
+Ito2009,syc0014_d,Synpcc7942_1556,,,10.8,3e-05,0.48714609070088793,b,True
+Ito2009,syc0015_c,Synpcc7942_1557,rpoD6,group 2 RNA polymerase sigma factor,9.6,0.00028,0.4739684766650183,b,True
+Ito2009,syc0030_d,Synpcc7942_1573,,3-oxoacyl-[acyl-carrier protein] reductase,10.4,0.00031,0.632063317576841,b,True
+Ito2009,syc0032_d,Synpcc7942_1575,malQ,MalQ (glycogen debranching enzyme-related protein),10.2,0.00034,0.3781688567372405,b,True
+Ito2009,syc0067_c,Synpcc7942_1610,pntB,pyridine nucleotide transhydrogenase beta subunit,11.2,0.00026,0.943313231868929,b,True
+Ito2009,syc0068_c,Synpcc7942_1611,pntA,NAD(P) transhydrogenase subunit alpha,10.8,0.00042,0.9689855705518268,b,True
+Ito2009,syc0069_c,Synpcc7942_1612,pntA,pyridine nucleotide transhydrogenase alpha subunit,11,0.00021,0.992667491675402,b,True
+Ito2009,syc0111_d,Synpcc7942_1446,,,10.4,0.00049,0.2545461166452417,b,True
+Ito2009,syc0153_c,Synpcc7942_1402,,hypothetical protein,10.4,0.00017,0.4344443867789597,b,True
+Ito2009,syc0159_d,Synpcc7942_1396,,hypothetical protein,10.2,6e-05,0.2974608238300798,b,True
+Ito2009,syc0164_c,Synpcc7942_1391,comM,competence protein ComM homolog,10.4,0.00078,0.7752711949655807,b,True
+Ito2009,syc0201_c,Synpcc7942_1354,,putative export protein,10.8,0.00086,0.6059057362076835,b,True
+Ito2009,syc0333_d,Synpcc7942_1217,KaiB,circadian clock protein KaiB,11.2,0.0,0.5710727242530804,b,True
+Ito2009,syc0334_d,Synpcc7942_1216,KaiC,circadian clock protein KaiC,11.2,2e-05,0.5791733786692236,b,True
+Ito2009,syc0386_c,Synpcc7942_1164,,,10.8,0.00018,0.7215007752239956,b,True
+Ito2009,syc0393_c,Synpcc7942_1157,,hypothetical protein,10.8,0.00015,0.6516931802173771,b,True
+Ito2009,syc0394_c,Synpcc7942_1156,,hypothetical protein,11,6e-05,0.7254419308961434,b,True
+Ito2009,syc0400_d,Synpcc7942_1150,,hypothetical protein,10.6,0.00022,0.5546482824195699,b,True
+Ito2009,syc0454_c,Synpcc7942_1095,,hypothetical protein,10,0.00018,0.3199518030664133,b,True
+Ito2009,syc0515_c,Synpcc7942_1032,,hypothetical protein,10.8,0.00042,0.30406087070385324,b,True
+Ito2009,syc0555_d,Synpcc7942_0989,,hypothetical protein,10.6,4e-05,0.3985193077799267,b,True
+Ito2009,syc0601_d,Synpcc7942_0941,,ATP-binding protein of ABC transporter,23.4,0.00042,0.2702798087757318,b,True
+Ito2009,syc0682_c,Synpcc7942_0858,"pixJ1, pisJ1, taxD1, tsr, cheD",methyl-accepting chemotaxis protein,23.8,9e-05,0.3208046595656908,b,True
+Ito2009,syc0683_c,Synpcc7942_0857,,hypothetical protein,0,0.00018,0.3361230846724071,b,True
+Ito2009,syc0684_c,Synpcc7942_0856,,two-component response regulator CheY subfamily,0,0.0006,0.4019740123141787,b,True
+Ito2009,syc0685_c,Synpcc7942_0855,"pixG, pisG, taxP1, rer1, cheY, rre36",two-component response regulator PatA subfamily,23.8,0.00069,0.43455955079701264,b,True
+Ito2009,syc0706_c,Synpcc7942_0834,,hypothetical protein,11.6,0.00067,1.1146880051407861,b,True
+Ito2009,syc0767_c,Synpcc7942_0769,,hypothetical protein,9.8,0.00045,0.3439122655813975,b,True
+Ito2009,syc0849_c,Synpcc7942_0680,,similar to sterol C5-desaturase,9.4,0.00061,0.3830818199623325,b,True
+Ito2009,syc0882_c,Synpcc7942_0644,cikA,two-component sensor kinase,10.8,0.0002,0.41977960877447373,b,True
+Ito2009,syc0942_d,Synpcc7942_0581,,hypothetical protein,10.8,0.00034,0.6664611851239105,b,True
+Ito2009,syc0965_d,Synpcc7942_0556,srrB,two-component response regulator  OmpR family,10,0.00095,0.775691167498695,b,True
+Ito2009,syc0994_d,Synpcc7942_0527,,,10.6,4e-05,0.5036783089689586,b,True
+Ito2009,syc1124_d,Synpcc7942_0391,,hypothetical protein,11,0.00057,0.510889491529992,b,True
+Ito2009,syc1131_d,Synpcc7942_0383,,hypothetical protein,9.4,0.0,0.29432897869027475,b,True
+Ito2009,syc1137_d,Synpcc7942_0377,,hypothetical protein,0,0.00021,0.25355796523441554,b,True
+Ito2009,syc1138_d,Synpcc7942_0376,pqqE,putative zinc protease protein,22.8,0.00093,0.2854453814849101,b,True
+Ito2009,syc1139_d,Synpcc7942_0375,ymxG,processing protease,23,0.00026,0.39729848374920623,b,True
+Ito2009,syc1142_c,Synpcc7942_0371,metA,homoserine O-succinyltransferase,10.8,0.00037,0.37522513121787093,b,True
+Ito2009,syc1143_c,Synpcc7942_0370,metY,O-acetylhomoserine (thiol)-lyase,10.6,0.00061,0.5655686398578749,b,True
+Ito2009,syc1144_c,Synpcc7942_0369,,putative flavin-containing monoamine oxidase,10.2,0.00069,0.8534350856331447,b,True
+Ito2009,syc1197_d,Synpcc7942_0316,,hypothetical protein,10.4,0.00029,0.4374049358606243,b,True
+Ito2009,syc1208_c,Synpcc7942_0304,,hypothetical protein,11,9e-05,0.9346026448221051,b,True
+Ito2009,syc1268_d,Synpcc7942_0245,gap1,glyceraldehyde 3-phosphate dehydrogenase,10.6,0.00077,0.9716659219558421,b,True
+Ito2009,syc1269_d,Synpcc7942_0244,glgP,glycogen phosphorylase,10.6,0.00071,0.7844011067647964,b,True
+Ito2009,syc1309_d,Synpcc7942_0202,ccoN,cb-type cytochrome c oxidase subunit I,10.2,0.00049,0.57103186340385,b,True
+Ito2009,syc1310_d,Synpcc7942_0201,,hypothetical protein,10.4,0.00019,0.5002032387733731,b,True
+Ito2009,syc1312_d,Synpcc7942_0199,,hypothetical protein,10.6,0.0004,0.44991400941476384,b,True
+Ito2009,syc1313_d,Synpcc7942_0198,ndbC,type 2 NADH dehydrogenase,10.6,0.00047,0.5816118795842027,b,True
+Ito2009,syc1320_c,Synpcc7942_0191,,soluble hydrogenase 42 kD subunit  DHSS,22,0.00037,0.2612415849324315,b,True
+Ito2009,syc1459_c,Synpcc7942_0040,folB,dihydroneopterin aldolase,10.6,0.00028,0.5833825558284319,b,True
+Ito2009,syc1460_c,Synpcc7942_0039,gnd,6-phosphogluconate dehydrogenase,10.6,0.00022,0.6954435317788515,b,True
+Ito2009,syc1465_d,Synpcc7942_0032,,hypothetical protein,10.8,0.00041,0.31969576575324143,b,True
+Ito2009,syc1492_d,Synpcc7942_0005,,hypothetical protein,10.6,4e-05,0.39218256037452354,b,True
+Ito2009,syc1493_c,Synpcc7942_0004,purF,amidophosphoribosyltransferase,23.2,0.0,0.34962249061774126,b,True
+Ito2009,syc1553_d,Synpcc7942_2557,hoxU,NAD-reducing hydrogenase HoxS gamma subunit,10.4,0.0003,0.7661085437316929,b,True
+Ito2009,syc1554_d,Synpcc7942_2556,hoxY,NAD-reducing hydrogenase HoxS delta subunit,10.4,0.00026,0.719658662116538,b,True
+Ito2009,syc1555_d,Synpcc7942_2555,hoxH,NAD-reducing hydrogenase HoxS beta subunit,10.4,0.00013,0.6319452198065872,b,True
+Ito2009,syc1606_d,Synpcc7942_2500,,hypothetical protein,9,0.00012,0.27403767922416017,b,True
+Ito2009,syc1643_d,Synpcc7942_2461,,hypothetical protein,11,0.00027,0.7587708493378063,b,True
+Ito2009,syc1717_d,Synpcc7942_2388,,hypothetical protein,10.2,0.00079,0.7638468692988637,b,True
+Ito2009,syc1719_c,Synpcc7942_2386,hypD,hydrogenase isoenzymes formation protein HypD,11,0.00013,0.37259769494088457,b,True
+Ito2009,syc1720_c,Synpcc7942_2385,,hypothetical protein,10.4,0.00024,0.7367472837220534,b,True
+Ito2009,syc1721_c,Synpcc7942_2384,nifJ,pyruvate flavodoxin oxidoreductase,10.8,0.00024,0.6301023980710933,b,True
+Ito2009,syc1767_d,Synpcc7942_2335,"fbpII, fbp, fdp",fructose-16-bisphosphatase,10.8,0.00019,0.8516948383108632,b,True
+Ito2009,syc1768_d,Synpcc7942_2334,zwf,glucose-6-phosphate 1-dehydrogenase,10.8,0.00023,0.862254775750836,b,True
+Ito2009,syc1769_d,Synpcc7942_2333,opcA,putative OxPPCycle protein OpcA,10.8,0.00012,0.7889842891547926,b,True
+Ito2009,syc1794_c,Synpcc7942_2308,gcvT,aminomethyltransferase,10.8,0.00013,0.3945244890803906,b,True
+Ito2009,syc1795_c,Synpcc7942_2307,,,10.4,0.00011,0.3814328449219641,b,True
+Ito2009,syc1803_d,Synpcc7942_2297,tal,transaldolase,10.4,0.00021,0.5214002220397175,b,True
+Ito2009,syc1821_c,Synpcc7942_2279,amt1,ammonium/methylammonium permease,11,2e-05,0.44386556655160575,b,True
+Ito2009,syc1860_d,Synpcc7942_2238,glcP,glucose transport protein,10.8,0.00067,0.5130035307270832,b,True
+Ito2009,syc1897_d,Synpcc7942_2200,,hypothetical protein,10.6,0.00068,0.26786411855657194,b,True
+Ito2009,syc1901_d,Synpcc7942_2196,,,10.4,5e-05,0.3282971316569457,b,True
+Ito2009,syc1911_c,Synpcc7942_2185,,hypothetical protein,10.4,0.00027,0.5986194101349597,b,True
+Ito2009,syc1990_d,Synpcc7942_2103,,,10,0.00022,0.3037074645494817,b,True
+Ito2009,syc2005_c,Synpcc7942_2088,,,11.4,0.00037,0.3007341146294558,b,True
+Ito2009,syc2011_d,Synpcc7942_2082,fus,elongation factor EF-G,11,0.00062,0.7355909186836768,b,True
+Ito2009,syc2066_c,Synpcc7942_2029,pgi,glucose-6-phosphate isomerase,10.8,0.00037,0.33789353035052544,b,True
+Ito2009,syc2105_d,Synpcc7942_1991,,hypothetical protein,10.2,6e-05,0.36214161124437716,b,True
+Ito2009,syc2135_d,Synpcc7942_1960,,hypothetical protein,10.6,2e-05,0.5742656970917561,b,True
+Ito2009,syc2144_c,Synpcc7942_1950,,hypothetical protein,10.6,2e-05,0.40017974822368435,b,True
+Ito2009,syc2145_c,Synpcc7942_1949,,hypothetical protein,10.8,4e-05,0.42506257490155736,b,True
+Ito2009,syc2180_c,Synpcc7942_1914,,hypothetical protein,10.2,0.00067,0.28948473411019854,b,True
+Ito2009,syc2245_c,Synpcc7942_1849,"rpoD5, sigC",group2 RNA polymerase sigma factor,10.8,0.00075,1.0177269171140337,b,True
+Ito2009,syc2256_d,Synpcc7942_1838,chlB,light-independent protochlorophyllide reductase subunit B,11.2,0.00084,0.4767016366913205,b,True
+Ito2009,syc2289_d,Synpcc7942_1804,,,10.2,0.00013,0.35657067433666473,b,True
+Ito2009,syc2309_c,Synpcc7942_1784,sigF2,group3 RNA polymerase sigma factor SigF2,10.8,0.00015,0.6188951286951458,b,True
+Ito2009,syc2335_c,Synpcc7942_1757,,hypothetical protein,10.6,4e-05,0.6814070629124346,b,True
+Ito2009,syc2419_c,Synpcc7942_1671,kdpC,potassium-transporting ATPase C chain,10.4,0.00029,0.5071791413687029,b,True
+Ito2009,syc2420_c,Synpcc7942_1669,kdpB,potassium-transporting ATPase B chain,10.4,0.00069,0.4815140013610114,b,True
+Ito2009,syc2421_c,Synpcc7942_1668,kdpA,potassium-transporting ATPase A chain,10.2,0.00069,0.714308107743372,b,True
+Ito2009,syc2431_d,Synpcc7942_1656,"cpx, katG",catalase peroxidase,9.8,0.00065,0.4072342840021116,b,True
+Ito2009,syc2432_d,Synpcc7942_1654,,,9.8,0.00049,0.32330644909516554,b,True
+Ito2009,syc2440_c,Synpcc7942_1646,,,10,0.00024,0.2734532613024059,b,True
