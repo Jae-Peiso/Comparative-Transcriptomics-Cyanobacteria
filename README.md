@@ -8,7 +8,6 @@ Characterize analysis hurdles while producing one defensible quantitative compar
 
 ## Repository structure
 
-- `PROJECT_BRIEF_rhythmic_gene_comparison.md` — project scope, analysis plan, and hurdle register
 - `ANALYSIS_SPEC.md` — pre-registered specification for the current round of analyses (Part 0 correction, then Parts A–F)
 - `DATASETS_vijayan_markson.md` — notes on the Vijayan 2009 / Markson 2013 GEO datasets used in Parts B and C
 - `DOWNLOADS.md` — manual download instructions for the supplementary information
