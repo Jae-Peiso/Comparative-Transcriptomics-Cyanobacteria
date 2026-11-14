@@ -1,25 +1,16 @@
 # Project Brief — Cross-species comparison of circadian rhythmic genes (Kushige 2013 vs. Ito 2009)
-
-> Handoff document for continuing this work in VS Code. Specification and context
-> primer, not code. Read top to bottom before writing anything.
->
-> **SCOPE: this is a few-days task.** It has been deliberately scaled to fit that
-> window. The finishable core is in §4–§6. Work that is scientifically better but
-> does NOT fit the window is parked in §7 (Deferred) — parked, not deleted. Do not
-> pull deferred items back in without renegotiating the timeline.
-
 ---
 
 ## 1. What this project actually is
 
-A **methodological rehearsal**, not primarily a biology project. Mike asked for a
+A **methodological rehearsal**, not primarily a biology project.  asked for a
 quantitative comparison of rhythmic genes in an *Anabaena* paper vs. a published
 *S. elongatus* PCC 7942 dataset. His stated reason:
 
 > "whatever data you collect will basically be like the data in this paper, so any
 > analysis hurdles that come up will also apply to any new results."
 
-**Confirmed with Mike: he wants the hurdles characterized, not a polished cross-species
+**Confirmed: we want the hurdles characterized, not a polished cross-species
 result.** So the deliverable is:
 
 1. **One honest, finishable quantitative comparison** (Version A, §4).
@@ -89,9 +80,6 @@ Map orthologs among the genes called rhythmic in at least one dataset, then:
   platforms, absolute CVs not comparable (H3).
 - **Phase:** compare peak times as a **dawn/dusk 2×2 contingency table** (Fisher +
   odds ratio). Do NOT run Pearson on peak times — phase is circular (H5).
-
-That is a real, defensible, finishable result and it maps onto exactly what Mike
-pictured.
 
 **Version A is deliberately the *biased* version** (it conditions on rhythmicity — H1).
 That is a feature here: doing it and noting what an unbiased analysis would fix is how
@@ -192,7 +180,7 @@ Both amplitudes noisy -> any r attenuated. In principle: estimate reliability fr
 replicate–replicate correlation (both studies n=2) and disattenuate. **Not done on this
 timeline** — requires per-replicate values that may not be in the SIs, and it's a
 mini-project. Named here as the correction a rigorous Version B would need, pending
-replicate-level data. For Mike's purposes, naming it is most of the value.
+replicate-level data. For 's purposes, naming it is most of the value.
 
 ### H6 — FDR / rhythmicity-call calibration  [DESCRIBED — not executed]
 Both papers' rhythmicity = cosine-correlation P on a short, autocorrelated series ->
@@ -212,7 +200,7 @@ The §3 gate and the "was-it-archived" finding are this hurdle in action.
 
 ## 7. DEFERRED — better science, does NOT fit a few-days window
 
-Parked, not deleted. Pitch to Mike as a phase two.
+Parked, not deleted. Pitch to  as a phase two.
 
 - **Version B (all-orthologs, unbiased comparison).** The scientifically correct
   analysis and the fix for H1 — but needs (a) full per-ORF tables from BOTH SIs
